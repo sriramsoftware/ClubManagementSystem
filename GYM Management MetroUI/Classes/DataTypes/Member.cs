@@ -9,12 +9,9 @@ namespace GYMManagementMetroUI.Classes.DataTypes
     {
         public string TrainerName { get; set; }
         public DateTime SubscriptionStartDate { get; set; }
-
         public DateTime SubscriptionEndDate { get; set; }
 
         public int PaidCurrecy { get; set; }
         public int RestCurrency { get; set; }
- 
-
     }
 }

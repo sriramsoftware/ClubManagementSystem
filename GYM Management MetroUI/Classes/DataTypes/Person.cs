@@ -3,7 +3,7 @@ using System.Drawing;
 
 namespace GYMManagementMetroUI.Classes
 {
-     class Person
+    public class Person
      {
          public enum GenderType
          {
@@ -19,6 +19,7 @@ namespace GYMManagementMetroUI.Classes
          private int _phoneNumber;
          private GenderType _gender;
          private string _email;
+         private string INVALID_EMAIL = "_NULL_";
 
          #endregion
          #region Properties
@@ -61,7 +62,7 @@ namespace GYMManagementMetroUI.Classes
                     _email = value;
                     return;
                 }
-                _email = "_NULL_";
+                _email = INVALID_EMAIL;
             }
         }
          public string UserID
@@ -78,12 +79,15 @@ namespace GYMManagementMetroUI.Classes
          {
              get
              {
-                 return (Email == "_NULL_");
+                 return (Email == INVALID_EMAIL);
              }
          }
          #endregion
 
+         public void SetInvaludEmailSymbol(string Sybmol)
+         {
+             INVALID_EMAIL = Sybmol;
+         }
 
-         
      }
 }

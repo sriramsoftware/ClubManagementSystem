@@ -7,66 +7,88 @@ namespace GYMManagementMetroUI.Permissions
 {
     public class Permissions
     {
+        
         #region Members
-        public static class Members
+        public class MembersPermissionsClass
         {
-            public static bool CanAddMembers { get; set; }
-            public static bool CanViewMembers { get; set; }
-            public static bool CanEditMembers { get; set; }
-            public static bool CanDeleteMembers { get; set; }
-            public static bool CanPendMembers { get; set; } // = !CanPendMembers
+            public  bool CanAddMembers { get; set; }
+            public  bool CanViewMembers { get; set; }
+            public  bool CanEditMembers { get; set; }
+            public  bool CanDeleteMembers { get; set; }
+            public  bool CanPendMembers { get; set; } // = !CanPendMembers
         }
         #endregion
 
         #region Trainers
-        public static class Trainers
+        public class TrainersPermissionsClass
         {
-            public static bool CanAddTrainer { get; set; }
-            public static bool CanViewTrainer { get; set; }
-            public static bool CanEditTrainer { get; set; }
-            public static bool CanDeleteTrainer { get; set; }
-            public static bool CanPendTrainer { get; set; } // = !CanPendTrainer
+            public  bool CanAddTrainer { get; set; }
+            public  bool CanViewTrainer { get; set; }
+            public  bool CanEditTrainer { get; set; }
+            public  bool CanDeleteTrainer { get; set; }
+            public  bool CanPendTrainer { get; set; } // = !CanPendTrainer
         }
         #endregion
 
         #region Moderators
-        public static class Moderators
+        public class ModeratorsPermissionsClass
         {
-            public static bool CanAddModerator { get; set; }
-            public static bool CanViewModerator { get; set; }
-            public static bool CanEditModerator { get; set; }
-            public static bool CanDeleteModerator { get; set; }
-            public static bool CanPendModerator { get; set; }  //= !CanDeleteModerator
+            public  bool CanAddModerator { get; set; }
+            public  bool CanViewModerator { get; set; }
+            public  bool CanEditModerator { get; set; }
+            public  bool CanDeleteModerator { get; set; }
+            public  bool CanPendModerator { get; set; }  //= !CanDeleteModerator
 
         }
         #endregion
 
         #region Admins
-        public static class Admins
+        public class AdminsPermissionsClass
         {
-            public static bool CanAddAdmin { get; set; }
-            public static bool CanViewAdmin { get; set; }
-            public static bool CanEditAdmin { get; set; }
-            public static bool CanDeleteAdmin { get; set; }
-            public static bool CanPendAdmin { get; set; } // = !CanDeleteAdmin
+            public bool CanAddAdmin { get; set; }
+            public bool CanViewAdmin { get; set; }
+            public bool CanEditAdmin { get; set; }
+            public bool CanDeleteAdmin { get; set; }
+            public bool CanPendAdmin { get; set; } // = !CanDeleteAdmin
         }
         #endregion
 
         #region Forms
-        #region Attendance
-        public static class Attendance
+        public class FormsPermissionsClass
         {
-            public static bool ViewAttendanceForm { get; set; }
-            public static bool ViewTrainersAttendance { get; set; }
-            public static bool ViewModeratorsAttendance { get; set; }
-            public static bool ViewAdminsAttendance { get; set; }
-            
+            public AttendancePermissionsClass Attendance { get; private set; }
+            #region Attendance
+            public FormsPermissionsClass()
+            {
+                Attendance = new AttendancePermissionsClass();
+            }
+            public class AttendancePermissionsClass
+            {
+                public bool ViewAttendanceForm { get; set; }
+                public  bool ViewTrainersAttendance { get; set; }
+                public  bool ViewModeratorsAttendance { get; set; }
+                public  bool ViewAdminsAttendance { get; set; }
+
+            }
+            #endregion
         }
         #endregion
+        #region PermissionsProperity
+        public FormsPermissionsClass Forms { get; private set; }
+        public MembersPermissionsClass Members { get; private set; }
+        public TrainersPermissionsClass Trainers { get; private set; }
+        public ModeratorsPermissionsClass Moderators { get; private set; }
+        public AdminsPermissionsClass Admins { get; private set; }
+
         #endregion
-
-
-
-
+        public Permissions()
+        {
+            Forms = new FormsPermissionsClass();
+            Members = new MembersPermissionsClass();
+            Admins = new AdminsPermissionsClass();
+            Trainers = new TrainersPermissionsClass();
+            Moderators = new ModeratorsPermissionsClass();
+            Admins = new AdminsPermissionsClass();
+        }
     }
 }
