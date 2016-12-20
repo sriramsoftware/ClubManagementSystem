@@ -8,19 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYM_Management_MetroUI
+namespace GYMManagementMetroUI
 {
     public partial class FAQ : MetroForm
     {
         public FAQ()
         {
             InitializeComponent();
-            expandablePanelGYMInfo.Text = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello";
-        }
-
-        private void expandablePanel2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

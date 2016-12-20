@@ -1,4 +1,4 @@
-﻿namespace GYM_Management_MetroUI
+﻿namespace GYMManagementMetroUI
 {
     partial class FAQ
     {
@@ -210,7 +210,6 @@
             this.expandablePanelWhoJoinGYM.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.expandablePanelWhoJoinGYM.TitleStyle.GradientAngle = 90;
             this.expandablePanelWhoJoinGYM.TitleText = "Who can join gym?";
-            this.expandablePanelWhoJoinGYM.Click += new System.EventHandler(this.expandablePanel2_Click);
             // 
             // groupPanel2
             // 

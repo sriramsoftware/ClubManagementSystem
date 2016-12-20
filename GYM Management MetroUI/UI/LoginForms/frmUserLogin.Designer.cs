@@ -1,4 +1,4 @@
-﻿namespace GYM_Management_MetroUI
+﻿namespace GYMManagementMetroUI
 {
     partial class frmUserLogin
     {

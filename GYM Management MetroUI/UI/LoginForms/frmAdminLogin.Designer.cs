@@ -1,4 +1,4 @@
-﻿namespace GYM_Management_MetroUI.UI.LoginForms
+﻿namespace GYMManagementMetroUI.UI.LoginForms
 {
     partial class frmAdminLogin
     {

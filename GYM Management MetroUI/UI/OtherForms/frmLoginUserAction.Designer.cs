@@ -1,4 +1,4 @@
-﻿namespace GYM_Management_MetroUI.UI.OtherForms
+﻿namespace GYMManagementMetroUI.UI.OtherForms
 {
     partial class frmLoginUserAction
     {

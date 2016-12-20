@@ -6,8 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using GYM_Management_MetroUI.UI.LoginForms;
-namespace GYM_Management_MetroUI.UI.LoginForms
+using GYMManagementMetroUI.UI.LoginForms;
+namespace GYMManagementMetroUI.UI.LoginForms
 {
     public partial class frmAdminLogin : DevComponents.DotNetBar.Metro.MetroForm
     {

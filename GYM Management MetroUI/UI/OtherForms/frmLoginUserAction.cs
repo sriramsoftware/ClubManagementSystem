@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYM_Management_MetroUI.UI.OtherForms
+namespace GYMManagementMetroUI.UI.OtherForms
 {
     public partial class frmLoginUserAction : DevComponents.DotNetBar.Metro.MetroForm
     {

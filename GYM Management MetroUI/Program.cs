@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GYM_Management_MetroUI
+namespace GYMManagementMetroUI
 {
     static class Program
     {

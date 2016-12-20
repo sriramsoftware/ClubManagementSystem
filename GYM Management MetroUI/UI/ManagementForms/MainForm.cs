@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYM_Management_MetroUI
+namespace GYMManagementMetroUI
 {
     public partial class MainForm : DevComponents.DotNetBar.Metro.MetroForm
     {

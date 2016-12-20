@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 
-namespace GYM_Management_MetroUI.DataAccessLayer
+namespace GYMManagementMetroUI.DataAccessLayer
 {
     /// <summary>
     /// Class which uses to access database
