@@ -37,7 +37,9 @@ namespace GYM_Management_MetroUI
             // backcoloring cells depending on text inside dynamically ex:  {
             //      "still here" => (light green for current cell)  
             //      "leave" => (light red for whole row)
+            //  ..
             // } 
+
 
         }
 
