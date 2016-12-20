@@ -195,7 +195,7 @@
             this.lblCopyright.ForeColor = System.Drawing.Color.Black;
             this.lblCopyright.Location = new System.Drawing.Point(422, 270);
             this.lblCopyright.Name = "lblCopyright";
-            this.lblCopyright.Size = new System.Drawing.Size(123, 15);
+            this.lblCopyright.Size = new System.Drawing.Size(124, 17);
             this.lblCopyright.TabIndex = 3;
             this.lblCopyright.Text = "Copyright © GYM NAME";
             // 
@@ -206,7 +206,7 @@
             this.lnkInformations.ForeColor = System.Drawing.Color.Black;
             this.lnkInformations.Location = new System.Drawing.Point(199, 250);
             this.lnkInformations.Name = "lnkInformations";
-            this.lnkInformations.Size = new System.Drawing.Size(59, 13);
+            this.lnkInformations.Size = new System.Drawing.Size(63, 13);
             this.lnkInformations.TabIndex = 2;
             this.lnkInformations.TabStop = true;
             this.lnkInformations.Text = "Information";
@@ -409,13 +409,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(579, 320);
             this.Controls.Add(this.groupPanel1);
-            this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "frmUserLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GYM Name";
+            this.Load += new System.EventHandler(this.frmUserLogin_Load);
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
