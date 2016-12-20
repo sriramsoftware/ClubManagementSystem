@@ -34,7 +34,7 @@ namespace GYM_Management_MetroUI
         private void MainForm_Load(object sender, EventArgs e)
         {
             // set auto resfresh for attendance
-            // backcoloring cells depending on text inside dynamically ex: {
+            // backcoloring cells depending on text inside dynamically ex:  {
             //      "still here" => (light green for current cell)  
             //      "leave" => (light red for whole row)
             // } 
