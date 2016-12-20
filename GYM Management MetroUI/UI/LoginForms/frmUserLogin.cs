@@ -49,9 +49,6 @@ namespace GYM_Management_MetroUI
             new frmAdminLogin().ShowDialog();
         }
 
-        //test ibrahim changes
-
-
         //we will need to pass (1 or 0) to frmLoginUserAction to set which label shows for Attendance || Leave
         //we will need to pass ( username in any case ) &&  ( section time in leave case )
         #region userLogin click buttons Attendance || Leave
@@ -59,21 +56,20 @@ namespace GYM_Management_MetroUI
         private void btnRegAttendance_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new frmLoginUserAction().ShowDialog();
+            // Pass Attendance state in this button and userID  will be gotten form db in another form
+            new frmLoginUserAction().ShowDialog(frmLoginUserAction.State.Attendance,"Admin 1");
+            this.Show();
         }
 
         private void btnRegLeave_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new frmLoginUserAction().ShowDialog();
+            // Pass Leaving state in this button, userID and section time will be gotten form db in another form
+            new frmLoginUserAction().ShowDialog(frmLoginUserAction.State.Leaving, "Admin 1");
+            this.Show();
         }
 
         #endregion
-
-        private void frmUserLogin_Load(object sender, EventArgs e)
-        {
-
-        }
 
 
 

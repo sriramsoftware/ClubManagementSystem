@@ -28,73 +28,91 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.components = new System.ComponentModel.Container();
+            this.lblAttendace = new DevComponents.DotNetBar.LabelX();
+            this.lblLeave = new DevComponents.DotNetBar.LabelX();
+            this.btnAutoHide = new DevComponents.DotNetBar.ButtonX();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // labelX1
+            // lblAttendace
+            // 
+            this.lblAttendace.AutoSize = true;
+            this.lblAttendace.BackColor = System.Drawing.Color.Transparent;
             // 
             // 
             // 
-            // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.labelX1.Location = new System.Drawing.Point(94, 22);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(393, 65);
-            this.labelX1.TabIndex = 0;
-            this.labelX1.Text = "<font color=\"#000000\">Welcome Back {{ user }}, hope you enjoy</font><font color=\"" +
+            this.lblAttendace.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAttendace.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.lblAttendace.ForeColor = System.Drawing.Color.Black;
+            this.lblAttendace.Location = new System.Drawing.Point(98, 37);
+            this.lblAttendace.Name = "lblAttendace";
+            this.lblAttendace.SingleLineColor = System.Drawing.Color.Transparent;
+            this.lblAttendace.Size = new System.Drawing.Size(370, 28);
+            this.lblAttendace.TabIndex = 0;
+            this.lblAttendace.Text = "<font color=\"#000000\">Welcome Back {{ user }}, hope you enjoy</font><font color=\"" +
     "#BA1419\"></font><b></b>";
-            this.labelX1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.lblAttendace.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
-            // labelX2
+            // lblLeave
+            // 
+            this.lblLeave.AutoSize = true;
+            this.lblLeave.BackColor = System.Drawing.Color.Transparent;
             // 
             // 
             // 
+            this.lblLeave.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblLeave.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.lblLeave.ForeColor = System.Drawing.Color.Black;
+            this.lblLeave.Location = new System.Drawing.Point(40, 37);
+            this.lblLeave.Name = "lblLeave";
+            this.lblLeave.Size = new System.Drawing.Size(476, 30);
+            this.lblLeave.TabIndex = 1;
+            this.lblLeave.Text = "Hi {{ user }}, you stayed for {{H,M}}, see you again!";
+            this.lblLeave.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.lblLeave.WordWrap = true;
             // 
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.labelX2.Location = new System.Drawing.Point(37, 84);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(483, 61);
-            this.labelX2.TabIndex = 1;
-            this.labelX2.Text = "Hi {{ user }}, you stayed for {{H,M}}, see you again!";
-            this.labelX2.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.labelX2.WordWrap = true;
+            // btnAutoHide
             // 
-            // buttonX1
+            this.btnAutoHide.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAutoHide.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAutoHide.Location = new System.Drawing.Point(165, 77);
+            this.btnAutoHide.Name = "btnAutoHide";
+            this.btnAutoHide.Size = new System.Drawing.Size(228, 39);
+            this.btnAutoHide.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAutoHide.TabIndex = 3;
+            this.btnAutoHide.Text = " Auto close in ({COUNTER}) seconds...";
+            this.btnAutoHide.Click += new System.EventHandler(this.btnAutoHide_Click);
             // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Location = new System.Drawing.Point(192, 167);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(186, 39);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 3;
-            this.buttonX1.Text = "{{ btn Counter }}  Auto hide...";
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmLoginUserAction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 231);
-            this.Controls.Add(this.buttonX1);
-            this.Controls.Add(this.labelX2);
-            this.Controls.Add(this.labelX1);
+            this.ClientSize = new System.Drawing.Size(556, 153);
+            this.Controls.Add(this.lblAttendace);
+            this.Controls.Add(this.btnAutoHide);
+            this.Controls.Add(this.lblLeave);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLoginUserAction";
-            this.Opacity = 0.8D;
+            this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserAction";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private DevComponents.DotNetBar.LabelX labelX1;
-        private DevComponents.DotNetBar.LabelX labelX2;
-        private DevComponents.DotNetBar.ButtonX buttonX1;
+        private DevComponents.DotNetBar.LabelX lblAttendace;
+        private DevComponents.DotNetBar.LabelX lblLeave;
+        private DevComponents.DotNetBar.ButtonX btnAutoHide;
+        private System.Windows.Forms.Timer timer1;
     }
 }

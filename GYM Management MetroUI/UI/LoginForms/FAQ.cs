@@ -15,6 +15,7 @@ namespace GYM_Management_MetroUI
         public FAQ()
         {
             InitializeComponent();
+            expandablePanelGYMInfo.Text = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello";
         }
 
         private void expandablePanel2_Click(object sender, EventArgs e)
