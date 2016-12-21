@@ -82,7 +82,6 @@
     <Compile Include="UI\LoginForms\frmUserLogin.Designer.cs">
       <DependentUpon>frmUserLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\ManagementForms\FormDevComponents.cs" />
     <Compile Include="UI\ManagementForms\frmAttendanceFullDetails.cs">
       <SubType>Form</SubType>
     </Compile>

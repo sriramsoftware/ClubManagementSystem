@@ -28,297 +28,368 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.labelX3 = new DevComponents.DotNetBar.LabelX();
-            this.labelX4 = new DevComponents.DotNetBar.LabelX();
-            this.labelX5 = new DevComponents.DotNetBar.LabelX();
-            this.labelX6 = new DevComponents.DotNetBar.LabelX();
-            this.labelX7 = new DevComponents.DotNetBar.LabelX();
-            this.labelX8 = new DevComponents.DotNetBar.LabelX();
-            this.labelX9 = new DevComponents.DotNetBar.LabelX();
-            this.labelX10 = new DevComponents.DotNetBar.LabelX();
-            this.labelX11 = new DevComponents.DotNetBar.LabelX();
-            this.labelX12 = new DevComponents.DotNetBar.LabelX();
-            this.labelX13 = new DevComponents.DotNetBar.LabelX();
-            this.labelX14 = new DevComponents.DotNetBar.LabelX();
-            this.labelX15 = new DevComponents.DotNetBar.LabelX();
-            this.labelX16 = new DevComponents.DotNetBar.LabelX();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.btnDeleteUser = new DevComponents.DotNetBar.ButtonX();
+            this.btnEditDetails = new DevComponents.DotNetBar.ButtonX();
+            this.lblJoinDate = new DevComponents.DotNetBar.LabelX();
+            this.lblType = new DevComponents.DotNetBar.LabelX();
+            this.lblEmail = new DevComponents.DotNetBar.LabelX();
+            this.lblPendingState = new DevComponents.DotNetBar.LabelX();
+            this.lblFriendNumber = new DevComponents.DotNetBar.LabelX();
+            this.lblFriendName = new DevComponents.DotNetBar.LabelX();
+            this.lblComments = new DevComponents.DotNetBar.LabelX();
+            this.lblSubscribeEndDate = new DevComponents.DotNetBar.LabelX();
+            this.lblSubscribeStartDate = new DevComponents.DotNetBar.LabelX();
+            this.lblSubscribePlan = new DevComponents.DotNetBar.LabelX();
+            this.lblCoach = new DevComponents.DotNetBar.LabelX();
+            this.lblBirthDate = new DevComponents.DotNetBar.LabelX();
+            this.lblAddress = new DevComponents.DotNetBar.LabelX();
+            this.lblMobile = new DevComponents.DotNetBar.LabelX();
+            this.lblGender = new DevComponents.DotNetBar.LabelX();
+            this.lblName = new DevComponents.DotNetBar.LabelX();
+            this.picImage = new System.Windows.Forms.PictureBox();
+            this.groupPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // groupPanel1
+            // 
+            this.groupPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel1.Controls.Add(this.btnDeleteUser);
+            this.groupPanel1.Controls.Add(this.btnEditDetails);
+            this.groupPanel1.Controls.Add(this.lblJoinDate);
+            this.groupPanel1.Controls.Add(this.lblType);
+            this.groupPanel1.Controls.Add(this.lblEmail);
+            this.groupPanel1.Controls.Add(this.lblPendingState);
+            this.groupPanel1.Controls.Add(this.lblFriendNumber);
+            this.groupPanel1.Controls.Add(this.lblFriendName);
+            this.groupPanel1.Controls.Add(this.lblComments);
+            this.groupPanel1.Controls.Add(this.lblSubscribeEndDate);
+            this.groupPanel1.Controls.Add(this.lblSubscribeStartDate);
+            this.groupPanel1.Controls.Add(this.lblSubscribePlan);
+            this.groupPanel1.Controls.Add(this.lblCoach);
+            this.groupPanel1.Controls.Add(this.lblBirthDate);
+            this.groupPanel1.Controls.Add(this.lblAddress);
+            this.groupPanel1.Controls.Add(this.lblMobile);
+            this.groupPanel1.Controls.Add(this.lblGender);
+            this.groupPanel1.Controls.Add(this.lblName);
+            this.groupPanel1.Controls.Add(this.picImage);
+            this.groupPanel1.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel1.Location = new System.Drawing.Point(13, 13);
+            this.groupPanel1.Name = "groupPanel1";
+            this.groupPanel1.Size = new System.Drawing.Size(446, 458);
+            // 
+            // 
+            // 
+            this.groupPanel1.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel1.Style.BackColorGradientAngle = 90;
+            this.groupPanel1.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel1.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderBottomWidth = 1;
+            this.groupPanel1.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel1.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderLeftWidth = 1;
+            this.groupPanel1.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderRightWidth = 1;
+            this.groupPanel1.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderTopWidth = 1;
+            this.groupPanel1.Style.CornerDiameter = 4;
+            this.groupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel1.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(173, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
-            // labelX1
             // 
-            this.labelX1.AutoSize = true;
-            this.labelX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
+            // 
+            this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel1.TabIndex = 0;
             // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.ForeColor = System.Drawing.Color.Black;
-            this.labelX1.Location = new System.Drawing.Point(227, 12);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(38, 17);
-            this.labelX1.TabIndex = 1;
-            this.labelX1.Text = "Name:";
+            // btnDeleteUser
             // 
-            // labelX2
+            this.btnDeleteUser.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDeleteUser.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnDeleteUser.Location = new System.Drawing.Point(227, 386);
+            this.btnDeleteUser.Name = "btnDeleteUser";
+            this.btnDeleteUser.Size = new System.Drawing.Size(159, 50);
+            this.btnDeleteUser.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnDeleteUser.TabIndex = 37;
+            this.btnDeleteUser.Text = "Delete User";
             // 
-            this.labelX2.AutoSize = true;
-            this.labelX2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // btnEditDetails
             // 
+            this.btnEditDetails.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnEditDetails.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnEditDetails.Location = new System.Drawing.Point(61, 386);
+            this.btnEditDetails.Name = "btnEditDetails";
+            this.btnEditDetails.Size = new System.Drawing.Size(159, 50);
+            this.btnEditDetails.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnEditDetails.TabIndex = 36;
+            this.btnEditDetails.Text = "Edit Details";
             // 
+            // lblJoinDate
             // 
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.ForeColor = System.Drawing.Color.Black;
-            this.labelX2.Location = new System.Drawing.Point(227, 47);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(45, 17);
-            this.labelX2.TabIndex = 2;
-            this.labelX2.Text = "Gender:";
+            this.lblJoinDate.AutoSize = true;
+            this.lblJoinDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX3
             // 
-            this.labelX3.AutoSize = true;
-            this.labelX3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblJoinDate.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblJoinDate.ForeColor = System.Drawing.Color.Black;
+            this.lblJoinDate.Location = new System.Drawing.Point(6, 196);
+            this.lblJoinDate.Name = "lblJoinDate";
+            this.lblJoinDate.Size = new System.Drawing.Size(54, 17);
+            this.lblJoinDate.TabIndex = 35;
+            this.lblJoinDate.Text = "Join date:";
             // 
+            // lblType
             // 
-            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.ForeColor = System.Drawing.Color.Black;
-            this.labelX3.Location = new System.Drawing.Point(227, 82);
-            this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(41, 17);
-            this.labelX3.TabIndex = 3;
-            this.labelX3.Text = "Mobile:";
+            this.lblType.AutoSize = true;
+            this.lblType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX4
             // 
-            this.labelX4.AutoSize = true;
-            this.labelX4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblType.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblType.ForeColor = System.Drawing.Color.Black;
+            this.lblType.Location = new System.Drawing.Point(6, 336);
+            this.lblType.Name = "lblType";
+            this.lblType.Size = new System.Drawing.Size(34, 17);
+            this.lblType.TabIndex = 34;
+            this.lblType.Text = "Type:";
             // 
+            // lblEmail
             // 
-            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.ForeColor = System.Drawing.Color.Black;
-            this.labelX4.Location = new System.Drawing.Point(227, 187);
-            this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(48, 17);
-            this.labelX4.TabIndex = 4;
-            this.labelX4.Text = "Address:";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX5
             // 
-            this.labelX5.AutoSize = true;
-            this.labelX5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblEmail.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblEmail.ForeColor = System.Drawing.Color.Black;
+            this.lblEmail.Location = new System.Drawing.Point(221, 161);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(36, 17);
+            this.lblEmail.TabIndex = 33;
+            this.lblEmail.Text = "Email:";
             // 
+            // lblPendingState
             // 
-            this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX5.ForeColor = System.Drawing.Color.Black;
-            this.labelX5.Location = new System.Drawing.Point(12, 152);
-            this.labelX5.Name = "labelX5";
-            this.labelX5.Size = new System.Drawing.Size(57, 17);
-            this.labelX5.TabIndex = 5;
-            this.labelX5.Text = "Birth date:";
+            this.lblPendingState.AutoSize = true;
+            this.lblPendingState.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX6
             // 
-            this.labelX6.AutoSize = true;
-            this.labelX6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblPendingState.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPendingState.ForeColor = System.Drawing.Color.Black;
+            this.lblPendingState.Location = new System.Drawing.Point(221, 301);
+            this.lblPendingState.Name = "lblPendingState";
+            this.lblPendingState.Size = new System.Drawing.Size(76, 17);
+            this.lblPendingState.TabIndex = 32;
+            this.lblPendingState.Text = "Pending state:";
             // 
+            // lblFriendNumber
             // 
-            this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX6.ForeColor = System.Drawing.Color.Black;
-            this.labelX6.Location = new System.Drawing.Point(227, 117);
-            this.labelX6.Name = "labelX6";
-            this.labelX6.Size = new System.Drawing.Size(39, 17);
-            this.labelX6.TabIndex = 6;
-            this.labelX6.Text = "Coach:";
+            this.lblFriendNumber.AutoSize = true;
+            this.lblFriendNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX7
             // 
-            this.labelX7.AutoSize = true;
-            this.labelX7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblFriendNumber.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFriendNumber.ForeColor = System.Drawing.Color.Black;
+            this.lblFriendNumber.Location = new System.Drawing.Point(221, 266);
+            this.lblFriendNumber.Name = "lblFriendNumber";
+            this.lblFriendNumber.Size = new System.Drawing.Size(81, 17);
+            this.lblFriendNumber.TabIndex = 31;
+            this.lblFriendNumber.Text = "Friend number:";
             // 
+            // lblFriendName
             // 
-            this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX7.ForeColor = System.Drawing.Color.Black;
-            this.labelX7.Location = new System.Drawing.Point(12, 187);
-            this.labelX7.Name = "labelX7";
-            this.labelX7.Size = new System.Drawing.Size(80, 17);
-            this.labelX7.TabIndex = 7;
-            this.labelX7.Text = "Subscribe plan:";
+            this.lblFriendName.AutoSize = true;
+            this.lblFriendName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX8
             // 
-            this.labelX8.AutoSize = true;
-            this.labelX8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblFriendName.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFriendName.ForeColor = System.Drawing.Color.Black;
+            this.lblFriendName.Location = new System.Drawing.Point(221, 231);
+            this.lblFriendName.Name = "lblFriendName";
+            this.lblFriendName.Size = new System.Drawing.Size(70, 17);
+            this.lblFriendName.TabIndex = 30;
+            this.lblFriendName.Text = "Friend name:";
             // 
+            // lblComments
             // 
-            this.labelX8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX8.ForeColor = System.Drawing.Color.Black;
-            this.labelX8.Location = new System.Drawing.Point(12, 222);
-            this.labelX8.Name = "labelX8";
-            this.labelX8.Size = new System.Drawing.Size(107, 17);
-            this.labelX8.TabIndex = 8;
-            this.labelX8.Text = "Subscribe start date:";
+            this.lblComments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX9
             // 
-            this.labelX9.AutoSize = true;
-            this.labelX9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblComments.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblComments.ForeColor = System.Drawing.Color.Black;
+            this.lblComments.Location = new System.Drawing.Point(221, 336);
+            this.lblComments.Name = "lblComments";
+            this.lblComments.Size = new System.Drawing.Size(214, 46);
+            this.lblComments.TabIndex = 29;
+            this.lblComments.Text = "Comments:";
+            this.lblComments.TextLineAlignment = System.Drawing.StringAlignment.Near;
             // 
+            // lblSubscribeEndDate
             // 
-            this.labelX9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX9.ForeColor = System.Drawing.Color.Black;
-            this.labelX9.Location = new System.Drawing.Point(227, 222);
-            this.labelX9.Name = "labelX9";
-            this.labelX9.Size = new System.Drawing.Size(103, 17);
-            this.labelX9.TabIndex = 9;
-            this.labelX9.Text = "Subscribe end date:";
+            this.lblSubscribeEndDate.AutoSize = true;
+            this.lblSubscribeEndDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX10
             // 
-            this.labelX10.AutoSize = true;
-            this.labelX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblSubscribeEndDate.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblSubscribeEndDate.ForeColor = System.Drawing.Color.Black;
+            this.lblSubscribeEndDate.Location = new System.Drawing.Point(6, 301);
+            this.lblSubscribeEndDate.Name = "lblSubscribeEndDate";
+            this.lblSubscribeEndDate.Size = new System.Drawing.Size(103, 17);
+            this.lblSubscribeEndDate.TabIndex = 28;
+            this.lblSubscribeEndDate.Text = "Subscribe end date:";
             // 
+            // lblSubscribeStartDate
             // 
-            this.labelX10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX10.ForeColor = System.Drawing.Color.Black;
-            this.labelX10.Location = new System.Drawing.Point(12, 292);
-            this.labelX10.Name = "labelX10";
-            this.labelX10.Size = new System.Drawing.Size(61, 17);
-            this.labelX10.TabIndex = 10;
-            this.labelX10.Text = "Comments:";
+            this.lblSubscribeStartDate.AutoSize = true;
+            this.lblSubscribeStartDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX11
             // 
-            this.labelX11.AutoSize = true;
-            this.labelX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblSubscribeStartDate.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblSubscribeStartDate.ForeColor = System.Drawing.Color.Black;
+            this.lblSubscribeStartDate.Location = new System.Drawing.Point(6, 266);
+            this.lblSubscribeStartDate.Name = "lblSubscribeStartDate";
+            this.lblSubscribeStartDate.Size = new System.Drawing.Size(107, 17);
+            this.lblSubscribeStartDate.TabIndex = 27;
+            this.lblSubscribeStartDate.Text = "Subscribe start date:";
             // 
+            // lblSubscribePlan
             // 
-            this.labelX11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX11.ForeColor = System.Drawing.Color.Black;
-            this.labelX11.Location = new System.Drawing.Point(12, 257);
-            this.labelX11.Name = "labelX11";
-            this.labelX11.Size = new System.Drawing.Size(70, 17);
-            this.labelX11.TabIndex = 11;
-            this.labelX11.Text = "Friend name:";
+            this.lblSubscribePlan.AutoSize = true;
+            this.lblSubscribePlan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX12
             // 
-            this.labelX12.AutoSize = true;
-            this.labelX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblSubscribePlan.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblSubscribePlan.ForeColor = System.Drawing.Color.Black;
+            this.lblSubscribePlan.Location = new System.Drawing.Point(6, 231);
+            this.lblSubscribePlan.Name = "lblSubscribePlan";
+            this.lblSubscribePlan.Size = new System.Drawing.Size(80, 17);
+            this.lblSubscribePlan.TabIndex = 26;
+            this.lblSubscribePlan.Text = "Subscribe plan:";
             // 
+            // lblCoach
             // 
-            this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX12.ForeColor = System.Drawing.Color.Black;
-            this.labelX12.Location = new System.Drawing.Point(227, 257);
-            this.labelX12.Name = "labelX12";
-            this.labelX12.Size = new System.Drawing.Size(81, 17);
-            this.labelX12.TabIndex = 12;
-            this.labelX12.Text = "Friend number:";
+            this.lblCoach.AutoSize = true;
+            this.lblCoach.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX13
             // 
-            this.labelX13.AutoSize = true;
-            this.labelX13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblCoach.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblCoach.ForeColor = System.Drawing.Color.Black;
+            this.lblCoach.Location = new System.Drawing.Point(221, 126);
+            this.lblCoach.Name = "lblCoach";
+            this.lblCoach.Size = new System.Drawing.Size(39, 17);
+            this.lblCoach.TabIndex = 25;
+            this.lblCoach.Text = "Coach:";
             // 
+            // lblBirthDate
             // 
-            this.labelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX13.ForeColor = System.Drawing.Color.Black;
-            this.labelX13.Location = new System.Drawing.Point(227, 292);
-            this.labelX13.Name = "labelX13";
-            this.labelX13.Size = new System.Drawing.Size(76, 17);
-            this.labelX13.TabIndex = 13;
-            this.labelX13.Text = "Pending state:";
+            this.lblBirthDate.AutoSize = true;
+            this.lblBirthDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX14
             // 
-            this.labelX14.AutoSize = true;
-            this.labelX14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblBirthDate.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblBirthDate.ForeColor = System.Drawing.Color.Black;
+            this.lblBirthDate.Location = new System.Drawing.Point(6, 161);
+            this.lblBirthDate.Name = "lblBirthDate";
+            this.lblBirthDate.Size = new System.Drawing.Size(57, 17);
+            this.lblBirthDate.TabIndex = 24;
+            this.lblBirthDate.Text = "Birth date:";
             // 
+            // lblAddress
             // 
-            this.labelX14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX14.ForeColor = System.Drawing.Color.Black;
-            this.labelX14.Location = new System.Drawing.Point(227, 152);
-            this.labelX14.Name = "labelX14";
-            this.labelX14.Size = new System.Drawing.Size(36, 17);
-            this.labelX14.TabIndex = 14;
-            this.labelX14.Text = "Email:";
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX15
             // 
-            this.labelX15.AutoSize = true;
-            this.labelX15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblAddress.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAddress.ForeColor = System.Drawing.Color.Black;
+            this.lblAddress.Location = new System.Drawing.Point(221, 196);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(48, 17);
+            this.lblAddress.TabIndex = 23;
+            this.lblAddress.Text = "Address:";
             // 
+            // lblMobile
             // 
-            this.labelX15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX15.ForeColor = System.Drawing.Color.Black;
-            this.labelX15.Location = new System.Drawing.Point(12, 327);
-            this.labelX15.Name = "labelX15";
-            this.labelX15.Size = new System.Drawing.Size(34, 17);
-            this.labelX15.TabIndex = 15;
-            this.labelX15.Text = "Type:";
+            this.lblMobile.AutoSize = true;
+            this.lblMobile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
-            // labelX16
             // 
-            this.labelX16.AutoSize = true;
-            this.labelX16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
+            this.lblMobile.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblMobile.ForeColor = System.Drawing.Color.Black;
+            this.lblMobile.Location = new System.Drawing.Point(221, 91);
+            this.lblMobile.Name = "lblMobile";
+            this.lblMobile.Size = new System.Drawing.Size(41, 17);
+            this.lblMobile.TabIndex = 22;
+            this.lblMobile.Text = "Mobile:";
             // 
+            // lblGender
             // 
-            this.labelX16.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX16.ForeColor = System.Drawing.Color.Black;
-            this.labelX16.Location = new System.Drawing.Point(227, 327);
-            this.labelX16.Name = "labelX16";
-            this.labelX16.Size = new System.Drawing.Size(54, 17);
-            this.labelX16.TabIndex = 16;
-            this.labelX16.Text = "Join date:";
+            this.lblGender.AutoSize = true;
+            this.lblGender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.lblGender.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblGender.ForeColor = System.Drawing.Color.Black;
+            this.lblGender.Location = new System.Drawing.Point(221, 56);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(45, 17);
+            this.lblGender.TabIndex = 21;
+            this.lblGender.Text = "Gender:";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.lblName.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblName.ForeColor = System.Drawing.Color.Black;
+            this.lblName.Location = new System.Drawing.Point(221, 21);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(38, 17);
+            this.lblName.TabIndex = 20;
+            this.lblName.Text = "Name:";
+            // 
+            // picImage
+            // 
+            this.picImage.Location = new System.Drawing.Point(6, 21);
+            this.picImage.Name = "picImage";
+            this.picImage.Size = new System.Drawing.Size(173, 134);
+            this.picImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picImage.TabIndex = 19;
+            this.picImage.TabStop = false;
             // 
             // frmAttendanceFullDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 453);
-            this.Controls.Add(this.labelX16);
-            this.Controls.Add(this.labelX15);
-            this.Controls.Add(this.labelX14);
-            this.Controls.Add(this.labelX13);
-            this.Controls.Add(this.labelX12);
-            this.Controls.Add(this.labelX11);
-            this.Controls.Add(this.labelX10);
-            this.Controls.Add(this.labelX9);
-            this.Controls.Add(this.labelX8);
-            this.Controls.Add(this.labelX7);
-            this.Controls.Add(this.labelX6);
-            this.Controls.Add(this.labelX5);
-            this.Controls.Add(this.labelX4);
-            this.Controls.Add(this.labelX3);
-            this.Controls.Add(this.labelX2);
-            this.Controls.Add(this.labelX1);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(471, 483);
+            this.Controls.Add(this.groupPanel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
@@ -326,30 +397,35 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Full Details about {{username}}";
             this.Load += new System.EventHandler(this.frmAttendanceFullDetails_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupPanel1.ResumeLayout(false);
+            this.groupPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private DevComponents.DotNetBar.LabelX labelX1;
-        private DevComponents.DotNetBar.LabelX labelX2;
-        private DevComponents.DotNetBar.LabelX labelX3;
-        private DevComponents.DotNetBar.LabelX labelX4;
-        private DevComponents.DotNetBar.LabelX labelX5;
-        private DevComponents.DotNetBar.LabelX labelX6;
-        private DevComponents.DotNetBar.LabelX labelX7;
-        private DevComponents.DotNetBar.LabelX labelX8;
-        private DevComponents.DotNetBar.LabelX labelX9;
-        private DevComponents.DotNetBar.LabelX labelX10;
-        private DevComponents.DotNetBar.LabelX labelX11;
-        private DevComponents.DotNetBar.LabelX labelX12;
-        private DevComponents.DotNetBar.LabelX labelX13;
-        private DevComponents.DotNetBar.LabelX labelX14;
-        private DevComponents.DotNetBar.LabelX labelX15;
-        private DevComponents.DotNetBar.LabelX labelX16;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel1;
+        private DevComponents.DotNetBar.ButtonX btnDeleteUser;
+        private DevComponents.DotNetBar.ButtonX btnEditDetails;
+        private DevComponents.DotNetBar.LabelX lblJoinDate;
+        private DevComponents.DotNetBar.LabelX lblType;
+        private DevComponents.DotNetBar.LabelX lblEmail;
+        private DevComponents.DotNetBar.LabelX lblPendingState;
+        private DevComponents.DotNetBar.LabelX lblFriendNumber;
+        private DevComponents.DotNetBar.LabelX lblFriendName;
+        private DevComponents.DotNetBar.LabelX lblComments;
+        private DevComponents.DotNetBar.LabelX lblSubscribeEndDate;
+        private DevComponents.DotNetBar.LabelX lblSubscribeStartDate;
+        private DevComponents.DotNetBar.LabelX lblSubscribePlan;
+        private DevComponents.DotNetBar.LabelX lblCoach;
+        private DevComponents.DotNetBar.LabelX lblBirthDate;
+        private DevComponents.DotNetBar.LabelX lblAddress;
+        private DevComponents.DotNetBar.LabelX lblMobile;
+        private DevComponents.DotNetBar.LabelX lblGender;
+        private DevComponents.DotNetBar.LabelX lblName;
+        private System.Windows.Forms.PictureBox picImage;
+
     }
 }
