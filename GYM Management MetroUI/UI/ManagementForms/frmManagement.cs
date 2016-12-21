@@ -43,6 +43,36 @@ namespace GYMManagementMetroUI
 
         }
 
+        private void tabFormPanel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sideNavItem2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabFormItem11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabFormPanel10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxX11_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabControl8_Click(object sender, EventArgs e)
+        {
+
+        }
+
        
     }
 }
