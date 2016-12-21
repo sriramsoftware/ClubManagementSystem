@@ -71,8 +71,8 @@ namespace GYMManagementMetroUI.DataAccessLayer
         /// <summary>
         /// Method to Select Data form database
         /// </summary>
-        /// <param name="StoredProcedure">Stored Procedule Name To Get Data form it</param>
-        /// <param name="parms">Stored Procedule Parameters</param>
+        /// <param name="StoredProcedure">Stored Procedure Name To Get Data form it</param>
+        /// <param name="parms">Stored Procedure Parameters</param>
         /// <returns>Data which has been getten from database</returns>
         public DataTable SelectData(string StoredProcedure, SqlParameter[] parms)
         {
@@ -91,8 +91,8 @@ namespace GYMManagementMetroUI.DataAccessLayer
         /// <summary>
         /// Method to Insert, Update, Delete Data From Database
         /// </summary>
-        /// <param name="StoredProcedure">Stored Procedule Name To Execute Command on it</param>
-        /// <param name="parms">Stored Procedule Parameters</param>
+        /// <param name="StoredProcedure">Stored Procedure Name To Execute Command on it</param>
+        /// <param name="parms">Stored Procedure Parameters</param>
         public void ExecuteCommand(string StoredProcedure, SqlParameter[] parms)
         {
             SqlCommand cmd = new SqlCommand();

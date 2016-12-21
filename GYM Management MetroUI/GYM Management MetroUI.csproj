@@ -61,7 +61,7 @@
   <ItemGroup>
     <Compile Include="Classes\DataTypes\Member.cs" />
     <Compile Include="Classes\DataTypes\Person.cs" />
-    <Compile Include="Classes\Coach.cs" />
+    <Compile Include="Classes\DataTypes\Coach.cs" />
     <Compile Include="DataAccessLayer\DataAccessLayer.cs" />
     <Compile Include="Classes\Permissions\Permissions.cs" />
     <Compile Include="UI\LoginForms\frmFAQ.cs">

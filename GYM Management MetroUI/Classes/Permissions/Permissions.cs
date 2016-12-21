@@ -7,7 +7,13 @@ namespace GYMManagementMetroUI.Permissions
 {
     public class Permissions
     {
-        
+        public enum PermissionType
+        {
+            Coach       = 0,
+            Moderator   = 1,
+            Admin       = 2
+        }
+
         #region Members
         public class MembersPermissionsClass
         {
@@ -57,22 +63,59 @@ namespace GYMManagementMetroUI.Permissions
         public class FormsPermissionsClass
         {
             public AttendancePermissionsClass Attendance { get; private set; }
-            #region Attendance
+            public AdsPermissionsClass Ads { get; private set; }
+            public PermissionFormPermissionsClass Permissions { get; set; }
+            public ViewFormsPermissionClass ViewForms { get; set; }
             public FormsPermissionsClass()
             {
                 Attendance = new AttendancePermissionsClass();
+                Ads = new AdsPermissionsClass();
+                Permissions = new PermissionFormPermissionsClass();
+                ViewForms = new ViewFormsPermissionClass();
             }
+            #region Attendance
+            
             public class AttendancePermissionsClass
             {
-                public bool ViewAttendanceForm { get; set; }
-                public  bool ViewTrainersAttendance { get; set; }
-                public  bool ViewModeratorsAttendance { get; set; }
-                public  bool ViewAdminsAttendance { get; set; }
+                public bool ViewTrainersAttendance { get; set; }
+                public bool ViewModeratorsAttendance { get; set; }
+                public bool ViewAdminsAttendance { get; set; }
+
+                
+            }
+            #endregion
+            #region ADS
+            public class AdsPermissionsClass
+            {
+                public bool CanAddAd { get; set; }
+                public bool CanEditAd { get; set; }
+                public bool CanRemoveAd { get; set; }
 
             }
             #endregion
+            #region Permissions
+
+            public class PermissionFormPermissionsClass
+            {
+                public bool CanAddPermission { get; set; }
+                public bool CanEditPermission { get; set; }
+                public bool CanViewPermissionForm { get; set; }
+                public bool CanDeletePermission { get; set; }
+            }
+            #endregion
+            #region FormsView
+            public class ViewFormsPermissionClass
+            {
+                public bool ViewAttendanceForm { get; set; }
+                public bool ViewAdsForm { get; set; }
+                public bool ViewPermissionsForm { get; set; }
+                
+            }
+            #endregion
         }
+
         #endregion
+
         #region PermissionsProperity
         public FormsPermissionsClass Forms { get; private set; }
         public MembersPermissionsClass Members { get; private set; }

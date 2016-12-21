@@ -82,6 +82,7 @@ namespace GYMManagementMetroUI.Classes
                  return (Email == INVALID_EMAIL);
              }
          }
+         public DateTime JoinDate { get; set; }
          #endregion
 
          public void SetInvaludEmailSymbol(string Sybmol)
