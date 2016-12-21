@@ -61,14 +61,14 @@
   <ItemGroup>
     <Compile Include="Classes\DataTypes\Member.cs" />
     <Compile Include="Classes\DataTypes\Person.cs" />
-    <Compile Include="Classes\Trainer.cs" />
+    <Compile Include="Classes\Coach.cs" />
     <Compile Include="DataAccessLayer\DataAccessLayer.cs" />
     <Compile Include="Classes\Permissions\Permissions.cs" />
-    <Compile Include="UI\LoginForms\FAQ.cs">
+    <Compile Include="UI\LoginForms\frmFAQ.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\LoginForms\FAQ.Designer.cs">
-      <DependentUpon>FAQ.cs</DependentUpon>
+    <Compile Include="UI\LoginForms\frmFAQ.Designer.cs">
+      <DependentUpon>frmFAQ.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\LoginForms\frmAdminLogin.cs">
       <SubType>Form</SubType>
@@ -82,11 +82,18 @@
     <Compile Include="UI\LoginForms\frmUserLogin.Designer.cs">
       <DependentUpon>frmUserLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\ManagementForms\MainForm.cs">
+    <Compile Include="UI\ManagementForms\FormDevComponents.cs" />
+    <Compile Include="UI\ManagementForms\frmAttendanceFullDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\ManagementForms\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="UI\ManagementForms\frmAttendanceFullDetails.Designer.cs">
+      <DependentUpon>frmAttendanceFullDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ManagementForms\frmManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ManagementForms\frmManagement.Designer.cs">
+      <DependentUpon>frmManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,8 +103,8 @@
     <Compile Include="UI\OtherForms\frmLoginUserAction.Designer.cs">
       <DependentUpon>frmLoginUserAction.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UI\LoginForms\FAQ.resx">
-      <DependentUpon>FAQ.cs</DependentUpon>
+    <EmbeddedResource Include="UI\LoginForms\frmFAQ.resx">
+      <DependentUpon>frmFAQ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\LoginForms\frmAdminLogin.resx">
       <DependentUpon>frmAdminLogin.cs</DependentUpon>
@@ -105,8 +112,11 @@
     <EmbeddedResource Include="UI\LoginForms\frmUserLogin.resx">
       <DependentUpon>frmUserLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\ManagementForms\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="UI\ManagementForms\frmAttendanceFullDetails.resx">
+      <DependentUpon>frmAttendanceFullDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ManagementForms\frmManagement.resx">
+      <DependentUpon>frmManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

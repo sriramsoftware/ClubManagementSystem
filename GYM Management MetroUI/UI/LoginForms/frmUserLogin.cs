@@ -74,6 +74,11 @@ namespace GYMManagementMetroUI
 
         #endregion
 
+        private void frmUserLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
 
     }

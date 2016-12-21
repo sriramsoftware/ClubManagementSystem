@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GYMManagementMetroUI.Classes
 {
-    class Trainer
+    class Coach
     {
        
     }

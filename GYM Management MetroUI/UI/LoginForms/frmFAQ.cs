@@ -16,5 +16,10 @@ namespace GYMManagementMetroUI
         {
             InitializeComponent();
         }
+
+        private void FAQ_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

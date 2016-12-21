@@ -30,12 +30,12 @@
         {
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.expandablePanelHow = new DevComponents.DotNetBar.ExpandablePanel();
             this.expandablePanelWhyGYM = new DevComponents.DotNetBar.ExpandablePanel();
+            this.expandablePanelHow = new DevComponents.DotNetBar.ExpandablePanel();
             this.expandablePanelWhoJoinGYM = new DevComponents.DotNetBar.ExpandablePanel();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.expandablePanelPricesPlans = new DevComponents.DotNetBar.ExpandablePanel();
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
+            this.expandablePanelPricesPlans = new DevComponents.DotNetBar.ExpandablePanel();
             this.groupPanel1.SuspendLayout();
             this.groupPanel3.SuspendLayout();
             this.groupPanel2.SuspendLayout();
@@ -129,33 +129,6 @@
             this.groupPanel3.TabIndex = 22;
             this.groupPanel3.Text = "FAQ";
             // 
-            // expandablePanelHow
-            // 
-            this.expandablePanelHow.CanvasColor = System.Drawing.SystemColors.Control;
-            this.expandablePanelHow.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.expandablePanelHow.DisabledBackColor = System.Drawing.Color.Empty;
-            this.expandablePanelHow.ExpandOnTitleClick = true;
-            this.expandablePanelHow.HideControlsWhenCollapsed = true;
-            this.expandablePanelHow.Location = new System.Drawing.Point(3, 167);
-            this.expandablePanelHow.Name = "expandablePanelHow";
-            this.expandablePanelHow.ScrollBarAppearance = DevComponents.DotNetBar.eScrollBarAppearance.ApplicationScroll;
-            this.expandablePanelHow.Size = new System.Drawing.Size(279, 73);
-            this.expandablePanelHow.Style.Alignment = System.Drawing.StringAlignment.Center;
-            this.expandablePanelHow.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.expandablePanelHow.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.expandablePanelHow.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.expandablePanelHow.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.expandablePanelHow.Style.GradientAngle = 90;
-            this.expandablePanelHow.TabIndex = 21;
-            this.expandablePanelHow.Text = "Like sugar in tea";
-            this.expandablePanelHow.TitleStyle.Alignment = System.Drawing.StringAlignment.Center;
-            this.expandablePanelHow.TitleStyle.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.expandablePanelHow.TitleStyle.Border = DevComponents.DotNetBar.eBorderType.RaisedInner;
-            this.expandablePanelHow.TitleStyle.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.expandablePanelHow.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.expandablePanelHow.TitleStyle.GradientAngle = 90;
-            this.expandablePanelHow.TitleText = "How?";
-            // 
             // expandablePanelWhyGYM
             // 
             this.expandablePanelWhyGYM.CanvasColor = System.Drawing.SystemColors.Control;
@@ -182,6 +155,33 @@
             this.expandablePanelWhyGYM.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.expandablePanelWhyGYM.TitleStyle.GradientAngle = 90;
             this.expandablePanelWhyGYM.TitleText = "Why gym?";
+            // 
+            // expandablePanelHow
+            // 
+            this.expandablePanelHow.CanvasColor = System.Drawing.SystemColors.Control;
+            this.expandablePanelHow.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.expandablePanelHow.DisabledBackColor = System.Drawing.Color.Empty;
+            this.expandablePanelHow.ExpandOnTitleClick = true;
+            this.expandablePanelHow.HideControlsWhenCollapsed = true;
+            this.expandablePanelHow.Location = new System.Drawing.Point(3, 167);
+            this.expandablePanelHow.Name = "expandablePanelHow";
+            this.expandablePanelHow.ScrollBarAppearance = DevComponents.DotNetBar.eScrollBarAppearance.ApplicationScroll;
+            this.expandablePanelHow.Size = new System.Drawing.Size(279, 73);
+            this.expandablePanelHow.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.expandablePanelHow.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.expandablePanelHow.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.expandablePanelHow.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandablePanelHow.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.expandablePanelHow.Style.GradientAngle = 90;
+            this.expandablePanelHow.TabIndex = 21;
+            this.expandablePanelHow.Text = "Like sugar in tea";
+            this.expandablePanelHow.TitleStyle.Alignment = System.Drawing.StringAlignment.Center;
+            this.expandablePanelHow.TitleStyle.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.expandablePanelHow.TitleStyle.Border = DevComponents.DotNetBar.eBorderType.RaisedInner;
+            this.expandablePanelHow.TitleStyle.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandablePanelHow.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.expandablePanelHow.TitleStyle.GradientAngle = 90;
+            this.expandablePanelHow.TitleText = "How?";
             // 
             // expandablePanelWhoJoinGYM
             // 
@@ -254,6 +254,30 @@
             this.groupPanel2.TabIndex = 21;
             this.groupPanel2.Text = "INFORMATION";
             // 
+            // expandablePanel1
+            // 
+            this.expandablePanel1.CanvasColor = System.Drawing.SystemColors.Control;
+            this.expandablePanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.expandablePanel1.DisabledBackColor = System.Drawing.Color.Empty;
+            this.expandablePanel1.HideControlsWhenCollapsed = true;
+            this.expandablePanel1.Location = new System.Drawing.Point(7, 99);
+            this.expandablePanel1.Name = "expandablePanel1";
+            this.expandablePanel1.Size = new System.Drawing.Size(269, 100);
+            this.expandablePanel1.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.expandablePanel1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.expandablePanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.expandablePanel1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.expandablePanel1.Style.GradientAngle = 90;
+            this.expandablePanel1.TabIndex = 29;
+            this.expandablePanel1.Text = "BLA BLA BLA";
+            this.expandablePanel1.TitleStyle.Alignment = System.Drawing.StringAlignment.Center;
+            this.expandablePanel1.TitleStyle.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.expandablePanel1.TitleStyle.Border = DevComponents.DotNetBar.eBorderType.RaisedInner;
+            this.expandablePanel1.TitleStyle.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandablePanel1.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.expandablePanel1.TitleStyle.GradientAngle = 90;
+            this.expandablePanel1.TitleText = "GYM Info";
+            // 
             // expandablePanelPricesPlans
             // 
             this.expandablePanelPricesPlans.CanvasColor = System.Drawing.SystemColors.Control;
@@ -281,30 +305,6 @@
             this.expandablePanelPricesPlans.TitleStyle.GradientAngle = 90;
             this.expandablePanelPricesPlans.TitleText = "Prices Plans";
             // 
-            // expandablePanel1
-            // 
-            this.expandablePanel1.CanvasColor = System.Drawing.SystemColors.Control;
-            this.expandablePanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.expandablePanel1.DisabledBackColor = System.Drawing.Color.Empty;
-            this.expandablePanel1.HideControlsWhenCollapsed = true;
-            this.expandablePanel1.Location = new System.Drawing.Point(7, 99);
-            this.expandablePanel1.Name = "expandablePanel1";
-            this.expandablePanel1.Size = new System.Drawing.Size(269, 100);
-            this.expandablePanel1.Style.Alignment = System.Drawing.StringAlignment.Center;
-            this.expandablePanel1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.expandablePanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.expandablePanel1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
-            this.expandablePanel1.Style.GradientAngle = 90;
-            this.expandablePanel1.TabIndex = 29;
-            this.expandablePanel1.Text = "BLA BLA BLA";
-            this.expandablePanel1.TitleStyle.Alignment = System.Drawing.StringAlignment.Center;
-            this.expandablePanel1.TitleStyle.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.expandablePanel1.TitleStyle.Border = DevComponents.DotNetBar.eBorderType.RaisedInner;
-            this.expandablePanel1.TitleStyle.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.expandablePanel1.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.expandablePanel1.TitleStyle.GradientAngle = 90;
-            this.expandablePanel1.TitleText = "GYM Info";
-            // 
             // FAQ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -317,6 +317,7 @@
             this.Name = "FAQ";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "INFORMATION & FAQ";
+            this.Load += new System.EventHandler(this.FAQ_Load);
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel3.ResumeLayout(false);
             this.groupPanel2.ResumeLayout(false);
