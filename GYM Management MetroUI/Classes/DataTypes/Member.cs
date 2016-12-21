@@ -13,6 +13,5 @@ namespace GYMManagementMetroUI.Classes.DataTypes
 
         public int PaidCurrecy { get; set; }
         public int RestCurrency { get; set; }
-
     }
 }

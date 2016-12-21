@@ -83,12 +83,19 @@ namespace GYMManagementMetroUI.Classes
              }
          }
          public DateTime JoinDate { get; set; }
+         public Permissions.Permissions Permissions { get; set; }
          #endregion
 
+         #region Methods
          public void SetInvaludEmailSymbol(string Sybmol)
          {
              INVALID_EMAIL = Sybmol;
          }
+         public Person()
+         {
+             Permissions = new Permissions.Permissions();
+         }
+         #endregion
 
      }
 }
