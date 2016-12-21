@@ -29,57 +29,143 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            "1",
+            "Plan 1",
+            "25",
+            "80",
+            "",
+            "",
+            "",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
             "80",
             ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Person 1",
+            "Member",
+            "Attends",
+            "9 am",
+            "12 pm"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Person 2",
+            "Trainer",
+            "Attends",
+            "8 am",
+            "still here"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Person 3",
+            "Moderator",
+            "Leave",
+            "10 am",
+            "11 am"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Person 4",
+            "Member",
+            "Not attend",
+            "-",
+            "-",
+            "not come from 5 days"}, -1, System.Drawing.Color.Red, System.Drawing.Color.Empty, null);
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Person 5",
+            "Member",
+            "Attend",
+            "1 pm",
+            "still here",
+            "break dumbbell :D"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
             System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
             "80",
             ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
@@ -92,92 +178,6 @@
             "Member 2",
             "30",
             "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
-            "1",
-            "Plan 1",
-            "25",
-            "80",
-            "",
-            "",
-            "",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Person 1",
-            "Member",
-            "Attends",
-            "9 am",
-            "12 pm"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Person 2",
-            "Trainer",
-            "Attends",
-            "8 am",
-            "still here"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Person 3",
-            "Moderator",
-            "Leave",
-            "10 am",
-            "11 am"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Person 4",
-            "Member",
-            "Not attend",
-            "-",
-            "-",
-            "not come from 5 days"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Person 5",
-            "Member",
-            "Attend",
-            "1 pm",
-            "still here",
-            "break dumbbell :D"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
             this.tabControlPanel9 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel13 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel15 = new DevComponents.DotNetBar.TabControlPanel();
@@ -185,114 +185,35 @@
             this.tabControlPanel21 = new DevComponents.DotNetBar.TabControlPanel();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.sideNav1 = new DevComponents.DotNetBar.Controls.SideNav();
-            this.sideNavPanel4 = new DevComponents.DotNetBar.Controls.SideNavPanel();
-            this.tabControl3 = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel10 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabControlPanel11 = new DevComponents.DotNetBar.TabControlPanel();
-            this.btnViewModerator = new DevComponents.DotNetBar.ButtonX();
-            this.btnRemoveSelectedModerators = new DevComponents.DotNetBar.ButtonX();
-            this.btnEditModerator = new DevComponents.DotNetBar.ButtonX();
-            this.btnAddModerator = new DevComponents.DotNetBar.ButtonX();
-            this.txtSearchModerator = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lstViewModerators = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader31 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader32 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader33 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader34 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader35 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabAllModerators = new DevComponents.DotNetBar.TabItem(this.components);
-            this.buttonX26 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX27 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX28 = new DevComponents.DotNetBar.ButtonX();
-            this.textBoxX7 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.listViewEx8 = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader36 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader37 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader38 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader39 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader40 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabControlPanel12 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabAddModerator = new DevComponents.DotNetBar.TabItem(this.components);
-            this.sideNavPanel2 = new DevComponents.DotNetBar.Controls.SideNavPanel();
-            this.tabControl1 = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
-            this.btnViewTrainer = new DevComponents.DotNetBar.ButtonX();
-            this.btnRemoveSelectedTrainers = new DevComponents.DotNetBar.ButtonX();
-            this.btnEditTrainer = new DevComponents.DotNetBar.ButtonX();
-            this.btnAddTrainer = new DevComponents.DotNetBar.ButtonX();
-            this.txtSearchTrainer = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lstViewTrainers = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabAllTrainer = new DevComponents.DotNetBar.TabItem(this.components);
-            this.buttonX12 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX13 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX14 = new DevComponents.DotNetBar.ButtonX();
-            this.textBoxX3 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.listViewEx4 = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabAddTrainer = new DevComponents.DotNetBar.TabItem(this.components);
-            this.sideNavPanel1 = new DevComponents.DotNetBar.Controls.SideNavPanel();
-            this.tabControlMembers = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel8 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabControlPanelAllMembers = new DevComponents.DotNetBar.TabControlPanel();
-            this.btnViewMember = new DevComponents.DotNetBar.ButtonX();
-            this.btnRemoverSelectedMembers = new DevComponents.DotNetBar.ButtonX();
-            this.btnEditMember = new DevComponents.DotNetBar.ButtonX();
-            this.btnAddMember = new DevComponents.DotNetBar.ButtonX();
-            this.txtSearchMembers = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lstViewMembers = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabAllMembers = new DevComponents.DotNetBar.TabItem(this.components);
-            this.buttonX3 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.listViewEx1 = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabAddMember = new DevComponents.DotNetBar.TabItem(this.components);
-            this.sideNavPanel9 = new DevComponents.DotNetBar.Controls.SideNavPanel();
-            this.tabControl6 = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel25 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabControlPanel26 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.buttonX16 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX17 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX18 = new DevComponents.DotNetBar.ButtonX();
-            this.textBoxX8 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.listViewEx7 = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader67 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader68 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader69 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader70 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader71 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabControlPanel27 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem6 = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel6 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControl7 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel36 = new DevComponents.DotNetBar.TabControlPanel();
+            this.groupPanel4 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.btnCancelGYMLogo = new DevComponents.DotNetBar.ButtonX();
+            this.btnSaveGYMLogo = new DevComponents.DotNetBar.ButtonX();
+            this.checkBoxX1 = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.btnBrowsePanelIcon = new DevComponents.DotNetBar.ButtonX();
+            this.picGYMPanelIcon = new System.Windows.Forms.PictureBox();
+            this.labelX13 = new DevComponents.DotNetBar.LabelX();
+            this.btnBrowseLogoImage = new DevComponents.DotNetBar.ButtonX();
+            this.picGYMLogoImage = new System.Windows.Forms.PictureBox();
+            this.labelX12 = new DevComponents.DotNetBar.LabelX();
+            this.tabSettingsInfo = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel40 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem18 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel34 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabSettingsReport = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel37 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabSettingsAds = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel42 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabSettingsPermissions = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel39 = new DevComponents.DotNetBar.TabControlPanel();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.buttonX36 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX32 = new DevComponents.DotNetBar.ButtonX();
             this.listViewEx9 = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader79 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader72 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader78 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader73 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -329,14 +250,90 @@
             this.textBoxX10 = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.tabSettingsPricePlan = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel36 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabSettingsInfo = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel40 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem18 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel37 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabSettingsAds = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel34 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabSettingsReport = new DevComponents.DotNetBar.TabItem(this.components);
+            this.sideNavPanel1 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.tabControlMembers = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel8 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabControlPanelAllMembers = new DevComponents.DotNetBar.TabControlPanel();
+            this.btnViewMember = new DevComponents.DotNetBar.ButtonX();
+            this.btnRemoverSelectedMembers = new DevComponents.DotNetBar.ButtonX();
+            this.btnEditMember = new DevComponents.DotNetBar.ButtonX();
+            this.btnAddMember = new DevComponents.DotNetBar.ButtonX();
+            this.txtSearchMembers = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lstViewMembers = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabAllMembers = new DevComponents.DotNetBar.TabItem(this.components);
+            this.buttonX3 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.textBoxX1 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.listViewEx1 = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabAddMember = new DevComponents.DotNetBar.TabItem(this.components);
+            this.sideNavPanel2 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.tabControl1 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
+            this.btnViewTrainer = new DevComponents.DotNetBar.ButtonX();
+            this.btnRemoveSelectedTrainers = new DevComponents.DotNetBar.ButtonX();
+            this.btnEditTrainer = new DevComponents.DotNetBar.ButtonX();
+            this.btnAddTrainer = new DevComponents.DotNetBar.ButtonX();
+            this.txtSearchTrainer = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lstViewTrainers = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabAllTrainer = new DevComponents.DotNetBar.TabItem(this.components);
+            this.buttonX12 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX13 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX14 = new DevComponents.DotNetBar.ButtonX();
+            this.textBoxX3 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.listViewEx4 = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabAddTrainer = new DevComponents.DotNetBar.TabItem(this.components);
+            this.sideNavPanel4 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.tabControl3 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel10 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabControlPanel11 = new DevComponents.DotNetBar.TabControlPanel();
+            this.btnViewModerator = new DevComponents.DotNetBar.ButtonX();
+            this.btnRemoveSelectedModerators = new DevComponents.DotNetBar.ButtonX();
+            this.btnEditModerator = new DevComponents.DotNetBar.ButtonX();
+            this.btnAddModerator = new DevComponents.DotNetBar.ButtonX();
+            this.txtSearchModerator = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lstViewModerators = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader31 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader32 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader33 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader34 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader35 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabAllModerators = new DevComponents.DotNetBar.TabItem(this.components);
+            this.buttonX26 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX27 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX28 = new DevComponents.DotNetBar.ButtonX();
+            this.textBoxX7 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.listViewEx8 = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader36 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader37 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader38 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader39 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader40 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabControlPanel12 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabAddModerator = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel5 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControl4 = new DevComponents.DotNetBar.TabControl();
             this.tabControlPanel14 = new DevComponents.DotNetBar.TabControlPanel();
@@ -367,6 +364,8 @@
             this.tabAddAdmin = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel3 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControl2 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel7 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabAddEquipment = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel5 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel6 = new DevComponents.DotNetBar.TabControlPanel();
             this.btnViewEquipment = new DevComponents.DotNetBar.ButtonX();
@@ -391,10 +390,14 @@
             this.columnHeader28 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader29 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader30 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabControlPanel7 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabAddEquipment = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel7 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControl5 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel24 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel23 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel22 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel19 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel20 = new DevComponents.DotNetBar.TabControlPanel();
             this.buttonX4 = new DevComponents.DotNetBar.ButtonX();
@@ -418,13 +421,24 @@
             this.columnHeader58 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader59 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader60 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabControlPanel24 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel23 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel22 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel8 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.sideNavPanel9 = new DevComponents.DotNetBar.Controls.SideNavPanel();
+            this.tabControl6 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel25 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabControlPanel26 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.buttonX16 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX17 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX18 = new DevComponents.DotNetBar.ButtonX();
+            this.textBoxX8 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.listViewEx7 = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader67 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader68 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader69 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader70 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader71 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabControlPanel27 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem6 = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavItem1 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.separator1 = new DevComponents.DotNetBar.Separator();
             this.tabMembers = new DevComponents.DotNetBar.Controls.SideNavItem();
@@ -437,43 +451,20 @@
             this.sideNavItem2 = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.tabSettings = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.btnExit = new DevComponents.DotNetBar.Controls.SideNavItem();
-            this.columnHeader79 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabSettingsPermissions = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel42 = new DevComponents.DotNetBar.TabControlPanel();
-            this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.labelX12 = new DevComponents.DotNetBar.LabelX();
-            this.picGYMLogoImage = new System.Windows.Forms.PictureBox();
-            this.btnBrowseLogoImage = new DevComponents.DotNetBar.ButtonX();
-            this.btnBrowsePanelIcon = new DevComponents.DotNetBar.ButtonX();
-            this.picGYMPanelIcon = new System.Windows.Forms.PictureBox();
-            this.labelX13 = new DevComponents.DotNetBar.LabelX();
-            this.checkBoxX1 = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.groupPanel4 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.btnSaveGYMLogo = new DevComponents.DotNetBar.ButtonX();
-            this.btnCancelGYMLogo = new DevComponents.DotNetBar.ButtonX();
+            this.txtGmailEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtGmailPass = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnCancelGmail = new DevComponents.DotNetBar.ButtonX();
+            this.btnSaveGmail = new DevComponents.DotNetBar.ButtonX();
+            this.groupPanel5 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.sideNav1.SuspendLayout();
-            this.sideNavPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl3)).BeginInit();
-            this.tabControl3.SuspendLayout();
-            this.tabControlPanel10.SuspendLayout();
-            this.tabControlPanel11.SuspendLayout();
-            this.sideNavPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
-            this.tabControl1.SuspendLayout();
-            this.tabControlPanel2.SuspendLayout();
-            this.tabControlPanel3.SuspendLayout();
-            this.sideNavPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tabControlMembers)).BeginInit();
-            this.tabControlMembers.SuspendLayout();
-            this.tabControlPanel8.SuspendLayout();
-            this.tabControlPanelAllMembers.SuspendLayout();
-            this.sideNavPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl6)).BeginInit();
-            this.tabControl6.SuspendLayout();
-            this.tabControlPanel25.SuspendLayout();
             this.sideNavPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl7)).BeginInit();
             this.tabControl7.SuspendLayout();
+            this.tabControlPanel36.SuspendLayout();
+            this.groupPanel4.SuspendLayout();
+            this.groupPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picGYMPanelIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGYMLogoImage)).BeginInit();
             this.tabControlPanel39.SuspendLayout();
             this.groupPanel2.SuspendLayout();
             this.groupPanel1.SuspendLayout();
@@ -481,7 +472,21 @@
             this.tabControl8.SuspendLayout();
             this.tabControlPanel41.SuspendLayout();
             this.tabControlPanel43.SuspendLayout();
-            this.tabControlPanel36.SuspendLayout();
+            this.sideNavPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabControlMembers)).BeginInit();
+            this.tabControlMembers.SuspendLayout();
+            this.tabControlPanel8.SuspendLayout();
+            this.tabControlPanelAllMembers.SuspendLayout();
+            this.sideNavPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabControlPanel2.SuspendLayout();
+            this.tabControlPanel3.SuspendLayout();
+            this.sideNavPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl3)).BeginInit();
+            this.tabControl3.SuspendLayout();
+            this.tabControlPanel10.SuspendLayout();
+            this.tabControlPanel11.SuspendLayout();
             this.sideNavPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl4)).BeginInit();
             this.tabControl4.SuspendLayout();
@@ -497,9 +502,10 @@
             this.tabControl5.SuspendLayout();
             this.tabControlPanel19.SuspendLayout();
             this.tabControlPanel20.SuspendLayout();
-            this.groupPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picGYMLogoImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGYMPanelIcon)).BeginInit();
+            this.sideNavPanel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl6)).BeginInit();
+            this.tabControl6.SuspendLayout();
+            this.tabControlPanel25.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControlPanel9
@@ -589,13 +595,13 @@
             // 
             // sideNav1
             // 
+            this.sideNav1.Controls.Add(this.sideNavPanel7);
             this.sideNav1.Controls.Add(this.sideNavPanel6);
             this.sideNav1.Controls.Add(this.sideNavPanel1);
             this.sideNav1.Controls.Add(this.sideNavPanel2);
             this.sideNav1.Controls.Add(this.sideNavPanel4);
             this.sideNav1.Controls.Add(this.sideNavPanel5);
             this.sideNav1.Controls.Add(this.sideNavPanel3);
-            this.sideNav1.Controls.Add(this.sideNavPanel7);
             this.sideNav1.Controls.Add(this.sideNavPanel8);
             this.sideNav1.Controls.Add(this.sideNavPanel9);
             this.sideNav1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -618,1230 +624,6 @@
             this.sideNav1.Size = new System.Drawing.Size(1116, 620);
             this.sideNav1.TabIndex = 0;
             // 
-            // sideNavPanel4
-            // 
-            this.sideNavPanel4.Controls.Add(this.tabControl3);
-            this.sideNavPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel4.Location = new System.Drawing.Point(118, 38);
-            this.sideNavPanel4.Name = "sideNavPanel4";
-            this.sideNavPanel4.Size = new System.Drawing.Size(993, 581);
-            this.sideNavPanel4.TabIndex = 14;
-            this.sideNavPanel4.Visible = false;
-            // 
-            // tabControl3
-            // 
-            this.tabControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControl3.CanReorderTabs = true;
-            this.tabControl3.Controls.Add(this.tabControlPanel10);
-            this.tabControl3.Controls.Add(this.tabControlPanel12);
-            this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl3.ForeColor = System.Drawing.Color.Black;
-            this.tabControl3.Location = new System.Drawing.Point(0, 0);
-            this.tabControl3.Name = "tabControl3";
-            this.tabControl3.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
-            this.tabControl3.SelectedTabIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(993, 581);
-            this.tabControl3.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
-            this.tabControl3.TabIndex = 4;
-            this.tabControl3.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
-            this.tabControl3.Tabs.Add(this.tabAllModerators);
-            this.tabControl3.Tabs.Add(this.tabAddModerator);
-            this.tabControl3.Text = "tabControl3";
-            // 
-            // tabControlPanel10
-            // 
-            this.tabControlPanel10.Controls.Add(this.tabControlPanel11);
-            this.tabControlPanel10.Controls.Add(this.buttonX26);
-            this.tabControlPanel10.Controls.Add(this.buttonX27);
-            this.tabControlPanel10.Controls.Add(this.buttonX28);
-            this.tabControlPanel10.Controls.Add(this.textBoxX7);
-            this.tabControlPanel10.Controls.Add(this.listViewEx8);
-            this.tabControlPanel10.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel10.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel10.Name = "tabControlPanel10";
-            this.tabControlPanel10.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel10.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel10.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel10.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel10.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel10.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel10.Style.GradientAngle = 90;
-            this.tabControlPanel10.TabIndex = 1;
-            this.tabControlPanel10.TabItem = this.tabAllModerators;
-            // 
-            // tabControlPanel11
-            // 
-            this.tabControlPanel11.Controls.Add(this.btnViewModerator);
-            this.tabControlPanel11.Controls.Add(this.btnRemoveSelectedModerators);
-            this.tabControlPanel11.Controls.Add(this.btnEditModerator);
-            this.tabControlPanel11.Controls.Add(this.btnAddModerator);
-            this.tabControlPanel11.Controls.Add(this.txtSearchModerator);
-            this.tabControlPanel11.Controls.Add(this.lstViewModerators);
-            this.tabControlPanel11.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel11.Location = new System.Drawing.Point(1, 1);
-            this.tabControlPanel11.Name = "tabControlPanel11";
-            this.tabControlPanel11.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel11.Size = new System.Drawing.Size(991, 552);
-            this.tabControlPanel11.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel11.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel11.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel11.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel11.Style.GradientAngle = 90;
-            this.tabControlPanel11.TabIndex = 8;
-            this.tabControlPanel11.TabItem = this.tabAllModerators;
-            // 
-            // btnViewModerator
-            // 
-            this.btnViewModerator.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnViewModerator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnViewModerator.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnViewModerator.Location = new System.Drawing.Point(665, 503);
-            this.btnViewModerator.Name = "btnViewModerator";
-            this.btnViewModerator.Size = new System.Drawing.Size(161, 39);
-            this.btnViewModerator.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnViewModerator.TabIndex = 5;
-            this.btnViewModerator.Text = "View Moderator";
-            // 
-            // btnRemoveSelectedModerators
-            // 
-            this.btnRemoveSelectedModerators.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRemoveSelectedModerators.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnRemoveSelectedModerators.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRemoveSelectedModerators.Location = new System.Drawing.Point(499, 503);
-            this.btnRemoveSelectedModerators.Name = "btnRemoveSelectedModerators";
-            this.btnRemoveSelectedModerators.Size = new System.Drawing.Size(161, 39);
-            this.btnRemoveSelectedModerators.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRemoveSelectedModerators.TabIndex = 4;
-            this.btnRemoveSelectedModerators.Text = "Remove Selected";
-            // 
-            // btnEditModerator
-            // 
-            this.btnEditModerator.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnEditModerator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnEditModerator.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnEditModerator.Location = new System.Drawing.Point(332, 503);
-            this.btnEditModerator.Name = "btnEditModerator";
-            this.btnEditModerator.Size = new System.Drawing.Size(161, 39);
-            this.btnEditModerator.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnEditModerator.TabIndex = 3;
-            this.btnEditModerator.Text = "Edit Moderator";
-            // 
-            // btnAddModerator
-            // 
-            this.btnAddModerator.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAddModerator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAddModerator.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnAddModerator.Location = new System.Drawing.Point(165, 503);
-            this.btnAddModerator.Name = "btnAddModerator";
-            this.btnAddModerator.Size = new System.Drawing.Size(161, 39);
-            this.btnAddModerator.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAddModerator.TabIndex = 2;
-            this.btnAddModerator.Text = "Add Moderator";
-            // 
-            // txtSearchModerator
-            // 
-            this.txtSearchModerator.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtSearchModerator.Border.Class = "TextBoxBorder";
-            this.txtSearchModerator.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtSearchModerator.DisabledBackColor = System.Drawing.Color.White;
-            this.txtSearchModerator.ForeColor = System.Drawing.Color.Black;
-            this.txtSearchModerator.Location = new System.Drawing.Point(313, 4);
-            this.txtSearchModerator.Name = "txtSearchModerator";
-            this.txtSearchModerator.PreventEnterBeep = true;
-            this.txtSearchModerator.Size = new System.Drawing.Size(365, 20);
-            this.txtSearchModerator.TabIndex = 1;
-            this.txtSearchModerator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtSearchModerator.WatermarkText = "Search For Moderator";
-            // 
-            // lstViewModerators
-            // 
-            this.lstViewModerators.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstViewModerators.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.lstViewModerators.Border.Class = "ListViewBorder";
-            this.lstViewModerators.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lstViewModerators.CheckBoxes = true;
-            this.lstViewModerators.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader31,
-            this.columnHeader32,
-            this.columnHeader33,
-            this.columnHeader34,
-            this.columnHeader35});
-            this.lstViewModerators.DisabledBackColor = System.Drawing.Color.Empty;
-            this.lstViewModerators.ForeColor = System.Drawing.Color.Black;
-            this.lstViewModerators.FullRowSelect = true;
-            this.lstViewModerators.GridLines = true;
-            this.lstViewModerators.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem10.StateImageIndex = 0;
-            listViewItem11.StateImageIndex = 0;
-            this.lstViewModerators.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem10,
-            listViewItem11});
-            this.lstViewModerators.Location = new System.Drawing.Point(17, 29);
-            this.lstViewModerators.Name = "lstViewModerators";
-            this.lstViewModerators.Size = new System.Drawing.Size(968, 468);
-            this.lstViewModerators.TabIndex = 0;
-            this.lstViewModerators.UseCompatibleStateImageBehavior = false;
-            this.lstViewModerators.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader31
-            // 
-            this.columnHeader31.Text = "Member Name";
-            this.columnHeader31.Width = 153;
-            // 
-            // columnHeader32
-            // 
-            this.columnHeader32.Text = "Age";
-            this.columnHeader32.Width = 152;
-            // 
-            // columnHeader33
-            // 
-            this.columnHeader33.Text = "Weight";
-            this.columnHeader33.Width = 144;
-            // 
-            // columnHeader34
-            // 
-            this.columnHeader34.Text = "Date Start";
-            this.columnHeader34.Width = 135;
-            // 
-            // columnHeader35
-            // 
-            this.columnHeader35.Text = "Date End";
-            this.columnHeader35.Width = 144;
-            // 
-            // tabAllModerators
-            // 
-            this.tabAllModerators.AttachedControl = this.tabControlPanel10;
-            this.tabAllModerators.Name = "tabAllModerators";
-            this.tabAllModerators.Text = "All Moderators";
-            // 
-            // buttonX26
-            // 
-            this.buttonX26.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX26.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX26.Location = new System.Drawing.Point(364, 406);
-            this.buttonX26.Name = "buttonX26";
-            this.buttonX26.Size = new System.Drawing.Size(161, 39);
-            this.buttonX26.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX26.TabIndex = 4;
-            this.buttonX26.Text = "Remove Selected";
-            // 
-            // buttonX27
-            // 
-            this.buttonX27.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX27.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX27.Location = new System.Drawing.Point(197, 406);
-            this.buttonX27.Name = "buttonX27";
-            this.buttonX27.Size = new System.Drawing.Size(161, 39);
-            this.buttonX27.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX27.TabIndex = 3;
-            this.buttonX27.Text = "Edit Member";
-            // 
-            // buttonX28
-            // 
-            this.buttonX28.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX28.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX28.Location = new System.Drawing.Point(30, 406);
-            this.buttonX28.Name = "buttonX28";
-            this.buttonX28.Size = new System.Drawing.Size(161, 39);
-            this.buttonX28.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX28.TabIndex = 2;
-            this.buttonX28.Text = "Add Member";
-            // 
-            // textBoxX7
-            // 
-            this.textBoxX7.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX7.Border.Class = "TextBoxBorder";
-            this.textBoxX7.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX7.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX7.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX7.Location = new System.Drawing.Point(272, 4);
-            this.textBoxX7.Name = "textBoxX7";
-            this.textBoxX7.PreventEnterBeep = true;
-            this.textBoxX7.Size = new System.Drawing.Size(365, 20);
-            this.textBoxX7.TabIndex = 1;
-            this.textBoxX7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX7.WatermarkText = "Search For Member";
-            // 
-            // listViewEx8
-            // 
-            this.listViewEx8.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.listViewEx8.Border.Class = "ListViewBorder";
-            this.listViewEx8.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listViewEx8.CheckBoxes = true;
-            this.listViewEx8.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader36,
-            this.columnHeader37,
-            this.columnHeader38,
-            this.columnHeader39,
-            this.columnHeader40});
-            this.listViewEx8.DisabledBackColor = System.Drawing.Color.Empty;
-            this.listViewEx8.ForeColor = System.Drawing.Color.Black;
-            this.listViewEx8.FullRowSelect = true;
-            this.listViewEx8.GridLines = true;
-            this.listViewEx8.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem12.StateImageIndex = 0;
-            listViewItem13.StateImageIndex = 0;
-            this.listViewEx8.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem12,
-            listViewItem13});
-            this.listViewEx8.Location = new System.Drawing.Point(4, 30);
-            this.listViewEx8.Name = "listViewEx8";
-            this.listViewEx8.Size = new System.Drawing.Size(890, 367);
-            this.listViewEx8.TabIndex = 0;
-            this.listViewEx8.UseCompatibleStateImageBehavior = false;
-            this.listViewEx8.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader36
-            // 
-            this.columnHeader36.Text = "Member Name";
-            this.columnHeader36.Width = 153;
-            // 
-            // columnHeader37
-            // 
-            this.columnHeader37.Text = "Age";
-            this.columnHeader37.Width = 152;
-            // 
-            // columnHeader38
-            // 
-            this.columnHeader38.Text = "Weight";
-            this.columnHeader38.Width = 144;
-            // 
-            // columnHeader39
-            // 
-            this.columnHeader39.Text = "Date Start";
-            this.columnHeader39.Width = 135;
-            // 
-            // columnHeader40
-            // 
-            this.columnHeader40.Text = "Date End";
-            this.columnHeader40.Width = 144;
-            // 
-            // tabControlPanel12
-            // 
-            this.tabControlPanel12.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel12.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel12.Name = "tabControlPanel12";
-            this.tabControlPanel12.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel12.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel12.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel12.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel12.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel12.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel12.Style.GradientAngle = 90;
-            this.tabControlPanel12.TabIndex = 5;
-            this.tabControlPanel12.TabItem = this.tabAddModerator;
-            // 
-            // tabAddModerator
-            // 
-            this.tabAddModerator.AttachedControl = this.tabControlPanel12;
-            this.tabAddModerator.Name = "tabAddModerator";
-            this.tabAddModerator.Text = "Add Moderator";
-            // 
-            // sideNavPanel2
-            // 
-            this.sideNavPanel2.Controls.Add(this.tabControl1);
-            this.sideNavPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel2.Location = new System.Drawing.Point(118, 38);
-            this.sideNavPanel2.Name = "sideNavPanel2";
-            this.sideNavPanel2.Size = new System.Drawing.Size(993, 581);
-            this.sideNavPanel2.TabIndex = 6;
-            this.sideNavPanel2.Visible = false;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControl1.CanReorderTabs = true;
-            this.tabControl1.Controls.Add(this.tabControlPanel2);
-            this.tabControl1.Controls.Add(this.tabControlPanel4);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.ForeColor = System.Drawing.Color.Black;
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
-            this.tabControl1.SelectedTabIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(993, 581);
-            this.tabControl1.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
-            this.tabControl1.TabIndex = 2;
-            this.tabControl1.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
-            this.tabControl1.Tabs.Add(this.tabAllTrainer);
-            this.tabControl1.Tabs.Add(this.tabAddTrainer);
-            this.tabControl1.Text = "tabControl2";
-            // 
-            // tabControlPanel2
-            // 
-            this.tabControlPanel2.Controls.Add(this.tabControlPanel3);
-            this.tabControlPanel2.Controls.Add(this.buttonX12);
-            this.tabControlPanel2.Controls.Add(this.buttonX13);
-            this.tabControlPanel2.Controls.Add(this.buttonX14);
-            this.tabControlPanel2.Controls.Add(this.textBoxX3);
-            this.tabControlPanel2.Controls.Add(this.listViewEx4);
-            this.tabControlPanel2.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel2.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel2.Name = "tabControlPanel2";
-            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel2.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel2.Style.GradientAngle = 90;
-            this.tabControlPanel2.TabIndex = 1;
-            this.tabControlPanel2.TabItem = this.tabAllTrainer;
-            // 
-            // tabControlPanel3
-            // 
-            this.tabControlPanel3.Controls.Add(this.btnViewTrainer);
-            this.tabControlPanel3.Controls.Add(this.btnRemoveSelectedTrainers);
-            this.tabControlPanel3.Controls.Add(this.btnEditTrainer);
-            this.tabControlPanel3.Controls.Add(this.btnAddTrainer);
-            this.tabControlPanel3.Controls.Add(this.txtSearchTrainer);
-            this.tabControlPanel3.Controls.Add(this.lstViewTrainers);
-            this.tabControlPanel3.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel3.Location = new System.Drawing.Point(1, 1);
-            this.tabControlPanel3.Name = "tabControlPanel3";
-            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel3.Size = new System.Drawing.Size(991, 552);
-            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel3.Style.GradientAngle = 90;
-            this.tabControlPanel3.TabIndex = 8;
-            this.tabControlPanel3.TabItem = this.tabAllTrainer;
-            // 
-            // btnViewTrainer
-            // 
-            this.btnViewTrainer.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnViewTrainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnViewTrainer.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnViewTrainer.Location = new System.Drawing.Point(665, 503);
-            this.btnViewTrainer.Name = "btnViewTrainer";
-            this.btnViewTrainer.Size = new System.Drawing.Size(161, 39);
-            this.btnViewTrainer.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnViewTrainer.TabIndex = 5;
-            this.btnViewTrainer.Text = "View Trainer";
-            // 
-            // btnRemoveSelectedTrainers
-            // 
-            this.btnRemoveSelectedTrainers.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRemoveSelectedTrainers.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnRemoveSelectedTrainers.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRemoveSelectedTrainers.Location = new System.Drawing.Point(499, 503);
-            this.btnRemoveSelectedTrainers.Name = "btnRemoveSelectedTrainers";
-            this.btnRemoveSelectedTrainers.Size = new System.Drawing.Size(161, 39);
-            this.btnRemoveSelectedTrainers.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRemoveSelectedTrainers.TabIndex = 4;
-            this.btnRemoveSelectedTrainers.Text = "Remove Selected";
-            // 
-            // btnEditTrainer
-            // 
-            this.btnEditTrainer.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnEditTrainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnEditTrainer.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnEditTrainer.Location = new System.Drawing.Point(332, 503);
-            this.btnEditTrainer.Name = "btnEditTrainer";
-            this.btnEditTrainer.Size = new System.Drawing.Size(161, 39);
-            this.btnEditTrainer.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnEditTrainer.TabIndex = 3;
-            this.btnEditTrainer.Text = "Edit Trainer";
-            // 
-            // btnAddTrainer
-            // 
-            this.btnAddTrainer.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAddTrainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAddTrainer.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnAddTrainer.Location = new System.Drawing.Point(165, 503);
-            this.btnAddTrainer.Name = "btnAddTrainer";
-            this.btnAddTrainer.Size = new System.Drawing.Size(161, 39);
-            this.btnAddTrainer.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAddTrainer.TabIndex = 2;
-            this.btnAddTrainer.Text = "Add Trainer";
-            // 
-            // txtSearchTrainer
-            // 
-            this.txtSearchTrainer.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtSearchTrainer.Border.Class = "TextBoxBorder";
-            this.txtSearchTrainer.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtSearchTrainer.DisabledBackColor = System.Drawing.Color.White;
-            this.txtSearchTrainer.ForeColor = System.Drawing.Color.Black;
-            this.txtSearchTrainer.Location = new System.Drawing.Point(313, 4);
-            this.txtSearchTrainer.Name = "txtSearchTrainer";
-            this.txtSearchTrainer.PreventEnterBeep = true;
-            this.txtSearchTrainer.Size = new System.Drawing.Size(365, 20);
-            this.txtSearchTrainer.TabIndex = 1;
-            this.txtSearchTrainer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtSearchTrainer.WatermarkText = "Search For Trainer";
-            // 
-            // lstViewTrainers
-            // 
-            this.lstViewTrainers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstViewTrainers.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.lstViewTrainers.Border.Class = "ListViewBorder";
-            this.lstViewTrainers.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lstViewTrainers.CheckBoxes = true;
-            this.lstViewTrainers.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader11,
-            this.columnHeader12,
-            this.columnHeader13,
-            this.columnHeader14,
-            this.columnHeader15});
-            this.lstViewTrainers.DisabledBackColor = System.Drawing.Color.Empty;
-            this.lstViewTrainers.ForeColor = System.Drawing.Color.Black;
-            this.lstViewTrainers.FullRowSelect = true;
-            this.lstViewTrainers.GridLines = true;
-            this.lstViewTrainers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem6.StateImageIndex = 0;
-            listViewItem7.StateImageIndex = 0;
-            this.lstViewTrainers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem6,
-            listViewItem7});
-            this.lstViewTrainers.Location = new System.Drawing.Point(17, 29);
-            this.lstViewTrainers.Name = "lstViewTrainers";
-            this.lstViewTrainers.Size = new System.Drawing.Size(968, 468);
-            this.lstViewTrainers.TabIndex = 0;
-            this.lstViewTrainers.UseCompatibleStateImageBehavior = false;
-            this.lstViewTrainers.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader11
-            // 
-            this.columnHeader11.Text = "Member Name";
-            this.columnHeader11.Width = 153;
-            // 
-            // columnHeader12
-            // 
-            this.columnHeader12.Text = "Age";
-            this.columnHeader12.Width = 152;
-            // 
-            // columnHeader13
-            // 
-            this.columnHeader13.Text = "Weight";
-            this.columnHeader13.Width = 144;
-            // 
-            // columnHeader14
-            // 
-            this.columnHeader14.Text = "Date Start";
-            this.columnHeader14.Width = 135;
-            // 
-            // columnHeader15
-            // 
-            this.columnHeader15.Text = "Date End";
-            this.columnHeader15.Width = 144;
-            // 
-            // tabAllTrainer
-            // 
-            this.tabAllTrainer.AttachedControl = this.tabControlPanel2;
-            this.tabAllTrainer.Name = "tabAllTrainer";
-            this.tabAllTrainer.Text = "All Trainers";
-            // 
-            // buttonX12
-            // 
-            this.buttonX12.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX12.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX12.Location = new System.Drawing.Point(364, 406);
-            this.buttonX12.Name = "buttonX12";
-            this.buttonX12.Size = new System.Drawing.Size(161, 39);
-            this.buttonX12.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX12.TabIndex = 4;
-            this.buttonX12.Text = "Remove Selected";
-            // 
-            // buttonX13
-            // 
-            this.buttonX13.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX13.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX13.Location = new System.Drawing.Point(197, 406);
-            this.buttonX13.Name = "buttonX13";
-            this.buttonX13.Size = new System.Drawing.Size(161, 39);
-            this.buttonX13.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX13.TabIndex = 3;
-            this.buttonX13.Text = "Edit Member";
-            // 
-            // buttonX14
-            // 
-            this.buttonX14.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX14.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX14.Location = new System.Drawing.Point(30, 406);
-            this.buttonX14.Name = "buttonX14";
-            this.buttonX14.Size = new System.Drawing.Size(161, 39);
-            this.buttonX14.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX14.TabIndex = 2;
-            this.buttonX14.Text = "Add Member";
-            // 
-            // textBoxX3
-            // 
-            this.textBoxX3.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX3.Border.Class = "TextBoxBorder";
-            this.textBoxX3.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX3.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX3.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX3.Location = new System.Drawing.Point(272, 4);
-            this.textBoxX3.Name = "textBoxX3";
-            this.textBoxX3.PreventEnterBeep = true;
-            this.textBoxX3.Size = new System.Drawing.Size(365, 20);
-            this.textBoxX3.TabIndex = 1;
-            this.textBoxX3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX3.WatermarkText = "Search For Member";
-            // 
-            // listViewEx4
-            // 
-            this.listViewEx4.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.listViewEx4.Border.Class = "ListViewBorder";
-            this.listViewEx4.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listViewEx4.CheckBoxes = true;
-            this.listViewEx4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader16,
-            this.columnHeader17,
-            this.columnHeader18,
-            this.columnHeader19,
-            this.columnHeader20});
-            this.listViewEx4.DisabledBackColor = System.Drawing.Color.Empty;
-            this.listViewEx4.ForeColor = System.Drawing.Color.Black;
-            this.listViewEx4.FullRowSelect = true;
-            this.listViewEx4.GridLines = true;
-            this.listViewEx4.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem8.StateImageIndex = 0;
-            listViewItem9.StateImageIndex = 0;
-            this.listViewEx4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem8,
-            listViewItem9});
-            this.listViewEx4.Location = new System.Drawing.Point(4, 30);
-            this.listViewEx4.Name = "listViewEx4";
-            this.listViewEx4.Size = new System.Drawing.Size(890, 367);
-            this.listViewEx4.TabIndex = 0;
-            this.listViewEx4.UseCompatibleStateImageBehavior = false;
-            this.listViewEx4.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader16
-            // 
-            this.columnHeader16.Text = "Member Name";
-            this.columnHeader16.Width = 153;
-            // 
-            // columnHeader17
-            // 
-            this.columnHeader17.Text = "Age";
-            this.columnHeader17.Width = 152;
-            // 
-            // columnHeader18
-            // 
-            this.columnHeader18.Text = "Weight";
-            this.columnHeader18.Width = 144;
-            // 
-            // columnHeader19
-            // 
-            this.columnHeader19.Text = "Date Start";
-            this.columnHeader19.Width = 135;
-            // 
-            // columnHeader20
-            // 
-            this.columnHeader20.Text = "Date End";
-            this.columnHeader20.Width = 144;
-            // 
-            // tabControlPanel4
-            // 
-            this.tabControlPanel4.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel4.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel4.Name = "tabControlPanel4";
-            this.tabControlPanel4.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel4.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel4.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel4.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel4.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel4.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel4.Style.GradientAngle = 90;
-            this.tabControlPanel4.TabIndex = 5;
-            this.tabControlPanel4.TabItem = this.tabAddTrainer;
-            // 
-            // tabAddTrainer
-            // 
-            this.tabAddTrainer.AttachedControl = this.tabControlPanel4;
-            this.tabAddTrainer.Name = "tabAddTrainer";
-            this.tabAddTrainer.Text = "Add Trainer";
-            // 
-            // sideNavPanel1
-            // 
-            this.sideNavPanel1.Controls.Add(this.tabControlMembers);
-            this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel1.Location = new System.Drawing.Point(118, 38);
-            this.sideNavPanel1.Name = "sideNavPanel1";
-            this.sideNavPanel1.Size = new System.Drawing.Size(993, 581);
-            this.sideNavPanel1.TabIndex = 2;
-            this.sideNavPanel1.Visible = false;
-            // 
-            // tabControlMembers
-            // 
-            this.tabControlMembers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlMembers.CanReorderTabs = true;
-            this.tabControlMembers.Controls.Add(this.tabControlPanel8);
-            this.tabControlMembers.Controls.Add(this.tabControlPanel1);
-            this.tabControlMembers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlMembers.ForeColor = System.Drawing.Color.Black;
-            this.tabControlMembers.Location = new System.Drawing.Point(0, 0);
-            this.tabControlMembers.Name = "tabControlMembers";
-            this.tabControlMembers.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
-            this.tabControlMembers.SelectedTabIndex = 0;
-            this.tabControlMembers.Size = new System.Drawing.Size(993, 581);
-            this.tabControlMembers.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
-            this.tabControlMembers.TabIndex = 1;
-            this.tabControlMembers.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
-            this.tabControlMembers.Tabs.Add(this.tabAllMembers);
-            this.tabControlMembers.Tabs.Add(this.tabAddMember);
-            this.tabControlMembers.Text = "tabControl2";
-            // 
-            // tabControlPanel8
-            // 
-            this.tabControlPanel8.Controls.Add(this.tabControlPanelAllMembers);
-            this.tabControlPanel8.Controls.Add(this.buttonX3);
-            this.tabControlPanel8.Controls.Add(this.buttonX2);
-            this.tabControlPanel8.Controls.Add(this.buttonX1);
-            this.tabControlPanel8.Controls.Add(this.textBoxX1);
-            this.tabControlPanel8.Controls.Add(this.listViewEx1);
-            this.tabControlPanel8.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel8.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel8.Name = "tabControlPanel8";
-            this.tabControlPanel8.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel8.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel8.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel8.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel8.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel8.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel8.Style.GradientAngle = 90;
-            this.tabControlPanel8.TabIndex = 1;
-            this.tabControlPanel8.TabItem = this.tabAllMembers;
-            // 
-            // tabControlPanelAllMembers
-            // 
-            this.tabControlPanelAllMembers.Controls.Add(this.btnViewMember);
-            this.tabControlPanelAllMembers.Controls.Add(this.btnRemoverSelectedMembers);
-            this.tabControlPanelAllMembers.Controls.Add(this.btnEditMember);
-            this.tabControlPanelAllMembers.Controls.Add(this.btnAddMember);
-            this.tabControlPanelAllMembers.Controls.Add(this.txtSearchMembers);
-            this.tabControlPanelAllMembers.Controls.Add(this.lstViewMembers);
-            this.tabControlPanelAllMembers.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanelAllMembers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanelAllMembers.Location = new System.Drawing.Point(1, 1);
-            this.tabControlPanelAllMembers.Name = "tabControlPanelAllMembers";
-            this.tabControlPanelAllMembers.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanelAllMembers.Size = new System.Drawing.Size(991, 552);
-            this.tabControlPanelAllMembers.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanelAllMembers.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanelAllMembers.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanelAllMembers.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanelAllMembers.Style.GradientAngle = 90;
-            this.tabControlPanelAllMembers.TabIndex = 8;
-            this.tabControlPanelAllMembers.TabItem = this.tabAllMembers;
-            // 
-            // btnViewMember
-            // 
-            this.btnViewMember.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnViewMember.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnViewMember.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnViewMember.Location = new System.Drawing.Point(665, 503);
-            this.btnViewMember.Name = "btnViewMember";
-            this.btnViewMember.Size = new System.Drawing.Size(161, 39);
-            this.btnViewMember.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnViewMember.TabIndex = 5;
-            this.btnViewMember.Text = "View Member";
-            // 
-            // btnRemoverSelectedMembers
-            // 
-            this.btnRemoverSelectedMembers.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRemoverSelectedMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnRemoverSelectedMembers.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRemoverSelectedMembers.Location = new System.Drawing.Point(499, 503);
-            this.btnRemoverSelectedMembers.Name = "btnRemoverSelectedMembers";
-            this.btnRemoverSelectedMembers.Size = new System.Drawing.Size(161, 39);
-            this.btnRemoverSelectedMembers.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRemoverSelectedMembers.TabIndex = 4;
-            this.btnRemoverSelectedMembers.Text = "Remove Selected";
-            // 
-            // btnEditMember
-            // 
-            this.btnEditMember.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnEditMember.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnEditMember.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnEditMember.Location = new System.Drawing.Point(332, 503);
-            this.btnEditMember.Name = "btnEditMember";
-            this.btnEditMember.Size = new System.Drawing.Size(161, 39);
-            this.btnEditMember.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnEditMember.TabIndex = 3;
-            this.btnEditMember.Text = "Edit Member";
-            // 
-            // btnAddMember
-            // 
-            this.btnAddMember.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAddMember.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAddMember.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnAddMember.Location = new System.Drawing.Point(165, 503);
-            this.btnAddMember.Name = "btnAddMember";
-            this.btnAddMember.Size = new System.Drawing.Size(161, 39);
-            this.btnAddMember.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAddMember.TabIndex = 2;
-            this.btnAddMember.Text = "Add Member";
-            // 
-            // txtSearchMembers
-            // 
-            this.txtSearchMembers.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtSearchMembers.Border.Class = "TextBoxBorder";
-            this.txtSearchMembers.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtSearchMembers.DisabledBackColor = System.Drawing.Color.White;
-            this.txtSearchMembers.ForeColor = System.Drawing.Color.Black;
-            this.txtSearchMembers.Location = new System.Drawing.Point(313, 4);
-            this.txtSearchMembers.Name = "txtSearchMembers";
-            this.txtSearchMembers.PreventEnterBeep = true;
-            this.txtSearchMembers.Size = new System.Drawing.Size(365, 20);
-            this.txtSearchMembers.TabIndex = 1;
-            this.txtSearchMembers.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtSearchMembers.WatermarkText = "Search For Member";
-            // 
-            // lstViewMembers
-            // 
-            this.lstViewMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstViewMembers.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.lstViewMembers.Border.Class = "ListViewBorder";
-            this.lstViewMembers.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lstViewMembers.CheckBoxes = true;
-            this.lstViewMembers.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8,
-            this.columnHeader9,
-            this.columnHeader10});
-            this.lstViewMembers.DisabledBackColor = System.Drawing.Color.Empty;
-            this.lstViewMembers.ForeColor = System.Drawing.Color.Black;
-            this.lstViewMembers.FullRowSelect = true;
-            this.lstViewMembers.GridLines = true;
-            this.lstViewMembers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem2.StateImageIndex = 0;
-            listViewItem3.StateImageIndex = 0;
-            this.lstViewMembers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2,
-            listViewItem3});
-            this.lstViewMembers.Location = new System.Drawing.Point(17, 29);
-            this.lstViewMembers.Name = "lstViewMembers";
-            this.lstViewMembers.Size = new System.Drawing.Size(968, 468);
-            this.lstViewMembers.TabIndex = 0;
-            this.lstViewMembers.UseCompatibleStateImageBehavior = false;
-            this.lstViewMembers.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Member Name";
-            this.columnHeader6.Width = 153;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Age";
-            this.columnHeader7.Width = 152;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Weight";
-            this.columnHeader8.Width = 144;
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Date Start";
-            this.columnHeader9.Width = 135;
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "Date End";
-            this.columnHeader10.Width = 144;
-            // 
-            // tabAllMembers
-            // 
-            this.tabAllMembers.AttachedControl = this.tabControlPanel8;
-            this.tabAllMembers.Name = "tabAllMembers";
-            this.tabAllMembers.Text = "All Members";
-            // 
-            // buttonX3
-            // 
-            this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX3.Location = new System.Drawing.Point(364, 406);
-            this.buttonX3.Name = "buttonX3";
-            this.buttonX3.Size = new System.Drawing.Size(161, 39);
-            this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX3.TabIndex = 4;
-            this.buttonX3.Text = "Remove Selected";
-            // 
-            // buttonX2
-            // 
-            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Location = new System.Drawing.Point(197, 406);
-            this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(161, 39);
-            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX2.TabIndex = 3;
-            this.buttonX2.Text = "Edit Member";
-            // 
-            // buttonX1
-            // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Location = new System.Drawing.Point(30, 406);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(161, 39);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 2;
-            this.buttonX1.Text = "Add Member";
-            // 
-            // textBoxX1
-            // 
-            this.textBoxX1.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX1.Border.Class = "TextBoxBorder";
-            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX1.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX1.Location = new System.Drawing.Point(272, 4);
-            this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.PreventEnterBeep = true;
-            this.textBoxX1.Size = new System.Drawing.Size(365, 20);
-            this.textBoxX1.TabIndex = 1;
-            this.textBoxX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX1.WatermarkText = "Search For Member";
-            // 
-            // listViewEx1
-            // 
-            this.listViewEx1.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.listViewEx1.Border.Class = "ListViewBorder";
-            this.listViewEx1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listViewEx1.CheckBoxes = true;
-            this.listViewEx1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5});
-            this.listViewEx1.DisabledBackColor = System.Drawing.Color.Empty;
-            this.listViewEx1.ForeColor = System.Drawing.Color.Black;
-            this.listViewEx1.FullRowSelect = true;
-            this.listViewEx1.GridLines = true;
-            this.listViewEx1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem4.StateImageIndex = 0;
-            listViewItem5.StateImageIndex = 0;
-            this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem4,
-            listViewItem5});
-            this.listViewEx1.Location = new System.Drawing.Point(4, 30);
-            this.listViewEx1.Name = "listViewEx1";
-            this.listViewEx1.Size = new System.Drawing.Size(890, 367);
-            this.listViewEx1.TabIndex = 0;
-            this.listViewEx1.UseCompatibleStateImageBehavior = false;
-            this.listViewEx1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Member Name";
-            this.columnHeader1.Width = 153;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Age";
-            this.columnHeader2.Width = 152;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Weight";
-            this.columnHeader3.Width = 144;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Date Start";
-            this.columnHeader4.Width = 135;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Date End";
-            this.columnHeader5.Width = 144;
-            // 
-            // tabControlPanel1
-            // 
-            this.tabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel1.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel1.Name = "tabControlPanel1";
-            this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel1.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel1.Style.GradientAngle = 90;
-            this.tabControlPanel1.TabIndex = 5;
-            this.tabControlPanel1.TabItem = this.tabAddMember;
-            // 
-            // tabAddMember
-            // 
-            this.tabAddMember.AttachedControl = this.tabControlPanel1;
-            this.tabAddMember.Name = "tabAddMember";
-            this.tabAddMember.Text = "Add Member";
-            // 
-            // sideNavPanel9
-            // 
-            this.sideNavPanel9.Controls.Add(this.tabControl6);
-            this.sideNavPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel9.Location = new System.Drawing.Point(118, 38);
-            this.sideNavPanel9.Name = "sideNavPanel9";
-            this.sideNavPanel9.Size = new System.Drawing.Size(993, 581);
-            this.sideNavPanel9.TabIndex = 46;
-            this.sideNavPanel9.Visible = false;
-            // 
-            // tabControl6
-            // 
-            this.tabControl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControl6.CanReorderTabs = true;
-            this.tabControl6.Controls.Add(this.tabControlPanel25);
-            this.tabControl6.Controls.Add(this.tabControlPanel27);
-            this.tabControl6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl6.ForeColor = System.Drawing.Color.Black;
-            this.tabControl6.Location = new System.Drawing.Point(0, 0);
-            this.tabControl6.Name = "tabControl6";
-            this.tabControl6.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
-            this.tabControl6.SelectedTabIndex = 0;
-            this.tabControl6.Size = new System.Drawing.Size(993, 581);
-            this.tabControl6.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
-            this.tabControl6.TabIndex = 3;
-            this.tabControl6.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
-            this.tabControl6.Tabs.Add(this.tabItem5);
-            this.tabControl6.Tabs.Add(this.tabItem6);
-            this.tabControl6.Text = "tabControl2";
-            // 
-            // tabControlPanel25
-            // 
-            this.tabControlPanel25.Controls.Add(this.tabControlPanel26);
-            this.tabControlPanel25.Controls.Add(this.buttonX16);
-            this.tabControlPanel25.Controls.Add(this.buttonX17);
-            this.tabControlPanel25.Controls.Add(this.buttonX18);
-            this.tabControlPanel25.Controls.Add(this.textBoxX8);
-            this.tabControlPanel25.Controls.Add(this.listViewEx7);
-            this.tabControlPanel25.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel25.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel25.Name = "tabControlPanel25";
-            this.tabControlPanel25.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel25.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel25.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel25.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel25.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel25.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel25.Style.GradientAngle = 90;
-            this.tabControlPanel25.TabIndex = 1;
-            this.tabControlPanel25.TabItem = this.tabItem5;
-            // 
-            // tabControlPanel26
-            // 
-            this.tabControlPanel26.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel26.Location = new System.Drawing.Point(1, 1);
-            this.tabControlPanel26.Name = "tabControlPanel26";
-            this.tabControlPanel26.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel26.Size = new System.Drawing.Size(991, 552);
-            this.tabControlPanel26.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel26.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel26.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel26.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel26.Style.GradientAngle = 90;
-            this.tabControlPanel26.TabIndex = 8;
-            this.tabControlPanel26.TabItem = this.tabItem5;
-            // 
-            // tabItem5
-            // 
-            this.tabItem5.AttachedControl = this.tabControlPanel25;
-            this.tabItem5.Name = "tabItem5";
-            this.tabItem5.Text = "Email";
-            // 
-            // buttonX16
-            // 
-            this.buttonX16.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX16.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX16.Location = new System.Drawing.Point(364, 406);
-            this.buttonX16.Name = "buttonX16";
-            this.buttonX16.Size = new System.Drawing.Size(161, 39);
-            this.buttonX16.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX16.TabIndex = 4;
-            this.buttonX16.Text = "Remove Selected";
-            // 
-            // buttonX17
-            // 
-            this.buttonX17.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX17.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX17.Location = new System.Drawing.Point(197, 406);
-            this.buttonX17.Name = "buttonX17";
-            this.buttonX17.Size = new System.Drawing.Size(161, 39);
-            this.buttonX17.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX17.TabIndex = 3;
-            this.buttonX17.Text = "Edit Member";
-            // 
-            // buttonX18
-            // 
-            this.buttonX18.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX18.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX18.Location = new System.Drawing.Point(30, 406);
-            this.buttonX18.Name = "buttonX18";
-            this.buttonX18.Size = new System.Drawing.Size(161, 39);
-            this.buttonX18.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX18.TabIndex = 2;
-            this.buttonX18.Text = "Add Member";
-            // 
-            // textBoxX8
-            // 
-            this.textBoxX8.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX8.Border.Class = "TextBoxBorder";
-            this.textBoxX8.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX8.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX8.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX8.Location = new System.Drawing.Point(272, 4);
-            this.textBoxX8.Name = "textBoxX8";
-            this.textBoxX8.PreventEnterBeep = true;
-            this.textBoxX8.Size = new System.Drawing.Size(365, 20);
-            this.textBoxX8.TabIndex = 1;
-            this.textBoxX8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX8.WatermarkText = "Search For Member";
-            // 
-            // listViewEx7
-            // 
-            this.listViewEx7.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.listViewEx7.Border.Class = "ListViewBorder";
-            this.listViewEx7.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listViewEx7.CheckBoxes = true;
-            this.listViewEx7.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader67,
-            this.columnHeader68,
-            this.columnHeader69,
-            this.columnHeader70,
-            this.columnHeader71});
-            this.listViewEx7.DisabledBackColor = System.Drawing.Color.Empty;
-            this.listViewEx7.ForeColor = System.Drawing.Color.Black;
-            this.listViewEx7.FullRowSelect = true;
-            this.listViewEx7.GridLines = true;
-            this.listViewEx7.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem29.StateImageIndex = 0;
-            listViewItem30.StateImageIndex = 0;
-            this.listViewEx7.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem29,
-            listViewItem30});
-            this.listViewEx7.Location = new System.Drawing.Point(4, 30);
-            this.listViewEx7.Name = "listViewEx7";
-            this.listViewEx7.Size = new System.Drawing.Size(890, 367);
-            this.listViewEx7.TabIndex = 0;
-            this.listViewEx7.UseCompatibleStateImageBehavior = false;
-            this.listViewEx7.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader67
-            // 
-            this.columnHeader67.Text = "Member Name";
-            this.columnHeader67.Width = 153;
-            // 
-            // columnHeader68
-            // 
-            this.columnHeader68.Text = "Age";
-            this.columnHeader68.Width = 152;
-            // 
-            // columnHeader69
-            // 
-            this.columnHeader69.Text = "Weight";
-            this.columnHeader69.Width = 144;
-            // 
-            // columnHeader70
-            // 
-            this.columnHeader70.Text = "Date Start";
-            this.columnHeader70.Width = 135;
-            // 
-            // columnHeader71
-            // 
-            this.columnHeader71.Text = "Date End";
-            this.columnHeader71.Width = 144;
-            // 
-            // tabControlPanel27
-            // 
-            this.tabControlPanel27.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel27.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel27.Name = "tabControlPanel27";
-            this.tabControlPanel27.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel27.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel27.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel27.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel27.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel27.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel27.Style.GradientAngle = 90;
-            this.tabControlPanel27.TabIndex = 5;
-            this.tabControlPanel27.TabItem = this.tabItem6;
-            // 
-            // tabItem6
-            // 
-            this.tabItem6.AttachedControl = this.tabControlPanel27;
-            this.tabItem6.Name = "tabItem6";
-            this.tabItem6.Text = "SMS";
-            // 
             // sideNavPanel6
             // 
             this.sideNavPanel6.Controls.Add(this.tabControl7);
@@ -1850,17 +632,18 @@
             this.sideNavPanel6.Name = "sideNavPanel6";
             this.sideNavPanel6.Size = new System.Drawing.Size(993, 581);
             this.sideNavPanel6.TabIndex = 22;
+            this.sideNavPanel6.Visible = false;
             // 
             // tabControl7
             // 
             this.tabControl7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControl7.CanReorderTabs = true;
-            this.tabControl7.Controls.Add(this.tabControlPanel36);
-            this.tabControl7.Controls.Add(this.tabControlPanel40);
-            this.tabControl7.Controls.Add(this.tabControlPanel34);
-            this.tabControl7.Controls.Add(this.tabControlPanel37);
-            this.tabControl7.Controls.Add(this.tabControlPanel42);
             this.tabControl7.Controls.Add(this.tabControlPanel39);
+            this.tabControl7.Controls.Add(this.tabControlPanel42);
+            this.tabControl7.Controls.Add(this.tabControlPanel37);
+            this.tabControl7.Controls.Add(this.tabControlPanel34);
+            this.tabControl7.Controls.Add(this.tabControlPanel40);
+            this.tabControl7.Controls.Add(this.tabControlPanel36);
             this.tabControl7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl7.ForeColor = System.Drawing.Color.Black;
             this.tabControl7.Location = new System.Drawing.Point(0, 0);
@@ -1878,6 +661,319 @@
             this.tabControl7.Tabs.Add(this.tabSettingsInfo);
             this.tabControl7.Tabs.Add(this.tabItem18);
             this.tabControl7.Text = "tabControl2";
+            // 
+            // tabControlPanel36
+            // 
+            this.tabControlPanel36.Controls.Add(this.groupPanel5);
+            this.tabControlPanel36.Controls.Add(this.groupPanel4);
+            this.tabControlPanel36.Controls.Add(this.groupPanel3);
+            this.tabControlPanel36.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel36.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel36.Name = "tabControlPanel36";
+            this.tabControlPanel36.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel36.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel36.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel36.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel36.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel36.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel36.Style.GradientAngle = 90;
+            this.tabControlPanel36.TabIndex = 29;
+            this.tabControlPanel36.TabItem = this.tabSettingsInfo;
+            // 
+            // groupPanel4
+            // 
+            this.groupPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel4.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel4.Controls.Add(this.btnCancelGmail);
+            this.groupPanel4.Controls.Add(this.btnSaveGmail);
+            this.groupPanel4.Controls.Add(this.txtGmailPass);
+            this.groupPanel4.Controls.Add(this.txtGmailEmail);
+            this.groupPanel4.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel4.Location = new System.Drawing.Point(281, 15);
+            this.groupPanel4.Name = "groupPanel4";
+            this.groupPanel4.Size = new System.Drawing.Size(248, 209);
+            // 
+            // 
+            // 
+            this.groupPanel4.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel4.Style.BackColorGradientAngle = 90;
+            this.groupPanel4.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel4.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderBottomWidth = 1;
+            this.groupPanel4.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel4.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderLeftWidth = 1;
+            this.groupPanel4.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderRightWidth = 1;
+            this.groupPanel4.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderTopWidth = 1;
+            this.groupPanel4.Style.CornerDiameter = 4;
+            this.groupPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel4.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel4.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel4.TabIndex = 1;
+            this.groupPanel4.Text = "Gmail Contact Info";
+            // 
+            // groupPanel3
+            // 
+            this.groupPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel3.Controls.Add(this.btnCancelGYMLogo);
+            this.groupPanel3.Controls.Add(this.btnSaveGYMLogo);
+            this.groupPanel3.Controls.Add(this.checkBoxX1);
+            this.groupPanel3.Controls.Add(this.btnBrowsePanelIcon);
+            this.groupPanel3.Controls.Add(this.picGYMPanelIcon);
+            this.groupPanel3.Controls.Add(this.labelX13);
+            this.groupPanel3.Controls.Add(this.btnBrowseLogoImage);
+            this.groupPanel3.Controls.Add(this.picGYMLogoImage);
+            this.groupPanel3.Controls.Add(this.labelX12);
+            this.groupPanel3.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel3.Location = new System.Drawing.Point(18, 15);
+            this.groupPanel3.Name = "groupPanel3";
+            this.groupPanel3.Size = new System.Drawing.Size(248, 209);
+            // 
+            // 
+            // 
+            this.groupPanel3.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel3.Style.BackColorGradientAngle = 90;
+            this.groupPanel3.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel3.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderBottomWidth = 1;
+            this.groupPanel3.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel3.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderLeftWidth = 1;
+            this.groupPanel3.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderRightWidth = 1;
+            this.groupPanel3.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderTopWidth = 1;
+            this.groupPanel3.Style.CornerDiameter = 4;
+            this.groupPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel3.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel3.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel3.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel3.TabIndex = 0;
+            this.groupPanel3.Text = "Logo";
+            // 
+            // btnCancelGYMLogo
+            // 
+            this.btnCancelGYMLogo.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCancelGYMLogo.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCancelGYMLogo.Location = new System.Drawing.Point(164, 157);
+            this.btnCancelGYMLogo.Name = "btnCancelGYMLogo";
+            this.btnCancelGYMLogo.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelGYMLogo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCancelGYMLogo.TabIndex = 8;
+            this.btnCancelGYMLogo.Text = "Cancel";
+            // 
+            // btnSaveGYMLogo
+            // 
+            this.btnSaveGYMLogo.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSaveGYMLogo.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSaveGYMLogo.Location = new System.Drawing.Point(84, 157);
+            this.btnSaveGYMLogo.Name = "btnSaveGYMLogo";
+            this.btnSaveGYMLogo.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveGYMLogo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSaveGYMLogo.TabIndex = 7;
+            this.btnSaveGYMLogo.Text = "Save";
+            // 
+            // checkBoxX1
+            // 
+            this.checkBoxX1.AutoSize = true;
+            // 
+            // 
+            // 
+            this.checkBoxX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkBoxX1.Location = new System.Drawing.Point(3, 126);
+            this.checkBoxX1.Name = "checkBoxX1";
+            this.checkBoxX1.Size = new System.Drawing.Size(127, 17);
+            this.checkBoxX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkBoxX1.TabIndex = 6;
+            this.checkBoxX1.Text = "Use GYM Logo for all";
+            // 
+            // btnBrowsePanelIcon
+            // 
+            this.btnBrowsePanelIcon.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnBrowsePanelIcon.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnBrowsePanelIcon.Location = new System.Drawing.Point(124, 97);
+            this.btnBrowsePanelIcon.Name = "btnBrowsePanelIcon";
+            this.btnBrowsePanelIcon.Size = new System.Drawing.Size(95, 23);
+            this.btnBrowsePanelIcon.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnBrowsePanelIcon.TabIndex = 5;
+            this.btnBrowsePanelIcon.Text = "...";
+            // 
+            // picGYMPanelIcon
+            // 
+            this.picGYMPanelIcon.Location = new System.Drawing.Point(124, 23);
+            this.picGYMPanelIcon.Name = "picGYMPanelIcon";
+            this.picGYMPanelIcon.Size = new System.Drawing.Size(95, 67);
+            this.picGYMPanelIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGYMPanelIcon.TabIndex = 4;
+            this.picGYMPanelIcon.TabStop = false;
+            // 
+            // labelX13
+            // 
+            this.labelX13.AutoSize = true;
+            // 
+            // 
+            // 
+            this.labelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX13.Location = new System.Drawing.Point(129, 0);
+            this.labelX13.Name = "labelX13";
+            this.labelX13.Size = new System.Drawing.Size(85, 17);
+            this.labelX13.TabIndex = 3;
+            this.labelX13.Text = "GYM Panel icon:";
+            // 
+            // btnBrowseLogoImage
+            // 
+            this.btnBrowseLogoImage.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnBrowseLogoImage.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnBrowseLogoImage.Location = new System.Drawing.Point(3, 97);
+            this.btnBrowseLogoImage.Name = "btnBrowseLogoImage";
+            this.btnBrowseLogoImage.Size = new System.Drawing.Size(95, 23);
+            this.btnBrowseLogoImage.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnBrowseLogoImage.TabIndex = 2;
+            this.btnBrowseLogoImage.Text = "...";
+            // 
+            // picGYMLogoImage
+            // 
+            this.picGYMLogoImage.Location = new System.Drawing.Point(3, 23);
+            this.picGYMLogoImage.Name = "picGYMLogoImage";
+            this.picGYMLogoImage.Size = new System.Drawing.Size(95, 67);
+            this.picGYMLogoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGYMLogoImage.TabIndex = 1;
+            this.picGYMLogoImage.TabStop = false;
+            // 
+            // labelX12
+            // 
+            this.labelX12.AutoSize = true;
+            // 
+            // 
+            // 
+            this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX12.Location = new System.Drawing.Point(19, 0);
+            this.labelX12.Name = "labelX12";
+            this.labelX12.Size = new System.Drawing.Size(59, 17);
+            this.labelX12.TabIndex = 0;
+            this.labelX12.Text = "GYM Logo:";
+            // 
+            // tabSettingsInfo
+            // 
+            this.tabSettingsInfo.AttachedControl = this.tabControlPanel36;
+            this.tabSettingsInfo.Name = "tabSettingsInfo";
+            this.tabSettingsInfo.Text = "GYM Info";
+            // 
+            // tabControlPanel40
+            // 
+            this.tabControlPanel40.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel40.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel40.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel40.Name = "tabControlPanel40";
+            this.tabControlPanel40.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel40.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel40.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel40.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel40.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel40.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel40.Style.GradientAngle = 90;
+            this.tabControlPanel40.TabIndex = 45;
+            this.tabControlPanel40.TabItem = this.tabItem18;
+            // 
+            // tabItem18
+            // 
+            this.tabItem18.AttachedControl = this.tabControlPanel40;
+            this.tabItem18.Name = "tabItem18";
+            this.tabItem18.Text = "Backups";
+            // 
+            // tabControlPanel34
+            // 
+            this.tabControlPanel34.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel34.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel34.Name = "tabControlPanel34";
+            this.tabControlPanel34.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel34.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel34.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel34.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel34.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel34.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel34.Style.GradientAngle = 90;
+            this.tabControlPanel34.TabIndex = 21;
+            this.tabControlPanel34.TabItem = this.tabSettingsReport;
+            // 
+            // tabSettingsReport
+            // 
+            this.tabSettingsReport.AttachedControl = this.tabControlPanel34;
+            this.tabSettingsReport.Name = "tabSettingsReport";
+            this.tabSettingsReport.Text = "Reports";
+            // 
+            // tabControlPanel37
+            // 
+            this.tabControlPanel37.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel37.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel37.Name = "tabControlPanel37";
+            this.tabControlPanel37.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel37.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel37.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel37.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel37.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel37.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel37.Style.GradientAngle = 90;
+            this.tabControlPanel37.TabIndex = 33;
+            this.tabControlPanel37.TabItem = this.tabSettingsAds;
+            // 
+            // tabSettingsAds
+            // 
+            this.tabSettingsAds.AttachedControl = this.tabControlPanel37;
+            this.tabSettingsAds.Name = "tabSettingsAds";
+            this.tabSettingsAds.Text = "Advertises";
+            // 
+            // tabControlPanel42
+            // 
+            this.tabControlPanel42.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel42.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel42.Name = "tabControlPanel42";
+            this.tabControlPanel42.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel42.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel42.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel42.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel42.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel42.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel42.Style.GradientAngle = 90;
+            this.tabControlPanel42.TabIndex = 78;
+            this.tabControlPanel42.TabItem = this.tabSettingsPermissions;
+            // 
+            // tabSettingsPermissions
+            // 
+            this.tabSettingsPermissions.AttachedControl = this.tabControlPanel42;
+            this.tabSettingsPermissions.Name = "tabSettingsPermissions";
+            this.tabSettingsPermissions.Text = "Permissions";
             // 
             // tabControlPanel39
             // 
@@ -1989,15 +1085,20 @@
             this.listViewEx9.FullRowSelect = true;
             this.listViewEx9.GridLines = true;
             this.listViewEx9.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem1.StateImageIndex = 0;
+            listViewItem8.StateImageIndex = 0;
             this.listViewEx9.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem8});
             this.listViewEx9.Location = new System.Drawing.Point(22, 12);
             this.listViewEx9.Name = "listViewEx9";
             this.listViewEx9.Size = new System.Drawing.Size(848, 123);
             this.listViewEx9.TabIndex = 6;
             this.listViewEx9.UseCompatibleStateImageBehavior = false;
             this.listViewEx9.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader79
+            // 
+            this.columnHeader79.Text = "#";
+            this.columnHeader79.Width = 48;
             // 
             // columnHeader72
             // 
@@ -2472,99 +1573,1022 @@
             this.tabSettingsPricePlan.Name = "tabSettingsPricePlan";
             this.tabSettingsPricePlan.Text = "Prices Plans";
             // 
-            // tabControlPanel36
+            // sideNavPanel1
             // 
-            this.tabControlPanel36.Controls.Add(this.groupPanel4);
-            this.tabControlPanel36.Controls.Add(this.groupPanel3);
-            this.tabControlPanel36.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel36.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel36.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel36.Name = "tabControlPanel36";
-            this.tabControlPanel36.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel36.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel36.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel36.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel36.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel36.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.sideNavPanel1.Controls.Add(this.tabControlMembers);
+            this.sideNavPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel1.Location = new System.Drawing.Point(118, 38);
+            this.sideNavPanel1.Name = "sideNavPanel1";
+            this.sideNavPanel1.Size = new System.Drawing.Size(993, 581);
+            this.sideNavPanel1.TabIndex = 2;
+            this.sideNavPanel1.Visible = false;
+            // 
+            // tabControlMembers
+            // 
+            this.tabControlMembers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlMembers.CanReorderTabs = true;
+            this.tabControlMembers.Controls.Add(this.tabControlPanel8);
+            this.tabControlMembers.Controls.Add(this.tabControlPanel1);
+            this.tabControlMembers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlMembers.ForeColor = System.Drawing.Color.Black;
+            this.tabControlMembers.Location = new System.Drawing.Point(0, 0);
+            this.tabControlMembers.Name = "tabControlMembers";
+            this.tabControlMembers.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.tabControlMembers.SelectedTabIndex = 0;
+            this.tabControlMembers.Size = new System.Drawing.Size(993, 581);
+            this.tabControlMembers.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
+            this.tabControlMembers.TabIndex = 1;
+            this.tabControlMembers.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
+            this.tabControlMembers.Tabs.Add(this.tabAllMembers);
+            this.tabControlMembers.Tabs.Add(this.tabAddMember);
+            this.tabControlMembers.Text = "tabControl2";
+            // 
+            // tabControlPanel8
+            // 
+            this.tabControlPanel8.Controls.Add(this.tabControlPanelAllMembers);
+            this.tabControlPanel8.Controls.Add(this.buttonX3);
+            this.tabControlPanel8.Controls.Add(this.buttonX2);
+            this.tabControlPanel8.Controls.Add(this.buttonX1);
+            this.tabControlPanel8.Controls.Add(this.textBoxX1);
+            this.tabControlPanel8.Controls.Add(this.listViewEx1);
+            this.tabControlPanel8.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel8.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel8.Name = "tabControlPanel8";
+            this.tabControlPanel8.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel8.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel8.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel8.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel8.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel8.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel36.Style.GradientAngle = 90;
-            this.tabControlPanel36.TabIndex = 29;
-            this.tabControlPanel36.TabItem = this.tabSettingsInfo;
+            this.tabControlPanel8.Style.GradientAngle = 90;
+            this.tabControlPanel8.TabIndex = 1;
+            this.tabControlPanel8.TabItem = this.tabAllMembers;
             // 
-            // tabSettingsInfo
+            // tabControlPanelAllMembers
             // 
-            this.tabSettingsInfo.AttachedControl = this.tabControlPanel36;
-            this.tabSettingsInfo.Name = "tabSettingsInfo";
-            this.tabSettingsInfo.Text = "GYM Info";
-            // 
-            // tabControlPanel40
-            // 
-            this.tabControlPanel40.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel40.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel40.Name = "tabControlPanel40";
-            this.tabControlPanel40.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel40.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel40.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel40.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel40.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel40.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.tabControlPanelAllMembers.Controls.Add(this.btnViewMember);
+            this.tabControlPanelAllMembers.Controls.Add(this.btnRemoverSelectedMembers);
+            this.tabControlPanelAllMembers.Controls.Add(this.btnEditMember);
+            this.tabControlPanelAllMembers.Controls.Add(this.btnAddMember);
+            this.tabControlPanelAllMembers.Controls.Add(this.txtSearchMembers);
+            this.tabControlPanelAllMembers.Controls.Add(this.lstViewMembers);
+            this.tabControlPanelAllMembers.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanelAllMembers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanelAllMembers.Location = new System.Drawing.Point(1, 1);
+            this.tabControlPanelAllMembers.Name = "tabControlPanelAllMembers";
+            this.tabControlPanelAllMembers.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanelAllMembers.Size = new System.Drawing.Size(991, 552);
+            this.tabControlPanelAllMembers.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanelAllMembers.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanelAllMembers.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanelAllMembers.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel40.Style.GradientAngle = 90;
-            this.tabControlPanel40.TabIndex = 45;
-            this.tabControlPanel40.TabItem = this.tabItem18;
+            this.tabControlPanelAllMembers.Style.GradientAngle = 90;
+            this.tabControlPanelAllMembers.TabIndex = 8;
+            this.tabControlPanelAllMembers.TabItem = this.tabAllMembers;
             // 
-            // tabItem18
+            // btnViewMember
             // 
-            this.tabItem18.AttachedControl = this.tabControlPanel40;
-            this.tabItem18.Name = "tabItem18";
-            this.tabItem18.Text = "Backups";
+            this.btnViewMember.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnViewMember.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnViewMember.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnViewMember.Location = new System.Drawing.Point(665, 503);
+            this.btnViewMember.Name = "btnViewMember";
+            this.btnViewMember.Size = new System.Drawing.Size(161, 39);
+            this.btnViewMember.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnViewMember.TabIndex = 5;
+            this.btnViewMember.Text = "View Member";
             // 
-            // tabControlPanel37
+            // btnRemoverSelectedMembers
             // 
-            this.tabControlPanel37.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel37.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel37.Name = "tabControlPanel37";
-            this.tabControlPanel37.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel37.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel37.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel37.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel37.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel37.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.btnRemoverSelectedMembers.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRemoverSelectedMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRemoverSelectedMembers.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRemoverSelectedMembers.Location = new System.Drawing.Point(499, 503);
+            this.btnRemoverSelectedMembers.Name = "btnRemoverSelectedMembers";
+            this.btnRemoverSelectedMembers.Size = new System.Drawing.Size(161, 39);
+            this.btnRemoverSelectedMembers.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRemoverSelectedMembers.TabIndex = 4;
+            this.btnRemoverSelectedMembers.Text = "Remove Selected";
+            // 
+            // btnEditMember
+            // 
+            this.btnEditMember.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnEditMember.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEditMember.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnEditMember.Location = new System.Drawing.Point(332, 503);
+            this.btnEditMember.Name = "btnEditMember";
+            this.btnEditMember.Size = new System.Drawing.Size(161, 39);
+            this.btnEditMember.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnEditMember.TabIndex = 3;
+            this.btnEditMember.Text = "Edit Member";
+            // 
+            // btnAddMember
+            // 
+            this.btnAddMember.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAddMember.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAddMember.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAddMember.Location = new System.Drawing.Point(165, 503);
+            this.btnAddMember.Name = "btnAddMember";
+            this.btnAddMember.Size = new System.Drawing.Size(161, 39);
+            this.btnAddMember.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAddMember.TabIndex = 2;
+            this.btnAddMember.Text = "Add Member";
+            // 
+            // txtSearchMembers
+            // 
+            this.txtSearchMembers.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtSearchMembers.Border.Class = "TextBoxBorder";
+            this.txtSearchMembers.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtSearchMembers.DisabledBackColor = System.Drawing.Color.White;
+            this.txtSearchMembers.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchMembers.Location = new System.Drawing.Point(313, 4);
+            this.txtSearchMembers.Name = "txtSearchMembers";
+            this.txtSearchMembers.PreventEnterBeep = true;
+            this.txtSearchMembers.Size = new System.Drawing.Size(365, 20);
+            this.txtSearchMembers.TabIndex = 1;
+            this.txtSearchMembers.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSearchMembers.WatermarkText = "Search For Member";
+            // 
+            // lstViewMembers
+            // 
+            this.lstViewMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstViewMembers.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.lstViewMembers.Border.Class = "ListViewBorder";
+            this.lstViewMembers.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lstViewMembers.CheckBoxes = true;
+            this.lstViewMembers.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader9,
+            this.columnHeader10});
+            this.lstViewMembers.DisabledBackColor = System.Drawing.Color.Empty;
+            this.lstViewMembers.ForeColor = System.Drawing.Color.Black;
+            this.lstViewMembers.FullRowSelect = true;
+            this.lstViewMembers.GridLines = true;
+            this.lstViewMembers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem9.StateImageIndex = 0;
+            listViewItem10.StateImageIndex = 0;
+            this.lstViewMembers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem9,
+            listViewItem10});
+            this.lstViewMembers.Location = new System.Drawing.Point(17, 29);
+            this.lstViewMembers.Name = "lstViewMembers";
+            this.lstViewMembers.Size = new System.Drawing.Size(968, 468);
+            this.lstViewMembers.TabIndex = 0;
+            this.lstViewMembers.UseCompatibleStateImageBehavior = false;
+            this.lstViewMembers.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Member Name";
+            this.columnHeader6.Width = 153;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Age";
+            this.columnHeader7.Width = 152;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Weight";
+            this.columnHeader8.Width = 144;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Date Start";
+            this.columnHeader9.Width = 135;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Date End";
+            this.columnHeader10.Width = 144;
+            // 
+            // tabAllMembers
+            // 
+            this.tabAllMembers.AttachedControl = this.tabControlPanel8;
+            this.tabAllMembers.Name = "tabAllMembers";
+            this.tabAllMembers.Text = "All Members";
+            // 
+            // buttonX3
+            // 
+            this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX3.Location = new System.Drawing.Point(364, 406);
+            this.buttonX3.Name = "buttonX3";
+            this.buttonX3.Size = new System.Drawing.Size(161, 39);
+            this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX3.TabIndex = 4;
+            this.buttonX3.Text = "Remove Selected";
+            // 
+            // buttonX2
+            // 
+            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX2.Location = new System.Drawing.Point(197, 406);
+            this.buttonX2.Name = "buttonX2";
+            this.buttonX2.Size = new System.Drawing.Size(161, 39);
+            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX2.TabIndex = 3;
+            this.buttonX2.Text = "Edit Member";
+            // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Location = new System.Drawing.Point(30, 406);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(161, 39);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 2;
+            this.buttonX1.Text = "Add Member";
+            // 
+            // textBoxX1
+            // 
+            this.textBoxX1.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX1.Border.Class = "TextBoxBorder";
+            this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX1.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX1.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX1.Location = new System.Drawing.Point(272, 4);
+            this.textBoxX1.Name = "textBoxX1";
+            this.textBoxX1.PreventEnterBeep = true;
+            this.textBoxX1.Size = new System.Drawing.Size(365, 20);
+            this.textBoxX1.TabIndex = 1;
+            this.textBoxX1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX1.WatermarkText = "Search For Member";
+            // 
+            // listViewEx1
+            // 
+            this.listViewEx1.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.listViewEx1.Border.Class = "ListViewBorder";
+            this.listViewEx1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listViewEx1.CheckBoxes = true;
+            this.listViewEx1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5});
+            this.listViewEx1.DisabledBackColor = System.Drawing.Color.Empty;
+            this.listViewEx1.ForeColor = System.Drawing.Color.Black;
+            this.listViewEx1.FullRowSelect = true;
+            this.listViewEx1.GridLines = true;
+            this.listViewEx1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem11.StateImageIndex = 0;
+            listViewItem12.StateImageIndex = 0;
+            this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem11,
+            listViewItem12});
+            this.listViewEx1.Location = new System.Drawing.Point(4, 30);
+            this.listViewEx1.Name = "listViewEx1";
+            this.listViewEx1.Size = new System.Drawing.Size(890, 367);
+            this.listViewEx1.TabIndex = 0;
+            this.listViewEx1.UseCompatibleStateImageBehavior = false;
+            this.listViewEx1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Member Name";
+            this.columnHeader1.Width = 153;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Age";
+            this.columnHeader2.Width = 152;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Weight";
+            this.columnHeader3.Width = 144;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Date Start";
+            this.columnHeader4.Width = 135;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Date End";
+            this.columnHeader5.Width = 144;
+            // 
+            // tabControlPanel1
+            // 
+            this.tabControlPanel1.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel1.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel1.Name = "tabControlPanel1";
+            this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel1.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel37.Style.GradientAngle = 90;
-            this.tabControlPanel37.TabIndex = 33;
-            this.tabControlPanel37.TabItem = this.tabSettingsAds;
+            this.tabControlPanel1.Style.GradientAngle = 90;
+            this.tabControlPanel1.TabIndex = 5;
+            this.tabControlPanel1.TabItem = this.tabAddMember;
             // 
-            // tabSettingsAds
+            // tabAddMember
             // 
-            this.tabSettingsAds.AttachedControl = this.tabControlPanel37;
-            this.tabSettingsAds.Name = "tabSettingsAds";
-            this.tabSettingsAds.Text = "Advertises";
+            this.tabAddMember.AttachedControl = this.tabControlPanel1;
+            this.tabAddMember.Name = "tabAddMember";
+            this.tabAddMember.Text = "Add Member";
             // 
-            // tabControlPanel34
+            // sideNavPanel2
             // 
-            this.tabControlPanel34.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel34.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel34.Name = "tabControlPanel34";
-            this.tabControlPanel34.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel34.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel34.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel34.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel34.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel34.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.sideNavPanel2.Controls.Add(this.tabControl1);
+            this.sideNavPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel2.Location = new System.Drawing.Point(118, 38);
+            this.sideNavPanel2.Name = "sideNavPanel2";
+            this.sideNavPanel2.Size = new System.Drawing.Size(993, 581);
+            this.sideNavPanel2.TabIndex = 6;
+            this.sideNavPanel2.Visible = false;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControl1.CanReorderTabs = true;
+            this.tabControl1.Controls.Add(this.tabControlPanel2);
+            this.tabControl1.Controls.Add(this.tabControlPanel4);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.ForeColor = System.Drawing.Color.Black;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.tabControl1.SelectedTabIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(993, 581);
+            this.tabControl1.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
+            this.tabControl1.TabIndex = 2;
+            this.tabControl1.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
+            this.tabControl1.Tabs.Add(this.tabAllTrainer);
+            this.tabControl1.Tabs.Add(this.tabAddTrainer);
+            this.tabControl1.Text = "tabControl2";
+            // 
+            // tabControlPanel2
+            // 
+            this.tabControlPanel2.Controls.Add(this.tabControlPanel3);
+            this.tabControlPanel2.Controls.Add(this.buttonX12);
+            this.tabControlPanel2.Controls.Add(this.buttonX13);
+            this.tabControlPanel2.Controls.Add(this.buttonX14);
+            this.tabControlPanel2.Controls.Add(this.textBoxX3);
+            this.tabControlPanel2.Controls.Add(this.listViewEx4);
+            this.tabControlPanel2.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel2.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel2.Name = "tabControlPanel2";
+            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel2.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel34.Style.GradientAngle = 90;
-            this.tabControlPanel34.TabIndex = 21;
-            this.tabControlPanel34.TabItem = this.tabSettingsReport;
+            this.tabControlPanel2.Style.GradientAngle = 90;
+            this.tabControlPanel2.TabIndex = 1;
+            this.tabControlPanel2.TabItem = this.tabAllTrainer;
             // 
-            // tabSettingsReport
+            // tabControlPanel3
             // 
-            this.tabSettingsReport.AttachedControl = this.tabControlPanel34;
-            this.tabSettingsReport.Name = "tabSettingsReport";
-            this.tabSettingsReport.Text = "Reports";
+            this.tabControlPanel3.Controls.Add(this.btnViewTrainer);
+            this.tabControlPanel3.Controls.Add(this.btnRemoveSelectedTrainers);
+            this.tabControlPanel3.Controls.Add(this.btnEditTrainer);
+            this.tabControlPanel3.Controls.Add(this.btnAddTrainer);
+            this.tabControlPanel3.Controls.Add(this.txtSearchTrainer);
+            this.tabControlPanel3.Controls.Add(this.lstViewTrainers);
+            this.tabControlPanel3.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel3.Location = new System.Drawing.Point(1, 1);
+            this.tabControlPanel3.Name = "tabControlPanel3";
+            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel3.Size = new System.Drawing.Size(991, 552);
+            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel3.Style.GradientAngle = 90;
+            this.tabControlPanel3.TabIndex = 8;
+            this.tabControlPanel3.TabItem = this.tabAllTrainer;
+            // 
+            // btnViewTrainer
+            // 
+            this.btnViewTrainer.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnViewTrainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnViewTrainer.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnViewTrainer.Location = new System.Drawing.Point(665, 503);
+            this.btnViewTrainer.Name = "btnViewTrainer";
+            this.btnViewTrainer.Size = new System.Drawing.Size(161, 39);
+            this.btnViewTrainer.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnViewTrainer.TabIndex = 5;
+            this.btnViewTrainer.Text = "View Trainer";
+            // 
+            // btnRemoveSelectedTrainers
+            // 
+            this.btnRemoveSelectedTrainers.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRemoveSelectedTrainers.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRemoveSelectedTrainers.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRemoveSelectedTrainers.Location = new System.Drawing.Point(499, 503);
+            this.btnRemoveSelectedTrainers.Name = "btnRemoveSelectedTrainers";
+            this.btnRemoveSelectedTrainers.Size = new System.Drawing.Size(161, 39);
+            this.btnRemoveSelectedTrainers.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRemoveSelectedTrainers.TabIndex = 4;
+            this.btnRemoveSelectedTrainers.Text = "Remove Selected";
+            // 
+            // btnEditTrainer
+            // 
+            this.btnEditTrainer.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnEditTrainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEditTrainer.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnEditTrainer.Location = new System.Drawing.Point(332, 503);
+            this.btnEditTrainer.Name = "btnEditTrainer";
+            this.btnEditTrainer.Size = new System.Drawing.Size(161, 39);
+            this.btnEditTrainer.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnEditTrainer.TabIndex = 3;
+            this.btnEditTrainer.Text = "Edit Trainer";
+            // 
+            // btnAddTrainer
+            // 
+            this.btnAddTrainer.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAddTrainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAddTrainer.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAddTrainer.Location = new System.Drawing.Point(165, 503);
+            this.btnAddTrainer.Name = "btnAddTrainer";
+            this.btnAddTrainer.Size = new System.Drawing.Size(161, 39);
+            this.btnAddTrainer.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAddTrainer.TabIndex = 2;
+            this.btnAddTrainer.Text = "Add Trainer";
+            // 
+            // txtSearchTrainer
+            // 
+            this.txtSearchTrainer.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtSearchTrainer.Border.Class = "TextBoxBorder";
+            this.txtSearchTrainer.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtSearchTrainer.DisabledBackColor = System.Drawing.Color.White;
+            this.txtSearchTrainer.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchTrainer.Location = new System.Drawing.Point(313, 4);
+            this.txtSearchTrainer.Name = "txtSearchTrainer";
+            this.txtSearchTrainer.PreventEnterBeep = true;
+            this.txtSearchTrainer.Size = new System.Drawing.Size(365, 20);
+            this.txtSearchTrainer.TabIndex = 1;
+            this.txtSearchTrainer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSearchTrainer.WatermarkText = "Search For Trainer";
+            // 
+            // lstViewTrainers
+            // 
+            this.lstViewTrainers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstViewTrainers.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.lstViewTrainers.Border.Class = "ListViewBorder";
+            this.lstViewTrainers.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lstViewTrainers.CheckBoxes = true;
+            this.lstViewTrainers.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader11,
+            this.columnHeader12,
+            this.columnHeader13,
+            this.columnHeader14,
+            this.columnHeader15});
+            this.lstViewTrainers.DisabledBackColor = System.Drawing.Color.Empty;
+            this.lstViewTrainers.ForeColor = System.Drawing.Color.Black;
+            this.lstViewTrainers.FullRowSelect = true;
+            this.lstViewTrainers.GridLines = true;
+            this.lstViewTrainers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem13.StateImageIndex = 0;
+            listViewItem14.StateImageIndex = 0;
+            this.lstViewTrainers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem13,
+            listViewItem14});
+            this.lstViewTrainers.Location = new System.Drawing.Point(17, 29);
+            this.lstViewTrainers.Name = "lstViewTrainers";
+            this.lstViewTrainers.Size = new System.Drawing.Size(968, 468);
+            this.lstViewTrainers.TabIndex = 0;
+            this.lstViewTrainers.UseCompatibleStateImageBehavior = false;
+            this.lstViewTrainers.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Member Name";
+            this.columnHeader11.Width = 153;
+            // 
+            // columnHeader12
+            // 
+            this.columnHeader12.Text = "Age";
+            this.columnHeader12.Width = 152;
+            // 
+            // columnHeader13
+            // 
+            this.columnHeader13.Text = "Weight";
+            this.columnHeader13.Width = 144;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "Date Start";
+            this.columnHeader14.Width = 135;
+            // 
+            // columnHeader15
+            // 
+            this.columnHeader15.Text = "Date End";
+            this.columnHeader15.Width = 144;
+            // 
+            // tabAllTrainer
+            // 
+            this.tabAllTrainer.AttachedControl = this.tabControlPanel2;
+            this.tabAllTrainer.Name = "tabAllTrainer";
+            this.tabAllTrainer.Text = "All Trainers";
+            // 
+            // buttonX12
+            // 
+            this.buttonX12.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX12.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX12.Location = new System.Drawing.Point(364, 406);
+            this.buttonX12.Name = "buttonX12";
+            this.buttonX12.Size = new System.Drawing.Size(161, 39);
+            this.buttonX12.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX12.TabIndex = 4;
+            this.buttonX12.Text = "Remove Selected";
+            // 
+            // buttonX13
+            // 
+            this.buttonX13.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX13.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX13.Location = new System.Drawing.Point(197, 406);
+            this.buttonX13.Name = "buttonX13";
+            this.buttonX13.Size = new System.Drawing.Size(161, 39);
+            this.buttonX13.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX13.TabIndex = 3;
+            this.buttonX13.Text = "Edit Member";
+            // 
+            // buttonX14
+            // 
+            this.buttonX14.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX14.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX14.Location = new System.Drawing.Point(30, 406);
+            this.buttonX14.Name = "buttonX14";
+            this.buttonX14.Size = new System.Drawing.Size(161, 39);
+            this.buttonX14.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX14.TabIndex = 2;
+            this.buttonX14.Text = "Add Member";
+            // 
+            // textBoxX3
+            // 
+            this.textBoxX3.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX3.Border.Class = "TextBoxBorder";
+            this.textBoxX3.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX3.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX3.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX3.Location = new System.Drawing.Point(272, 4);
+            this.textBoxX3.Name = "textBoxX3";
+            this.textBoxX3.PreventEnterBeep = true;
+            this.textBoxX3.Size = new System.Drawing.Size(365, 20);
+            this.textBoxX3.TabIndex = 1;
+            this.textBoxX3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX3.WatermarkText = "Search For Member";
+            // 
+            // listViewEx4
+            // 
+            this.listViewEx4.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.listViewEx4.Border.Class = "ListViewBorder";
+            this.listViewEx4.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listViewEx4.CheckBoxes = true;
+            this.listViewEx4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader16,
+            this.columnHeader17,
+            this.columnHeader18,
+            this.columnHeader19,
+            this.columnHeader20});
+            this.listViewEx4.DisabledBackColor = System.Drawing.Color.Empty;
+            this.listViewEx4.ForeColor = System.Drawing.Color.Black;
+            this.listViewEx4.FullRowSelect = true;
+            this.listViewEx4.GridLines = true;
+            this.listViewEx4.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem15.StateImageIndex = 0;
+            listViewItem16.StateImageIndex = 0;
+            this.listViewEx4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem15,
+            listViewItem16});
+            this.listViewEx4.Location = new System.Drawing.Point(4, 30);
+            this.listViewEx4.Name = "listViewEx4";
+            this.listViewEx4.Size = new System.Drawing.Size(890, 367);
+            this.listViewEx4.TabIndex = 0;
+            this.listViewEx4.UseCompatibleStateImageBehavior = false;
+            this.listViewEx4.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader16
+            // 
+            this.columnHeader16.Text = "Member Name";
+            this.columnHeader16.Width = 153;
+            // 
+            // columnHeader17
+            // 
+            this.columnHeader17.Text = "Age";
+            this.columnHeader17.Width = 152;
+            // 
+            // columnHeader18
+            // 
+            this.columnHeader18.Text = "Weight";
+            this.columnHeader18.Width = 144;
+            // 
+            // columnHeader19
+            // 
+            this.columnHeader19.Text = "Date Start";
+            this.columnHeader19.Width = 135;
+            // 
+            // columnHeader20
+            // 
+            this.columnHeader20.Text = "Date End";
+            this.columnHeader20.Width = 144;
+            // 
+            // tabControlPanel4
+            // 
+            this.tabControlPanel4.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel4.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel4.Name = "tabControlPanel4";
+            this.tabControlPanel4.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel4.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel4.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel4.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel4.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel4.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel4.Style.GradientAngle = 90;
+            this.tabControlPanel4.TabIndex = 5;
+            this.tabControlPanel4.TabItem = this.tabAddTrainer;
+            // 
+            // tabAddTrainer
+            // 
+            this.tabAddTrainer.AttachedControl = this.tabControlPanel4;
+            this.tabAddTrainer.Name = "tabAddTrainer";
+            this.tabAddTrainer.Text = "Add Trainer";
+            // 
+            // sideNavPanel4
+            // 
+            this.sideNavPanel4.Controls.Add(this.tabControl3);
+            this.sideNavPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel4.Location = new System.Drawing.Point(118, 38);
+            this.sideNavPanel4.Name = "sideNavPanel4";
+            this.sideNavPanel4.Size = new System.Drawing.Size(993, 581);
+            this.sideNavPanel4.TabIndex = 14;
+            this.sideNavPanel4.Visible = false;
+            // 
+            // tabControl3
+            // 
+            this.tabControl3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControl3.CanReorderTabs = true;
+            this.tabControl3.Controls.Add(this.tabControlPanel10);
+            this.tabControl3.Controls.Add(this.tabControlPanel12);
+            this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl3.ForeColor = System.Drawing.Color.Black;
+            this.tabControl3.Location = new System.Drawing.Point(0, 0);
+            this.tabControl3.Name = "tabControl3";
+            this.tabControl3.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.tabControl3.SelectedTabIndex = 0;
+            this.tabControl3.Size = new System.Drawing.Size(993, 581);
+            this.tabControl3.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
+            this.tabControl3.TabIndex = 4;
+            this.tabControl3.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
+            this.tabControl3.Tabs.Add(this.tabAllModerators);
+            this.tabControl3.Tabs.Add(this.tabAddModerator);
+            this.tabControl3.Text = "tabControl3";
+            // 
+            // tabControlPanel10
+            // 
+            this.tabControlPanel10.Controls.Add(this.tabControlPanel11);
+            this.tabControlPanel10.Controls.Add(this.buttonX26);
+            this.tabControlPanel10.Controls.Add(this.buttonX27);
+            this.tabControlPanel10.Controls.Add(this.buttonX28);
+            this.tabControlPanel10.Controls.Add(this.textBoxX7);
+            this.tabControlPanel10.Controls.Add(this.listViewEx8);
+            this.tabControlPanel10.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel10.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel10.Name = "tabControlPanel10";
+            this.tabControlPanel10.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel10.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel10.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel10.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel10.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel10.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel10.Style.GradientAngle = 90;
+            this.tabControlPanel10.TabIndex = 1;
+            this.tabControlPanel10.TabItem = this.tabAllModerators;
+            // 
+            // tabControlPanel11
+            // 
+            this.tabControlPanel11.Controls.Add(this.btnViewModerator);
+            this.tabControlPanel11.Controls.Add(this.btnRemoveSelectedModerators);
+            this.tabControlPanel11.Controls.Add(this.btnEditModerator);
+            this.tabControlPanel11.Controls.Add(this.btnAddModerator);
+            this.tabControlPanel11.Controls.Add(this.txtSearchModerator);
+            this.tabControlPanel11.Controls.Add(this.lstViewModerators);
+            this.tabControlPanel11.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel11.Location = new System.Drawing.Point(1, 1);
+            this.tabControlPanel11.Name = "tabControlPanel11";
+            this.tabControlPanel11.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel11.Size = new System.Drawing.Size(991, 552);
+            this.tabControlPanel11.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel11.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel11.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel11.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel11.Style.GradientAngle = 90;
+            this.tabControlPanel11.TabIndex = 8;
+            this.tabControlPanel11.TabItem = this.tabAllModerators;
+            // 
+            // btnViewModerator
+            // 
+            this.btnViewModerator.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnViewModerator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnViewModerator.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnViewModerator.Location = new System.Drawing.Point(665, 503);
+            this.btnViewModerator.Name = "btnViewModerator";
+            this.btnViewModerator.Size = new System.Drawing.Size(161, 39);
+            this.btnViewModerator.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnViewModerator.TabIndex = 5;
+            this.btnViewModerator.Text = "View Moderator";
+            // 
+            // btnRemoveSelectedModerators
+            // 
+            this.btnRemoveSelectedModerators.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRemoveSelectedModerators.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRemoveSelectedModerators.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRemoveSelectedModerators.Location = new System.Drawing.Point(499, 503);
+            this.btnRemoveSelectedModerators.Name = "btnRemoveSelectedModerators";
+            this.btnRemoveSelectedModerators.Size = new System.Drawing.Size(161, 39);
+            this.btnRemoveSelectedModerators.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRemoveSelectedModerators.TabIndex = 4;
+            this.btnRemoveSelectedModerators.Text = "Remove Selected";
+            // 
+            // btnEditModerator
+            // 
+            this.btnEditModerator.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnEditModerator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEditModerator.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnEditModerator.Location = new System.Drawing.Point(332, 503);
+            this.btnEditModerator.Name = "btnEditModerator";
+            this.btnEditModerator.Size = new System.Drawing.Size(161, 39);
+            this.btnEditModerator.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnEditModerator.TabIndex = 3;
+            this.btnEditModerator.Text = "Edit Moderator";
+            // 
+            // btnAddModerator
+            // 
+            this.btnAddModerator.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAddModerator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAddModerator.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAddModerator.Location = new System.Drawing.Point(165, 503);
+            this.btnAddModerator.Name = "btnAddModerator";
+            this.btnAddModerator.Size = new System.Drawing.Size(161, 39);
+            this.btnAddModerator.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAddModerator.TabIndex = 2;
+            this.btnAddModerator.Text = "Add Moderator";
+            // 
+            // txtSearchModerator
+            // 
+            this.txtSearchModerator.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtSearchModerator.Border.Class = "TextBoxBorder";
+            this.txtSearchModerator.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtSearchModerator.DisabledBackColor = System.Drawing.Color.White;
+            this.txtSearchModerator.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchModerator.Location = new System.Drawing.Point(313, 4);
+            this.txtSearchModerator.Name = "txtSearchModerator";
+            this.txtSearchModerator.PreventEnterBeep = true;
+            this.txtSearchModerator.Size = new System.Drawing.Size(365, 20);
+            this.txtSearchModerator.TabIndex = 1;
+            this.txtSearchModerator.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSearchModerator.WatermarkText = "Search For Moderator";
+            // 
+            // lstViewModerators
+            // 
+            this.lstViewModerators.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstViewModerators.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.lstViewModerators.Border.Class = "ListViewBorder";
+            this.lstViewModerators.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lstViewModerators.CheckBoxes = true;
+            this.lstViewModerators.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader31,
+            this.columnHeader32,
+            this.columnHeader33,
+            this.columnHeader34,
+            this.columnHeader35});
+            this.lstViewModerators.DisabledBackColor = System.Drawing.Color.Empty;
+            this.lstViewModerators.ForeColor = System.Drawing.Color.Black;
+            this.lstViewModerators.FullRowSelect = true;
+            this.lstViewModerators.GridLines = true;
+            this.lstViewModerators.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem17.StateImageIndex = 0;
+            listViewItem18.StateImageIndex = 0;
+            this.lstViewModerators.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem17,
+            listViewItem18});
+            this.lstViewModerators.Location = new System.Drawing.Point(17, 29);
+            this.lstViewModerators.Name = "lstViewModerators";
+            this.lstViewModerators.Size = new System.Drawing.Size(968, 468);
+            this.lstViewModerators.TabIndex = 0;
+            this.lstViewModerators.UseCompatibleStateImageBehavior = false;
+            this.lstViewModerators.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader31
+            // 
+            this.columnHeader31.Text = "Member Name";
+            this.columnHeader31.Width = 153;
+            // 
+            // columnHeader32
+            // 
+            this.columnHeader32.Text = "Age";
+            this.columnHeader32.Width = 152;
+            // 
+            // columnHeader33
+            // 
+            this.columnHeader33.Text = "Weight";
+            this.columnHeader33.Width = 144;
+            // 
+            // columnHeader34
+            // 
+            this.columnHeader34.Text = "Date Start";
+            this.columnHeader34.Width = 135;
+            // 
+            // columnHeader35
+            // 
+            this.columnHeader35.Text = "Date End";
+            this.columnHeader35.Width = 144;
+            // 
+            // tabAllModerators
+            // 
+            this.tabAllModerators.AttachedControl = this.tabControlPanel10;
+            this.tabAllModerators.Name = "tabAllModerators";
+            this.tabAllModerators.Text = "All Moderators";
+            // 
+            // buttonX26
+            // 
+            this.buttonX26.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX26.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX26.Location = new System.Drawing.Point(364, 406);
+            this.buttonX26.Name = "buttonX26";
+            this.buttonX26.Size = new System.Drawing.Size(161, 39);
+            this.buttonX26.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX26.TabIndex = 4;
+            this.buttonX26.Text = "Remove Selected";
+            // 
+            // buttonX27
+            // 
+            this.buttonX27.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX27.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX27.Location = new System.Drawing.Point(197, 406);
+            this.buttonX27.Name = "buttonX27";
+            this.buttonX27.Size = new System.Drawing.Size(161, 39);
+            this.buttonX27.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX27.TabIndex = 3;
+            this.buttonX27.Text = "Edit Member";
+            // 
+            // buttonX28
+            // 
+            this.buttonX28.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX28.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX28.Location = new System.Drawing.Point(30, 406);
+            this.buttonX28.Name = "buttonX28";
+            this.buttonX28.Size = new System.Drawing.Size(161, 39);
+            this.buttonX28.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX28.TabIndex = 2;
+            this.buttonX28.Text = "Add Member";
+            // 
+            // textBoxX7
+            // 
+            this.textBoxX7.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX7.Border.Class = "TextBoxBorder";
+            this.textBoxX7.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX7.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX7.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX7.Location = new System.Drawing.Point(272, 4);
+            this.textBoxX7.Name = "textBoxX7";
+            this.textBoxX7.PreventEnterBeep = true;
+            this.textBoxX7.Size = new System.Drawing.Size(365, 20);
+            this.textBoxX7.TabIndex = 1;
+            this.textBoxX7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX7.WatermarkText = "Search For Member";
+            // 
+            // listViewEx8
+            // 
+            this.listViewEx8.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.listViewEx8.Border.Class = "ListViewBorder";
+            this.listViewEx8.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listViewEx8.CheckBoxes = true;
+            this.listViewEx8.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader36,
+            this.columnHeader37,
+            this.columnHeader38,
+            this.columnHeader39,
+            this.columnHeader40});
+            this.listViewEx8.DisabledBackColor = System.Drawing.Color.Empty;
+            this.listViewEx8.ForeColor = System.Drawing.Color.Black;
+            this.listViewEx8.FullRowSelect = true;
+            this.listViewEx8.GridLines = true;
+            this.listViewEx8.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem19.StateImageIndex = 0;
+            listViewItem20.StateImageIndex = 0;
+            this.listViewEx8.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem19,
+            listViewItem20});
+            this.listViewEx8.Location = new System.Drawing.Point(4, 30);
+            this.listViewEx8.Name = "listViewEx8";
+            this.listViewEx8.Size = new System.Drawing.Size(890, 367);
+            this.listViewEx8.TabIndex = 0;
+            this.listViewEx8.UseCompatibleStateImageBehavior = false;
+            this.listViewEx8.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader36
+            // 
+            this.columnHeader36.Text = "Member Name";
+            this.columnHeader36.Width = 153;
+            // 
+            // columnHeader37
+            // 
+            this.columnHeader37.Text = "Age";
+            this.columnHeader37.Width = 152;
+            // 
+            // columnHeader38
+            // 
+            this.columnHeader38.Text = "Weight";
+            this.columnHeader38.Width = 144;
+            // 
+            // columnHeader39
+            // 
+            this.columnHeader39.Text = "Date Start";
+            this.columnHeader39.Width = 135;
+            // 
+            // columnHeader40
+            // 
+            this.columnHeader40.Text = "Date End";
+            this.columnHeader40.Width = 144;
+            // 
+            // tabControlPanel12
+            // 
+            this.tabControlPanel12.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel12.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel12.Name = "tabControlPanel12";
+            this.tabControlPanel12.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel12.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel12.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel12.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel12.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel12.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel12.Style.GradientAngle = 90;
+            this.tabControlPanel12.TabIndex = 5;
+            this.tabControlPanel12.TabItem = this.tabAddModerator;
+            // 
+            // tabAddModerator
+            // 
+            this.tabAddModerator.AttachedControl = this.tabControlPanel12;
+            this.tabAddModerator.Name = "tabAddModerator";
+            this.tabAddModerator.Text = "Add Moderator";
             // 
             // sideNavPanel5
             // 
@@ -2731,11 +2755,11 @@
             this.lstViewAdmins.FullRowSelect = true;
             this.lstViewAdmins.GridLines = true;
             this.lstViewAdmins.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem14.StateImageIndex = 0;
-            listViewItem15.StateImageIndex = 0;
+            listViewItem21.StateImageIndex = 0;
+            listViewItem22.StateImageIndex = 0;
             this.lstViewAdmins.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem14,
-            listViewItem15});
+            listViewItem21,
+            listViewItem22});
             this.lstViewAdmins.Location = new System.Drawing.Point(17, 29);
             this.lstViewAdmins.Name = "lstViewAdmins";
             this.lstViewAdmins.Size = new System.Drawing.Size(968, 468);
@@ -2845,11 +2869,11 @@
             this.listViewEx10.FullRowSelect = true;
             this.listViewEx10.GridLines = true;
             this.listViewEx10.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem16.StateImageIndex = 0;
-            listViewItem17.StateImageIndex = 0;
+            listViewItem23.StateImageIndex = 0;
+            listViewItem24.StateImageIndex = 0;
             this.listViewEx10.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem16,
-            listViewItem17});
+            listViewItem23,
+            listViewItem24});
             this.listViewEx10.Location = new System.Drawing.Point(4, 30);
             this.listViewEx10.Name = "listViewEx10";
             this.listViewEx10.Size = new System.Drawing.Size(890, 367);
@@ -2919,8 +2943,8 @@
             // 
             this.tabControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControl2.CanReorderTabs = true;
-            this.tabControl2.Controls.Add(this.tabControlPanel7);
             this.tabControl2.Controls.Add(this.tabControlPanel5);
+            this.tabControl2.Controls.Add(this.tabControlPanel7);
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl2.ForeColor = System.Drawing.Color.Black;
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
@@ -2934,6 +2958,29 @@
             this.tabControl2.Tabs.Add(this.tabAllEquipments);
             this.tabControl2.Tabs.Add(this.tabAddEquipment);
             this.tabControl2.Text = "tabControl2";
+            // 
+            // tabControlPanel7
+            // 
+            this.tabControlPanel7.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel7.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel7.Name = "tabControlPanel7";
+            this.tabControlPanel7.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel7.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel7.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel7.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel7.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel7.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel7.Style.GradientAngle = 90;
+            this.tabControlPanel7.TabIndex = 5;
+            this.tabControlPanel7.TabItem = this.tabAddEquipment;
+            // 
+            // tabAddEquipment
+            // 
+            this.tabAddEquipment.AttachedControl = this.tabControlPanel7;
+            this.tabAddEquipment.Name = "tabAddEquipment";
+            this.tabAddEquipment.Text = "Add Equipment";
             // 
             // tabControlPanel5
             // 
@@ -3070,11 +3117,11 @@
             this.lstViewEquipments.FullRowSelect = true;
             this.lstViewEquipments.GridLines = true;
             this.lstViewEquipments.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem18.StateImageIndex = 0;
-            listViewItem19.StateImageIndex = 0;
+            listViewItem25.StateImageIndex = 0;
+            listViewItem26.StateImageIndex = 0;
             this.lstViewEquipments.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem18,
-            listViewItem19});
+            listViewItem25,
+            listViewItem26});
             this.lstViewEquipments.Location = new System.Drawing.Point(17, 29);
             this.lstViewEquipments.Name = "lstViewEquipments";
             this.lstViewEquipments.Size = new System.Drawing.Size(968, 468);
@@ -3184,11 +3231,11 @@
             this.listViewEx6.FullRowSelect = true;
             this.listViewEx6.GridLines = true;
             this.listViewEx6.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem20.StateImageIndex = 0;
-            listViewItem21.StateImageIndex = 0;
+            listViewItem27.StateImageIndex = 0;
+            listViewItem28.StateImageIndex = 0;
             this.listViewEx6.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem20,
-            listViewItem21});
+            listViewItem27,
+            listViewItem28});
             this.listViewEx6.Location = new System.Drawing.Point(4, 30);
             this.listViewEx6.Name = "listViewEx6";
             this.listViewEx6.Size = new System.Drawing.Size(890, 367);
@@ -3221,29 +3268,6 @@
             this.columnHeader30.Text = "Date End";
             this.columnHeader30.Width = 144;
             // 
-            // tabControlPanel7
-            // 
-            this.tabControlPanel7.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel7.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel7.Name = "tabControlPanel7";
-            this.tabControlPanel7.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel7.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel7.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel7.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel7.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel7.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel7.Style.GradientAngle = 90;
-            this.tabControlPanel7.TabIndex = 5;
-            this.tabControlPanel7.TabItem = this.tabAddEquipment;
-            // 
-            // tabAddEquipment
-            // 
-            this.tabAddEquipment.AttachedControl = this.tabControlPanel7;
-            this.tabAddEquipment.Name = "tabAddEquipment";
-            this.tabAddEquipment.Text = "Add Equipment";
-            // 
             // sideNavPanel7
             // 
             this.sideNavPanel7.Controls.Add(this.tabControl5);
@@ -3252,16 +3276,15 @@
             this.sideNavPanel7.Name = "sideNavPanel7";
             this.sideNavPanel7.Size = new System.Drawing.Size(993, 581);
             this.sideNavPanel7.TabIndex = 26;
-            this.sideNavPanel7.Visible = false;
             // 
             // tabControl5
             // 
             this.tabControl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControl5.CanReorderTabs = true;
+            this.tabControl5.Controls.Add(this.tabControlPanel19);
             this.tabControl5.Controls.Add(this.tabControlPanel24);
             this.tabControl5.Controls.Add(this.tabControlPanel23);
             this.tabControl5.Controls.Add(this.tabControlPanel22);
-            this.tabControl5.Controls.Add(this.tabControlPanel19);
             this.tabControl5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl5.ForeColor = System.Drawing.Color.Black;
             this.tabControl5.Location = new System.Drawing.Point(0, 0);
@@ -3277,6 +3300,75 @@
             this.tabControl5.Tabs.Add(this.tabItem3);
             this.tabControl5.Tabs.Add(this.tabItem4);
             this.tabControl5.Text = "tabControl2";
+            // 
+            // tabControlPanel24
+            // 
+            this.tabControlPanel24.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel24.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel24.Name = "tabControlPanel24";
+            this.tabControlPanel24.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel24.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel24.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel24.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel24.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel24.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel24.Style.GradientAngle = 90;
+            this.tabControlPanel24.TabIndex = 13;
+            this.tabControlPanel24.TabItem = this.tabItem4;
+            // 
+            // tabItem4
+            // 
+            this.tabItem4.AttachedControl = this.tabControlPanel24;
+            this.tabItem4.Name = "tabItem4";
+            this.tabItem4.Text = "Not Attends";
+            // 
+            // tabControlPanel23
+            // 
+            this.tabControlPanel23.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel23.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel23.Name = "tabControlPanel23";
+            this.tabControlPanel23.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel23.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel23.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel23.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel23.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel23.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel23.Style.GradientAngle = 90;
+            this.tabControlPanel23.TabIndex = 9;
+            this.tabControlPanel23.TabItem = this.tabItem3;
+            // 
+            // tabItem3
+            // 
+            this.tabItem3.AttachedControl = this.tabControlPanel23;
+            this.tabItem3.Name = "tabItem3";
+            this.tabItem3.Text = "Leave";
+            // 
+            // tabControlPanel22
+            // 
+            this.tabControlPanel22.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel22.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel22.Name = "tabControlPanel22";
+            this.tabControlPanel22.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel22.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel22.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel22.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel22.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel22.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel22.Style.GradientAngle = 90;
+            this.tabControlPanel22.TabIndex = 5;
+            this.tabControlPanel22.TabItem = this.tabItem2;
+            // 
+            // tabItem2
+            // 
+            this.tabItem2.AttachedControl = this.tabControlPanel22;
+            this.tabItem2.Name = "tabItem2";
+            this.tabItem2.Text = "Attends";
             // 
             // tabControlPanel19
             // 
@@ -3385,20 +3477,20 @@
             this.listViewEx2.FullRowSelect = true;
             this.listViewEx2.GridLines = true;
             this.listViewEx2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem22.StateImageIndex = 0;
-            listViewItem23.StateImageIndex = 0;
-            listViewItem24.StateImageIndex = 0;
-            listViewItem25.StateImageIndex = 0;
-            listViewItem26.StateImageIndex = 0;
+            listViewItem1.StateImageIndex = 0;
+            listViewItem2.StateImageIndex = 0;
+            listViewItem3.StateImageIndex = 0;
+            listViewItem4.StateImageIndex = 0;
+            listViewItem5.StateImageIndex = 0;
             this.listViewEx2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem22,
-            listViewItem23,
-            listViewItem24,
-            listViewItem25,
-            listViewItem26});
-            this.listViewEx2.Location = new System.Drawing.Point(17, 29);
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5});
+            this.listViewEx2.Location = new System.Drawing.Point(4, 30);
             this.listViewEx2.Name = "listViewEx2";
-            this.listViewEx2.Size = new System.Drawing.Size(979, 470);
+            this.listViewEx2.Size = new System.Drawing.Size(981, 467);
             this.listViewEx2.TabIndex = 0;
             this.listViewEx2.UseCompatibleStateImageBehavior = false;
             this.listViewEx2.View = System.Windows.Forms.View.Details;
@@ -3511,11 +3603,11 @@
             this.listViewEx3.FullRowSelect = true;
             this.listViewEx3.GridLines = true;
             this.listViewEx3.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem27.StateImageIndex = 0;
-            listViewItem28.StateImageIndex = 0;
+            listViewItem6.StateImageIndex = 0;
+            listViewItem7.StateImageIndex = 0;
             this.listViewEx3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem27,
-            listViewItem28});
+            listViewItem6,
+            listViewItem7});
             this.listViewEx3.Location = new System.Drawing.Point(4, 30);
             this.listViewEx3.Name = "listViewEx3";
             this.listViewEx3.Size = new System.Drawing.Size(890, 367);
@@ -3548,75 +3640,6 @@
             this.columnHeader60.Text = "Date End";
             this.columnHeader60.Width = 144;
             // 
-            // tabControlPanel24
-            // 
-            this.tabControlPanel24.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel24.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel24.Name = "tabControlPanel24";
-            this.tabControlPanel24.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel24.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel24.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel24.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel24.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel24.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel24.Style.GradientAngle = 90;
-            this.tabControlPanel24.TabIndex = 13;
-            this.tabControlPanel24.TabItem = this.tabItem4;
-            // 
-            // tabItem4
-            // 
-            this.tabItem4.AttachedControl = this.tabControlPanel24;
-            this.tabItem4.Name = "tabItem4";
-            this.tabItem4.Text = "Not Attends";
-            // 
-            // tabControlPanel23
-            // 
-            this.tabControlPanel23.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel23.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel23.Name = "tabControlPanel23";
-            this.tabControlPanel23.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel23.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel23.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel23.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel23.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel23.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel23.Style.GradientAngle = 90;
-            this.tabControlPanel23.TabIndex = 9;
-            this.tabControlPanel23.TabItem = this.tabItem3;
-            // 
-            // tabItem3
-            // 
-            this.tabItem3.AttachedControl = this.tabControlPanel23;
-            this.tabItem3.Name = "tabItem3";
-            this.tabItem3.Text = "Leave";
-            // 
-            // tabControlPanel22
-            // 
-            this.tabControlPanel22.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel22.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel22.Name = "tabControlPanel22";
-            this.tabControlPanel22.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel22.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel22.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel22.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel22.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel22.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel22.Style.GradientAngle = 90;
-            this.tabControlPanel22.TabIndex = 5;
-            this.tabControlPanel22.TabItem = this.tabItem2;
-            // 
-            // tabItem2
-            // 
-            this.tabItem2.AttachedControl = this.tabControlPanel22;
-            this.tabItem2.Name = "tabItem2";
-            this.tabItem2.Text = "Attends";
-            // 
             // sideNavPanel8
             // 
             this.sideNavPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -3625,6 +3648,213 @@
             this.sideNavPanel8.Size = new System.Drawing.Size(993, 581);
             this.sideNavPanel8.TabIndex = 30;
             this.sideNavPanel8.Visible = false;
+            // 
+            // sideNavPanel9
+            // 
+            this.sideNavPanel9.Controls.Add(this.tabControl6);
+            this.sideNavPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sideNavPanel9.Location = new System.Drawing.Point(118, 38);
+            this.sideNavPanel9.Name = "sideNavPanel9";
+            this.sideNavPanel9.Size = new System.Drawing.Size(993, 581);
+            this.sideNavPanel9.TabIndex = 46;
+            this.sideNavPanel9.Visible = false;
+            // 
+            // tabControl6
+            // 
+            this.tabControl6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControl6.CanReorderTabs = true;
+            this.tabControl6.Controls.Add(this.tabControlPanel25);
+            this.tabControl6.Controls.Add(this.tabControlPanel27);
+            this.tabControl6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl6.ForeColor = System.Drawing.Color.Black;
+            this.tabControl6.Location = new System.Drawing.Point(0, 0);
+            this.tabControl6.Name = "tabControl6";
+            this.tabControl6.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.tabControl6.SelectedTabIndex = 0;
+            this.tabControl6.Size = new System.Drawing.Size(993, 581);
+            this.tabControl6.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
+            this.tabControl6.TabIndex = 3;
+            this.tabControl6.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
+            this.tabControl6.Tabs.Add(this.tabItem5);
+            this.tabControl6.Tabs.Add(this.tabItem6);
+            this.tabControl6.Text = "tabControl2";
+            // 
+            // tabControlPanel25
+            // 
+            this.tabControlPanel25.Controls.Add(this.tabControlPanel26);
+            this.tabControlPanel25.Controls.Add(this.buttonX16);
+            this.tabControlPanel25.Controls.Add(this.buttonX17);
+            this.tabControlPanel25.Controls.Add(this.buttonX18);
+            this.tabControlPanel25.Controls.Add(this.textBoxX8);
+            this.tabControlPanel25.Controls.Add(this.listViewEx7);
+            this.tabControlPanel25.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel25.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel25.Name = "tabControlPanel25";
+            this.tabControlPanel25.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel25.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel25.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel25.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel25.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel25.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel25.Style.GradientAngle = 90;
+            this.tabControlPanel25.TabIndex = 1;
+            this.tabControlPanel25.TabItem = this.tabItem5;
+            // 
+            // tabControlPanel26
+            // 
+            this.tabControlPanel26.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel26.Location = new System.Drawing.Point(1, 1);
+            this.tabControlPanel26.Name = "tabControlPanel26";
+            this.tabControlPanel26.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel26.Size = new System.Drawing.Size(991, 552);
+            this.tabControlPanel26.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel26.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel26.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel26.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel26.Style.GradientAngle = 90;
+            this.tabControlPanel26.TabIndex = 8;
+            this.tabControlPanel26.TabItem = this.tabItem5;
+            // 
+            // tabItem5
+            // 
+            this.tabItem5.AttachedControl = this.tabControlPanel25;
+            this.tabItem5.Name = "tabItem5";
+            this.tabItem5.Text = "Email";
+            // 
+            // buttonX16
+            // 
+            this.buttonX16.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX16.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX16.Location = new System.Drawing.Point(364, 406);
+            this.buttonX16.Name = "buttonX16";
+            this.buttonX16.Size = new System.Drawing.Size(161, 39);
+            this.buttonX16.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX16.TabIndex = 4;
+            this.buttonX16.Text = "Remove Selected";
+            // 
+            // buttonX17
+            // 
+            this.buttonX17.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX17.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX17.Location = new System.Drawing.Point(197, 406);
+            this.buttonX17.Name = "buttonX17";
+            this.buttonX17.Size = new System.Drawing.Size(161, 39);
+            this.buttonX17.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX17.TabIndex = 3;
+            this.buttonX17.Text = "Edit Member";
+            // 
+            // buttonX18
+            // 
+            this.buttonX18.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX18.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX18.Location = new System.Drawing.Point(30, 406);
+            this.buttonX18.Name = "buttonX18";
+            this.buttonX18.Size = new System.Drawing.Size(161, 39);
+            this.buttonX18.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX18.TabIndex = 2;
+            this.buttonX18.Text = "Add Member";
+            // 
+            // textBoxX8
+            // 
+            this.textBoxX8.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX8.Border.Class = "TextBoxBorder";
+            this.textBoxX8.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX8.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX8.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX8.Location = new System.Drawing.Point(272, 4);
+            this.textBoxX8.Name = "textBoxX8";
+            this.textBoxX8.PreventEnterBeep = true;
+            this.textBoxX8.Size = new System.Drawing.Size(365, 20);
+            this.textBoxX8.TabIndex = 1;
+            this.textBoxX8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX8.WatermarkText = "Search For Member";
+            // 
+            // listViewEx7
+            // 
+            this.listViewEx7.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.listViewEx7.Border.Class = "ListViewBorder";
+            this.listViewEx7.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listViewEx7.CheckBoxes = true;
+            this.listViewEx7.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader67,
+            this.columnHeader68,
+            this.columnHeader69,
+            this.columnHeader70,
+            this.columnHeader71});
+            this.listViewEx7.DisabledBackColor = System.Drawing.Color.Empty;
+            this.listViewEx7.ForeColor = System.Drawing.Color.Black;
+            this.listViewEx7.FullRowSelect = true;
+            this.listViewEx7.GridLines = true;
+            this.listViewEx7.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem29.StateImageIndex = 0;
+            listViewItem30.StateImageIndex = 0;
+            this.listViewEx7.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem29,
+            listViewItem30});
+            this.listViewEx7.Location = new System.Drawing.Point(4, 30);
+            this.listViewEx7.Name = "listViewEx7";
+            this.listViewEx7.Size = new System.Drawing.Size(890, 367);
+            this.listViewEx7.TabIndex = 0;
+            this.listViewEx7.UseCompatibleStateImageBehavior = false;
+            this.listViewEx7.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader67
+            // 
+            this.columnHeader67.Text = "Member Name";
+            this.columnHeader67.Width = 153;
+            // 
+            // columnHeader68
+            // 
+            this.columnHeader68.Text = "Age";
+            this.columnHeader68.Width = 152;
+            // 
+            // columnHeader69
+            // 
+            this.columnHeader69.Text = "Weight";
+            this.columnHeader69.Width = 144;
+            // 
+            // columnHeader70
+            // 
+            this.columnHeader70.Text = "Date Start";
+            this.columnHeader70.Width = 135;
+            // 
+            // columnHeader71
+            // 
+            this.columnHeader71.Text = "Date End";
+            this.columnHeader71.Width = 144;
+            // 
+            // tabControlPanel27
+            // 
+            this.tabControlPanel27.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel27.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel27.Name = "tabControlPanel27";
+            this.tabControlPanel27.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel27.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel27.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel27.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel27.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel27.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel27.Style.GradientAngle = 90;
+            this.tabControlPanel27.TabIndex = 5;
+            this.tabControlPanel27.TabItem = this.tabItem6;
+            // 
+            // tabItem6
+            // 
+            this.tabItem6.AttachedControl = this.tabControlPanel27;
+            this.tabItem6.Name = "tabItem6";
+            this.tabItem6.Text = "SMS";
             // 
             // sideNavItem1
             // 
@@ -3682,6 +3912,7 @@
             // 
             // tabAttendance
             // 
+            this.tabAttendance.Checked = true;
             this.tabAttendance.Name = "tabAttendance";
             this.tabAttendance.Panel = this.sideNavPanel7;
             this.tabAttendance.Symbol = "";
@@ -3704,7 +3935,6 @@
             // 
             // tabSettings
             // 
-            this.tabSettings.Checked = true;
             this.tabSettings.Name = "tabSettings";
             this.tabSettings.Panel = this.sideNavPanel6;
             this.tabSettings.Symbol = "";
@@ -3717,224 +3947,105 @@
             this.btnExit.Text = "Exit";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // columnHeader79
+            // txtGmailEmail
             // 
-            this.columnHeader79.Text = "#";
-            this.columnHeader79.Width = 48;
-            // 
-            // tabSettingsPermissions
-            // 
-            this.tabSettingsPermissions.AttachedControl = this.tabControlPanel42;
-            this.tabSettingsPermissions.Name = "tabSettingsPermissions";
-            this.tabSettingsPermissions.Text = "Permissions";
-            // 
-            // tabControlPanel42
-            // 
-            this.tabControlPanel42.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel42.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel42.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel42.Name = "tabControlPanel42";
-            this.tabControlPanel42.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel42.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel42.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel42.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel42.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel42.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel42.Style.GradientAngle = 90;
-            this.tabControlPanel42.TabIndex = 78;
-            this.tabControlPanel42.TabItem = this.tabSettingsPermissions;
-            // 
-            // groupPanel3
-            // 
-            this.groupPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel3.Controls.Add(this.btnCancelGYMLogo);
-            this.groupPanel3.Controls.Add(this.btnSaveGYMLogo);
-            this.groupPanel3.Controls.Add(this.checkBoxX1);
-            this.groupPanel3.Controls.Add(this.btnBrowsePanelIcon);
-            this.groupPanel3.Controls.Add(this.picGYMPanelIcon);
-            this.groupPanel3.Controls.Add(this.labelX13);
-            this.groupPanel3.Controls.Add(this.btnBrowseLogoImage);
-            this.groupPanel3.Controls.Add(this.picGYMLogoImage);
-            this.groupPanel3.Controls.Add(this.labelX12);
-            this.groupPanel3.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel3.Location = new System.Drawing.Point(18, 15);
-            this.groupPanel3.Name = "groupPanel3";
-            this.groupPanel3.Size = new System.Drawing.Size(248, 209);
+            this.txtGmailEmail.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
-            this.groupPanel3.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel3.Style.BackColorGradientAngle = 90;
-            this.groupPanel3.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel3.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderBottomWidth = 1;
-            this.groupPanel3.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel3.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderLeftWidth = 1;
-            this.groupPanel3.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderRightWidth = 1;
-            this.groupPanel3.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderTopWidth = 1;
-            this.groupPanel3.Style.CornerDiameter = 4;
-            this.groupPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel3.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel3.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel3.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            this.txtGmailEmail.Border.Class = "TextBoxBorder";
+            this.txtGmailEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtGmailEmail.DisabledBackColor = System.Drawing.Color.White;
+            this.txtGmailEmail.ForeColor = System.Drawing.Color.Black;
+            this.txtGmailEmail.Location = new System.Drawing.Point(8, 29);
+            this.txtGmailEmail.Name = "txtGmailEmail";
+            this.txtGmailEmail.PreventEnterBeep = true;
+            this.txtGmailEmail.Size = new System.Drawing.Size(211, 20);
+            this.txtGmailEmail.TabIndex = 0;
+            this.txtGmailEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGmailEmail.WatermarkBehavior = DevComponents.DotNetBar.eWatermarkBehavior.HideNonEmpty;
+            this.txtGmailEmail.WatermarkText = "Email";
+            // 
+            // txtGmailPass
+            // 
+            this.txtGmailPass.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
-            this.groupPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtGmailPass.Border.Class = "TextBoxBorder";
+            this.txtGmailPass.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtGmailPass.DisabledBackColor = System.Drawing.Color.White;
+            this.txtGmailPass.ForeColor = System.Drawing.Color.Black;
+            this.txtGmailPass.Location = new System.Drawing.Point(8, 61);
+            this.txtGmailPass.Name = "txtGmailPass";
+            this.txtGmailPass.PreventEnterBeep = true;
+            this.txtGmailPass.Size = new System.Drawing.Size(211, 20);
+            this.txtGmailPass.TabIndex = 1;
+            this.txtGmailPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtGmailPass.WatermarkBehavior = DevComponents.DotNetBar.eWatermarkBehavior.HideNonEmpty;
+            this.txtGmailPass.WatermarkText = "Password";
+            // 
+            // btnCancelGmail
+            // 
+            this.btnCancelGmail.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCancelGmail.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCancelGmail.Location = new System.Drawing.Point(164, 157);
+            this.btnCancelGmail.Name = "btnCancelGmail";
+            this.btnCancelGmail.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelGmail.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCancelGmail.TabIndex = 10;
+            this.btnCancelGmail.Text = "Cancel";
+            // 
+            // btnSaveGmail
+            // 
+            this.btnSaveGmail.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSaveGmail.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSaveGmail.Location = new System.Drawing.Point(84, 157);
+            this.btnSaveGmail.Name = "btnSaveGmail";
+            this.btnSaveGmail.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveGmail.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSaveGmail.TabIndex = 9;
+            this.btnSaveGmail.Text = "Save";
+            // 
+            // groupPanel5
+            // 
+            this.groupPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel5.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel5.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel5.Location = new System.Drawing.Point(548, 15);
+            this.groupPanel5.Name = "groupPanel5";
+            this.groupPanel5.Size = new System.Drawing.Size(298, 209);
             // 
             // 
             // 
-            this.groupPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel3.TabIndex = 0;
-            this.groupPanel3.Text = "Logo";
-            // 
-            // labelX12
-            // 
-            this.labelX12.AutoSize = true;
-            // 
-            // 
-            // 
-            this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX12.Location = new System.Drawing.Point(19, 0);
-            this.labelX12.Name = "labelX12";
-            this.labelX12.Size = new System.Drawing.Size(59, 17);
-            this.labelX12.TabIndex = 0;
-            this.labelX12.Text = "GYM Logo:";
-            // 
-            // picGYMLogoImage
-            // 
-            this.picGYMLogoImage.Location = new System.Drawing.Point(3, 23);
-            this.picGYMLogoImage.Name = "picGYMLogoImage";
-            this.picGYMLogoImage.Size = new System.Drawing.Size(95, 67);
-            this.picGYMLogoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGYMLogoImage.TabIndex = 1;
-            this.picGYMLogoImage.TabStop = false;
-            // 
-            // btnBrowseLogoImage
-            // 
-            this.btnBrowseLogoImage.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnBrowseLogoImage.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnBrowseLogoImage.Location = new System.Drawing.Point(3, 97);
-            this.btnBrowseLogoImage.Name = "btnBrowseLogoImage";
-            this.btnBrowseLogoImage.Size = new System.Drawing.Size(95, 23);
-            this.btnBrowseLogoImage.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnBrowseLogoImage.TabIndex = 2;
-            this.btnBrowseLogoImage.Text = "...";
-            // 
-            // btnBrowsePanelIcon
-            // 
-            this.btnBrowsePanelIcon.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnBrowsePanelIcon.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnBrowsePanelIcon.Location = new System.Drawing.Point(124, 97);
-            this.btnBrowsePanelIcon.Name = "btnBrowsePanelIcon";
-            this.btnBrowsePanelIcon.Size = new System.Drawing.Size(95, 23);
-            this.btnBrowsePanelIcon.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnBrowsePanelIcon.TabIndex = 5;
-            this.btnBrowsePanelIcon.Text = "...";
-            // 
-            // picGYMPanelIcon
-            // 
-            this.picGYMPanelIcon.Location = new System.Drawing.Point(124, 23);
-            this.picGYMPanelIcon.Name = "picGYMPanelIcon";
-            this.picGYMPanelIcon.Size = new System.Drawing.Size(95, 67);
-            this.picGYMPanelIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGYMPanelIcon.TabIndex = 4;
-            this.picGYMPanelIcon.TabStop = false;
-            // 
-            // labelX13
-            // 
-            this.labelX13.AutoSize = true;
+            this.groupPanel5.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel5.Style.BackColorGradientAngle = 90;
+            this.groupPanel5.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel5.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderBottomWidth = 1;
+            this.groupPanel5.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel5.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderLeftWidth = 1;
+            this.groupPanel5.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderRightWidth = 1;
+            this.groupPanel5.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderTopWidth = 1;
+            this.groupPanel5.Style.CornerDiameter = 4;
+            this.groupPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel5.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel5.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel5.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             // 
             // 
             // 
-            this.labelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX13.Location = new System.Drawing.Point(129, 0);
-            this.labelX13.Name = "labelX13";
-            this.labelX13.Size = new System.Drawing.Size(85, 17);
-            this.labelX13.TabIndex = 3;
-            this.labelX13.Text = "GYM Panel icon:";
-            // 
-            // checkBoxX1
-            // 
-            this.checkBoxX1.AutoSize = true;
+            this.groupPanel5.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
             // 
-            this.checkBoxX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkBoxX1.Location = new System.Drawing.Point(3, 126);
-            this.checkBoxX1.Name = "checkBoxX1";
-            this.checkBoxX1.Size = new System.Drawing.Size(127, 17);
-            this.checkBoxX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkBoxX1.TabIndex = 6;
-            this.checkBoxX1.Text = "Use GYM Logo for all";
-            // 
-            // groupPanel4
-            // 
-            this.groupPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel4.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel4.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel4.Location = new System.Drawing.Point(24, 257);
-            this.groupPanel4.Name = "groupPanel4";
-            this.groupPanel4.Size = new System.Drawing.Size(280, 260);
-            // 
-            // 
-            // 
-            this.groupPanel4.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel4.Style.BackColorGradientAngle = 90;
-            this.groupPanel4.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel4.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderBottomWidth = 1;
-            this.groupPanel4.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel4.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderLeftWidth = 1;
-            this.groupPanel4.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderRightWidth = 1;
-            this.groupPanel4.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderTopWidth = 1;
-            this.groupPanel4.Style.CornerDiameter = 4;
-            this.groupPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel4.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel4.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel4.TabIndex = 1;
-            this.groupPanel4.Text = "GYM Info";
-            // 
-            // btnSaveGYMLogo
-            // 
-            this.btnSaveGYMLogo.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnSaveGYMLogo.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnSaveGYMLogo.Location = new System.Drawing.Point(84, 157);
-            this.btnSaveGYMLogo.Name = "btnSaveGYMLogo";
-            this.btnSaveGYMLogo.Size = new System.Drawing.Size(75, 23);
-            this.btnSaveGYMLogo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnSaveGYMLogo.TabIndex = 7;
-            this.btnSaveGYMLogo.Text = "Save";
-            // 
-            // btnCancelGYMLogo
-            // 
-            this.btnCancelGYMLogo.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCancelGYMLogo.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnCancelGYMLogo.Location = new System.Drawing.Point(164, 157);
-            this.btnCancelGYMLogo.Name = "btnCancelGYMLogo";
-            this.btnCancelGYMLogo.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelGYMLogo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCancelGYMLogo.TabIndex = 8;
-            this.btnCancelGYMLogo.Text = "Cancel";
+            this.groupPanel5.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel5.TabIndex = 2;
+            this.groupPanel5.Text = "GYM Info";
             // 
             // MainForm
             // 
@@ -3943,6 +4054,7 @@
             this.ClientSize = new System.Drawing.Size(1116, 620);
             this.Controls.Add(this.sideNav1);
             this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Management Panel";
@@ -3950,28 +4062,15 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.sideNav1.ResumeLayout(false);
             this.sideNav1.PerformLayout();
-            this.sideNavPanel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl3)).EndInit();
-            this.tabControl3.ResumeLayout(false);
-            this.tabControlPanel10.ResumeLayout(false);
-            this.tabControlPanel11.ResumeLayout(false);
-            this.sideNavPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).EndInit();
-            this.tabControl1.ResumeLayout(false);
-            this.tabControlPanel2.ResumeLayout(false);
-            this.tabControlPanel3.ResumeLayout(false);
-            this.sideNavPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.tabControlMembers)).EndInit();
-            this.tabControlMembers.ResumeLayout(false);
-            this.tabControlPanel8.ResumeLayout(false);
-            this.tabControlPanelAllMembers.ResumeLayout(false);
-            this.sideNavPanel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl6)).EndInit();
-            this.tabControl6.ResumeLayout(false);
-            this.tabControlPanel25.ResumeLayout(false);
             this.sideNavPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl7)).EndInit();
             this.tabControl7.ResumeLayout(false);
+            this.tabControlPanel36.ResumeLayout(false);
+            this.groupPanel4.ResumeLayout(false);
+            this.groupPanel3.ResumeLayout(false);
+            this.groupPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picGYMPanelIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGYMLogoImage)).EndInit();
             this.tabControlPanel39.ResumeLayout(false);
             this.groupPanel2.ResumeLayout(false);
             this.groupPanel1.ResumeLayout(false);
@@ -3979,7 +4078,21 @@
             this.tabControl8.ResumeLayout(false);
             this.tabControlPanel41.ResumeLayout(false);
             this.tabControlPanel43.ResumeLayout(false);
-            this.tabControlPanel36.ResumeLayout(false);
+            this.sideNavPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tabControlMembers)).EndInit();
+            this.tabControlMembers.ResumeLayout(false);
+            this.tabControlPanel8.ResumeLayout(false);
+            this.tabControlPanelAllMembers.ResumeLayout(false);
+            this.sideNavPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabControlPanel2.ResumeLayout(false);
+            this.tabControlPanel3.ResumeLayout(false);
+            this.sideNavPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl3)).EndInit();
+            this.tabControl3.ResumeLayout(false);
+            this.tabControlPanel10.ResumeLayout(false);
+            this.tabControlPanel11.ResumeLayout(false);
             this.sideNavPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl4)).EndInit();
             this.tabControl4.ResumeLayout(false);
@@ -3995,10 +4108,10 @@
             this.tabControl5.ResumeLayout(false);
             this.tabControlPanel19.ResumeLayout(false);
             this.tabControlPanel20.ResumeLayout(false);
-            this.groupPanel3.ResumeLayout(false);
-            this.groupPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picGYMLogoImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGYMPanelIcon)).EndInit();
+            this.sideNavPanel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl6)).EndInit();
+            this.tabControl6.ResumeLayout(false);
+            this.tabControlPanel25.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -4278,5 +4391,10 @@
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel4;
         private DevComponents.DotNetBar.ButtonX btnCancelGYMLogo;
         private DevComponents.DotNetBar.ButtonX btnSaveGYMLogo;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtGmailPass;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtGmailEmail;
+        private DevComponents.DotNetBar.ButtonX btnCancelGmail;
+        private DevComponents.DotNetBar.ButtonX btnSaveGmail;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel5;
     }
 }
