@@ -26,11 +26,6 @@ namespace GYMManagementMetroUI
             this.Close();
         }
 
-        private void listViewEx2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void MainForm_Load(object sender, EventArgs e)
         {
             // set auto Resfresh for attendance
@@ -43,56 +38,7 @@ namespace GYMManagementMetroUI
 
         }
 
-        private void tabFormPanel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sideNavItem2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabFormItem11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabFormPanel10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxX11_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabControl8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabSettings_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonX5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void line1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxX24_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+  
        
     }
 }

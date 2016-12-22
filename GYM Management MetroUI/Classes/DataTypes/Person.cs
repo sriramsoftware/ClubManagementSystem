@@ -12,62 +12,51 @@ namespace GYMManagementMetroUI.Classes
              Female
          }
          #region Fields
-         private string name;
-         private string userName;
-         private string password;
-         private DateTime birthDate;
-         private int age;
-         private string _address;
-         private string id;
-         private Image userImage;
-         private int _phoneNumber;
-         private GenderType _gender;
          private string _email;
          private string INVALID_EMAIL = "_NULL_";
-
          #endregion
          #region Properties
          public string Name
          {
-             get { return name; }
-             set { name = value; }
+             get;
+             set;
          }
          public string UserName
          {
-             get { return userName; }
-             set { userName = value; }
+             get;
+             set;
          }
          public string Password
          {
 
-             get { return password; }
-             set { password = value; }
+             get;
+             set;
          }
          public DateTime BirthDay
-        {
-            get { return birthDate; }
-            set { birthDate = value; }
-        }
+         {
+             get;
+             set;
+         }
          public int Age
-        {
-            get { return age; }
-            set { age = value; }
-        }
+         {
+             get;
+             set;
+         }
          public string Address
-        {
-            get { return _address; }
-            set { _address = value; }
-        }
+         {
+             get;
+             set;
+         }
          public GenderType Gender
-        {
-            get { return _gender; }
-            set { _gender = value; }
-        }
+         {
+             get;
+             set;
+         }
          public int PhoneNumber
-        {
-            get { return _phoneNumber; }
-            set { _phoneNumber = value; }
-        }
+         {
+             get;
+             set;
+         }
          public string Email
         {
             get { return _email; }
@@ -80,13 +69,9 @@ namespace GYMManagementMetroUI.Classes
                 _email = INVALID_EMAIL;
             }
         }
-         public string UserID
-        {
-            get { return id; }
-            set { id = value; }
-        }
+         public string UserID {get;set;}
 
-         public Image UserImage { get { return userImage; } set { } }
+         public Image UserImage { get; set; }
 
          public int SubscriptionID { get; set; }
          public bool ValidEmail

@@ -1,0 +1,12 @@
+﻿For Any Comments Put it here
+
+-Start Comment [ Date: 22/12/2016 ]
+After any edit in Main Form or adding any new control rename it to name refers to its job.
+
+Ex:
+	In Main Form 
+		in Settings Section
+			in GYM Info tab
+				the textbox which uses to config url rename it to:	txtSMSConfigURL
+
+-End Comment
