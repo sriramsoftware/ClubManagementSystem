@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Security.Cryptography; //md5 or it's ok ?
 
 namespace GYMManagementMetroUI.Classes
 {
@@ -12,10 +13,13 @@ namespace GYMManagementMetroUI.Classes
          }
          #region Fields
          private string name;
+         private string userName;
+         private string password;
          private DateTime birthDate;
          private int age;
          private string _address;
          private string id;
+         private Image userImage;
          private int _phoneNumber;
          private GenderType _gender;
          private string _email;
@@ -24,10 +28,21 @@ namespace GYMManagementMetroUI.Classes
          #endregion
          #region Properties
          public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
+         {
+             get { return name; }
+             set { name = value; }
+         }
+         public string UserName
+         {
+             get { return userName; }
+             set { userName = value; }
+         }
+         public string Password
+         {
+
+             get { return password; }
+             set { password = value; }
+         }
          public DateTime BirthDay
         {
             get { return birthDate; }
@@ -73,7 +88,6 @@ namespace GYMManagementMetroUI.Classes
 
          public Image UserImage { get; set; }
 
-         public string UserName { get; set; }
          public int SubscriptionID { get; set; }
          public bool ValidEmail
          {
@@ -82,12 +96,21 @@ namespace GYMManagementMetroUI.Classes
                  return (Email == INVALID_EMAIL);
              }
          }
+        
+         public DateTime JoinDate { get; set; }
+         public Permissions.Permissions Permissions { get; set; }
          #endregion
 
+         #region Methods
          public void SetInvaludEmailSymbol(string Sybmol)
          {
              INVALID_EMAIL = Sybmol;
          }
+         public Person()
+         {
+             Permissions = new Permissions.Permissions();
+         }
+         #endregion
 
      }
 }

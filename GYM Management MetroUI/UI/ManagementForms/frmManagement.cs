@@ -78,6 +78,21 @@ namespace GYMManagementMetroUI
 
         }
 
+        private void buttonX5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void line1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxX24_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
        
     }
 }
