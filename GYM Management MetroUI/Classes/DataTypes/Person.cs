@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Drawing;
-using System.Security.Cryptography; //md5 or it's ok ?
+using System.Security.Cryptography;  //md5 or it's ok ?
 
 namespace GYMManagementMetroUI.Classes
 {
@@ -86,7 +86,7 @@ namespace GYMManagementMetroUI.Classes
             set { id = value; }
         }
 
-         public Image UserImage { get; set; }
+         public Image UserImage { get { return userImage; } set { } }
 
          public int SubscriptionID { get; set; }
          public bool ValidEmail
