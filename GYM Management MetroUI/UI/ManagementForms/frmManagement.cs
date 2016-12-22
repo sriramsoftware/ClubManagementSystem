@@ -73,6 +73,11 @@ namespace GYMManagementMetroUI
 
         }
 
+        private void tabSettings_Click(object sender, EventArgs e)
+        {
+
+        }
+
        
     }
 }
