@@ -36,4 +36,43 @@ Ex:
 -Start Comment [ Date: 23/12/2016 ]
 Whan u want to add new combobox item take care please add control which its name is 'ComboBoxEx' not 'ComboTree'
 -End Comment
+
+
+
+-Start Comment [ Date: 23/12/2016 ]
+
+yes this comment file will be better.
+ok i will.
+
+
+	
+	Edit GUI{
+		Contact email & sms
+		Equipments
+		Settings backups
+		settings ads
+	}
+	
+	in settings{
+		-> View DB Manger 
+		somehow we need to see db backups even internally or externally
+		ex: using external small app dbViewer.exe for just view
+		advanced idea: build dbs version control viewer compare current db version with old ones
+		BTW "GIT" is version control system
+	}
+	
+	db file works good with you?
+	
+	what is event for viewlist that controls selected item via first column checkbox in devComponents? i mean i need to handle edit advertise btn to be enabled if one item selected (not multiItems || none) and make enabled = true for modify groupbox and path values etc..
+	
+	we want to finish GUI: 
+	- renaming all controls that not renamed
+	
+	- create all confirming actions boxs but we need it to be dynamically
+	ex: class confirmation path: 
+		action confirmation form title, number of btns, [ex: yes no ignore],
+		icon, bodyText, done actions too etc.. you got the idea ;)
+
+	
+-End Comment
 					||//------------------------------------\\||
