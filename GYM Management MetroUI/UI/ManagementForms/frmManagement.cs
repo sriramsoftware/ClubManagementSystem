@@ -26,18 +26,14 @@ namespace GYMManagementMetroUI
             this.Close();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-            
-
-        }
-
-    
-
+  
         private void listViewEx5_SelectedIndexChanged(object sender, EventArgs e)
         {
             MessageBox.Show("OK");
         }
+
+
+      
 
      
 
