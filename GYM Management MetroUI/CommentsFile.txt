@@ -27,6 +27,8 @@ ok i will.
 		settings ads
 	}
 	
+	gym video -> folder
+	
 	in settings{
 		-> View DB Manger 
 		somehow we need to see db backups even internally or externally
@@ -37,7 +39,9 @@ ok i will.
 	
 	db file works good with you?
 	
-	what is event for viewlist that controls selected item via first column checkbox in devComponents? i mean i need to handle edit advertise btn to be enabled if one item selected (not multiItems || none) and make enabled = true for modify groupbox and path values etc..
+	what is event for viewlist that controls selected item via first column checkbox in devComponents? 
+	i mean i need to handle edit advertise btn to be enabled if one item selected (not multiItems || none)
+	and make enabled = true for modify groupbox and path values etc..
 	
 	we want to finish GUI: 
 	- renaming all controls that not renamed
