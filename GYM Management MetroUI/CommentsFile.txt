@@ -1,5 +1,25 @@
 ﻿For Any Comments Put it here
 
+/*  Renaming Tools Rules  */
+
+txt			-> TextBoxes
+btn			-> Buttons
+lstView		-> ListViews
+comboBox	-> Comboboxes
+tab			-> TabControls
+pic			-> PictureBoxes
+chk			-> CheckBoxes
+
+Ex:		txtSettingsAdsNewAdsName 
+	txt:		 Control Type
+	Settings:    Control Section in whole design to easly find it
+	Ads:		 Control Tab which refers to Advertisment or Backups and etc...
+	NewAds:		 Control Section in its page
+	Name:		 Control Purpose, the thing which control created for.
+
+/*					      */
+
+
 -Start Comment [ Date: 22/12/2016 ]
 After any edit in Main Form or adding any new control rename it to name refers to its job.
 
@@ -7,8 +27,14 @@ Ex:
 	In Main Form 
 		in Settings Section
 			in GYM Info tab
-				the textbox which uses to config url rename it to:	txtSMSConfigURL
+				the textbox which uses to config url rename it to:	'txtSMSConfigURL'
 
+-End Comment
+
+					||//------------------------------------\\||
+
+-Start Comment [ Date: 23/12/2016 ]
+Whan u want to add new combobox item take care please add control which its name is 'ComboBoxEx' not 'ComboTree'
 -End Comment
 
 
@@ -53,3 +79,4 @@ ok i will.
 
 	
 -End Comment
+					||//------------------------------------\\||
