@@ -34,7 +34,7 @@ Ex:
 					||//------------------------------------\\||
 
 -Start Comment [ Date: 23/12/2016 ]
-Whan u want to add new combobox item take care please add control which its name is 'ComboBoxEx' not 'ComboTree'
+Whan u want to add new combobox item take care please add control which its name is 'ComboBoxEx' not 'ComboTree' : Very Important
 -End Comment
 
 
@@ -51,7 +51,7 @@ ok i will.
 		Equipments
 		Settings backups
 		settings ads
-	}
+	}: Good Work
 	
 	gym video -> folder
 	
@@ -63,20 +63,24 @@ ok i will.
 		BTW "GIT" is version control system
 	}
 	
-	db file works good with you?
+	db file works good with you? : Yes but needs to finish it.
 	
 	what is event for viewlist that controls selected item via first column checkbox in devComponents? 
 	i mean i need to handle edit advertise btn to be enabled if one item selected (not multiItems || none)
 	and make enabled = true for modify groupbox and path values etc..
 	
 	we want to finish GUI: 
-	- renaming all controls that not renamed
+	- renaming all controls that not renamed : Working on it.
 	
-	- create all confirming actions boxs but we need it to be dynamically
+	- create all confirming actions boxs but we need it to be dynamically : C# alreay provide a class which create it 'MessageBox', but i'll create a class to make it very easy.
 	ex: class confirmation path: 
 		action confirmation form title, number of btns, [ex: yes no ignore],
 		icon, bodyText, done actions too etc.. you got the idea ;)
 
 	
 -End Comment
-					||//------------------------------------\\||
+
+-Start Comment [ Date: 23/12/2016 05:30 PM]
+	Don't edit any thing in MainForm until i finish renaming all tools and when i finish i'll tell you.
+	I've renamed it but forget to commit it :'(
+-End Comment
