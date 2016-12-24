@@ -29,7 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Ad 1",
+            "Bodybuilding.com Coupons & Promo Codes 2016",
+            "Yes",
+            "=  2.png",
+            "Main Login Screen"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Ad 2",
+            "Men\'s Tops & T-Shirts. Nike.com",
+            "No",
+            "",
+            "Main Login Screen & Action Screen"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "1",
             "Plan 1",
             "25",
@@ -38,159 +50,156 @@
             "",
             "",
             ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Ad 1",
-            "Bodybuilding.com Coupons & Promo Codes 2016",
-            "Yes",
-            "=  2.png",
-            "Main Login Screen"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Ad 2",
-            "Men\'s Tops & T-Shirts. Nike.com",
-            "No",
-            "",
-            "Main Login Screen & Action Screen"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
             "80",
             ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
             "80",
             ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 1",
             "Member",
             "Attends",
             "9 am",
             "12 pm"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 2",
             "Trainer",
             "Attends",
             "8 am",
             "still here"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 3",
             "Moderator",
             "Leave",
             "10 am",
             "11 am"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 4",
             "Member",
             "Not attend",
             "-",
             "-",
             "not come from 5 days"}, -1, System.Drawing.Color.Red, System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 5",
             "Member",
             "Attend",
             "1 pm",
             "still here",
             "break dumbbell :D"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
             "80",
             ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
+            "1",
+            "Plan 1",
+            "25",
+            "80",
+            "",
+            "",
+            "",
+            ""}, -1);
             this.tabControlPanel9 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel13 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel15 = new DevComponents.DotNetBar.TabControlPanel();
@@ -200,6 +209,40 @@
             this.sideNav1 = new DevComponents.DotNetBar.Controls.SideNav();
             this.sideNavPanel6 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControl7 = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel37 = new DevComponents.DotNetBar.TabControlPanel();
+            this.groupPanel17 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.btnSetSelectedAdsShow = new DevComponents.DotNetBar.ButtonX();
+            this.btnSetAllAdsShow = new DevComponents.DotNetBar.ButtonX();
+            this.lblAdsSlideDuration = new DevComponents.DotNetBar.LabelX();
+            this.sliderAdsDuration = new DevComponents.DotNetBar.Controls.Slider();
+            this.groupPanel14 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.groupPanel24 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.buttonX22 = new DevComponents.DotNetBar.ButtonX();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.buttonX23 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX24 = new DevComponents.DotNetBar.ButtonX();
+            this.ComboBoxEx1 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.ComboBoxEx9 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.textBoxX21 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.textBoxX22 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.buttonX11 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX6 = new DevComponents.DotNetBar.ButtonX();
+            this.groupPanel15 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.buttonX40 = new DevComponents.DotNetBar.ButtonX();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonX31 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX38 = new DevComponents.DotNetBar.ButtonX();
+            this.ComboBoxEx3 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.comboxBoxImageAble = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.textBoxX24 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.textBoxX23 = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.listAdsManger = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader62 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader63 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader64 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader65 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader66 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabSettingsAds = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel39 = new DevComponents.DotNetBar.TabControlPanel();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.btnSettingsPricesPlanDelete = new DevComponents.DotNetBar.ButtonX();
@@ -242,40 +285,6 @@
             this.tabSettingsPricePlan = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel42 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabSettingsPermissions = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel37 = new DevComponents.DotNetBar.TabControlPanel();
-            this.groupPanel17 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.btnSetSelectedAdsShow = new DevComponents.DotNetBar.ButtonX();
-            this.btnSetAllAdsShow = new DevComponents.DotNetBar.ButtonX();
-            this.lblAdsSlideDuration = new DevComponents.DotNetBar.LabelX();
-            this.sliderAdsDuration = new DevComponents.DotNetBar.Controls.Slider();
-            this.groupPanel14 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.groupPanel24 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.buttonX22 = new DevComponents.DotNetBar.ButtonX();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.buttonX23 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX24 = new DevComponents.DotNetBar.ButtonX();
-            this.ComboBoxEx1 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.ComboBoxEx9 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.textBoxX21 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX22 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.buttonX11 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX6 = new DevComponents.DotNetBar.ButtonX();
-            this.groupPanel15 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.buttonX40 = new DevComponents.DotNetBar.ButtonX();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonX31 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX38 = new DevComponents.DotNetBar.ButtonX();
-            this.ComboBoxEx3 = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.comboxBoxImageAble = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.textBoxX24 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.textBoxX23 = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.listAdsManger = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader62 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader63 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader64 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader65 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader66 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabSettingsAds = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel40 = new DevComponents.DotNetBar.TabControlPanel();
             this.groupPanel12 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.labelX14 = new DevComponents.DotNetBar.LabelX();
@@ -438,23 +447,6 @@
             this.tabAddTrainer = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel9 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControl6 = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel28 = new DevComponents.DotNetBar.TabControlPanel();
-            this.groupPanel18 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.btnContactSMSSendAll = new DevComponents.DotNetBar.ButtonX();
-            this.txtContactSMSMessageBodyToAll = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.labelX26 = new DevComponents.DotNetBar.LabelX();
-            this.comboBoxContactSMSCategory = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.labelX27 = new DevComponents.DotNetBar.LabelX();
-            this.groupPanel21 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.btnContactSMSSend = new DevComponents.DotNetBar.ButtonX();
-            this.txtContactSMSMessageBody = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.labelX30 = new DevComponents.DotNetBar.LabelX();
-            this.txtContactSMSNumber = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.labelX31 = new DevComponents.DotNetBar.LabelX();
-            this.comboBoxContactSMSMembers = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.labelX32 = new DevComponents.DotNetBar.LabelX();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.tabItem8 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel25 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel26 = new DevComponents.DotNetBar.TabControlPanel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -491,6 +483,23 @@
             this.columnHeader69 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader70 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader71 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabControlPanel28 = new DevComponents.DotNetBar.TabControlPanel();
+            this.groupPanel18 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.btnContactSMSSendAll = new DevComponents.DotNetBar.ButtonX();
+            this.txtContactSMSMessageBodyToAll = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX26 = new DevComponents.DotNetBar.LabelX();
+            this.comboBoxContactSMSCategory = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.labelX27 = new DevComponents.DotNetBar.LabelX();
+            this.groupPanel21 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.btnContactSMSSend = new DevComponents.DotNetBar.ButtonX();
+            this.txtContactSMSMessageBody = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX30 = new DevComponents.DotNetBar.LabelX();
+            this.txtContactSMSNumber = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX31 = new DevComponents.DotNetBar.LabelX();
+            this.comboBoxContactSMSMembers = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.labelX32 = new DevComponents.DotNetBar.LabelX();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.tabItem8 = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel8 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.sideNavPanel7 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControl5 = new DevComponents.DotNetBar.TabControl();
@@ -525,18 +534,6 @@
             this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel3 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabEquipmentsAddEquipment = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel7 = new DevComponents.DotNetBar.TabControlPanel();
-            this.groupPanel20 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.txtEquipmentsAddEquipmentType = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtEquipmentsAddEquipmentName = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.btnEquipmentRest = new DevComponents.DotNetBar.ButtonX();
-            this.btnEquipmentSave = new DevComponents.DotNetBar.ButtonX();
-            this.comboEquipmentMaintenancePeriod = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.dateEquipment = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.txtEquipmentTotalPrice = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtEquipmentPricePerUnite = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.tabAddEquipment = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel5 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabControlPanel6 = new DevComponents.DotNetBar.TabControlPanel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -562,6 +559,18 @@
             this.columnHeader28 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader29 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader30 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabControlPanel7 = new DevComponents.DotNetBar.TabControlPanel();
+            this.groupPanel20 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.txtEquipmentsAddEquipmentType = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtEquipmentsAddEquipmentName = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnEquipmentRest = new DevComponents.DotNetBar.ButtonX();
+            this.btnEquipmentSave = new DevComponents.DotNetBar.ButtonX();
+            this.comboEquipmentMaintenancePeriod = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.dateEquipment = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.txtEquipmentTotalPrice = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtEquipmentPricePerUnite = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.tabAddEquipment = new DevComponents.DotNetBar.TabItem(this.components);
             this.sideNavPanel1 = new DevComponents.DotNetBar.Controls.SideNavPanel();
             this.tabControlMembers = new DevComponents.DotNetBar.TabControl();
             this.tabControlPanel8 = new DevComponents.DotNetBar.TabControlPanel();
@@ -620,17 +629,41 @@
             this.tabSettings = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.btnExit = new DevComponents.DotNetBar.Controls.SideNavItem();
             this.tabItem7 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.groupPanel25 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.listViewEx2 = new DevComponents.DotNetBar.Controls.ListViewEx();
+            this.columnHeader80 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader81 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader82 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader83 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader84 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader85 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader86 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader87 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.groupPanel26 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.btnSettingsPermissionsDelete = new DevComponents.DotNetBar.ButtonX();
+            this.btnSettingsPermissionsEdit = new DevComponents.DotNetBar.ButtonX();
+            this.btnSettingsPermissionsNew = new DevComponents.DotNetBar.ButtonX();
+            this.btnSettingsPermissionsView = new DevComponents.DotNetBar.ButtonX();
+            this.switchButton1 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton2 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton3 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton4 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton5 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton6 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton7 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton8 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton9 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton10 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton11 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton12 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton13 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton14 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton15 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.switchButton16 = new DevComponents.DotNetBar.Controls.SwitchButton();
             this.sideNav1.SuspendLayout();
             this.sideNavPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl7)).BeginInit();
             this.tabControl7.SuspendLayout();
-            this.tabControlPanel39.SuspendLayout();
-            this.groupPanel2.SuspendLayout();
-            this.groupPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl8)).BeginInit();
-            this.tabControl8.SuspendLayout();
-            this.tabControlPanel41.SuspendLayout();
-            this.tabControlPanel43.SuspendLayout();
             this.tabControlPanel37.SuspendLayout();
             this.groupPanel17.SuspendLayout();
             this.groupPanel14.SuspendLayout();
@@ -638,6 +671,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.groupPanel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabControlPanel39.SuspendLayout();
+            this.groupPanel2.SuspendLayout();
+            this.groupPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl8)).BeginInit();
+            this.tabControl8.SuspendLayout();
+            this.tabControlPanel41.SuspendLayout();
+            this.tabControlPanel43.SuspendLayout();
+            this.tabControlPanel42.SuspendLayout();
             this.tabControlPanel40.SuspendLayout();
             this.groupPanel12.SuspendLayout();
             this.groupPanel13.SuspendLayout();
@@ -676,15 +717,15 @@
             this.sideNavPanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl6)).BeginInit();
             this.tabControl6.SuspendLayout();
-            this.tabControlPanel28.SuspendLayout();
-            this.groupPanel18.SuspendLayout();
-            this.groupPanel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.tabControlPanel25.SuspendLayout();
             this.tabControlPanel26.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.groupPanel19.SuspendLayout();
             this.groupMember.SuspendLayout();
+            this.tabControlPanel28.SuspendLayout();
+            this.groupPanel18.SuspendLayout();
+            this.groupPanel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.sideNavPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl5)).BeginInit();
             this.tabControl5.SuspendLayout();
@@ -693,13 +734,13 @@
             this.sideNavPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabEquipmentsAddEquipment)).BeginInit();
             this.tabEquipmentsAddEquipment.SuspendLayout();
+            this.tabControlPanel5.SuspendLayout();
+            this.tabControlPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabControlPanel7.SuspendLayout();
             this.groupPanel20.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateEquipment)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.tabControlPanel5.SuspendLayout();
-            this.tabControlPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.sideNavPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControlMembers)).BeginInit();
             this.tabControlMembers.SuspendLayout();
@@ -709,6 +750,8 @@
             this.groupPnlMembersAddMember.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datInputMembersAddMemberBirthDate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMembersAddMemberPic)).BeginInit();
+            this.groupPanel25.SuspendLayout();
+            this.groupPanel26.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControlPanel9
@@ -842,9 +885,9 @@
             // 
             this.tabControl7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControl7.CanReorderTabs = true;
-            this.tabControl7.Controls.Add(this.tabControlPanel37);
-            this.tabControl7.Controls.Add(this.tabControlPanel39);
             this.tabControl7.Controls.Add(this.tabControlPanel42);
+            this.tabControl7.Controls.Add(this.tabControlPanel39);
+            this.tabControl7.Controls.Add(this.tabControlPanel37);
             this.tabControl7.Controls.Add(this.tabControlPanel40);
             this.tabControl7.Controls.Add(this.tabControlPanel36);
             this.tabControl7.Controls.Add(this.tabControlPanel34);
@@ -866,6 +909,566 @@
             this.tabControl7.Tabs.Add(this.tabItem18);
             this.tabControl7.Text = "tabControl2";
             // 
+            // tabControlPanel37
+            // 
+            this.tabControlPanel37.Controls.Add(this.groupPanel17);
+            this.tabControlPanel37.Controls.Add(this.groupPanel14);
+            this.tabControlPanel37.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel37.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel37.Name = "tabControlPanel37";
+            this.tabControlPanel37.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel37.Size = new System.Drawing.Size(993, 559);
+            this.tabControlPanel37.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel37.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel37.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel37.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel37.Style.GradientAngle = 90;
+            this.tabControlPanel37.TabIndex = 33;
+            this.tabControlPanel37.TabItem = this.tabSettingsAds;
+            // 
+            // groupPanel17
+            // 
+            this.groupPanel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel17.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel17.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel17.Controls.Add(this.btnSetSelectedAdsShow);
+            this.groupPanel17.Controls.Add(this.btnSetAllAdsShow);
+            this.groupPanel17.Controls.Add(this.lblAdsSlideDuration);
+            this.groupPanel17.Controls.Add(this.sliderAdsDuration);
+            this.groupPanel17.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel17.Location = new System.Drawing.Point(185, 22);
+            this.groupPanel17.Name = "groupPanel17";
+            this.groupPanel17.Size = new System.Drawing.Size(649, 69);
+            // 
+            // 
+            // 
+            this.groupPanel17.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel17.Style.BackColorGradientAngle = 90;
+            this.groupPanel17.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel17.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel17.Style.BorderBottomWidth = 1;
+            this.groupPanel17.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel17.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel17.Style.BorderLeftWidth = 1;
+            this.groupPanel17.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel17.Style.BorderRightWidth = 1;
+            this.groupPanel17.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel17.Style.BorderTopWidth = 1;
+            this.groupPanel17.Style.CornerDiameter = 4;
+            this.groupPanel17.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel17.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel17.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel17.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel17.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel17.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel17.TabIndex = 1;
+            this.groupPanel17.Text = "Display ";
+            // 
+            // btnSetSelectedAdsShow
+            // 
+            this.btnSetSelectedAdsShow.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSetSelectedAdsShow.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSetSelectedAdsShow.Location = new System.Drawing.Point(466, 3);
+            this.btnSetSelectedAdsShow.Name = "btnSetSelectedAdsShow";
+            this.btnSetSelectedAdsShow.Size = new System.Drawing.Size(160, 32);
+            this.btnSetSelectedAdsShow.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSetSelectedAdsShow.TabIndex = 3;
+            this.btnSetSelectedAdsShow.Text = "Show Selected Ads Only";
+            // 
+            // btnSetAllAdsShow
+            // 
+            this.btnSetAllAdsShow.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSetAllAdsShow.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSetAllAdsShow.Location = new System.Drawing.Point(279, 3);
+            this.btnSetAllAdsShow.Name = "btnSetAllAdsShow";
+            this.btnSetAllAdsShow.Size = new System.Drawing.Size(160, 32);
+            this.btnSetAllAdsShow.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSetAllAdsShow.TabIndex = 2;
+            this.btnSetAllAdsShow.Text = "Show All Ads";
+            // 
+            // lblAdsSlideDuration
+            // 
+            this.lblAdsSlideDuration.AutoSize = true;
+            this.lblAdsSlideDuration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.lblAdsSlideDuration.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAdsSlideDuration.ForeColor = System.Drawing.Color.Black;
+            this.lblAdsSlideDuration.Location = new System.Drawing.Point(192, 14);
+            this.lblAdsSlideDuration.Name = "lblAdsSlideDuration";
+            this.lblAdsSlideDuration.Size = new System.Drawing.Size(57, 17);
+            this.lblAdsSlideDuration.TabIndex = 1;
+            this.lblAdsSlideDuration.Text = "... Minutes";
+            // 
+            // sliderAdsDuration
+            // 
+            this.sliderAdsDuration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.sliderAdsDuration.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.sliderAdsDuration.ForeColor = System.Drawing.Color.Black;
+            this.sliderAdsDuration.Location = new System.Drawing.Point(22, 15);
+            this.sliderAdsDuration.Name = "sliderAdsDuration";
+            this.sliderAdsDuration.Size = new System.Drawing.Size(166, 13);
+            this.sliderAdsDuration.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.sliderAdsDuration.TabIndex = 0;
+            this.sliderAdsDuration.Text = "Every:";
+            this.sliderAdsDuration.Value = 0;
+            this.sliderAdsDuration.ValueChanged += new System.EventHandler(this.sliderAdsDuration_ValueChanged);
+            // 
+            // groupPanel14
+            // 
+            this.groupPanel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel14.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel14.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel14.Controls.Add(this.groupPanel24);
+            this.groupPanel14.Controls.Add(this.buttonX11);
+            this.groupPanel14.Controls.Add(this.buttonX6);
+            this.groupPanel14.Controls.Add(this.groupPanel15);
+            this.groupPanel14.Controls.Add(this.listAdsManger);
+            this.groupPanel14.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel14.Location = new System.Drawing.Point(47, 102);
+            this.groupPanel14.Name = "groupPanel14";
+            this.groupPanel14.Size = new System.Drawing.Size(916, 443);
+            // 
+            // 
+            // 
+            this.groupPanel14.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel14.Style.BackColorGradientAngle = 90;
+            this.groupPanel14.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel14.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel14.Style.BorderBottomWidth = 1;
+            this.groupPanel14.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel14.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel14.Style.BorderLeftWidth = 1;
+            this.groupPanel14.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel14.Style.BorderRightWidth = 1;
+            this.groupPanel14.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel14.Style.BorderTopWidth = 1;
+            this.groupPanel14.Style.CornerDiameter = 4;
+            this.groupPanel14.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel14.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel14.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel14.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel14.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel14.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel14.TabIndex = 0;
+            this.groupPanel14.Text = "Adertises Manger";
+            // 
+            // groupPanel24
+            // 
+            this.groupPanel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel24.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel24.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel24.Controls.Add(this.buttonX22);
+            this.groupPanel24.Controls.Add(this.pictureBox7);
+            this.groupPanel24.Controls.Add(this.buttonX23);
+            this.groupPanel24.Controls.Add(this.buttonX24);
+            this.groupPanel24.Controls.Add(this.ComboBoxEx1);
+            this.groupPanel24.Controls.Add(this.ComboBoxEx9);
+            this.groupPanel24.Controls.Add(this.textBoxX21);
+            this.groupPanel24.Controls.Add(this.textBoxX22);
+            this.groupPanel24.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel24.Enabled = false;
+            this.groupPanel24.Location = new System.Drawing.Point(531, 211);
+            this.groupPanel24.Name = "groupPanel24";
+            this.groupPanel24.Size = new System.Drawing.Size(374, 194);
+            // 
+            // 
+            // 
+            this.groupPanel24.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel24.Style.BackColorGradientAngle = 90;
+            this.groupPanel24.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel24.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel24.Style.BorderBottomWidth = 1;
+            this.groupPanel24.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel24.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel24.Style.BorderLeftWidth = 1;
+            this.groupPanel24.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel24.Style.BorderRightWidth = 1;
+            this.groupPanel24.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel24.Style.BorderTopWidth = 1;
+            this.groupPanel24.Style.CornerDiameter = 4;
+            this.groupPanel24.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel24.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel24.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel24.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel24.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel24.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel24.TabIndex = 6;
+            this.groupPanel24.Text = "Modify Adertise";
+            // 
+            // buttonX22
+            // 
+            this.buttonX22.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX22.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX22.Enabled = false;
+            this.buttonX22.Location = new System.Drawing.Point(17, 113);
+            this.buttonX22.Name = "buttonX22";
+            this.buttonX22.Size = new System.Drawing.Size(95, 23);
+            this.buttonX22.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX22.TabIndex = 15;
+            this.buttonX22.Text = "...";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.pictureBox7.Enabled = false;
+            this.pictureBox7.ForeColor = System.Drawing.Color.Black;
+            this.pictureBox7.Location = new System.Drawing.Point(17, 39);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(95, 68);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 14;
+            this.pictureBox7.TabStop = false;
+            // 
+            // buttonX23
+            // 
+            this.buttonX23.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX23.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX23.Enabled = false;
+            this.buttonX23.Location = new System.Drawing.Point(145, 139);
+            this.buttonX23.Name = "buttonX23";
+            this.buttonX23.Size = new System.Drawing.Size(75, 23);
+            this.buttonX23.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX23.TabIndex = 13;
+            this.buttonX23.Text = "Save";
+            // 
+            // buttonX24
+            // 
+            this.buttonX24.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX24.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX24.Enabled = false;
+            this.buttonX24.Location = new System.Drawing.Point(271, 139);
+            this.buttonX24.Name = "buttonX24";
+            this.buttonX24.Size = new System.Drawing.Size(75, 23);
+            this.buttonX24.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX24.TabIndex = 12;
+            this.buttonX24.Text = "Reset";
+            // 
+            // ComboBoxEx1
+            // 
+            this.ComboBoxEx1.Enabled = false;
+            this.ComboBoxEx1.ForeColor = System.Drawing.Color.Black;
+            this.ComboBoxEx1.Location = new System.Drawing.Point(145, 110);
+            this.ComboBoxEx1.Name = "ComboBoxEx1";
+            this.ComboBoxEx1.Size = new System.Drawing.Size(200, 21);
+            this.ComboBoxEx1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ComboBoxEx1.TabIndex = 11;
+            this.ComboBoxEx1.WatermarkText = "Positions";
+            // 
+            // ComboBoxEx9
+            // 
+            this.ComboBoxEx9.Enabled = false;
+            this.ComboBoxEx9.ForeColor = System.Drawing.Color.Black;
+            this.ComboBoxEx9.Location = new System.Drawing.Point(17, 10);
+            this.ComboBoxEx9.Name = "ComboBoxEx9";
+            this.ComboBoxEx9.Size = new System.Drawing.Size(95, 21);
+            this.ComboBoxEx9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ComboBoxEx9.TabIndex = 10;
+            this.ComboBoxEx9.WatermarkText = "Image able";
+            // 
+            // textBoxX21
+            // 
+            this.textBoxX21.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX21.Border.Class = "TextBoxBorder";
+            this.textBoxX21.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX21.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX21.Enabled = false;
+            this.textBoxX21.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX21.Location = new System.Drawing.Point(145, 36);
+            this.textBoxX21.Multiline = true;
+            this.textBoxX21.Name = "textBoxX21";
+            this.textBoxX21.PreventEnterBeep = true;
+            this.textBoxX21.Size = new System.Drawing.Size(200, 68);
+            this.textBoxX21.TabIndex = 9;
+            this.textBoxX21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX21.WatermarkText = "Text";
+            // 
+            // textBoxX22
+            // 
+            this.textBoxX22.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX22.Border.Class = "TextBoxBorder";
+            this.textBoxX22.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX22.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX22.Enabled = false;
+            this.textBoxX22.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX22.Location = new System.Drawing.Point(145, 10);
+            this.textBoxX22.Name = "textBoxX22";
+            this.textBoxX22.PreventEnterBeep = true;
+            this.textBoxX22.Size = new System.Drawing.Size(200, 20);
+            this.textBoxX22.TabIndex = 8;
+            this.textBoxX22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX22.WatermarkText = "Name";
+            // 
+            // buttonX11
+            // 
+            this.buttonX11.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX11.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX11.Location = new System.Drawing.Point(272, 332);
+            this.buttonX11.Name = "buttonX11";
+            this.buttonX11.Size = new System.Drawing.Size(122, 33);
+            this.buttonX11.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX11.TabIndex = 5;
+            this.buttonX11.Text = "Delete Advertise";
+            // 
+            // buttonX6
+            // 
+            this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX6.Enabled = false;
+            this.buttonX6.Location = new System.Drawing.Point(121, 332);
+            this.buttonX6.Name = "buttonX6";
+            this.buttonX6.Size = new System.Drawing.Size(122, 33);
+            this.buttonX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX6.TabIndex = 4;
+            this.buttonX6.Text = "Edit Advertise";
+            // 
+            // groupPanel15
+            // 
+            this.groupPanel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel15.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel15.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel15.Controls.Add(this.buttonX40);
+            this.groupPanel15.Controls.Add(this.pictureBox1);
+            this.groupPanel15.Controls.Add(this.buttonX31);
+            this.groupPanel15.Controls.Add(this.buttonX38);
+            this.groupPanel15.Controls.Add(this.ComboBoxEx3);
+            this.groupPanel15.Controls.Add(this.comboxBoxImageAble);
+            this.groupPanel15.Controls.Add(this.textBoxX24);
+            this.groupPanel15.Controls.Add(this.textBoxX23);
+            this.groupPanel15.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel15.Location = new System.Drawing.Point(531, 10);
+            this.groupPanel15.Name = "groupPanel15";
+            this.groupPanel15.Size = new System.Drawing.Size(374, 187);
+            // 
+            // 
+            // 
+            this.groupPanel15.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel15.Style.BackColorGradientAngle = 90;
+            this.groupPanel15.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel15.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel15.Style.BorderBottomWidth = 1;
+            this.groupPanel15.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel15.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel15.Style.BorderLeftWidth = 1;
+            this.groupPanel15.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel15.Style.BorderRightWidth = 1;
+            this.groupPanel15.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel15.Style.BorderTopWidth = 1;
+            this.groupPanel15.Style.CornerDiameter = 4;
+            this.groupPanel15.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel15.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel15.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel15.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel15.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel15.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel15.TabIndex = 3;
+            this.groupPanel15.Text = "New Adertise";
+            // 
+            // buttonX40
+            // 
+            this.buttonX40.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX40.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX40.Location = new System.Drawing.Point(23, 110);
+            this.buttonX40.Name = "buttonX40";
+            this.buttonX40.Size = new System.Drawing.Size(95, 23);
+            this.buttonX40.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX40.TabIndex = 7;
+            this.buttonX40.Text = "...";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.pictureBox1.ForeColor = System.Drawing.Color.Black;
+            this.pictureBox1.Location = new System.Drawing.Point(23, 36);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(95, 68);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // buttonX31
+            // 
+            this.buttonX31.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX31.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX31.Location = new System.Drawing.Point(145, 139);
+            this.buttonX31.Name = "buttonX31";
+            this.buttonX31.Size = new System.Drawing.Size(75, 23);
+            this.buttonX31.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX31.TabIndex = 5;
+            this.buttonX31.Text = "Save";
+            // 
+            // buttonX38
+            // 
+            this.buttonX38.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX38.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX38.Location = new System.Drawing.Point(270, 139);
+            this.buttonX38.Name = "buttonX38";
+            this.buttonX38.Size = new System.Drawing.Size(75, 23);
+            this.buttonX38.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX38.TabIndex = 4;
+            this.buttonX38.Text = "Reset";
+            // 
+            // ComboBoxEx3
+            // 
+            this.ComboBoxEx3.ForeColor = System.Drawing.Color.Black;
+            this.ComboBoxEx3.Location = new System.Drawing.Point(145, 110);
+            this.ComboBoxEx3.Name = "ComboBoxEx3";
+            this.ComboBoxEx3.Size = new System.Drawing.Size(200, 21);
+            this.ComboBoxEx3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ComboBoxEx3.TabIndex = 3;
+            this.ComboBoxEx3.WatermarkText = "Positions";
+            // 
+            // comboxBoxImageAble
+            // 
+            this.comboxBoxImageAble.ForeColor = System.Drawing.Color.Black;
+            this.comboxBoxImageAble.Location = new System.Drawing.Point(23, 10);
+            this.comboxBoxImageAble.Name = "comboxBoxImageAble";
+            this.comboxBoxImageAble.Size = new System.Drawing.Size(95, 21);
+            this.comboxBoxImageAble.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboxBoxImageAble.TabIndex = 2;
+            this.comboxBoxImageAble.WatermarkText = "Image able";
+            // 
+            // textBoxX24
+            // 
+            this.textBoxX24.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX24.Border.Class = "TextBoxBorder";
+            this.textBoxX24.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX24.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX24.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX24.Location = new System.Drawing.Point(145, 36);
+            this.textBoxX24.Multiline = true;
+            this.textBoxX24.Name = "textBoxX24";
+            this.textBoxX24.PreventEnterBeep = true;
+            this.textBoxX24.Size = new System.Drawing.Size(200, 68);
+            this.textBoxX24.TabIndex = 1;
+            this.textBoxX24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX24.WatermarkText = "Text";
+            // 
+            // textBoxX23
+            // 
+            this.textBoxX23.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.textBoxX23.Border.Class = "TextBoxBorder";
+            this.textBoxX23.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.textBoxX23.DisabledBackColor = System.Drawing.Color.White;
+            this.textBoxX23.ForeColor = System.Drawing.Color.Black;
+            this.textBoxX23.Location = new System.Drawing.Point(145, 10);
+            this.textBoxX23.Name = "textBoxX23";
+            this.textBoxX23.PreventEnterBeep = true;
+            this.textBoxX23.Size = new System.Drawing.Size(200, 20);
+            this.textBoxX23.TabIndex = 0;
+            this.textBoxX23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxX23.WatermarkText = "Name";
+            // 
+            // listAdsManger
+            // 
+            this.listAdsManger.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listAdsManger.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.listAdsManger.Border.Class = "ListViewBorder";
+            this.listAdsManger.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listAdsManger.CheckBoxes = true;
+            this.listAdsManger.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader62,
+            this.columnHeader63,
+            this.columnHeader64,
+            this.columnHeader65,
+            this.columnHeader66});
+            this.listAdsManger.DisabledBackColor = System.Drawing.Color.Empty;
+            this.listAdsManger.ForeColor = System.Drawing.Color.Black;
+            this.listAdsManger.FullRowSelect = true;
+            this.listAdsManger.GridLines = true;
+            this.listAdsManger.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem2.StateImageIndex = 0;
+            listViewItem2.UseItemStyleForSubItems = false;
+            listViewItem35.StateImageIndex = 0;
+            this.listAdsManger.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem2,
+            listViewItem35});
+            this.listAdsManger.Location = new System.Drawing.Point(12, 24);
+            this.listAdsManger.Name = "listAdsManger";
+            this.listAdsManger.Size = new System.Drawing.Size(467, 213);
+            this.listAdsManger.TabIndex = 1;
+            this.listAdsManger.UseCompatibleStateImageBehavior = false;
+            this.listAdsManger.View = System.Windows.Forms.View.Details;
+            this.listAdsManger.SelectedIndexChanged += new System.EventHandler(this.listViewEx5_SelectedIndexChanged);
+            // 
+            // columnHeader62
+            // 
+            this.columnHeader62.Text = "Ad Name";
+            this.columnHeader62.Width = 71;
+            // 
+            // columnHeader63
+            // 
+            this.columnHeader63.Text = "Text";
+            this.columnHeader63.Width = 53;
+            // 
+            // columnHeader64
+            // 
+            this.columnHeader64.Text = "Imageable";
+            this.columnHeader64.Width = 62;
+            // 
+            // columnHeader65
+            // 
+            this.columnHeader65.Text = "Image";
+            this.columnHeader65.Width = 64;
+            // 
+            // columnHeader66
+            // 
+            this.columnHeader66.Text = "Positions";
+            this.columnHeader66.Width = 164;
+            // 
+            // tabSettingsAds
+            // 
+            this.tabSettingsAds.AttachedControl = this.tabControlPanel37;
+            this.tabSettingsAds.Name = "tabSettingsAds";
+            this.tabSettingsAds.Text = "Advertises";
+            // 
             // tabControlPanel39
             // 
             this.tabControlPanel39.Controls.Add(this.groupPanel2);
@@ -875,7 +1478,7 @@
             this.tabControlPanel39.Location = new System.Drawing.Point(0, 27);
             this.tabControlPanel39.Name = "tabControlPanel39";
             this.tabControlPanel39.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel39.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel39.Size = new System.Drawing.Size(993, 559);
             this.tabControlPanel39.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControlPanel39.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
             this.tabControlPanel39.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
@@ -976,9 +1579,9 @@
             this.lstViewSettingsPricesPlanAllPlans.FullRowSelect = true;
             this.lstViewSettingsPricesPlanAllPlans.GridLines = true;
             this.lstViewSettingsPricesPlanAllPlans.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem30.StateImageIndex = 0;
+            listViewItem1.StateImageIndex = 0;
             this.lstViewSettingsPricesPlanAllPlans.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem30});
+            listViewItem1});
             this.lstViewSettingsPricesPlanAllPlans.Location = new System.Drawing.Point(22, 12);
             this.lstViewSettingsPricesPlanAllPlans.Name = "lstViewSettingsPricesPlanAllPlans";
             this.lstViewSettingsPricesPlanAllPlans.Size = new System.Drawing.Size(848, 88);
@@ -1472,6 +2075,7 @@
             // 
             // tabControlPanel42
             // 
+            this.tabControlPanel42.Controls.Add(this.groupPanel25);
             this.tabControlPanel42.DisabledBackColor = System.Drawing.Color.Empty;
             this.tabControlPanel42.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlPanel42.Location = new System.Drawing.Point(0, 27);
@@ -1492,584 +2096,6 @@
             this.tabSettingsPermissions.AttachedControl = this.tabControlPanel42;
             this.tabSettingsPermissions.Name = "tabSettingsPermissions";
             this.tabSettingsPermissions.Text = "Permissions";
-            // 
-            // tabControlPanel37
-            // 
-            this.tabControlPanel37.Controls.Add(this.groupPanel17);
-            this.tabControlPanel37.Controls.Add(this.groupPanel14);
-            this.tabControlPanel37.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel37.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel37.Name = "tabControlPanel37";
-            this.tabControlPanel37.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel37.Size = new System.Drawing.Size(993, 559);
-            this.tabControlPanel37.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel37.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel37.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel37.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel37.Style.GradientAngle = 90;
-            this.tabControlPanel37.TabIndex = 33;
-            this.tabControlPanel37.TabItem = this.tabSettingsAds;
-            // 
-            // groupPanel17
-            // 
-            this.groupPanel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel17.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel17.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel17.Controls.Add(this.btnSetSelectedAdsShow);
-            this.groupPanel17.Controls.Add(this.btnSetAllAdsShow);
-            this.groupPanel17.Controls.Add(this.lblAdsSlideDuration);
-            this.groupPanel17.Controls.Add(this.sliderAdsDuration);
-            this.groupPanel17.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel17.Location = new System.Drawing.Point(185, 22);
-            this.groupPanel17.Name = "groupPanel17";
-            this.groupPanel17.Size = new System.Drawing.Size(649, 69);
-            // 
-            // 
-            // 
-            this.groupPanel17.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel17.Style.BackColorGradientAngle = 90;
-            this.groupPanel17.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel17.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel17.Style.BorderBottomWidth = 1;
-            this.groupPanel17.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel17.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel17.Style.BorderLeftWidth = 1;
-            this.groupPanel17.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel17.Style.BorderRightWidth = 1;
-            this.groupPanel17.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel17.Style.BorderTopWidth = 1;
-            this.groupPanel17.Style.CornerDiameter = 4;
-            this.groupPanel17.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel17.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel17.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel17.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel17.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel17.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel17.TabIndex = 1;
-            this.groupPanel17.Text = "Display ";
-            // 
-            // btnSetSelectedAdsShow
-            // 
-            this.btnSetSelectedAdsShow.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnSetSelectedAdsShow.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnSetSelectedAdsShow.Location = new System.Drawing.Point(466, 3);
-            this.btnSetSelectedAdsShow.Name = "btnSetSelectedAdsShow";
-            this.btnSetSelectedAdsShow.Size = new System.Drawing.Size(160, 32);
-            this.btnSetSelectedAdsShow.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnSetSelectedAdsShow.TabIndex = 3;
-            this.btnSetSelectedAdsShow.Text = "Show Selected Ads Only";
-            // 
-            // btnSetAllAdsShow
-            // 
-            this.btnSetAllAdsShow.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnSetAllAdsShow.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnSetAllAdsShow.Location = new System.Drawing.Point(279, 3);
-            this.btnSetAllAdsShow.Name = "btnSetAllAdsShow";
-            this.btnSetAllAdsShow.Size = new System.Drawing.Size(160, 32);
-            this.btnSetAllAdsShow.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnSetAllAdsShow.TabIndex = 2;
-            this.btnSetAllAdsShow.Text = "Show All Ads";
-            // 
-            // lblAdsSlideDuration
-            // 
-            this.lblAdsSlideDuration.AutoSize = true;
-            this.lblAdsSlideDuration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            // 
-            // 
-            // 
-            this.lblAdsSlideDuration.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAdsSlideDuration.ForeColor = System.Drawing.Color.Black;
-            this.lblAdsSlideDuration.Location = new System.Drawing.Point(192, 14);
-            this.lblAdsSlideDuration.Name = "lblAdsSlideDuration";
-            this.lblAdsSlideDuration.Size = new System.Drawing.Size(57, 17);
-            this.lblAdsSlideDuration.TabIndex = 1;
-            this.lblAdsSlideDuration.Text = "... Minutes";
-            // 
-            // sliderAdsDuration
-            // 
-            this.sliderAdsDuration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            // 
-            // 
-            // 
-            this.sliderAdsDuration.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.sliderAdsDuration.ForeColor = System.Drawing.Color.Black;
-            this.sliderAdsDuration.Location = new System.Drawing.Point(22, 15);
-            this.sliderAdsDuration.Name = "sliderAdsDuration";
-            this.sliderAdsDuration.Size = new System.Drawing.Size(166, 13);
-            this.sliderAdsDuration.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.sliderAdsDuration.TabIndex = 0;
-            this.sliderAdsDuration.Text = "Every:";
-            this.sliderAdsDuration.Value = 0;
-            this.sliderAdsDuration.ValueChanged += new System.EventHandler(this.sliderAdsDuration_ValueChanged);
-            // 
-            // groupPanel14
-            // 
-            this.groupPanel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel14.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel14.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel14.Controls.Add(this.groupPanel24);
-            this.groupPanel14.Controls.Add(this.buttonX11);
-            this.groupPanel14.Controls.Add(this.buttonX6);
-            this.groupPanel14.Controls.Add(this.groupPanel15);
-            this.groupPanel14.Controls.Add(this.listAdsManger);
-            this.groupPanel14.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel14.Location = new System.Drawing.Point(47, 102);
-            this.groupPanel14.Name = "groupPanel14";
-            this.groupPanel14.Size = new System.Drawing.Size(916, 443);
-            // 
-            // 
-            // 
-            this.groupPanel14.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel14.Style.BackColorGradientAngle = 90;
-            this.groupPanel14.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel14.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel14.Style.BorderBottomWidth = 1;
-            this.groupPanel14.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel14.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel14.Style.BorderLeftWidth = 1;
-            this.groupPanel14.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel14.Style.BorderRightWidth = 1;
-            this.groupPanel14.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel14.Style.BorderTopWidth = 1;
-            this.groupPanel14.Style.CornerDiameter = 4;
-            this.groupPanel14.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel14.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel14.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel14.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel14.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel14.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel14.TabIndex = 0;
-            this.groupPanel14.Text = "Adertises Manger";
-            // 
-            // groupPanel24
-            // 
-            this.groupPanel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel24.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel24.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel24.Controls.Add(this.buttonX22);
-            this.groupPanel24.Controls.Add(this.pictureBox7);
-            this.groupPanel24.Controls.Add(this.buttonX23);
-            this.groupPanel24.Controls.Add(this.buttonX24);
-            this.groupPanel24.Controls.Add(this.ComboBoxEx1);
-            this.groupPanel24.Controls.Add(this.ComboBoxEx9);
-            this.groupPanel24.Controls.Add(this.textBoxX21);
-            this.groupPanel24.Controls.Add(this.textBoxX22);
-            this.groupPanel24.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel24.Enabled = false;
-            this.groupPanel24.Location = new System.Drawing.Point(531, 211);
-            this.groupPanel24.Name = "groupPanel24";
-            this.groupPanel24.Size = new System.Drawing.Size(374, 194);
-            // 
-            // 
-            // 
-            this.groupPanel24.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel24.Style.BackColorGradientAngle = 90;
-            this.groupPanel24.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel24.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel24.Style.BorderBottomWidth = 1;
-            this.groupPanel24.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel24.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel24.Style.BorderLeftWidth = 1;
-            this.groupPanel24.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel24.Style.BorderRightWidth = 1;
-            this.groupPanel24.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel24.Style.BorderTopWidth = 1;
-            this.groupPanel24.Style.CornerDiameter = 4;
-            this.groupPanel24.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel24.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel24.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel24.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel24.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel24.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel24.TabIndex = 6;
-            this.groupPanel24.Text = "Modify Adertise";
-            // 
-            // buttonX22
-            // 
-            this.buttonX22.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX22.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX22.Enabled = false;
-            this.buttonX22.Location = new System.Drawing.Point(17, 113);
-            this.buttonX22.Name = "buttonX22";
-            this.buttonX22.Size = new System.Drawing.Size(95, 23);
-            this.buttonX22.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX22.TabIndex = 15;
-            this.buttonX22.Text = "...";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.pictureBox7.Enabled = false;
-            this.pictureBox7.ForeColor = System.Drawing.Color.Black;
-            this.pictureBox7.Location = new System.Drawing.Point(17, 39);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(95, 68);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 14;
-            this.pictureBox7.TabStop = false;
-            // 
-            // buttonX23
-            // 
-            this.buttonX23.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX23.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX23.Enabled = false;
-            this.buttonX23.Location = new System.Drawing.Point(145, 139);
-            this.buttonX23.Name = "buttonX23";
-            this.buttonX23.Size = new System.Drawing.Size(75, 23);
-            this.buttonX23.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX23.TabIndex = 13;
-            this.buttonX23.Text = "Save";
-            // 
-            // buttonX24
-            // 
-            this.buttonX24.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX24.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX24.Enabled = false;
-            this.buttonX24.Location = new System.Drawing.Point(271, 139);
-            this.buttonX24.Name = "buttonX24";
-            this.buttonX24.Size = new System.Drawing.Size(75, 23);
-            this.buttonX24.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX24.TabIndex = 12;
-            this.buttonX24.Text = "Reset";
-            // 
-            // ComboBoxEx1
-            // 
-            this.ComboBoxEx1.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.ComboBoxEx1.Enabled = false;
-            this.ComboBoxEx1.ForeColor = System.Drawing.Color.Black;
-            this.ComboBoxEx1.Location = new System.Drawing.Point(145, 110);
-            this.ComboBoxEx1.Name = "ComboBoxEx1";
-            this.ComboBoxEx1.Size = new System.Drawing.Size(200, 23);
-            this.ComboBoxEx1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ComboBoxEx1.TabIndex = 11;
-            this.ComboBoxEx1.WatermarkText = "Positions";
-            // 
-            // ComboBoxEx9
-            // 
-            this.ComboBoxEx9.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-
-            this.ComboBoxEx9.Enabled = false;
-            this.ComboBoxEx9.ForeColor = System.Drawing.Color.Black;
-            this.ComboBoxEx9.Location = new System.Drawing.Point(17, 10);
-            this.ComboBoxEx9.Name = "ComboBoxEx9";
-            this.ComboBoxEx9.Size = new System.Drawing.Size(95, 20);
-            this.ComboBoxEx9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ComboBoxEx9.TabIndex = 10;
-            this.ComboBoxEx9.WatermarkText = "Image able";
-            // 
-            // textBoxX21
-            // 
-            this.textBoxX21.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX21.Border.Class = "TextBoxBorder";
-            this.textBoxX21.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX21.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX21.Enabled = false;
-            this.textBoxX21.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX21.Location = new System.Drawing.Point(145, 36);
-            this.textBoxX21.Multiline = true;
-            this.textBoxX21.Name = "textBoxX21";
-            this.textBoxX21.PreventEnterBeep = true;
-            this.textBoxX21.Size = new System.Drawing.Size(200, 68);
-            this.textBoxX21.TabIndex = 9;
-            this.textBoxX21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX21.WatermarkText = "Text";
-            // 
-            // textBoxX22
-            // 
-            this.textBoxX22.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX22.Border.Class = "TextBoxBorder";
-            this.textBoxX22.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX22.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX22.Enabled = false;
-            this.textBoxX22.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX22.Location = new System.Drawing.Point(145, 10);
-            this.textBoxX22.Name = "textBoxX22";
-            this.textBoxX22.PreventEnterBeep = true;
-            this.textBoxX22.Size = new System.Drawing.Size(200, 20);
-            this.textBoxX22.TabIndex = 8;
-            this.textBoxX22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX22.WatermarkText = "Name";
-            // 
-            // buttonX11
-            // 
-            this.buttonX11.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX11.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX11.Location = new System.Drawing.Point(272, 332);
-            this.buttonX11.Name = "buttonX11";
-            this.buttonX11.Size = new System.Drawing.Size(122, 33);
-            this.buttonX11.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX11.TabIndex = 5;
-            this.buttonX11.Text = "Delete Advertise";
-            // 
-            // buttonX6
-            // 
-            this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX6.Enabled = false;
-            this.buttonX6.Location = new System.Drawing.Point(121, 332);
-            this.buttonX6.Name = "buttonX6";
-            this.buttonX6.Size = new System.Drawing.Size(122, 33);
-            this.buttonX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX6.TabIndex = 4;
-            this.buttonX6.Text = "Edit Advertise";
-            // 
-            // groupPanel15
-            // 
-            this.groupPanel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel15.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel15.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel15.Controls.Add(this.buttonX40);
-            this.groupPanel15.Controls.Add(this.pictureBox1);
-            this.groupPanel15.Controls.Add(this.buttonX31);
-            this.groupPanel15.Controls.Add(this.buttonX38);
-            this.groupPanel15.Controls.Add(this.ComboBoxEx3);
-            this.groupPanel15.Controls.Add(this.comboxBoxImageAble);
-            this.groupPanel15.Controls.Add(this.textBoxX24);
-            this.groupPanel15.Controls.Add(this.textBoxX23);
-            this.groupPanel15.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel15.Location = new System.Drawing.Point(531, 10);
-            this.groupPanel15.Name = "groupPanel15";
-            this.groupPanel15.Size = new System.Drawing.Size(374, 187);
-            // 
-            // 
-            // 
-            this.groupPanel15.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel15.Style.BackColorGradientAngle = 90;
-            this.groupPanel15.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel15.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel15.Style.BorderBottomWidth = 1;
-            this.groupPanel15.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel15.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel15.Style.BorderLeftWidth = 1;
-            this.groupPanel15.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel15.Style.BorderRightWidth = 1;
-            this.groupPanel15.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel15.Style.BorderTopWidth = 1;
-            this.groupPanel15.Style.CornerDiameter = 4;
-            this.groupPanel15.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel15.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel15.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel15.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel15.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel15.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel15.TabIndex = 3;
-            this.groupPanel15.Text = "New Adertise";
-            // 
-            // buttonX40
-            // 
-            this.buttonX40.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX40.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX40.Location = new System.Drawing.Point(23, 110);
-            this.buttonX40.Name = "buttonX40";
-            this.buttonX40.Size = new System.Drawing.Size(95, 23);
-            this.buttonX40.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX40.TabIndex = 7;
-            this.buttonX40.Text = "...";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.pictureBox1.ForeColor = System.Drawing.Color.Black;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 36);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(95, 68);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // buttonX31
-            // 
-            this.buttonX31.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX31.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX31.Location = new System.Drawing.Point(145, 139);
-            this.buttonX31.Name = "buttonX31";
-            this.buttonX31.Size = new System.Drawing.Size(75, 23);
-            this.buttonX31.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX31.TabIndex = 5;
-            this.buttonX31.Text = "Save";
-            // 
-            // buttonX38
-            // 
-            this.buttonX38.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX38.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX38.Location = new System.Drawing.Point(270, 139);
-            this.buttonX38.Name = "buttonX38";
-            this.buttonX38.Size = new System.Drawing.Size(75, 23);
-            this.buttonX38.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX38.TabIndex = 4;
-            this.buttonX38.Text = "Reset";
-            // 
-            // ComboBoxEx3
-            // 
-            this.ComboBoxEx3.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.ComboBoxEx3.ForeColor = System.Drawing.Color.Black;
-            this.ComboBoxEx3.Location = new System.Drawing.Point(145, 110);
-            this.ComboBoxEx3.Name = "ComboBoxEx3";
-            this.ComboBoxEx3.Size = new System.Drawing.Size(200, 23);
-            this.ComboBoxEx3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ComboBoxEx3.TabIndex = 3;
-            this.ComboBoxEx3.WatermarkText = "Positions";
-            // 
-            // comboxBoxImageAble
-            // 
-            this.comboxBoxImageAble.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-
-            this.comboxBoxImageAble.ForeColor = System.Drawing.Color.Black;
-            this.comboxBoxImageAble.Location = new System.Drawing.Point(23, 10);
-            this.comboxBoxImageAble.Name = "comboxBoxImageAble";
-            this.comboxBoxImageAble.Size = new System.Drawing.Size(95, 20);
-            this.comboxBoxImageAble.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboxBoxImageAble.TabIndex = 2;
-            this.comboxBoxImageAble.WatermarkText = "Image able";
-            // 
-            // textBoxX24
-            // 
-            this.textBoxX24.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX24.Border.Class = "TextBoxBorder";
-            this.textBoxX24.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX24.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX24.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX24.Location = new System.Drawing.Point(145, 36);
-            this.textBoxX24.Multiline = true;
-            this.textBoxX24.Name = "textBoxX24";
-            this.textBoxX24.PreventEnterBeep = true;
-            this.textBoxX24.Size = new System.Drawing.Size(200, 68);
-            this.textBoxX24.TabIndex = 1;
-            this.textBoxX24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX24.WatermarkText = "Text";
-            // 
-            // textBoxX23
-            // 
-            this.textBoxX23.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.textBoxX23.Border.Class = "TextBoxBorder";
-            this.textBoxX23.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX23.DisabledBackColor = System.Drawing.Color.White;
-            this.textBoxX23.ForeColor = System.Drawing.Color.Black;
-            this.textBoxX23.Location = new System.Drawing.Point(145, 10);
-            this.textBoxX23.Name = "textBoxX23";
-            this.textBoxX23.PreventEnterBeep = true;
-            this.textBoxX23.Size = new System.Drawing.Size(200, 20);
-            this.textBoxX23.TabIndex = 0;
-            this.textBoxX23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxX23.WatermarkText = "Name";
-            // 
-            // listAdsManger
-            // 
-            this.listAdsManger.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listAdsManger.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.listAdsManger.Border.Class = "ListViewBorder";
-            this.listAdsManger.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.listAdsManger.CheckBoxes = true;
-            this.listAdsManger.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader62,
-            this.columnHeader63,
-            this.columnHeader64,
-            this.columnHeader65,
-            this.columnHeader66});
-            this.listAdsManger.DisabledBackColor = System.Drawing.Color.Empty;
-            this.listAdsManger.ForeColor = System.Drawing.Color.Black;
-            this.listAdsManger.FullRowSelect = true;
-            this.listAdsManger.GridLines = true;
-            this.listAdsManger.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem28.StateImageIndex = 0;
-            listViewItem28.UseItemStyleForSubItems = false;
-            listViewItem29.StateImageIndex = 0;
-            this.listAdsManger.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem28,
-            listViewItem29});
-            this.listAdsManger.Location = new System.Drawing.Point(12, 24);
-            this.listAdsManger.Name = "listAdsManger";
-            this.listAdsManger.Size = new System.Drawing.Size(467, 213);
-            this.listAdsManger.TabIndex = 1;
-            this.listAdsManger.UseCompatibleStateImageBehavior = false;
-            this.listAdsManger.View = System.Windows.Forms.View.Details;
-            this.listAdsManger.SelectedIndexChanged += new System.EventHandler(this.listViewEx5_SelectedIndexChanged);
-            // 
-            // columnHeader62
-            // 
-            this.columnHeader62.Text = "Ad Name";
-            this.columnHeader62.Width = 71;
-            // 
-            // columnHeader63
-            // 
-            this.columnHeader63.Text = "Text";
-            this.columnHeader63.Width = 53;
-            // 
-            // columnHeader64
-            // 
-            this.columnHeader64.Text = "Imageable";
-            this.columnHeader64.Width = 62;
-            // 
-            // columnHeader65
-            // 
-            this.columnHeader65.Text = "Image";
-            this.columnHeader65.Width = 64;
-            // 
-            // columnHeader66
-            // 
-            this.columnHeader66.Text = "Positions";
-            this.columnHeader66.Width = 164;
-            // 
-            // tabSettingsAds
-            // 
-            this.tabSettingsAds.AttachedControl = this.tabControlPanel37;
-            this.tabSettingsAds.Name = "tabSettingsAds";
-            this.tabSettingsAds.Text = "Advertises";
             // 
             // tabControlPanel40
             // 
@@ -2203,14 +2229,10 @@
             // 
             // comboSelectSettingsBackup
             // 
-            this.comboSelectSettingsBackup.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
             this.comboSelectSettingsBackup.ForeColor = System.Drawing.Color.Black;
             this.comboSelectSettingsBackup.Location = new System.Drawing.Point(37, 19);
             this.comboSelectSettingsBackup.Name = "comboSelectSettingsBackup";
-            this.comboSelectSettingsBackup.Size = new System.Drawing.Size(159, 23);
+            this.comboSelectSettingsBackup.Size = new System.Drawing.Size(159, 21);
             this.comboSelectSettingsBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.comboSelectSettingsBackup.TabIndex = 0;
             this.comboSelectSettingsBackup.WatermarkText = "Select Settings Backup";
@@ -2365,15 +2387,10 @@
             // 
             // comboViewDBBackup
             // 
-            this.comboViewDBBackup.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-
             this.comboViewDBBackup.ForeColor = System.Drawing.Color.Black;
             this.comboViewDBBackup.Location = new System.Drawing.Point(37, 28);
             this.comboViewDBBackup.Name = "comboViewDBBackup";
-            this.comboViewDBBackup.Size = new System.Drawing.Size(159, 23);
+            this.comboViewDBBackup.Size = new System.Drawing.Size(159, 21);
             this.comboViewDBBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.comboViewDBBackup.TabIndex = 0;
             this.comboViewDBBackup.WatermarkText = "Select DB Backup";
@@ -2447,14 +2464,10 @@
             // 
             // comboSelectDBBackup
             // 
-            this.comboSelectDBBackup.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
             this.comboSelectDBBackup.ForeColor = System.Drawing.Color.Black;
             this.comboSelectDBBackup.Location = new System.Drawing.Point(37, 22);
             this.comboSelectDBBackup.Name = "comboSelectDBBackup";
-            this.comboSelectDBBackup.Size = new System.Drawing.Size(159, 23);
+            this.comboSelectDBBackup.Size = new System.Drawing.Size(159, 21);
             this.comboSelectDBBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.comboSelectDBBackup.TabIndex = 0;
             this.comboSelectDBBackup.WatermarkText = "Select DB Backup";
@@ -3367,11 +3380,11 @@
             this.lstViewAdmins.FullRowSelect = true;
             this.lstViewAdmins.GridLines = true;
             this.lstViewAdmins.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem1.StateImageIndex = 0;
-            listViewItem31.StateImageIndex = 0;
+            listViewItem3.StateImageIndex = 0;
+            listViewItem4.StateImageIndex = 0;
             this.lstViewAdmins.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem31});
+            listViewItem3,
+            listViewItem4});
             this.lstViewAdmins.Location = new System.Drawing.Point(17, 29);
             this.lstViewAdmins.Name = "lstViewAdmins";
             this.lstViewAdmins.Size = new System.Drawing.Size(968, 468);
@@ -3481,11 +3494,11 @@
             this.listViewEx10.FullRowSelect = true;
             this.listViewEx10.GridLines = true;
             this.listViewEx10.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem2.StateImageIndex = 0;
-            listViewItem3.StateImageIndex = 0;
+            listViewItem5.StateImageIndex = 0;
+            listViewItem6.StateImageIndex = 0;
             this.listViewEx10.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2,
-            listViewItem3});
+            listViewItem5,
+            listViewItem6});
             this.listViewEx10.Location = new System.Drawing.Point(4, 30);
             this.listViewEx10.Name = "listViewEx10";
             this.listViewEx10.Size = new System.Drawing.Size(890, 367);
@@ -3719,11 +3732,11 @@
             this.lstViewModerators.FullRowSelect = true;
             this.lstViewModerators.GridLines = true;
             this.lstViewModerators.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem4.StateImageIndex = 0;
-            listViewItem5.StateImageIndex = 0;
+            listViewItem7.StateImageIndex = 0;
+            listViewItem8.StateImageIndex = 0;
             this.lstViewModerators.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem4,
-            listViewItem5});
+            listViewItem7,
+            listViewItem8});
             this.lstViewModerators.Location = new System.Drawing.Point(17, 29);
             this.lstViewModerators.Name = "lstViewModerators";
             this.lstViewModerators.Size = new System.Drawing.Size(968, 468);
@@ -3833,11 +3846,11 @@
             this.listViewEx8.FullRowSelect = true;
             this.listViewEx8.GridLines = true;
             this.listViewEx8.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem6.StateImageIndex = 0;
-            listViewItem7.StateImageIndex = 0;
+            listViewItem9.StateImageIndex = 0;
+            listViewItem10.StateImageIndex = 0;
             this.listViewEx8.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem6,
-            listViewItem7});
+            listViewItem9,
+            listViewItem10});
             this.listViewEx8.Location = new System.Drawing.Point(4, 30);
             this.listViewEx8.Name = "listViewEx8";
             this.listViewEx8.Size = new System.Drawing.Size(890, 367);
@@ -4071,11 +4084,11 @@
             this.lstViewTrainers.FullRowSelect = true;
             this.lstViewTrainers.GridLines = true;
             this.lstViewTrainers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem8.StateImageIndex = 0;
-            listViewItem9.StateImageIndex = 0;
+            listViewItem11.StateImageIndex = 0;
+            listViewItem12.StateImageIndex = 0;
             this.lstViewTrainers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem8,
-            listViewItem9});
+            listViewItem11,
+            listViewItem12});
             this.lstViewTrainers.Location = new System.Drawing.Point(17, 29);
             this.lstViewTrainers.Name = "lstViewTrainers";
             this.lstViewTrainers.Size = new System.Drawing.Size(968, 468);
@@ -4185,11 +4198,11 @@
             this.listViewEx4.FullRowSelect = true;
             this.listViewEx4.GridLines = true;
             this.listViewEx4.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem10.StateImageIndex = 0;
-            listViewItem11.StateImageIndex = 0;
+            listViewItem13.StateImageIndex = 0;
+            listViewItem14.StateImageIndex = 0;
             this.listViewEx4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem10,
-            listViewItem11});
+            listViewItem13,
+            listViewItem14});
             this.listViewEx4.Location = new System.Drawing.Point(4, 30);
             this.listViewEx4.Name = "listViewEx4";
             this.listViewEx4.Size = new System.Drawing.Size(890, 367);
@@ -4583,312 +4596,6 @@
             this.tabControl6.Tabs.Add(this.tabItem8);
             this.tabControl6.Text = "tabControl2";
             // 
-            // tabControlPanel28
-            // 
-            this.tabControlPanel28.Controls.Add(this.groupPanel18);
-            this.tabControlPanel28.Controls.Add(this.groupPanel21);
-            this.tabControlPanel28.Controls.Add(this.pictureBox6);
-            this.tabControlPanel28.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel28.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel28.Name = "tabControlPanel28";
-            this.tabControlPanel28.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel28.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel28.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel28.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel28.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel28.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel28.Style.GradientAngle = 90;
-            this.tabControlPanel28.TabIndex = 9;
-            this.tabControlPanel28.TabItem = this.tabItem8;
-            // 
-            // groupPanel18
-            // 
-            this.groupPanel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel18.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel18.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel18.Controls.Add(this.btnContactSMSSendAll);
-            this.groupPanel18.Controls.Add(this.txtContactSMSMessageBodyToAll);
-            this.groupPanel18.Controls.Add(this.labelX26);
-            this.groupPanel18.Controls.Add(this.comboBoxContactSMSCategory);
-            this.groupPanel18.Controls.Add(this.labelX27);
-            this.groupPanel18.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel18.Location = new System.Drawing.Point(336, 39);
-            this.groupPanel18.Name = "groupPanel18";
-            this.groupPanel18.Size = new System.Drawing.Size(287, 340);
-            // 
-            // 
-            // 
-            this.groupPanel18.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel18.Style.BackColorGradientAngle = 90;
-            this.groupPanel18.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel18.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel18.Style.BorderBottomWidth = 1;
-            this.groupPanel18.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel18.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel18.Style.BorderLeftWidth = 1;
-            this.groupPanel18.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel18.Style.BorderRightWidth = 1;
-            this.groupPanel18.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel18.Style.BorderTopWidth = 1;
-            this.groupPanel18.Style.CornerDiameter = 4;
-            this.groupPanel18.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel18.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel18.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel18.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel18.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel18.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel18.TabIndex = 4;
-            this.groupPanel18.Text = "Send SMS To All";
-            // 
-            // btnContactSMSSendAll
-            // 
-            this.btnContactSMSSendAll.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnContactSMSSendAll.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnContactSMSSendAll.Location = new System.Drawing.Point(76, 255);
-            this.btnContactSMSSendAll.Name = "btnContactSMSSendAll";
-            this.btnContactSMSSendAll.Size = new System.Drawing.Size(149, 30);
-            this.btnContactSMSSendAll.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnContactSMSSendAll.TabIndex = 21;
-            this.btnContactSMSSendAll.Text = "Send Mail";
-            // 
-            // txtContactSMSMessageBodyToAll
-            // 
-            this.txtContactSMSMessageBodyToAll.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtContactSMSMessageBodyToAll.Border.Class = "TextBoxBorder";
-            this.txtContactSMSMessageBodyToAll.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtContactSMSMessageBodyToAll.DisabledBackColor = System.Drawing.Color.White;
-            this.txtContactSMSMessageBodyToAll.ForeColor = System.Drawing.Color.Black;
-            this.txtContactSMSMessageBodyToAll.Location = new System.Drawing.Point(76, 114);
-            this.txtContactSMSMessageBodyToAll.Multiline = true;
-            this.txtContactSMSMessageBodyToAll.Name = "txtContactSMSMessageBodyToAll";
-            this.txtContactSMSMessageBodyToAll.PreventEnterBeep = true;
-            this.txtContactSMSMessageBodyToAll.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtContactSMSMessageBodyToAll.Size = new System.Drawing.Size(190, 90);
-            this.txtContactSMSMessageBodyToAll.TabIndex = 16;
-            this.txtContactSMSMessageBodyToAll.WatermarkText = "message body";
-            // 
-            // labelX26
-            // 
-            this.labelX26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            // 
-            // 
-            // 
-            this.labelX26.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX26.ForeColor = System.Drawing.Color.Black;
-            this.labelX26.Location = new System.Drawing.Point(13, 111);
-            this.labelX26.Name = "labelX26";
-            this.labelX26.Size = new System.Drawing.Size(50, 23);
-            this.labelX26.TabIndex = 15;
-            this.labelX26.Text = "Message:";
-            // 
-            // comboBoxContactSMSCategory
-            // 
-            this.comboBoxContactSMSCategory.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-
-            this.comboBoxContactSMSCategory.ForeColor = System.Drawing.Color.Black;
-            this.comboBoxContactSMSCategory.Location = new System.Drawing.Point(76, 73);
-            this.comboBoxContactSMSCategory.Name = "comboBoxContactSMSCategory";
-            this.comboBoxContactSMSCategory.Size = new System.Drawing.Size(190, 23);
-            this.comboBoxContactSMSCategory.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboBoxContactSMSCategory.TabIndex = 12;
-            this.comboBoxContactSMSCategory.WatermarkText = "Members, couches, etc";
-            // 
-            // labelX27
-            // 
-            this.labelX27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            // 
-            // 
-            // 
-            this.labelX27.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX27.ForeColor = System.Drawing.Color.Black;
-            this.labelX27.Location = new System.Drawing.Point(13, 73);
-            this.labelX27.Name = "labelX27";
-            this.labelX27.Size = new System.Drawing.Size(50, 23);
-            this.labelX27.TabIndex = 11;
-            this.labelX27.Text = "Category:";
-            // 
-            // groupPanel21
-            // 
-            this.groupPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel21.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel21.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel21.Controls.Add(this.btnContactSMSSend);
-            this.groupPanel21.Controls.Add(this.txtContactSMSMessageBody);
-            this.groupPanel21.Controls.Add(this.labelX30);
-            this.groupPanel21.Controls.Add(this.txtContactSMSNumber);
-            this.groupPanel21.Controls.Add(this.labelX31);
-            this.groupPanel21.Controls.Add(this.comboBoxContactSMSMembers);
-            this.groupPanel21.Controls.Add(this.labelX32);
-            this.groupPanel21.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel21.Location = new System.Drawing.Point(21, 39);
-            this.groupPanel21.Name = "groupPanel21";
-            this.groupPanel21.Size = new System.Drawing.Size(297, 340);
-            // 
-            // 
-            // 
-            this.groupPanel21.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel21.Style.BackColorGradientAngle = 90;
-            this.groupPanel21.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel21.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel21.Style.BorderBottomWidth = 1;
-            this.groupPanel21.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel21.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel21.Style.BorderLeftWidth = 1;
-            this.groupPanel21.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel21.Style.BorderRightWidth = 1;
-            this.groupPanel21.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel21.Style.BorderTopWidth = 1;
-            this.groupPanel21.Style.CornerDiameter = 4;
-            this.groupPanel21.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel21.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel21.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel21.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel21.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel21.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel21.TabIndex = 3;
-            this.groupPanel21.Text = "Send SMS Individually";
-            // 
-            // btnContactSMSSend
-            // 
-            this.btnContactSMSSend.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnContactSMSSend.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnContactSMSSend.Location = new System.Drawing.Point(82, 257);
-            this.btnContactSMSSend.Name = "btnContactSMSSend";
-            this.btnContactSMSSend.Size = new System.Drawing.Size(149, 30);
-            this.btnContactSMSSend.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnContactSMSSend.TabIndex = 10;
-            this.btnContactSMSSend.Text = "Send Mail";
-            // 
-            // txtContactSMSMessageBody
-            // 
-            this.txtContactSMSMessageBody.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtContactSMSMessageBody.Border.Class = "TextBoxBorder";
-            this.txtContactSMSMessageBody.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtContactSMSMessageBody.DisabledBackColor = System.Drawing.Color.White;
-            this.txtContactSMSMessageBody.ForeColor = System.Drawing.Color.Black;
-            this.txtContactSMSMessageBody.Location = new System.Drawing.Point(82, 117);
-            this.txtContactSMSMessageBody.Multiline = true;
-            this.txtContactSMSMessageBody.Name = "txtContactSMSMessageBody";
-            this.txtContactSMSMessageBody.PreventEnterBeep = true;
-            this.txtContactSMSMessageBody.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtContactSMSMessageBody.Size = new System.Drawing.Size(190, 90);
-            this.txtContactSMSMessageBody.TabIndex = 5;
-            this.txtContactSMSMessageBody.WatermarkText = "message body";
-            // 
-            // labelX30
-            // 
-            this.labelX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            // 
-            // 
-            // 
-            this.labelX30.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX30.ForeColor = System.Drawing.Color.Black;
-            this.labelX30.Location = new System.Drawing.Point(16, 114);
-            this.labelX30.Name = "labelX30";
-            this.labelX30.Size = new System.Drawing.Size(50, 23);
-            this.labelX30.TabIndex = 4;
-            this.labelX30.Text = "Message:";
-            // 
-            // txtContactSMSNumber
-            // 
-            this.txtContactSMSNumber.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtContactSMSNumber.Border.Class = "TextBoxBorder";
-            this.txtContactSMSNumber.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtContactSMSNumber.DisabledBackColor = System.Drawing.Color.White;
-            this.txtContactSMSNumber.ForeColor = System.Drawing.Color.Black;
-            this.txtContactSMSNumber.Location = new System.Drawing.Point(82, 76);
-            this.txtContactSMSNumber.Name = "txtContactSMSNumber";
-            this.txtContactSMSNumber.PreventEnterBeep = true;
-            this.txtContactSMSNumber.Size = new System.Drawing.Size(190, 20);
-            this.txtContactSMSNumber.TabIndex = 3;
-            this.txtContactSMSNumber.WatermarkText = "auto fill depending on above";
-            // 
-            // labelX31
-            // 
-            this.labelX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            // 
-            // 
-            // 
-            this.labelX31.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX31.ForeColor = System.Drawing.Color.Black;
-            this.labelX31.Location = new System.Drawing.Point(16, 76);
-            this.labelX31.Name = "labelX31";
-            this.labelX31.Size = new System.Drawing.Size(50, 23);
-            this.labelX31.TabIndex = 2;
-            this.labelX31.Text = "Number:";
-            // 
-            // comboBoxContactSMSMembers
-            // 
-            this.comboBoxContactSMSMembers.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-
-            this.comboBoxContactSMSMembers.ForeColor = System.Drawing.Color.Black;
-            this.comboBoxContactSMSMembers.Location = new System.Drawing.Point(82, 34);
-            this.comboBoxContactSMSMembers.Name = "comboBoxContactSMSMembers";
-            this.comboBoxContactSMSMembers.Size = new System.Drawing.Size(190, 23);
-            this.comboBoxContactSMSMembers.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboBoxContactSMSMembers.TabIndex = 1;
-            // 
-            // labelX32
-            // 
-            this.labelX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            // 
-            // 
-            // 
-            this.labelX32.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX32.ForeColor = System.Drawing.Color.Black;
-            this.labelX32.Location = new System.Drawing.Point(16, 34);
-            this.labelX32.Name = "labelX32";
-            this.labelX32.Size = new System.Drawing.Size(50, 23);
-            this.labelX32.TabIndex = 0;
-            this.labelX32.Text = "Member:";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.pictureBox6.ForeColor = System.Drawing.Color.Black;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(660, 49);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(326, 330);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
-            // 
-            // tabItem8
-            // 
-            this.tabItem8.AttachedControl = this.tabControlPanel28;
-            this.tabItem8.Name = "tabItem8";
-            this.tabItem8.Text = "SMS";
-            // 
             // tabControlPanel25
             // 
             this.tabControlPanel25.Controls.Add(this.tabControlPanel26);
@@ -5088,14 +4795,10 @@
             // 
             // ComboBoxEx7
             // 
-            this.ComboBoxEx7.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
             this.ComboBoxEx7.ForeColor = System.Drawing.Color.Black;
             this.ComboBoxEx7.Location = new System.Drawing.Point(76, 73);
             this.ComboBoxEx7.Name = "ComboBoxEx7";
-            this.ComboBoxEx7.Size = new System.Drawing.Size(190, 23);
+            this.ComboBoxEx7.Size = new System.Drawing.Size(190, 21);
             this.ComboBoxEx7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ComboBoxEx7.TabIndex = 12;
             this.ComboBoxEx7.WatermarkText = "Members, couches, etc";
@@ -5274,15 +4977,10 @@
             // 
             // EmailMemberToOne
             // 
-            this.EmailMemberToOne.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-
             this.EmailMemberToOne.ForeColor = System.Drawing.Color.Black;
             this.EmailMemberToOne.Location = new System.Drawing.Point(82, 34);
             this.EmailMemberToOne.Name = "EmailMemberToOne";
-            this.EmailMemberToOne.Size = new System.Drawing.Size(190, 23);
+            this.EmailMemberToOne.Size = new System.Drawing.Size(190, 21);
             this.EmailMemberToOne.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.EmailMemberToOne.TabIndex = 1;
             // 
@@ -5377,11 +5075,11 @@
             this.listViewEx7.FullRowSelect = true;
             this.listViewEx7.GridLines = true;
             this.listViewEx7.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem12.StateImageIndex = 0;
-            listViewItem13.StateImageIndex = 0;
+            listViewItem15.StateImageIndex = 0;
+            listViewItem16.StateImageIndex = 0;
             this.listViewEx7.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem12,
-            listViewItem13});
+            listViewItem15,
+            listViewItem16});
             this.listViewEx7.Location = new System.Drawing.Point(4, 30);
             this.listViewEx7.Name = "listViewEx7";
             this.listViewEx7.Size = new System.Drawing.Size(890, 367);
@@ -5413,6 +5111,302 @@
             // 
             this.columnHeader71.Text = "Date End";
             this.columnHeader71.Width = 144;
+            // 
+            // tabControlPanel28
+            // 
+            this.tabControlPanel28.Controls.Add(this.groupPanel18);
+            this.tabControlPanel28.Controls.Add(this.groupPanel21);
+            this.tabControlPanel28.Controls.Add(this.pictureBox6);
+            this.tabControlPanel28.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel28.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel28.Name = "tabControlPanel28";
+            this.tabControlPanel28.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel28.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel28.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel28.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel28.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel28.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel28.Style.GradientAngle = 90;
+            this.tabControlPanel28.TabIndex = 9;
+            this.tabControlPanel28.TabItem = this.tabItem8;
+            // 
+            // groupPanel18
+            // 
+            this.groupPanel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel18.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel18.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel18.Controls.Add(this.btnContactSMSSendAll);
+            this.groupPanel18.Controls.Add(this.txtContactSMSMessageBodyToAll);
+            this.groupPanel18.Controls.Add(this.labelX26);
+            this.groupPanel18.Controls.Add(this.comboBoxContactSMSCategory);
+            this.groupPanel18.Controls.Add(this.labelX27);
+            this.groupPanel18.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel18.Location = new System.Drawing.Point(336, 39);
+            this.groupPanel18.Name = "groupPanel18";
+            this.groupPanel18.Size = new System.Drawing.Size(287, 340);
+            // 
+            // 
+            // 
+            this.groupPanel18.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel18.Style.BackColorGradientAngle = 90;
+            this.groupPanel18.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel18.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel18.Style.BorderBottomWidth = 1;
+            this.groupPanel18.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel18.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel18.Style.BorderLeftWidth = 1;
+            this.groupPanel18.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel18.Style.BorderRightWidth = 1;
+            this.groupPanel18.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel18.Style.BorderTopWidth = 1;
+            this.groupPanel18.Style.CornerDiameter = 4;
+            this.groupPanel18.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel18.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel18.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel18.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel18.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel18.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel18.TabIndex = 4;
+            this.groupPanel18.Text = "Send SMS To All";
+            // 
+            // btnContactSMSSendAll
+            // 
+            this.btnContactSMSSendAll.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnContactSMSSendAll.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnContactSMSSendAll.Location = new System.Drawing.Point(76, 255);
+            this.btnContactSMSSendAll.Name = "btnContactSMSSendAll";
+            this.btnContactSMSSendAll.Size = new System.Drawing.Size(149, 30);
+            this.btnContactSMSSendAll.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnContactSMSSendAll.TabIndex = 21;
+            this.btnContactSMSSendAll.Text = "Send Mail";
+            // 
+            // txtContactSMSMessageBodyToAll
+            // 
+            this.txtContactSMSMessageBodyToAll.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtContactSMSMessageBodyToAll.Border.Class = "TextBoxBorder";
+            this.txtContactSMSMessageBodyToAll.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtContactSMSMessageBodyToAll.DisabledBackColor = System.Drawing.Color.White;
+            this.txtContactSMSMessageBodyToAll.ForeColor = System.Drawing.Color.Black;
+            this.txtContactSMSMessageBodyToAll.Location = new System.Drawing.Point(76, 114);
+            this.txtContactSMSMessageBodyToAll.Multiline = true;
+            this.txtContactSMSMessageBodyToAll.Name = "txtContactSMSMessageBodyToAll";
+            this.txtContactSMSMessageBodyToAll.PreventEnterBeep = true;
+            this.txtContactSMSMessageBodyToAll.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtContactSMSMessageBodyToAll.Size = new System.Drawing.Size(190, 90);
+            this.txtContactSMSMessageBodyToAll.TabIndex = 16;
+            this.txtContactSMSMessageBodyToAll.WatermarkText = "message body";
+            // 
+            // labelX26
+            // 
+            this.labelX26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.labelX26.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX26.ForeColor = System.Drawing.Color.Black;
+            this.labelX26.Location = new System.Drawing.Point(13, 111);
+            this.labelX26.Name = "labelX26";
+            this.labelX26.Size = new System.Drawing.Size(50, 23);
+            this.labelX26.TabIndex = 15;
+            this.labelX26.Text = "Message:";
+            // 
+            // comboBoxContactSMSCategory
+            // 
+            this.comboBoxContactSMSCategory.ForeColor = System.Drawing.Color.Black;
+            this.comboBoxContactSMSCategory.Location = new System.Drawing.Point(76, 73);
+            this.comboBoxContactSMSCategory.Name = "comboBoxContactSMSCategory";
+            this.comboBoxContactSMSCategory.Size = new System.Drawing.Size(190, 21);
+            this.comboBoxContactSMSCategory.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboBoxContactSMSCategory.TabIndex = 12;
+            this.comboBoxContactSMSCategory.WatermarkText = "Members, couches, etc";
+            // 
+            // labelX27
+            // 
+            this.labelX27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.labelX27.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX27.ForeColor = System.Drawing.Color.Black;
+            this.labelX27.Location = new System.Drawing.Point(13, 73);
+            this.labelX27.Name = "labelX27";
+            this.labelX27.Size = new System.Drawing.Size(50, 23);
+            this.labelX27.TabIndex = 11;
+            this.labelX27.Text = "Category:";
+            // 
+            // groupPanel21
+            // 
+            this.groupPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel21.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel21.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel21.Controls.Add(this.btnContactSMSSend);
+            this.groupPanel21.Controls.Add(this.txtContactSMSMessageBody);
+            this.groupPanel21.Controls.Add(this.labelX30);
+            this.groupPanel21.Controls.Add(this.txtContactSMSNumber);
+            this.groupPanel21.Controls.Add(this.labelX31);
+            this.groupPanel21.Controls.Add(this.comboBoxContactSMSMembers);
+            this.groupPanel21.Controls.Add(this.labelX32);
+            this.groupPanel21.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel21.Location = new System.Drawing.Point(21, 39);
+            this.groupPanel21.Name = "groupPanel21";
+            this.groupPanel21.Size = new System.Drawing.Size(297, 340);
+            // 
+            // 
+            // 
+            this.groupPanel21.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel21.Style.BackColorGradientAngle = 90;
+            this.groupPanel21.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel21.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel21.Style.BorderBottomWidth = 1;
+            this.groupPanel21.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel21.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel21.Style.BorderLeftWidth = 1;
+            this.groupPanel21.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel21.Style.BorderRightWidth = 1;
+            this.groupPanel21.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel21.Style.BorderTopWidth = 1;
+            this.groupPanel21.Style.CornerDiameter = 4;
+            this.groupPanel21.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel21.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel21.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel21.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel21.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel21.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel21.TabIndex = 3;
+            this.groupPanel21.Text = "Send SMS Individually";
+            // 
+            // btnContactSMSSend
+            // 
+            this.btnContactSMSSend.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnContactSMSSend.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnContactSMSSend.Location = new System.Drawing.Point(82, 257);
+            this.btnContactSMSSend.Name = "btnContactSMSSend";
+            this.btnContactSMSSend.Size = new System.Drawing.Size(149, 30);
+            this.btnContactSMSSend.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnContactSMSSend.TabIndex = 10;
+            this.btnContactSMSSend.Text = "Send Mail";
+            // 
+            // txtContactSMSMessageBody
+            // 
+            this.txtContactSMSMessageBody.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtContactSMSMessageBody.Border.Class = "TextBoxBorder";
+            this.txtContactSMSMessageBody.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtContactSMSMessageBody.DisabledBackColor = System.Drawing.Color.White;
+            this.txtContactSMSMessageBody.ForeColor = System.Drawing.Color.Black;
+            this.txtContactSMSMessageBody.Location = new System.Drawing.Point(82, 117);
+            this.txtContactSMSMessageBody.Multiline = true;
+            this.txtContactSMSMessageBody.Name = "txtContactSMSMessageBody";
+            this.txtContactSMSMessageBody.PreventEnterBeep = true;
+            this.txtContactSMSMessageBody.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtContactSMSMessageBody.Size = new System.Drawing.Size(190, 90);
+            this.txtContactSMSMessageBody.TabIndex = 5;
+            this.txtContactSMSMessageBody.WatermarkText = "message body";
+            // 
+            // labelX30
+            // 
+            this.labelX30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.labelX30.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX30.ForeColor = System.Drawing.Color.Black;
+            this.labelX30.Location = new System.Drawing.Point(16, 114);
+            this.labelX30.Name = "labelX30";
+            this.labelX30.Size = new System.Drawing.Size(50, 23);
+            this.labelX30.TabIndex = 4;
+            this.labelX30.Text = "Message:";
+            // 
+            // txtContactSMSNumber
+            // 
+            this.txtContactSMSNumber.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtContactSMSNumber.Border.Class = "TextBoxBorder";
+            this.txtContactSMSNumber.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtContactSMSNumber.DisabledBackColor = System.Drawing.Color.White;
+            this.txtContactSMSNumber.ForeColor = System.Drawing.Color.Black;
+            this.txtContactSMSNumber.Location = new System.Drawing.Point(82, 76);
+            this.txtContactSMSNumber.Name = "txtContactSMSNumber";
+            this.txtContactSMSNumber.PreventEnterBeep = true;
+            this.txtContactSMSNumber.Size = new System.Drawing.Size(190, 20);
+            this.txtContactSMSNumber.TabIndex = 3;
+            this.txtContactSMSNumber.WatermarkText = "auto fill depending on above";
+            // 
+            // labelX31
+            // 
+            this.labelX31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.labelX31.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX31.ForeColor = System.Drawing.Color.Black;
+            this.labelX31.Location = new System.Drawing.Point(16, 76);
+            this.labelX31.Name = "labelX31";
+            this.labelX31.Size = new System.Drawing.Size(50, 23);
+            this.labelX31.TabIndex = 2;
+            this.labelX31.Text = "Number:";
+            // 
+            // comboBoxContactSMSMembers
+            // 
+            this.comboBoxContactSMSMembers.ForeColor = System.Drawing.Color.Black;
+            this.comboBoxContactSMSMembers.Location = new System.Drawing.Point(82, 34);
+            this.comboBoxContactSMSMembers.Name = "comboBoxContactSMSMembers";
+            this.comboBoxContactSMSMembers.Size = new System.Drawing.Size(190, 21);
+            this.comboBoxContactSMSMembers.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboBoxContactSMSMembers.TabIndex = 1;
+            // 
+            // labelX32
+            // 
+            this.labelX32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            // 
+            // 
+            // 
+            this.labelX32.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX32.ForeColor = System.Drawing.Color.Black;
+            this.labelX32.Location = new System.Drawing.Point(16, 34);
+            this.labelX32.Name = "labelX32";
+            this.labelX32.Size = new System.Drawing.Size(50, 23);
+            this.labelX32.TabIndex = 0;
+            this.labelX32.Text = "Member:";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.pictureBox6.ForeColor = System.Drawing.Color.Black;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(660, 49);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(326, 330);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            // 
+            // tabItem8
+            // 
+            this.tabItem8.AttachedControl = this.tabControlPanel28;
+            this.tabItem8.Name = "tabItem8";
+            this.tabItem8.Text = "SMS";
             // 
             // sideNavPanel8
             // 
@@ -5564,17 +5558,17 @@
             this.lstViewAttendanceAllPersonsMembers.FullRowSelect = true;
             this.lstViewAttendanceAllPersonsMembers.GridLines = true;
             this.lstViewAttendanceAllPersonsMembers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem14.StateImageIndex = 0;
-            listViewItem15.StateImageIndex = 0;
-            listViewItem32.StateImageIndex = 0;
-            listViewItem33.StateImageIndex = 0;
-            listViewItem34.StateImageIndex = 0;
+            listViewItem17.StateImageIndex = 0;
+            listViewItem18.StateImageIndex = 0;
+            listViewItem36.StateImageIndex = 0;
+            listViewItem37.StateImageIndex = 0;
+            listViewItem38.StateImageIndex = 0;
             this.lstViewAttendanceAllPersonsMembers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem14,
-            listViewItem15,
-            listViewItem32,
-            listViewItem33,
-            listViewItem34});
+            listViewItem17,
+            listViewItem18,
+            listViewItem36,
+            listViewItem37,
+            listViewItem38});
             this.lstViewAttendanceAllPersonsMembers.Location = new System.Drawing.Point(4, 30);
             this.lstViewAttendanceAllPersonsMembers.Name = "lstViewAttendanceAllPersonsMembers";
             this.lstViewAttendanceAllPersonsMembers.Size = new System.Drawing.Size(981, 467);
@@ -5689,11 +5683,11 @@
             this.listViewEx3.FullRowSelect = true;
             this.listViewEx3.GridLines = true;
             this.listViewEx3.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem16.StateImageIndex = 0;
-            listViewItem17.StateImageIndex = 0;
+            listViewItem19.StateImageIndex = 0;
+            listViewItem20.StateImageIndex = 0;
             this.listViewEx3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem16,
-            listViewItem17});
+            listViewItem19,
+            listViewItem20});
             this.listViewEx3.Location = new System.Drawing.Point(4, 30);
             this.listViewEx3.Name = "listViewEx3";
             this.listViewEx3.Size = new System.Drawing.Size(890, 367);
@@ -5824,249 +5818,6 @@
             this.tabEquipmentsAddEquipment.Tabs.Add(this.tabAllEquipments);
             this.tabEquipmentsAddEquipment.Tabs.Add(this.tabAddEquipment);
             this.tabEquipmentsAddEquipment.Text = "tabControl2";
-            // 
-            // tabControlPanel7
-            // 
-            this.tabControlPanel7.Controls.Add(this.groupPanel20);
-            this.tabControlPanel7.Controls.Add(this.pictureBox4);
-            this.tabControlPanel7.DisabledBackColor = System.Drawing.Color.Empty;
-            this.tabControlPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel7.Location = new System.Drawing.Point(0, 27);
-            this.tabControlPanel7.Name = "tabControlPanel7";
-            this.tabControlPanel7.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel7.Size = new System.Drawing.Size(993, 554);
-            this.tabControlPanel7.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.tabControlPanel7.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel7.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
-            this.tabControlPanel7.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel7.Style.GradientAngle = 90;
-            this.tabControlPanel7.TabIndex = 5;
-            this.tabControlPanel7.TabItem = this.tabAddEquipment;
-            // 
-            // groupPanel20
-            // 
-            this.groupPanel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel20.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel20.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel20.Controls.Add(this.txtEquipmentsAddEquipmentType);
-            this.groupPanel20.Controls.Add(this.txtEquipmentsAddEquipmentName);
-            this.groupPanel20.Controls.Add(this.btnEquipmentRest);
-            this.groupPanel20.Controls.Add(this.btnEquipmentSave);
-            this.groupPanel20.Controls.Add(this.comboEquipmentMaintenancePeriod);
-            this.groupPanel20.Controls.Add(this.dateEquipment);
-            this.groupPanel20.Controls.Add(this.txtEquipmentTotalPrice);
-            this.groupPanel20.Controls.Add(this.txtEquipmentPricePerUnite);
-            this.groupPanel20.DisabledBackColor = System.Drawing.Color.Empty;
-            this.groupPanel20.Location = new System.Drawing.Point(30, 43);
-            this.groupPanel20.Name = "groupPanel20";
-            this.groupPanel20.Size = new System.Drawing.Size(426, 470);
-            // 
-            // 
-            // 
-            this.groupPanel20.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel20.Style.BackColorGradientAngle = 90;
-            this.groupPanel20.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel20.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel20.Style.BorderBottomWidth = 1;
-            this.groupPanel20.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel20.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel20.Style.BorderLeftWidth = 1;
-            this.groupPanel20.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel20.Style.BorderRightWidth = 1;
-            this.groupPanel20.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel20.Style.BorderTopWidth = 1;
-            this.groupPanel20.Style.CornerDiameter = 4;
-            this.groupPanel20.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel20.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel20.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel20.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel20.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel20.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel20.TabIndex = 9;
-            this.groupPanel20.Text = "Add Equipment Manger";
-            // 
-            // txtEquipmentsAddEquipmentType
-            // 
-            this.txtEquipmentsAddEquipmentType.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtEquipmentsAddEquipmentType.Border.Class = "TextBoxBorder";
-            this.txtEquipmentsAddEquipmentType.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtEquipmentsAddEquipmentType.DisabledBackColor = System.Drawing.Color.White;
-            this.txtEquipmentsAddEquipmentType.ForeColor = System.Drawing.Color.Black;
-            this.txtEquipmentsAddEquipmentType.Location = new System.Drawing.Point(83, 101);
-            this.txtEquipmentsAddEquipmentType.Name = "txtEquipmentsAddEquipmentType";
-            this.txtEquipmentsAddEquipmentType.PreventEnterBeep = true;
-            this.txtEquipmentsAddEquipmentType.Size = new System.Drawing.Size(253, 20);
-            this.txtEquipmentsAddEquipmentType.TabIndex = 12;
-            this.txtEquipmentsAddEquipmentType.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtEquipmentsAddEquipmentType.WatermarkText = "Type";
-            // 
-            // txtEquipmentsAddEquipmentName
-            // 
-            this.txtEquipmentsAddEquipmentName.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtEquipmentsAddEquipmentName.Border.Class = "TextBoxBorder";
-            this.txtEquipmentsAddEquipmentName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtEquipmentsAddEquipmentName.DisabledBackColor = System.Drawing.Color.White;
-            this.txtEquipmentsAddEquipmentName.ForeColor = System.Drawing.Color.Black;
-            this.txtEquipmentsAddEquipmentName.Location = new System.Drawing.Point(83, 75);
-            this.txtEquipmentsAddEquipmentName.Name = "txtEquipmentsAddEquipmentName";
-            this.txtEquipmentsAddEquipmentName.PreventEnterBeep = true;
-            this.txtEquipmentsAddEquipmentName.Size = new System.Drawing.Size(253, 20);
-            this.txtEquipmentsAddEquipmentName.TabIndex = 11;
-            this.txtEquipmentsAddEquipmentName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtEquipmentsAddEquipmentName.WatermarkText = "Name";
-            // 
-            // btnEquipmentRest
-            // 
-            this.btnEquipmentRest.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnEquipmentRest.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnEquipmentRest.Location = new System.Drawing.Point(224, 261);
-            this.btnEquipmentRest.Name = "btnEquipmentRest";
-            this.btnEquipmentRest.Size = new System.Drawing.Size(75, 23);
-            this.btnEquipmentRest.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnEquipmentRest.TabIndex = 10;
-            this.btnEquipmentRest.Text = "Rest";
-            // 
-            // btnEquipmentSave
-            // 
-            this.btnEquipmentSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnEquipmentSave.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnEquipmentSave.Location = new System.Drawing.Point(124, 261);
-            this.btnEquipmentSave.Name = "btnEquipmentSave";
-            this.btnEquipmentSave.Size = new System.Drawing.Size(75, 23);
-            this.btnEquipmentSave.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnEquipmentSave.TabIndex = 9;
-            this.btnEquipmentSave.Text = "Save";
-            // 
-            // comboEquipmentMaintenancePeriod
-            // 
-            this.comboEquipmentMaintenancePeriod.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-
-            this.comboEquipmentMaintenancePeriod.ForeColor = System.Drawing.Color.Black;
-            this.comboEquipmentMaintenancePeriod.Location = new System.Drawing.Point(83, 205);
-            this.comboEquipmentMaintenancePeriod.Name = "comboEquipmentMaintenancePeriod";
-            this.comboEquipmentMaintenancePeriod.Size = new System.Drawing.Size(253, 23);
-            this.comboEquipmentMaintenancePeriod.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboEquipmentMaintenancePeriod.TabIndex = 8;
-            this.comboEquipmentMaintenancePeriod.WatermarkText = "Maintenance Period";
-            // 
-            // dateEquipment
-            // 
-            this.dateEquipment.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.dateEquipment.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateEquipment.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateEquipment.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateEquipment.ButtonDropDown.Visible = true;
-            this.dateEquipment.ForeColor = System.Drawing.Color.Black;
-            this.dateEquipment.IsPopupCalendarOpen = false;
-            this.dateEquipment.Location = new System.Drawing.Point(83, 179);
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            this.dateEquipment.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateEquipment.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateEquipment.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateEquipment.MonthCalendar.DisplayMonth = new System.DateTime(2016, 12, 1, 0, 0, 0, 0);
-            this.dateEquipment.MonthCalendar.FirstDayOfWeek = System.DayOfWeek.Saturday;
-            // 
-            // 
-            // 
-            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateEquipment.MonthCalendar.TodayButtonVisible = true;
-            this.dateEquipment.Name = "dateEquipment";
-            this.dateEquipment.Size = new System.Drawing.Size(253, 20);
-            this.dateEquipment.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateEquipment.TabIndex = 7;
-            this.dateEquipment.WatermarkAlignment = DevComponents.Editors.eTextAlignment.Center;
-            this.dateEquipment.WatermarkText = "Purchase Date";
-            // 
-            // txtEquipmentTotalPrice
-            // 
-            this.txtEquipmentTotalPrice.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtEquipmentTotalPrice.Border.Class = "TextBoxBorder";
-            this.txtEquipmentTotalPrice.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtEquipmentTotalPrice.DisabledBackColor = System.Drawing.Color.White;
-            this.txtEquipmentTotalPrice.ForeColor = System.Drawing.Color.Black;
-            this.txtEquipmentTotalPrice.Location = new System.Drawing.Point(83, 153);
-            this.txtEquipmentTotalPrice.Name = "txtEquipmentTotalPrice";
-            this.txtEquipmentTotalPrice.PreventEnterBeep = true;
-            this.txtEquipmentTotalPrice.Size = new System.Drawing.Size(253, 20);
-            this.txtEquipmentTotalPrice.TabIndex = 4;
-            this.txtEquipmentTotalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtEquipmentTotalPrice.WatermarkText = "Total Price";
-            // 
-            // txtEquipmentPricePerUnite
-            // 
-            this.txtEquipmentPricePerUnite.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtEquipmentPricePerUnite.Border.Class = "TextBoxBorder";
-            this.txtEquipmentPricePerUnite.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtEquipmentPricePerUnite.DisabledBackColor = System.Drawing.Color.White;
-            this.txtEquipmentPricePerUnite.ForeColor = System.Drawing.Color.Black;
-            this.txtEquipmentPricePerUnite.Location = new System.Drawing.Point(83, 127);
-            this.txtEquipmentPricePerUnite.Name = "txtEquipmentPricePerUnite";
-            this.txtEquipmentPricePerUnite.PreventEnterBeep = true;
-            this.txtEquipmentPricePerUnite.Size = new System.Drawing.Size(253, 20);
-            this.txtEquipmentPricePerUnite.TabIndex = 3;
-            this.txtEquipmentPricePerUnite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtEquipmentPricePerUnite.WatermarkText = "Price Per Unite";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.pictureBox4.ForeColor = System.Drawing.Color.Black;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(471, 43);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(513, 470);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            // 
-            // tabAddEquipment
-            // 
-            this.tabAddEquipment.AttachedControl = this.tabControlPanel7;
-            this.tabAddEquipment.Name = "tabAddEquipment";
-            this.tabAddEquipment.Text = "Add Equipment";
             // 
             // tabControlPanel5
             // 
@@ -6216,11 +5967,11 @@
             this.lstViewEquipments.FullRowSelect = true;
             this.lstViewEquipments.GridLines = true;
             this.lstViewEquipments.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem18.StateImageIndex = 0;
-            listViewItem19.StateImageIndex = 0;
+            listViewItem21.StateImageIndex = 0;
+            listViewItem22.StateImageIndex = 0;
             this.lstViewEquipments.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem18,
-            listViewItem19});
+            listViewItem21,
+            listViewItem22});
             this.lstViewEquipments.Location = new System.Drawing.Point(17, 29);
             this.lstViewEquipments.Name = "lstViewEquipments";
             this.lstViewEquipments.Size = new System.Drawing.Size(433, 468);
@@ -6330,11 +6081,11 @@
             this.listViewEx6.FullRowSelect = true;
             this.listViewEx6.GridLines = true;
             this.listViewEx6.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem20.StateImageIndex = 0;
-            listViewItem21.StateImageIndex = 0;
+            listViewItem23.StateImageIndex = 0;
+            listViewItem24.StateImageIndex = 0;
             this.listViewEx6.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem20,
-            listViewItem21});
+            listViewItem23,
+            listViewItem24});
             this.listViewEx6.Location = new System.Drawing.Point(4, 30);
             this.listViewEx6.Name = "listViewEx6";
             this.listViewEx6.Size = new System.Drawing.Size(890, 367);
@@ -6366,6 +6117,244 @@
             // 
             this.columnHeader30.Text = "Date End";
             this.columnHeader30.Width = 144;
+            // 
+            // tabControlPanel7
+            // 
+            this.tabControlPanel7.Controls.Add(this.groupPanel20);
+            this.tabControlPanel7.Controls.Add(this.pictureBox4);
+            this.tabControlPanel7.DisabledBackColor = System.Drawing.Color.Empty;
+            this.tabControlPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel7.Location = new System.Drawing.Point(0, 27);
+            this.tabControlPanel7.Name = "tabControlPanel7";
+            this.tabControlPanel7.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel7.Size = new System.Drawing.Size(993, 554);
+            this.tabControlPanel7.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.tabControlPanel7.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel7.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
+            this.tabControlPanel7.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel7.Style.GradientAngle = 90;
+            this.tabControlPanel7.TabIndex = 5;
+            this.tabControlPanel7.TabItem = this.tabAddEquipment;
+            // 
+            // groupPanel20
+            // 
+            this.groupPanel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel20.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel20.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel20.Controls.Add(this.txtEquipmentsAddEquipmentType);
+            this.groupPanel20.Controls.Add(this.txtEquipmentsAddEquipmentName);
+            this.groupPanel20.Controls.Add(this.btnEquipmentRest);
+            this.groupPanel20.Controls.Add(this.btnEquipmentSave);
+            this.groupPanel20.Controls.Add(this.comboEquipmentMaintenancePeriod);
+            this.groupPanel20.Controls.Add(this.dateEquipment);
+            this.groupPanel20.Controls.Add(this.txtEquipmentTotalPrice);
+            this.groupPanel20.Controls.Add(this.txtEquipmentPricePerUnite);
+            this.groupPanel20.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel20.Location = new System.Drawing.Point(30, 43);
+            this.groupPanel20.Name = "groupPanel20";
+            this.groupPanel20.Size = new System.Drawing.Size(426, 470);
+            // 
+            // 
+            // 
+            this.groupPanel20.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel20.Style.BackColorGradientAngle = 90;
+            this.groupPanel20.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel20.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel20.Style.BorderBottomWidth = 1;
+            this.groupPanel20.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel20.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel20.Style.BorderLeftWidth = 1;
+            this.groupPanel20.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel20.Style.BorderRightWidth = 1;
+            this.groupPanel20.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel20.Style.BorderTopWidth = 1;
+            this.groupPanel20.Style.CornerDiameter = 4;
+            this.groupPanel20.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel20.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel20.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel20.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel20.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel20.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel20.TabIndex = 9;
+            this.groupPanel20.Text = "Add Equipment Manger";
+            // 
+            // txtEquipmentsAddEquipmentType
+            // 
+            this.txtEquipmentsAddEquipmentType.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtEquipmentsAddEquipmentType.Border.Class = "TextBoxBorder";
+            this.txtEquipmentsAddEquipmentType.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtEquipmentsAddEquipmentType.DisabledBackColor = System.Drawing.Color.White;
+            this.txtEquipmentsAddEquipmentType.ForeColor = System.Drawing.Color.Black;
+            this.txtEquipmentsAddEquipmentType.Location = new System.Drawing.Point(83, 101);
+            this.txtEquipmentsAddEquipmentType.Name = "txtEquipmentsAddEquipmentType";
+            this.txtEquipmentsAddEquipmentType.PreventEnterBeep = true;
+            this.txtEquipmentsAddEquipmentType.Size = new System.Drawing.Size(253, 20);
+            this.txtEquipmentsAddEquipmentType.TabIndex = 12;
+            this.txtEquipmentsAddEquipmentType.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEquipmentsAddEquipmentType.WatermarkText = "Type";
+            // 
+            // txtEquipmentsAddEquipmentName
+            // 
+            this.txtEquipmentsAddEquipmentName.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtEquipmentsAddEquipmentName.Border.Class = "TextBoxBorder";
+            this.txtEquipmentsAddEquipmentName.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtEquipmentsAddEquipmentName.DisabledBackColor = System.Drawing.Color.White;
+            this.txtEquipmentsAddEquipmentName.ForeColor = System.Drawing.Color.Black;
+            this.txtEquipmentsAddEquipmentName.Location = new System.Drawing.Point(83, 75);
+            this.txtEquipmentsAddEquipmentName.Name = "txtEquipmentsAddEquipmentName";
+            this.txtEquipmentsAddEquipmentName.PreventEnterBeep = true;
+            this.txtEquipmentsAddEquipmentName.Size = new System.Drawing.Size(253, 20);
+            this.txtEquipmentsAddEquipmentName.TabIndex = 11;
+            this.txtEquipmentsAddEquipmentName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEquipmentsAddEquipmentName.WatermarkText = "Name";
+            // 
+            // btnEquipmentRest
+            // 
+            this.btnEquipmentRest.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnEquipmentRest.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnEquipmentRest.Location = new System.Drawing.Point(224, 261);
+            this.btnEquipmentRest.Name = "btnEquipmentRest";
+            this.btnEquipmentRest.Size = new System.Drawing.Size(75, 23);
+            this.btnEquipmentRest.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnEquipmentRest.TabIndex = 10;
+            this.btnEquipmentRest.Text = "Rest";
+            // 
+            // btnEquipmentSave
+            // 
+            this.btnEquipmentSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnEquipmentSave.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnEquipmentSave.Location = new System.Drawing.Point(124, 261);
+            this.btnEquipmentSave.Name = "btnEquipmentSave";
+            this.btnEquipmentSave.Size = new System.Drawing.Size(75, 23);
+            this.btnEquipmentSave.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnEquipmentSave.TabIndex = 9;
+            this.btnEquipmentSave.Text = "Save";
+            // 
+            // comboEquipmentMaintenancePeriod
+            // 
+            this.comboEquipmentMaintenancePeriod.ForeColor = System.Drawing.Color.Black;
+            this.comboEquipmentMaintenancePeriod.Location = new System.Drawing.Point(83, 205);
+            this.comboEquipmentMaintenancePeriod.Name = "comboEquipmentMaintenancePeriod";
+            this.comboEquipmentMaintenancePeriod.Size = new System.Drawing.Size(253, 21);
+            this.comboEquipmentMaintenancePeriod.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboEquipmentMaintenancePeriod.TabIndex = 8;
+            this.comboEquipmentMaintenancePeriod.WatermarkText = "Maintenance Period";
+            // 
+            // dateEquipment
+            // 
+            this.dateEquipment.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.dateEquipment.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dateEquipment.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateEquipment.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dateEquipment.ButtonDropDown.Visible = true;
+            this.dateEquipment.ForeColor = System.Drawing.Color.Black;
+            this.dateEquipment.IsPopupCalendarOpen = false;
+            this.dateEquipment.Location = new System.Drawing.Point(83, 179);
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.dateEquipment.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateEquipment.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dateEquipment.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dateEquipment.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateEquipment.MonthCalendar.DisplayMonth = new System.DateTime(2016, 12, 1, 0, 0, 0, 0);
+            this.dateEquipment.MonthCalendar.FirstDayOfWeek = System.DayOfWeek.Saturday;
+            // 
+            // 
+            // 
+            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dateEquipment.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateEquipment.MonthCalendar.TodayButtonVisible = true;
+            this.dateEquipment.Name = "dateEquipment";
+            this.dateEquipment.Size = new System.Drawing.Size(253, 20);
+            this.dateEquipment.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dateEquipment.TabIndex = 7;
+            this.dateEquipment.WatermarkAlignment = DevComponents.Editors.eTextAlignment.Center;
+            this.dateEquipment.WatermarkText = "Purchase Date";
+            // 
+            // txtEquipmentTotalPrice
+            // 
+            this.txtEquipmentTotalPrice.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtEquipmentTotalPrice.Border.Class = "TextBoxBorder";
+            this.txtEquipmentTotalPrice.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtEquipmentTotalPrice.DisabledBackColor = System.Drawing.Color.White;
+            this.txtEquipmentTotalPrice.ForeColor = System.Drawing.Color.Black;
+            this.txtEquipmentTotalPrice.Location = new System.Drawing.Point(83, 153);
+            this.txtEquipmentTotalPrice.Name = "txtEquipmentTotalPrice";
+            this.txtEquipmentTotalPrice.PreventEnterBeep = true;
+            this.txtEquipmentTotalPrice.Size = new System.Drawing.Size(253, 20);
+            this.txtEquipmentTotalPrice.TabIndex = 4;
+            this.txtEquipmentTotalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEquipmentTotalPrice.WatermarkText = "Total Price";
+            // 
+            // txtEquipmentPricePerUnite
+            // 
+            this.txtEquipmentPricePerUnite.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtEquipmentPricePerUnite.Border.Class = "TextBoxBorder";
+            this.txtEquipmentPricePerUnite.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtEquipmentPricePerUnite.DisabledBackColor = System.Drawing.Color.White;
+            this.txtEquipmentPricePerUnite.ForeColor = System.Drawing.Color.Black;
+            this.txtEquipmentPricePerUnite.Location = new System.Drawing.Point(83, 127);
+            this.txtEquipmentPricePerUnite.Name = "txtEquipmentPricePerUnite";
+            this.txtEquipmentPricePerUnite.PreventEnterBeep = true;
+            this.txtEquipmentPricePerUnite.Size = new System.Drawing.Size(253, 20);
+            this.txtEquipmentPricePerUnite.TabIndex = 3;
+            this.txtEquipmentPricePerUnite.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEquipmentPricePerUnite.WatermarkText = "Price Per Unite";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.pictureBox4.ForeColor = System.Drawing.Color.Black;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(471, 43);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(513, 470);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            // 
+            // tabAddEquipment
+            // 
+            this.tabAddEquipment.AttachedControl = this.tabControlPanel7;
+            this.tabAddEquipment.Name = "tabAddEquipment";
+            this.tabAddEquipment.Text = "Add Equipment";
             // 
             // sideNavPanel1
             // 
@@ -6532,11 +6521,11 @@
             this.lstViewMembers.FullRowSelect = true;
             this.lstViewMembers.GridLines = true;
             this.lstViewMembers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem22.StateImageIndex = 0;
-            listViewItem23.StateImageIndex = 0;
+            listViewItem25.StateImageIndex = 0;
+            listViewItem26.StateImageIndex = 0;
             this.lstViewMembers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem22,
-            listViewItem23});
+            listViewItem25,
+            listViewItem26});
             this.lstViewMembers.Location = new System.Drawing.Point(17, 29);
             this.lstViewMembers.Name = "lstViewMembers";
             this.lstViewMembers.Size = new System.Drawing.Size(968, 468);
@@ -6646,11 +6635,11 @@
             this.listViewEx1.FullRowSelect = true;
             this.listViewEx1.GridLines = true;
             this.listViewEx1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem24.StateImageIndex = 0;
-            listViewItem25.StateImageIndex = 0;
+            listViewItem27.StateImageIndex = 0;
+            listViewItem28.StateImageIndex = 0;
             this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem24,
-            listViewItem25});
+            listViewItem27,
+            listViewItem28});
             this.listViewEx1.Location = new System.Drawing.Point(4, 30);
             this.listViewEx1.Name = "listViewEx1";
             this.listViewEx1.Size = new System.Drawing.Size(890, 367);
@@ -7116,6 +7105,498 @@
             this.tabItem7.Name = "tabItem7";
             this.tabItem7.Text = "All Equipments";
             // 
+            // groupPanel25
+            // 
+            this.groupPanel25.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupPanel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel25.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel25.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel25.Controls.Add(this.btnSettingsPermissionsView);
+            this.groupPanel25.Controls.Add(this.btnSettingsPermissionsNew);
+            this.groupPanel25.Controls.Add(this.btnSettingsPermissionsDelete);
+            this.groupPanel25.Controls.Add(this.btnSettingsPermissionsEdit);
+            this.groupPanel25.Controls.Add(this.listViewEx2);
+            this.groupPanel25.Controls.Add(this.groupPanel26);
+            this.groupPanel25.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel25.Location = new System.Drawing.Point(5, 5);
+            this.groupPanel25.Name = "groupPanel25";
+            this.groupPanel25.Size = new System.Drawing.Size(981, 543);
+            // 
+            // 
+            // 
+            this.groupPanel25.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel25.Style.BackColorGradientAngle = 90;
+            this.groupPanel25.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel25.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel25.Style.BorderBottomWidth = 1;
+            this.groupPanel25.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel25.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel25.Style.BorderLeftWidth = 1;
+            this.groupPanel25.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel25.Style.BorderRightWidth = 1;
+            this.groupPanel25.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel25.Style.BorderTopWidth = 1;
+            this.groupPanel25.Style.CornerDiameter = 4;
+            this.groupPanel25.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel25.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel25.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel25.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel25.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel25.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel25.TabIndex = 0;
+            // 
+            // listViewEx2
+            // 
+            this.listViewEx2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listViewEx2.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.listViewEx2.Border.Class = "ListViewBorder";
+            this.listViewEx2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.listViewEx2.CheckBoxes = true;
+            this.listViewEx2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader80,
+            this.columnHeader81,
+            this.columnHeader82,
+            this.columnHeader83,
+            this.columnHeader84,
+            this.columnHeader85,
+            this.columnHeader86,
+            this.columnHeader87});
+            this.listViewEx2.DisabledBackColor = System.Drawing.Color.Empty;
+            this.listViewEx2.ForeColor = System.Drawing.Color.Black;
+            this.listViewEx2.FullRowSelect = true;
+            this.listViewEx2.GridLines = true;
+            this.listViewEx2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            listViewItem34.StateImageIndex = 0;
+            this.listViewEx2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem34});
+            this.listViewEx2.Location = new System.Drawing.Point(50, 14);
+            this.listViewEx2.Name = "listViewEx2";
+            this.listViewEx2.Size = new System.Drawing.Size(848, 88);
+            this.listViewEx2.TabIndex = 7;
+            this.listViewEx2.UseCompatibleStateImageBehavior = false;
+            this.listViewEx2.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader80
+            // 
+            this.columnHeader80.Text = "#";
+            this.columnHeader80.Width = 48;
+            // 
+            // columnHeader81
+            // 
+            this.columnHeader81.Text = "Plan Name";
+            this.columnHeader81.Width = 109;
+            // 
+            // columnHeader82
+            // 
+            this.columnHeader82.Text = "Price(Day)";
+            this.columnHeader82.Width = 84;
+            // 
+            // columnHeader83
+            // 
+            this.columnHeader83.Text = "Price (Month)";
+            this.columnHeader83.Width = 88;
+            // 
+            // columnHeader84
+            // 
+            this.columnHeader84.Text = "Price (1/4 Year)";
+            this.columnHeader84.Width = 98;
+            // 
+            // columnHeader85
+            // 
+            this.columnHeader85.Text = "Price (1/2 Year)";
+            this.columnHeader85.Width = 97;
+            // 
+            // columnHeader86
+            // 
+            this.columnHeader86.Text = "Price (Year)";
+            this.columnHeader86.Width = 79;
+            // 
+            // columnHeader87
+            // 
+            this.columnHeader87.Text = "Description";
+            this.columnHeader87.Width = 209;
+            // 
+            // groupPanel26
+            // 
+            this.groupPanel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.groupPanel26.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel26.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel26.Controls.Add(this.switchButton13);
+            this.groupPanel26.Controls.Add(this.switchButton14);
+            this.groupPanel26.Controls.Add(this.switchButton15);
+            this.groupPanel26.Controls.Add(this.switchButton16);
+            this.groupPanel26.Controls.Add(this.switchButton9);
+            this.groupPanel26.Controls.Add(this.switchButton10);
+            this.groupPanel26.Controls.Add(this.switchButton11);
+            this.groupPanel26.Controls.Add(this.switchButton12);
+            this.groupPanel26.Controls.Add(this.switchButton5);
+            this.groupPanel26.Controls.Add(this.switchButton6);
+            this.groupPanel26.Controls.Add(this.switchButton7);
+            this.groupPanel26.Controls.Add(this.switchButton8);
+            this.groupPanel26.Controls.Add(this.switchButton4);
+            this.groupPanel26.Controls.Add(this.switchButton3);
+            this.groupPanel26.Controls.Add(this.switchButton2);
+            this.groupPanel26.Controls.Add(this.switchButton1);
+            this.groupPanel26.DisabledBackColor = System.Drawing.Color.Empty;
+            this.groupPanel26.Location = new System.Drawing.Point(3, 140);
+            this.groupPanel26.Name = "groupPanel26";
+            this.groupPanel26.Size = new System.Drawing.Size(969, 386);
+            // 
+            // 
+            // 
+            this.groupPanel26.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel26.Style.BackColorGradientAngle = 90;
+            this.groupPanel26.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel26.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel26.Style.BorderBottomWidth = 1;
+            this.groupPanel26.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel26.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel26.Style.BorderLeftWidth = 1;
+            this.groupPanel26.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel26.Style.BorderRightWidth = 1;
+            this.groupPanel26.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel26.Style.BorderTopWidth = 1;
+            this.groupPanel26.Style.CornerDiameter = 4;
+            this.groupPanel26.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel26.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel26.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel26.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel26.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel26.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel26.TabIndex = 0;
+            this.groupPanel26.Text = "Members";
+            // 
+            // btnSettingsPermissionsDelete
+            // 
+            this.btnSettingsPermissionsDelete.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSettingsPermissionsDelete.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSettingsPermissionsDelete.Location = new System.Drawing.Point(742, 111);
+            this.btnSettingsPermissionsDelete.Name = "btnSettingsPermissionsDelete";
+            this.btnSettingsPermissionsDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnSettingsPermissionsDelete.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSettingsPermissionsDelete.TabIndex = 10;
+            this.btnSettingsPermissionsDelete.Text = "Delete";
+            // 
+            // btnSettingsPermissionsEdit
+            // 
+            this.btnSettingsPermissionsEdit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSettingsPermissionsEdit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSettingsPermissionsEdit.Location = new System.Drawing.Point(661, 111);
+            this.btnSettingsPermissionsEdit.Name = "btnSettingsPermissionsEdit";
+            this.btnSettingsPermissionsEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnSettingsPermissionsEdit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSettingsPermissionsEdit.TabIndex = 9;
+            this.btnSettingsPermissionsEdit.Text = "Edit";
+            // 
+            // btnSettingsPermissionsNew
+            // 
+            this.btnSettingsPermissionsNew.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSettingsPermissionsNew.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSettingsPermissionsNew.Location = new System.Drawing.Point(580, 111);
+            this.btnSettingsPermissionsNew.Name = "btnSettingsPermissionsNew";
+            this.btnSettingsPermissionsNew.Size = new System.Drawing.Size(75, 23);
+            this.btnSettingsPermissionsNew.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSettingsPermissionsNew.TabIndex = 11;
+            this.btnSettingsPermissionsNew.Text = "New";
+            // 
+            // btnSettingsPermissionsView
+            // 
+            this.btnSettingsPermissionsView.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSettingsPermissionsView.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSettingsPermissionsView.Location = new System.Drawing.Point(823, 111);
+            this.btnSettingsPermissionsView.Name = "btnSettingsPermissionsView";
+            this.btnSettingsPermissionsView.Size = new System.Drawing.Size(75, 23);
+            this.btnSettingsPermissionsView.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSettingsPermissionsView.TabIndex = 12;
+            this.btnSettingsPermissionsView.Text = "View";
+            // 
+            // switchButton1
+            // 
+            // 
+            // 
+            // 
+            this.switchButton1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton1.Location = new System.Drawing.Point(16, 30);
+            this.switchButton1.Name = "switchButton1";
+            this.switchButton1.OffText = "Can Add Members OFF";
+            this.switchButton1.OffTextColor = System.Drawing.Color.White;
+            this.switchButton1.OnText = "Can Add Members ON";
+            this.switchButton1.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton1.Size = new System.Drawing.Size(269, 22);
+            this.switchButton1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton1.TabIndex = 0;
+            // 
+            // switchButton2
+            // 
+            // 
+            // 
+            // 
+            this.switchButton2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton2.Location = new System.Drawing.Point(16, 61);
+            this.switchButton2.Name = "switchButton2";
+            this.switchButton2.OffText = "Can View Members OFF";
+            this.switchButton2.OffTextColor = System.Drawing.Color.White;
+            this.switchButton2.OnText = "Can View Members ON";
+            this.switchButton2.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton2.Size = new System.Drawing.Size(269, 22);
+            this.switchButton2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton2.TabIndex = 1;
+            // 
+            // switchButton3
+            // 
+            // 
+            // 
+            // 
+            this.switchButton3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton3.Location = new System.Drawing.Point(16, 92);
+            this.switchButton3.Name = "switchButton3";
+            this.switchButton3.OffText = "Can Edit Members OFF";
+            this.switchButton3.OffTextColor = System.Drawing.Color.White;
+            this.switchButton3.OnText = "Can Edit Members ON";
+            this.switchButton3.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton3.Size = new System.Drawing.Size(269, 22);
+            this.switchButton3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton3.TabIndex = 2;
+            // 
+            // switchButton4
+            // 
+            // 
+            // 
+            // 
+            this.switchButton4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton4.Location = new System.Drawing.Point(16, 123);
+            this.switchButton4.Name = "switchButton4";
+            this.switchButton4.OffText = "Can Delete Members OFF";
+            this.switchButton4.OffTextColor = System.Drawing.Color.White;
+            this.switchButton4.OnText = "Can Delete Members ON";
+            this.switchButton4.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton4.Size = new System.Drawing.Size(269, 22);
+            this.switchButton4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton4.TabIndex = 3;
+            // 
+            // switchButton5
+            // 
+            // 
+            // 
+            // 
+            this.switchButton5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton5.Location = new System.Drawing.Point(16, 281);
+            this.switchButton5.Name = "switchButton5";
+            this.switchButton5.OffText = "Can Delete Coaches OFF";
+            this.switchButton5.OffTextColor = System.Drawing.Color.White;
+            this.switchButton5.OnText = "Can Delete Coaches ON";
+            this.switchButton5.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton5.Size = new System.Drawing.Size(269, 22);
+            this.switchButton5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton5.SwitchBackColor = System.Drawing.Color.RoyalBlue;
+            this.switchButton5.TabIndex = 7;
+            // 
+            // switchButton6
+            // 
+            // 
+            // 
+            // 
+            this.switchButton6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton6.Location = new System.Drawing.Point(16, 250);
+            this.switchButton6.Name = "switchButton6";
+            this.switchButton6.OffText = "Can Edit Coaches OFF";
+            this.switchButton6.OffTextColor = System.Drawing.Color.White;
+            this.switchButton6.OnText = "Can Edit Coaches ON";
+            this.switchButton6.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton6.Size = new System.Drawing.Size(269, 22);
+            this.switchButton6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton6.SwitchBackColor = System.Drawing.Color.RoyalBlue;
+            this.switchButton6.TabIndex = 6;
+            // 
+            // switchButton7
+            // 
+            // 
+            // 
+            // 
+            this.switchButton7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton7.Location = new System.Drawing.Point(16, 219);
+            this.switchButton7.Name = "switchButton7";
+            this.switchButton7.OffText = "Can View Coaches OFF";
+            this.switchButton7.OffTextColor = System.Drawing.Color.White;
+            this.switchButton7.OnText = "Can View Coaches ON";
+            this.switchButton7.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton7.Size = new System.Drawing.Size(269, 22);
+            this.switchButton7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton7.SwitchBackColor = System.Drawing.Color.RoyalBlue;
+            this.switchButton7.TabIndex = 5;
+            // 
+            // switchButton8
+            // 
+            // 
+            // 
+            // 
+            this.switchButton8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton8.Location = new System.Drawing.Point(16, 188);
+            this.switchButton8.Name = "switchButton8";
+            this.switchButton8.OffText = "Can Add Coaches OFF";
+            this.switchButton8.OffTextColor = System.Drawing.Color.White;
+            this.switchButton8.OnText = "Can Add Coaches ON";
+            this.switchButton8.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton8.Size = new System.Drawing.Size(269, 22);
+            this.switchButton8.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton8.SwitchBackColor = System.Drawing.Color.RoyalBlue;
+            this.switchButton8.TabIndex = 4;
+            // 
+            // switchButton9
+            // 
+            // 
+            // 
+            // 
+            this.switchButton9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton9.Location = new System.Drawing.Point(344, 123);
+            this.switchButton9.Name = "switchButton9";
+            this.switchButton9.OffText = "Can Delete Moderators OFF";
+            this.switchButton9.OffTextColor = System.Drawing.Color.White;
+            this.switchButton9.OnText = "Can Delete Moderators ON";
+            this.switchButton9.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton9.Size = new System.Drawing.Size(269, 22);
+            this.switchButton9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton9.SwitchBackColor = System.Drawing.Color.BlueViolet;
+            this.switchButton9.TabIndex = 11;
+            // 
+            // switchButton10
+            // 
+            // 
+            // 
+            // 
+            this.switchButton10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton10.Location = new System.Drawing.Point(344, 92);
+            this.switchButton10.Name = "switchButton10";
+            this.switchButton10.OffText = "Can Edit Moderators OFF";
+            this.switchButton10.OffTextColor = System.Drawing.Color.White;
+            this.switchButton10.OnText = "Can Edit Moderators ON";
+            this.switchButton10.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton10.Size = new System.Drawing.Size(269, 22);
+            this.switchButton10.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton10.SwitchBackColor = System.Drawing.Color.BlueViolet;
+            this.switchButton10.TabIndex = 10;
+            // 
+            // switchButton11
+            // 
+            // 
+            // 
+            // 
+            this.switchButton11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton11.Location = new System.Drawing.Point(344, 61);
+            this.switchButton11.Name = "switchButton11";
+            this.switchButton11.OffText = "Can View Moderators OFF";
+            this.switchButton11.OffTextColor = System.Drawing.Color.White;
+            this.switchButton11.OnText = "Can View Moderators ON";
+            this.switchButton11.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton11.Size = new System.Drawing.Size(269, 22);
+            this.switchButton11.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton11.SwitchBackColor = System.Drawing.Color.BlueViolet;
+            this.switchButton11.TabIndex = 9;
+            // 
+            // switchButton12
+            // 
+            // 
+            // 
+            // 
+            this.switchButton12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton12.Location = new System.Drawing.Point(344, 30);
+            this.switchButton12.Name = "switchButton12";
+            this.switchButton12.OffText = "Can Add Moderators OFF";
+            this.switchButton12.OffTextColor = System.Drawing.Color.White;
+            this.switchButton12.OnText = "Can Add Moderators ON";
+            this.switchButton12.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton12.Size = new System.Drawing.Size(269, 22);
+            this.switchButton12.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton12.SwitchBackColor = System.Drawing.Color.BlueViolet;
+            this.switchButton12.TabIndex = 8;
+            // 
+            // switchButton13
+            // 
+            // 
+            // 
+            // 
+            this.switchButton13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton13.Location = new System.Drawing.Point(344, 281);
+            this.switchButton13.Name = "switchButton13";
+            this.switchButton13.OffText = "Can Delete Admins OFF";
+            this.switchButton13.OffTextColor = System.Drawing.Color.White;
+            this.switchButton13.OnText = "Can Delete Admins ON";
+            this.switchButton13.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton13.Size = new System.Drawing.Size(269, 22);
+            this.switchButton13.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton13.SwitchBackColor = System.Drawing.Color.SaddleBrown;
+            this.switchButton13.TabIndex = 15;
+            // 
+            // switchButton14
+            // 
+            // 
+            // 
+            // 
+            this.switchButton14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton14.Location = new System.Drawing.Point(344, 250);
+            this.switchButton14.Name = "switchButton14";
+            this.switchButton14.OffText = "Can Edit Admins OFF";
+            this.switchButton14.OffTextColor = System.Drawing.Color.White;
+            this.switchButton14.OnText = "Can Edit Admins ON";
+            this.switchButton14.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton14.Size = new System.Drawing.Size(269, 22);
+            this.switchButton14.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton14.SwitchBackColor = System.Drawing.Color.SaddleBrown;
+            this.switchButton14.TabIndex = 14;
+            // 
+            // switchButton15
+            // 
+            // 
+            // 
+            // 
+            this.switchButton15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton15.Location = new System.Drawing.Point(344, 219);
+            this.switchButton15.Name = "switchButton15";
+            this.switchButton15.OffText = "Can View Admins OFF";
+            this.switchButton15.OffTextColor = System.Drawing.Color.White;
+            this.switchButton15.OnText = "Can View Admins ON";
+            this.switchButton15.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton15.Size = new System.Drawing.Size(269, 22);
+            this.switchButton15.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton15.SwitchBackColor = System.Drawing.Color.SaddleBrown;
+            this.switchButton15.TabIndex = 13;
+            // 
+            // switchButton16
+            // 
+            // 
+            // 
+            // 
+            this.switchButton16.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton16.Location = new System.Drawing.Point(344, 188);
+            this.switchButton16.Name = "switchButton16";
+            this.switchButton16.OffText = "Can Add Admins OFF";
+            this.switchButton16.OffTextColor = System.Drawing.Color.White;
+            this.switchButton16.OnText = "Can Add Admins ON";
+            this.switchButton16.OnTextColor = System.Drawing.Color.Black;
+            this.switchButton16.Size = new System.Drawing.Size(269, 22);
+            this.switchButton16.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton16.SwitchBackColor = System.Drawing.Color.SaddleBrown;
+            this.switchButton16.TabIndex = 12;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -7123,6 +7604,7 @@
             this.ClientSize = new System.Drawing.Size(1116, 620);
             this.Controls.Add(this.sideNav1);
             this.DoubleBuffered = true;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Management Panel";
@@ -7132,13 +7614,6 @@
             this.sideNavPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl7)).EndInit();
             this.tabControl7.ResumeLayout(false);
-            this.tabControlPanel39.ResumeLayout(false);
-            this.groupPanel2.ResumeLayout(false);
-            this.groupPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.tabControl8)).EndInit();
-            this.tabControl8.ResumeLayout(false);
-            this.tabControlPanel41.ResumeLayout(false);
-            this.tabControlPanel43.ResumeLayout(false);
             this.tabControlPanel37.ResumeLayout(false);
             this.groupPanel17.ResumeLayout(false);
             this.groupPanel17.PerformLayout();
@@ -7147,6 +7622,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.groupPanel15.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabControlPanel39.ResumeLayout(false);
+            this.groupPanel2.ResumeLayout(false);
+            this.groupPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tabControl8)).EndInit();
+            this.tabControl8.ResumeLayout(false);
+            this.tabControlPanel41.ResumeLayout(false);
+            this.tabControlPanel43.ResumeLayout(false);
+            this.tabControlPanel42.ResumeLayout(false);
             this.tabControlPanel40.ResumeLayout(false);
             this.groupPanel12.ResumeLayout(false);
             this.groupPanel13.ResumeLayout(false);
@@ -7186,15 +7669,15 @@
             this.sideNavPanel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl6)).EndInit();
             this.tabControl6.ResumeLayout(false);
-            this.tabControlPanel28.ResumeLayout(false);
-            this.groupPanel18.ResumeLayout(false);
-            this.groupPanel21.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.tabControlPanel25.ResumeLayout(false);
             this.tabControlPanel26.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.groupPanel19.ResumeLayout(false);
             this.groupMember.ResumeLayout(false);
+            this.tabControlPanel28.ResumeLayout(false);
+            this.groupPanel18.ResumeLayout(false);
+            this.groupPanel21.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.sideNavPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl5)).EndInit();
             this.tabControl5.ResumeLayout(false);
@@ -7203,13 +7686,13 @@
             this.sideNavPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabEquipmentsAddEquipment)).EndInit();
             this.tabEquipmentsAddEquipment.ResumeLayout(false);
+            this.tabControlPanel5.ResumeLayout(false);
+            this.tabControlPanel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabControlPanel7.ResumeLayout(false);
             this.groupPanel20.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateEquipment)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.tabControlPanel5.ResumeLayout(false);
-            this.tabControlPanel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.sideNavPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControlMembers)).EndInit();
             this.tabControlMembers.ResumeLayout(false);
@@ -7219,6 +7702,8 @@
             this.groupPnlMembersAddMember.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.datInputMembersAddMemberBirthDate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMembersAddMemberPic)).EndInit();
+            this.groupPanel25.ResumeLayout(false);
+            this.groupPanel26.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -7654,5 +8139,36 @@
         private DevComponents.DotNetBar.ButtonX btnAdminsAllAdminsEditPermissions;
         private DevComponents.DotNetBar.ButtonX btnModeratorsAllModeratorsEditPermission;
         private DevComponents.DotNetBar.ButtonX btnCoachesAllCoachedEditPermission;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel25;
+        private DevComponents.DotNetBar.ButtonX btnSettingsPermissionsView;
+        private DevComponents.DotNetBar.ButtonX btnSettingsPermissionsNew;
+        private DevComponents.DotNetBar.ButtonX btnSettingsPermissionsDelete;
+        private DevComponents.DotNetBar.ButtonX btnSettingsPermissionsEdit;
+        private DevComponents.DotNetBar.Controls.ListViewEx listViewEx2;
+        private System.Windows.Forms.ColumnHeader columnHeader80;
+        private System.Windows.Forms.ColumnHeader columnHeader81;
+        private System.Windows.Forms.ColumnHeader columnHeader82;
+        private System.Windows.Forms.ColumnHeader columnHeader83;
+        private System.Windows.Forms.ColumnHeader columnHeader84;
+        private System.Windows.Forms.ColumnHeader columnHeader85;
+        private System.Windows.Forms.ColumnHeader columnHeader86;
+        private System.Windows.Forms.ColumnHeader columnHeader87;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel26;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton1;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton4;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton3;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton2;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton13;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton14;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton15;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton16;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton9;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton10;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton11;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton12;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton5;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton6;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton7;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton8;
     }
 }

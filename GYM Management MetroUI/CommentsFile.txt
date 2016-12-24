@@ -37,6 +37,13 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 				||//====================================\\||  Date: 23/12/2016
+-Start Comment [ Date: 24/12/2016 09:20 PM ]
+		Edit GUI {
+			- Renaming Tools: On Going!
+			- Permission Tab: Under Constructing...
+		}
+
+-End Comment
 
 -Start Comment [ Date: 24/12/2016 09:00 PM ]
 		Edit GUI {
