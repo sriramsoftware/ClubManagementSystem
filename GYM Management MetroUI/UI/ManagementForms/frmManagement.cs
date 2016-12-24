@@ -32,6 +32,125 @@ namespace GYMManagementMetroUI
             MessageBox.Show("OK");
         }
 
+        private void txtSettingsPricesPlanPriceManualDay_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar != (char)Keys.Back && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            
+        }
+
+        private void txtSettingsPricesPlanPriceManualMonth_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar != (char)Keys.Back && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            
+        }
+
+        private void txtSettingsPricesPlanPriceManualQYear_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar != (char)Keys.Back && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+           
+        }
+
+        private void txtSettingsPricesPlanPriceManualHYear_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar != (char)Keys.Back && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+           
+        }
+
+        private void txtSettingsPricesPlanPriceManualYear_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar != (char)Keys.Back && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+
+        }
+
+        private void txtSettingsPricesPlanPriceManualDay_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSettingsPricesPlanPriceManualDay.Text.Trim()))
+            {
+                txtSettingsPricesPlanPriceManualDay.Text = 0.ToString();
+                txtSettingsPricesPlanPriceManualDay.SelectionStart = 0;
+                txtSettingsPricesPlanPriceManualDay.SelectionLength = txtSettingsPricesPlanPriceManualDay.TextLength;
+                txtSettingsPricesPlanPriceManualDay.SelectAll();
+            }
+                txtSettingsPricesPlanPriceManualMonth.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualDay.Text) * 30d).ToString();
+
+                txtSettingsPricesPlanPriceManualQYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualMonth.Text) * 3d).ToString();
+
+                txtSettingsPricesPlanPriceManualHYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualQYear.Text) * 2d).ToString();
+            
+                txtSettingsPricesPlanPriceManualYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualHYear.Text) * 2d).ToString();
+
+        }
+
+        private void txtSettingsPricesPlanPriceManualMonth_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSettingsPricesPlanPriceManualMonth.Text.Trim()))
+            {
+                txtSettingsPricesPlanPriceManualMonth.Text = 0.ToString();
+                txtSettingsPricesPlanPriceManualMonth.SelectionStart = 0;
+                txtSettingsPricesPlanPriceManualMonth.SelectionLength = txtSettingsPricesPlanPriceManualMonth.TextLength;
+                txtSettingsPricesPlanPriceManualMonth.SelectAll();
+            }
+                txtSettingsPricesPlanPriceManualQYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualMonth.Text) * 3d).ToString();
+
+                txtSettingsPricesPlanPriceManualHYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualQYear.Text) * 2d).ToString();
+
+                txtSettingsPricesPlanPriceManualYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualHYear.Text) * 2d).ToString();
+
+        }
+
+        private void txtSettingsPricesPlanPriceManualQYear_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSettingsPricesPlanPriceManualQYear.Text.Trim()))
+            {
+                txtSettingsPricesPlanPriceManualQYear.Text = 0.ToString();
+                txtSettingsPricesPlanPriceManualQYear.SelectionStart = 0;
+                txtSettingsPricesPlanPriceManualQYear.SelectionLength = txtSettingsPricesPlanPriceManualQYear.TextLength;
+                txtSettingsPricesPlanPriceManualQYear.SelectAll();
+            }
+                txtSettingsPricesPlanPriceManualHYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualQYear.Text) * 2d).ToString();
+
+                txtSettingsPricesPlanPriceManualYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualHYear.Text) * 2d).ToString();
+
+        }
+
+        private void txtSettingsPricesPlanPriceManualHYear_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSettingsPricesPlanPriceManualHYear.Text.Trim()))
+            {
+                txtSettingsPricesPlanPriceManualHYear.Text = 0.ToString();
+                txtSettingsPricesPlanPriceManualHYear.SelectionStart = 0;
+                txtSettingsPricesPlanPriceManualHYear.SelectionLength = txtSettingsPricesPlanPriceManualQYear.TextLength;
+                txtSettingsPricesPlanPriceManualHYear.SelectAll();
+            }
+                txtSettingsPricesPlanPriceManualYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualHYear.Text) * 2d).ToString();
+        }
+
+        private void lstViewSettingsPricesPlanAllPlans_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sliderAdsDuration_ValueChanged(object sender, EventArgs e)
+        {
+            lblAdsSlideDuration.Text = sliderAdsDuration.Value.ToString("00") + " Minutes";
+        }
+
+
 
       
 

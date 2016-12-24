@@ -38,6 +38,13 @@ Ex:		txtSettingsAdsNewAdsName
 
 				||//====================================\\||  Date: 23/12/2016
 
+-Start Comment [ Date: 24/12/2016 09:00 PM ]
+		Edit GUI {
+			- Renaming Some Tools: Done!
+		}
+
+-End Comment
+
 -Start Comment [ Date: 23/12/2016 11:30 PM ]
 	~Write comments like Buttom-Up style ([stack] new comments at top)
 	~Pull project using [git bash here] in project folder write "git pull"

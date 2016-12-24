@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace GYMManagementMetroUI.Classes.Useful_Classes
+namespace GYMManagementMetroUI.Classes.UsefulClasses
 {
-    public static class MsgBox
+    public class MsgBox
     {
-
     }
 }

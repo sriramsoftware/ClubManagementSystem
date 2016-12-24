@@ -35,12 +35,8 @@ namespace GYMManagementMetroUI
         public frmUserLogin()
         {
             InitializeComponent();
-            new UI.ManagementForms.frmAttendanceFullDetails().ShowDialog();
             me = this;
             me.FormClosing += me_FormClosing;
-            Permissions.Permissions p = new Permissions.Permissions();
-            p.Admins.CanAddAdmin = true;
-            MessageBox.Show(p.Admins.CanAddAdmin.ToString());
         }
 
         private void lnkInformations_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
