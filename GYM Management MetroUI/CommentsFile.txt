@@ -13,6 +13,7 @@ groupPnl	-> groupPanel
 comboItem	-> comboItem
 
 
+
 /*~~~~~~~~~~~~Commit Comments~~~~~~~~~~*/
 +			-> add
 -			-> remove
@@ -36,12 +37,28 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 
-				||//====================================\\||  Date: 23/12/2016
+				||//====================================\\||  Date: 25/12/2016
+				
+-Start Comment [ Date: 25/12/2016 12:15 AM ]
+		
+		Create Reset Class
+		Edit GUI
+		
+		-Rename any new controls even groupPanels
+		-3ash :)
+
+-End Comment		
+				
+
+
+				
+				
+				||//====================================\\||  Date: 24/12/2016
 -Start Comment [ Date: 24/12/2016 09:20 PM ]
 		Edit GUI {
 			- Renaming Tools: On Going!
 			- Permission Tab: Under Constructing...
-		}
+		}:Nice
 
 -End Comment
 
@@ -52,6 +69,8 @@ Ex:		txtSettingsAdsNewAdsName
 
 -End Comment
 
+				
+				||//====================================\\||  Date: 23/12/2016
 -Start Comment [ Date: 23/12/2016 11:30 PM ]
 	~Write comments like Buttom-Up style ([stack] new comments at top)
 	~Pull project using [git bash here] in project folder write "git pull"

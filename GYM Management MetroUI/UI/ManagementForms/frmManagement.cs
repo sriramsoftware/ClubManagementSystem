@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GYMManagementMetroUI.Classes.Useful_Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -140,10 +141,7 @@ namespace GYMManagementMetroUI
                 txtSettingsPricesPlanPriceManualYear.Text = (Convert.ToDouble(txtSettingsPricesPlanPriceManualHYear.Text) * 2d).ToString();
         }
 
-        private void lstViewSettingsPricesPlanAllPlans_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+    
 
         private void sliderAdsDuration_ValueChanged(object sender, EventArgs e)
         {
@@ -151,6 +149,31 @@ namespace GYMManagementMetroUI
         }
 
 
+
+        // Start Rest Zone {
+        Reset R = new Reset();
+        private void btnModeratorsAddModeratorReset_Click(object sender, EventArgs e)
+        {
+            R.Clear(groupPnlModeratorsAddModeratorGroup);
+        }
+
+        private void btnAdminAddAdminRest_Click(object sender, EventArgs e)
+        {
+            R.Clear(groupPnlAdminAddAdminGroup);
+        }
+
+        private void btnTrainersAddTrainerReset_Click(object sender, EventArgs e)
+        {
+            R.Clear(groupPnlCoachesAddCoachGroup);
+        }
+
+        private void btnMembersAddMemberReset_Click(object sender, EventArgs e)
+        {
+            R.Clear(groupPnlMembersAddMemberGroup);
+        }
+
+
+        // } End Rest Zone
 
       
 
