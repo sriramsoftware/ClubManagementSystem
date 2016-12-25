@@ -44,7 +44,7 @@ Ex:		txtSettingsAdsNewAdsName
 		Create Reset Class
 		Edit GUI
 		
-		-Rename any new controls even groupPanels
+		-Rename any new controls even groupPanels : GroupPanels isn't important.
 		-3ash :)
 
 -End Comment		
