@@ -59,11 +59,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\DataTypes\Admins.cs" />
     <Compile Include="Classes\DataTypes\Member.cs" />
+    <Compile Include="Classes\DataTypes\Moderator.cs" />
     <Compile Include="Classes\DataTypes\Person.cs" />
     <Compile Include="Classes\DataTypes\Coach.cs" />
-    <Compile Include="Classes\Useful Classes\MsgBox.cs" />
-    <Compile Include="Classes\Useful Classes\Reset.cs" />
+    <Compile Include="Classes\UsefulClasses\MsgBox.cs" />
+    <Compile Include="Classes\UsefulClasses\Reset.cs" />
     <Compile Include="DataAccessLayer\DataAccessLayer.cs" />
     <Compile Include="Classes\Permissions\Permissions.cs" />
     <Compile Include="UI\LoginForms\frmFAQ.cs">

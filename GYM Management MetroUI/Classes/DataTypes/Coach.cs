@@ -7,6 +7,10 @@ namespace GYMManagementMetroUI.Classes
 {
     class Coach : Person
     {
-       
+        public float Salary { get; set; }
+        public Coach()
+        {
+            this.Permissions = GYMManagementMetroUI.Permissions.Permissions.SetTo(GYMManagementMetroUI.Permissions.Permissions.PermissionType.Coach);
+        }
     }
 }

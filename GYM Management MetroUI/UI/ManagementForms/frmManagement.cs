@@ -1,4 +1,4 @@
-﻿using GYMManagementMetroUI.Classes.Useful_Classes;
+﻿using GYMManagementMetroUI.Classes.UsefulClasses;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -151,28 +151,25 @@ namespace GYMManagementMetroUI
 
 
         // Start Rest Zone {
-        Reset R = new Reset();
         private void btnModeratorsAddModeratorReset_Click(object sender, EventArgs e)
         {
-            R.Clear(groupPnlModeratorsAddModeratorGroup);
+            Reset.Clear(groupPnlModeratorsAddModeratorGroup);
         }
 
         private void btnAdminAddAdminRest_Click(object sender, EventArgs e)
         {
-            R.Clear(groupPnlAdminAddAdminGroup);
+            Reset.Clear(groupPnlAdminAddAdminGroup);
         }
 
         private void btnTrainersAddTrainerReset_Click(object sender, EventArgs e)
         {
-            R.Clear(groupPnlCoachesAddCoachGroup);
+            Reset.Clear(groupPnlCoachesAddCoachGroup);
         }
 
         private void btnMembersAddMemberReset_Click(object sender, EventArgs e)
         {
-            R.Clear(groupPnlMembersAddMemberGroup);
+            Reset.Clear(groupPnlMembersAddMemberGroup);
         }
-
-
         // } End Rest Zone
 
       

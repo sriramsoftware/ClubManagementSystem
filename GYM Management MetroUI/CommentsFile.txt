@@ -38,6 +38,14 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 				||//====================================\\||  Date: 25/12/2016
+-Start Comment [ Date: 25/12/2016 04:00 PM]
+	-Edit {
+		~ Permission, Reset Classes
+		~ Member, Coach
+		+ Admin, Moderator
+	}
+
+-End Comment
 				
 -Start Comment [ Date: 25/12/2016 12:15 AM ]
 		
