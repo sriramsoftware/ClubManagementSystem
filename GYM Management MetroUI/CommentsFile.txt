@@ -38,7 +38,10 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 				||//====================================\\||  Date: 25/12/2016
--Start Comment [ Date: 25/12/2016 04:00 PM]
+-Start Comment [ Date: 26/12/2016 10:40 AM ]
+	Project upgrade to VS2015
+-End Comment
+-Start Comment [ Date: 25/12/2016 04:00 PM ]
 	-Edit {
 		~ Permission, Reset Classes
 		~ Member, Coach
