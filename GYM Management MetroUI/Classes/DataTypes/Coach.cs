@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace GYMManagementMetroUI.Classes
+﻿namespace GYMManagementMetroUI.Classes
 {
     class Coach : Person
     {
         public float Salary { get; set; }
         public Coach()
         {
-            this.Permissions = GYMManagementMetroUI.Permissions.Permissions.SetTo(GYMManagementMetroUI.Permissions.Permissions.PermissionType.Coach);
+            this.Permissions = Classes.Permissions.Permissions.SetTo(Classes.Permissions.Permissions.PermissionType.Coach);
         }
     }
 }

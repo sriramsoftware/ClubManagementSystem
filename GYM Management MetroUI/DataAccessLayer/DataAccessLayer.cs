@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Text;
 
 namespace GYMManagementMetroUI.DataAccessLayer
 {
@@ -13,8 +10,8 @@ namespace GYMManagementMetroUI.DataAccessLayer
     {
         #region Variables
         SqlConnection connection;
-        private string dataBaseName = "GYM";
-        private string server = "Ibrahim";
+        private string _dataBaseName = "GYM";
+        private string _server = "Ibrahim";
         #endregion
         #region Properties
 
@@ -23,8 +20,8 @@ namespace GYMManagementMetroUI.DataAccessLayer
         /// </summary>
         public string Databasename
         {
-            get { return dataBaseName; }
-            set { dataBaseName = value; }
+            get { return _dataBaseName; }
+            set { _dataBaseName = value; }
         }
 
         /// <summary>
@@ -32,18 +29,18 @@ namespace GYMManagementMetroUI.DataAccessLayer
         /// </summary>
         public string Server
         {
-            get { return server; }
-            set { server = value; }
+            get { return _server; }
+            set { _server = value; }
         }
         #endregion
         #region Methods
         public DataAccessLayer():this("Ibrahim", "GYM")
         {}
-        public DataAccessLayer(string Server, string DatabaseName)
+        public DataAccessLayer(string server, string databaseName)
         {
-            this.Server = Server;
-            this.Databasename = dataBaseName;
-            connection = new SqlConnection(string.Format(@"Data Source=.\{0};Initial Catalog={1};Integrated Security=True", Server, Databasename));
+            this.Server = server;
+            this.Databasename = _dataBaseName;
+            connection = new SqlConnection(string.Format(@"Data Source=.\{0};Initial Catalog={1};Integrated Security=True", server, databaseName));
         }
 
         /// <summary>
@@ -71,14 +68,14 @@ namespace GYMManagementMetroUI.DataAccessLayer
         /// <summary>
         /// Method to Select Data form database
         /// </summary>
-        /// <param name="StoredProcedure">Stored Procedure Name To Get Data form it</param>
+        /// <param name="storedProcedure">Stored Procedure Name To Get Data form it</param>
         /// <param name="parms">Stored Procedure Parameters</param>
         /// <returns>Data which has been getten from database</returns>
-        public DataTable SelectData(string StoredProcedure, SqlParameter[] parms)
+        public DataTable SelectData(string storedProcedure, SqlParameter[] parms)
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = StoredProcedure;
+            cmd.CommandText = storedProcedure;
             cmd.Connection = connection;
             if (parms != null)
                 cmd.Parameters.AddRange(parms);
@@ -91,14 +88,14 @@ namespace GYMManagementMetroUI.DataAccessLayer
         /// <summary>
         /// Method to Insert, Update, Delete Data From Database
         /// </summary>
-        /// <param name="StoredProcedure">Stored Procedure Name To Execute Command on it</param>
+        /// <param name="storedProcedure">Stored Procedure Name To Execute Command on it</param>
         /// <param name="parms">Stored Procedure Parameters</param>
-        public void ExecuteCommand(string StoredProcedure, SqlParameter[] parms)
+        public void ExecuteCommand(string storedProcedure, SqlParameter[] parms)
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Connection = connection;
-            cmd.CommandText = StoredProcedure;
+            cmd.CommandText = storedProcedure;
             if (parms != null)
                 cmd.Parameters.AddRange(parms);
             Open();

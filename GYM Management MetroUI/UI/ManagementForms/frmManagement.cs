@@ -1,14 +1,8 @@
-﻿using GYMManagementMetroUI.Classes.UsefulClasses;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using System;
 using System.Windows.Forms;
+using GYMManagementMetroUI.Classes.UsefulClasses;
 
-namespace GYMManagementMetroUI
+namespace GYMManagementMetroUI.UI.ManagementForms
 {
     public partial class MainForm : DevComponents.DotNetBar.Metro.MetroForm
     {
@@ -30,7 +24,7 @@ namespace GYMManagementMetroUI
   
         private void listViewEx5_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("OK");
+            MessageBox.Show(@"OK");
         }
 
         private void txtSettingsPricesPlanPriceManualDay_KeyPress(object sender, KeyPressEventArgs e)
@@ -145,7 +139,7 @@ namespace GYMManagementMetroUI
 
         private void sliderAdsDuration_ValueChanged(object sender, EventArgs e)
         {
-            lblAdsSlideDuration.Text = sliderAdsDuration.Value.ToString("00") + " Minutes";
+            lblAdsSlideDuration.Text = sliderAdsDuration.Value.ToString("00") + @" Minutes";
         }
 
 

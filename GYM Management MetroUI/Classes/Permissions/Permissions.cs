@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace GYMManagementMetroUI.Permissions
+namespace GYMManagementMetroUI.Classes.Permissions
 {
     public class Permissions
     {
@@ -16,7 +16,7 @@ namespace GYMManagementMetroUI.Permissions
         #region Members
         public class MembersPermissionsClass
         {
-            private bool _setAll = false;
+            private bool _setAll;
             public  bool CanAddMembers { get; set; }
             public  bool CanViewMembers { get; set; }
             public  bool CanEditMembers { get; set; }
@@ -38,7 +38,7 @@ namespace GYMManagementMetroUI.Permissions
         #region Trainers
         public class TrainersPermissionsClass
         {
-            private bool _setAll = false;
+            private bool _setAll;
             public  bool CanAddTrainer { get; set; }
             public  bool CanViewTrainer { get; set; }
             public  bool CanEditTrainer { get; set; }
@@ -61,7 +61,7 @@ namespace GYMManagementMetroUI.Permissions
         #region Moderators
         public class ModeratorsPermissionsClass
         {
-            private bool _setAll = false;
+            private bool _setAll;
             public  bool CanAddModerator { get; set; }
             public  bool CanViewModerator { get; set; }
             public  bool CanEditModerator { get; set; }
@@ -85,7 +85,7 @@ namespace GYMManagementMetroUI.Permissions
         #region Admins
         public class AdminsPermissionsClass
         {
-            private bool _setAll = false;
+            private bool _setAll;
             public bool CanAddAdmin { get; set; }
             public bool CanViewAdmin { get; set; }
             public bool CanEditAdmin { get; set; }
@@ -108,9 +108,9 @@ namespace GYMManagementMetroUI.Permissions
         #region Forms
         public class FormsPermissionsClass
         {
-            private bool _setAll = false;
-            public AttendancePermissionsClass Attendance { get; private set; }
-            public AdsPermissionsClass Ads { get; private set; }
+            private bool _setAll;
+            public AttendancePermissionsClass Attendance { get; }
+            public AdsPermissionsClass Ads { get; }
             public PermissionFormPermissionsClass Permissions { get; set; }
             public ViewFormsPermissionClass ViewForms { get; set; }
             public bool SetAll
@@ -136,7 +136,7 @@ namespace GYMManagementMetroUI.Permissions
             
             public class AttendancePermissionsClass
             {
-                private bool _ssetAll = false;
+                private bool _ssetAll;
                 
                 public bool ViewTrainersAttendance { get; set; }
                 public bool ViewModeratorsAttendance { get; set; }
@@ -158,7 +158,7 @@ namespace GYMManagementMetroUI.Permissions
             #region ADS
             public class AdsPermissionsClass
             {
-                private bool _ssetAll = false;
+                private bool _ssetAll;
                 public bool CanAddAd { get; set; }
                 public bool CanEditAd { get; set; }
                 public bool CanRemoveAd { get; set; }
@@ -180,7 +180,7 @@ namespace GYMManagementMetroUI.Permissions
 
             public class PermissionFormPermissionsClass
             {
-                private bool _ssetAll = false;
+                private bool _ssetAll;
                 public bool CanAddPermission { get; set; }
                 public bool CanEditPermission { get; set; }
                 public bool CanViewPermissionForm { get; set; }
@@ -202,7 +202,7 @@ namespace GYMManagementMetroUI.Permissions
             #region FormsView
             public class ViewFormsPermissionClass
             {
-                private bool _ssetAll = false;
+                private bool _ssetAll;
                 public bool ViewAttendanceForm { get; set; }
                 public bool ViewAdsForm { get; set; }
                 public bool ViewPermissionsForm { get; set; }
@@ -224,11 +224,11 @@ namespace GYMManagementMetroUI.Permissions
         #endregion
 
         #region PermissionsProperity
-        public FormsPermissionsClass Forms { get; private set; }
-        public MembersPermissionsClass Members { get; private set; }
-        public TrainersPermissionsClass Trainers { get; private set; }
-        public ModeratorsPermissionsClass Moderators { get; private set; }
-        public AdminsPermissionsClass Admins { get; private set; }
+        public FormsPermissionsClass Forms { get; }
+        public MembersPermissionsClass Members { get; }
+        public TrainersPermissionsClass Trainers { get; }
+        public ModeratorsPermissionsClass Moderators { get; }
+        public AdminsPermissionsClass Admins { get; }
 
         #endregion
         public Permissions():this(PermissionType.None)
@@ -285,13 +285,16 @@ namespace GYMManagementMetroUI.Permissions
                     Moderators.SetAll = true;
                     Admins.SetAll = true;
                     break;
+                default:
+                    SetDefault(PermissionType.None);
+                    break;
             }
         }
         public static Permissions SetTo(PermissionType permission)
         {
             return new Permissions(permission);
         }
-        public static Permissions Parse(StringBuilder JSON)
+        public static Permissions Parse(StringBuilder json)
         {
             Permissions p = new Permissions(PermissionType.None);
 

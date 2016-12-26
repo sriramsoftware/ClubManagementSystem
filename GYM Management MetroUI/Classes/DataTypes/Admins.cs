@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-namespace GYMManagementMetroUI.Classes.DataTypes
+﻿namespace GYMManagementMetroUI.Classes.DataTypes
 {
     class Admins : Coach
     {
@@ -10,7 +6,7 @@ namespace GYMManagementMetroUI.Classes.DataTypes
         public float Salay { get; set; }
         public Admins()
         {
-            this.Permissions = GYMManagementMetroUI.Permissions.Permissions.SetTo(GYMManagementMetroUI.Permissions.Permissions.PermissionType.Admin);
+            this.Permissions = Classes.Permissions.Permissions.SetTo(Classes.Permissions.Permissions.PermissionType.Admin);
         }
     }
 }

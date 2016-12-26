@@ -16,7 +16,7 @@ namespace GYMManagementMetroUI.Classes.DataTypes
         public int RestCurrency { get; set; }
         public Member()
         {
-            this.Permissions = GYMManagementMetroUI.Permissions.Permissions.SetTo(GYMManagementMetroUI.Permissions.Permissions.PermissionType.None);
+            this.Permissions = Classes.Permissions.Permissions.SetTo(Classes.Permissions.Permissions.PermissionType.None);
         }
     }
 }

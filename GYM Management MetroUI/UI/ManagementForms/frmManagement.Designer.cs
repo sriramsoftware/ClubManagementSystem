@@ -1,4 +1,4 @@
-﻿namespace GYMManagementMetroUI
+﻿namespace GYMManagementMetroUI.UI.ManagementForms
 {
     partial class MainForm
     {

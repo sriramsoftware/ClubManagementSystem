@@ -1,11 +1,5 @@
 ﻿using DevComponents.DotNetBar.Controls;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 
@@ -20,10 +14,10 @@ namespace GYMManagementMetroUI.Classes.UsefulClasses
         /// <summary>
         /// Set all controls to its default value in container control
         /// </summary>
-        /// <param name="Con">Control which will be cleared</param>
-        public static void Clear(Control Con)
+        /// <param name="con">Control which will be cleared</param>
+        public static void Clear(Control con)
         {
-            foreach (Control control in Con.Controls)
+            foreach (Control control in con.Controls)
             {
                 ResetCtrl(control);
 
@@ -47,7 +41,7 @@ namespace GYMManagementMetroUI.Classes.UsefulClasses
             else if (control is RadioButton) { ((RadioButton)control).Checked = false;}
             else if (control is DateTimePicker) { ((DateTimePicker)control).Value = DateTime.Now;}
             else if (control is PictureBox) { ((PictureBox)control).Image = null;}
-            else if (control is Label && control.Tag.ToString().ToLower().Contains("edit")) { ((Label)control).Text = "..."; }
+            else if (control is Label && control.Tag.ToString().ToLower().Contains("edit")) { ((Label)control).Text = @"..."; }
             else if (control is SwitchButton) { ((SwitchButton)control).Value = false;}
             //other controls types...
         }
