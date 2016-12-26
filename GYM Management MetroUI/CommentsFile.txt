@@ -11,7 +11,7 @@ chk			-> CheckBoxes
 datInput	-> dateTimeInput
 groupPnl	-> groupPanel
 comboItem	-> comboItem
-switch		-> switchButton
+
 
 
 /*~~~~~~~~~~~~Commit Comments~~~~~~~~~~*/
