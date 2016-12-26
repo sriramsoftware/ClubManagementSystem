@@ -31,12 +31,8 @@ namespace GYMManagementMetroUI.UI.LoginForms
             me = null;
         }
         #endregion
-        bool ShowMainForm = false;
-        public bool ShowMainForm1
-        {
-            get { return ShowMainForm; }
-            set { ShowMainForm = value; }
-        }
+
+        public bool ShowMainForm1 { get; set; } = false;
 
         public frmAdminLogin()
         {
@@ -47,13 +43,13 @@ namespace GYMManagementMetroUI.UI.LoginForms
 
         private void frmAdminLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (!ShowMainForm) frmUserLogin.Instance.Show();
+            if (!ShowMainForm1) frmUserLogin.Instance.Show();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             new MainForm().Show();
-            this.ShowMainForm = true;
+            this.ShowMainForm1 = true;
             this.Close();
         }
     }

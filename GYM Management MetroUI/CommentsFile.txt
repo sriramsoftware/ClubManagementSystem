@@ -38,7 +38,11 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 				||//====================================\\||  Date: 25/12/2016
--Srart Comment [ Date: 26/12/2016 03:33 PM ]
+-Start Comment [ Date: 26/12/2016 08:25 PM]
++ Enum class (will be very useful to us)
+
+-End Comment
+-Start Comment [ Date: 26/12/2016 03:33 PM ]
 	-MsgBox class : it hasn't any benefits -_-
 -End Comment
 -Start Comment [ Date: 26/12/2016 10:40 AM ]

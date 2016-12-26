@@ -1,4 +1,6 @@
-﻿namespace GYMManagementMetroUI.Classes.DataTypes
+﻿using GYMManagementMetroUI.Classes.Permissions;
+
+namespace GYMManagementMetroUI.Classes.DataTypes
 {
     class Admins : Coach
     {
@@ -6,7 +8,7 @@
         public float Salay { get; set; }
         public Admins()
         {
-            this.Permissions = Classes.Permissions.Permissions.SetTo(Classes.Permissions.Permissions.PermissionType.Admin);
+            Permissions = PermissionsClass.SetTo(PermissionsClass.PermissionType.Admin);
         }
     }
 }

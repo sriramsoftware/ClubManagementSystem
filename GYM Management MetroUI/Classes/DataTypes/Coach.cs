@@ -1,11 +1,13 @@
-﻿namespace GYMManagementMetroUI.Classes
+﻿using GYMManagementMetroUI.Classes.Permissions;
+
+namespace GYMManagementMetroUI.Classes.DataTypes
 {
     class Coach : Person
     {
         public float Salary { get; set; }
         public Coach()
         {
-            this.Permissions = Classes.Permissions.Permissions.SetTo(Classes.Permissions.Permissions.PermissionType.Coach);
+            Permissions = PermissionsClass.SetTo(PermissionsClass.PermissionType.Coach);
         }
     }
 }
