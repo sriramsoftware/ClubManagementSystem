@@ -63,9 +63,10 @@
     <Compile Include="Classes\DataTypes\Moderator.cs" />
     <Compile Include="Classes\DataTypes\Person.cs" />
     <Compile Include="Classes\DataTypes\Coach.cs" />
+    <Compile Include="Classes\Enums\Tables.cs" />
     <Compile Include="Classes\UsefulClasses\Reset.cs" />
     <Compile Include="DataAccessLayer\DataAccessLayer.cs" />
-    <Compile Include="Classes\Permissions\Permissions.cs" />
+    <Compile Include="Classes\Permissions\PermissionsClass.cs" />
     <Compile Include="UI\LoginForms\frmFAQ.cs">
       <SubType>Form</SubType>
     </Compile>

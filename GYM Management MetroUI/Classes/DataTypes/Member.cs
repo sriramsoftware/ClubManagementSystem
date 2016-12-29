@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using GYMManagementMetroUI.Classes.Permissions;
+
 namespace GYMManagementMetroUI.Classes.DataTypes
 {
     class Member : Person
@@ -16,7 +14,7 @@ namespace GYMManagementMetroUI.Classes.DataTypes
         public int RestCurrency { get; set; }
         public Member()
         {
-            this.Permissions = Classes.Permissions.Permissions.SetTo(Classes.Permissions.Permissions.PermissionType.None);
+            Permissions =PermissionsClass.SetTo(PermissionsClass.PermissionType.None);
         }
     }
 }

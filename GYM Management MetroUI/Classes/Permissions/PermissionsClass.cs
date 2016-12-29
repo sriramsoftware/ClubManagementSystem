@@ -2,7 +2,7 @@
 
 namespace GYMManagementMetroUI.Classes.Permissions
 {
-    public class Permissions
+    public class PermissionsClass
     {
         public enum PermissionType
         {
@@ -231,10 +231,10 @@ namespace GYMManagementMetroUI.Classes.Permissions
         public AdminsPermissionsClass Admins { get; }
 
         #endregion
-        public Permissions():this(PermissionType.None)
+        public PermissionsClass():this(PermissionType.None)
         {
         }
-        public Permissions(PermissionType permission)
+        public PermissionsClass(PermissionType permission)
         {
             Forms = new FormsPermissionsClass();
             Members = new MembersPermissionsClass();
@@ -290,13 +290,13 @@ namespace GYMManagementMetroUI.Classes.Permissions
                     break;
             }
         }
-        public static Permissions SetTo(PermissionType permission)
+        public static PermissionsClass SetTo(PermissionType permission)
         {
-            return new Permissions(permission);
+            return new PermissionsClass(permission);
         }
-        public static Permissions Parse(StringBuilder json)
+        public static PermissionsClass Parse(StringBuilder json)
         {
-            Permissions p = new Permissions(PermissionType.None);
+            PermissionsClass p = new PermissionsClass(PermissionType.None);
 
             // will Parse JSON File Here
             return p;

@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Drawing;
-using System.Security.Cryptography;  //md5 or it's ok ?
 
-namespace GYMManagementMetroUI.Classes
+//md5 or it's ok ?
+
+namespace GYMManagementMetroUI.Classes.DataTypes
 {
     public class Person
      {
@@ -83,17 +84,17 @@ namespace GYMManagementMetroUI.Classes
          }
         
          public DateTime JoinDate { get; set; }
-         public Permissions.Permissions Permissions { get; set; }
+         public Permissions.PermissionsClass Permissions { get; set; }
          #endregion
 
          #region Methods
-         public void SetInvaludEmailSymbol(string Sybmol)
+         public void SetInvaludEmailSymbol(string sybmol)
          {
-             INVALID_EMAIL = Sybmol;
+             INVALID_EMAIL = sybmol;
          }
          public Person()
          {
-             Permissions = new Permissions.Permissions();
+             Permissions = new Permissions.PermissionsClass();
          }
          #endregion
 

@@ -1,10 +1,12 @@
-﻿namespace GYMManagementMetroUI.Classes.DataTypes
+﻿using GYMManagementMetroUI.Classes.Permissions;
+
+namespace GYMManagementMetroUI.Classes.DataTypes
 {
     class Moderator : Coach
     {
         public Moderator()
         {
-            this.Permissions = Classes.Permissions.Permissions.SetTo(Classes.Permissions.Permissions.PermissionType.Moderator);
+            Permissions = PermissionsClass.SetTo(PermissionsClass.PermissionType.Moderator);
         }
     }
 }
