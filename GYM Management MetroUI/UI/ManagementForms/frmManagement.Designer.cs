@@ -911,17 +911,17 @@
             // 
             this.sideNavPanel6.Controls.Add(this.tabControl7);
             this.sideNavPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sideNavPanel6.Location = new System.Drawing.Point(118, 33);
+            this.sideNavPanel6.Location = new System.Drawing.Point(107, 31);
             this.sideNavPanel6.Name = "sideNavPanel6";
-            this.sideNavPanel6.Size = new System.Drawing.Size(993, 586);
+            this.sideNavPanel6.Size = new System.Drawing.Size(1004, 588);
             this.sideNavPanel6.TabIndex = 22;
             // 
             // tabControl7
             // 
             this.tabControl7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControl7.CanReorderTabs = true;
-            this.tabControl7.Controls.Add(this.tabControlPanel39);
             this.tabControl7.Controls.Add(this.tabControlPanel42);
+            this.tabControl7.Controls.Add(this.tabControlPanel39);
             this.tabControl7.Controls.Add(this.tabControlPanel40);
             this.tabControl7.Controls.Add(this.tabControlPanel36);
             this.tabControl7.Controls.Add(this.tabControlPanel34);
@@ -932,7 +932,7 @@
             this.tabControl7.Name = "tabControl7";
             this.tabControl7.SelectedTabFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.tabControl7.SelectedTabIndex = 0;
-            this.tabControl7.Size = new System.Drawing.Size(993, 586);
+            this.tabControl7.Size = new System.Drawing.Size(1004, 588);
             this.tabControl7.Style = DevComponents.DotNetBar.eTabStripStyle.Metro;
             this.tabControl7.TabIndex = 4;
             this.tabControl7.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
@@ -952,7 +952,7 @@
             this.tabControlPanel42.Location = new System.Drawing.Point(0, 27);
             this.tabControlPanel42.Name = "tabControlPanel42";
             this.tabControlPanel42.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel42.Size = new System.Drawing.Size(993, 559);
+            this.tabControlPanel42.Size = new System.Drawing.Size(1004, 561);
             this.tabControlPanel42.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControlPanel42.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
             this.tabControlPanel42.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
@@ -979,7 +979,7 @@
             this.groupPanel25.DisabledBackColor = System.Drawing.Color.Empty;
             this.groupPanel25.Location = new System.Drawing.Point(5, 5);
             this.groupPanel25.Name = "groupPanel25";
-            this.groupPanel25.Size = new System.Drawing.Size(981, 543);
+            this.groupPanel25.Size = new System.Drawing.Size(992, 545);
             // 
             // 
             // 
@@ -1083,7 +1083,7 @@
             listViewItem3});
             this.lstViewSettingsPermissionsPermissionsList.Location = new System.Drawing.Point(50, 14);
             this.lstViewSettingsPermissionsPermissionsList.Name = "lstViewSettingsPermissionsPermissionsList";
-            this.lstViewSettingsPermissionsPermissionsList.Size = new System.Drawing.Size(848, 88);
+            this.lstViewSettingsPermissionsPermissionsList.Size = new System.Drawing.Size(859, 90);
             this.lstViewSettingsPermissionsPermissionsList.TabIndex = 7;
             this.lstViewSettingsPermissionsPermissionsList.UseCompatibleStateImageBehavior = false;
             this.lstViewSettingsPermissionsPermissionsList.View = System.Windows.Forms.View.Details;
@@ -1449,7 +1449,7 @@
             this.tabControlPanel39.Location = new System.Drawing.Point(0, 27);
             this.tabControlPanel39.Name = "tabControlPanel39";
             this.tabControlPanel39.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel39.Size = new System.Drawing.Size(993, 559);
+            this.tabControlPanel39.Size = new System.Drawing.Size(1004, 561);
             this.tabControlPanel39.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControlPanel39.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
             this.tabControlPanel39.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
@@ -1555,7 +1555,7 @@
             listViewItem1});
             this.lstViewSettingsPricesPlanAllPlans.Location = new System.Drawing.Point(22, 12);
             this.lstViewSettingsPricesPlanAllPlans.Name = "lstViewSettingsPricesPlanAllPlans";
-            this.lstViewSettingsPricesPlanAllPlans.Size = new System.Drawing.Size(848, 42);
+            this.lstViewSettingsPricesPlanAllPlans.Size = new System.Drawing.Size(848, 39);
             this.lstViewSettingsPricesPlanAllPlans.TabIndex = 6;
             this.lstViewSettingsPricesPlanAllPlans.UseCompatibleStateImageBehavior = false;
             this.lstViewSettingsPricesPlanAllPlans.View = System.Windows.Forms.View.Details;
@@ -2053,7 +2053,7 @@
             this.tabControlPanel40.Location = new System.Drawing.Point(0, 27);
             this.tabControlPanel40.Name = "tabControlPanel40";
             this.tabControlPanel40.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel40.Size = new System.Drawing.Size(993, 559);
+            this.tabControlPanel40.Size = new System.Drawing.Size(1004, 561);
             this.tabControlPanel40.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControlPanel40.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
             this.tabControlPanel40.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
@@ -2445,7 +2445,7 @@
             this.tabControlPanel36.Location = new System.Drawing.Point(0, 27);
             this.tabControlPanel36.Name = "tabControlPanel36";
             this.tabControlPanel36.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel36.Size = new System.Drawing.Size(993, 559);
+            this.tabControlPanel36.Size = new System.Drawing.Size(1004, 561);
             this.tabControlPanel36.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControlPanel36.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
             this.tabControlPanel36.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
@@ -3040,7 +3040,7 @@
             this.chkUserGYMLogoForAll.ForeColor = System.Drawing.Color.Black;
             this.chkUserGYMLogoForAll.Location = new System.Drawing.Point(3, 126);
             this.chkUserGYMLogoForAll.Name = "chkUserGYMLogoForAll";
-            this.chkUserGYMLogoForAll.Size = new System.Drawing.Size(127, 17);
+            this.chkUserGYMLogoForAll.Size = new System.Drawing.Size(127, 15);
             this.chkUserGYMLogoForAll.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.chkUserGYMLogoForAll.TabIndex = 6;
             this.chkUserGYMLogoForAll.Text = "Use GYM Logo for all";
@@ -3078,7 +3078,7 @@
             this.labelX13.ForeColor = System.Drawing.Color.Black;
             this.labelX13.Location = new System.Drawing.Point(129, 0);
             this.labelX13.Name = "labelX13";
-            this.labelX13.Size = new System.Drawing.Size(85, 17);
+            this.labelX13.Size = new System.Drawing.Size(85, 15);
             this.labelX13.TabIndex = 3;
             this.labelX13.Text = "GYM Panel icon:";
             // 
@@ -3115,7 +3115,7 @@
             this.labelX12.ForeColor = System.Drawing.Color.Black;
             this.labelX12.Location = new System.Drawing.Point(19, 0);
             this.labelX12.Name = "labelX12";
-            this.labelX12.Size = new System.Drawing.Size(59, 17);
+            this.labelX12.Size = new System.Drawing.Size(58, 15);
             this.labelX12.TabIndex = 0;
             this.labelX12.Text = "GYM Logo:";
             // 
@@ -3132,7 +3132,7 @@
             this.tabControlPanel34.Location = new System.Drawing.Point(0, 27);
             this.tabControlPanel34.Name = "tabControlPanel34";
             this.tabControlPanel34.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel34.Size = new System.Drawing.Size(993, 559);
+            this.tabControlPanel34.Size = new System.Drawing.Size(1004, 561);
             this.tabControlPanel34.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControlPanel34.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
             this.tabControlPanel34.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
@@ -3157,7 +3157,7 @@
             this.tabControlPanel37.Location = new System.Drawing.Point(0, 27);
             this.tabControlPanel37.Name = "tabControlPanel37";
             this.tabControlPanel37.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel37.Size = new System.Drawing.Size(993, 559);
+            this.tabControlPanel37.Size = new System.Drawing.Size(1004, 561);
             this.tabControlPanel37.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.tabControlPanel37.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
             this.tabControlPanel37.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(198)))));
@@ -3244,7 +3244,7 @@
             this.lblAdsSlideDuration.ForeColor = System.Drawing.Color.Black;
             this.lblAdsSlideDuration.Location = new System.Drawing.Point(192, 14);
             this.lblAdsSlideDuration.Name = "lblAdsSlideDuration";
-            this.lblAdsSlideDuration.Size = new System.Drawing.Size(57, 17);
+            this.lblAdsSlideDuration.Size = new System.Drawing.Size(53, 15);
             this.lblAdsSlideDuration.TabIndex = 1;
             this.lblAdsSlideDuration.Text = "... Minutes";
             // 
