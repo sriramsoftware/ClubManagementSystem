@@ -22,6 +22,11 @@ namespace GYMManagementMetroUI.Classes.DataTypes
              get;
              set;
          }
+         public string Photo
+         {
+            get;
+            set;
+         }
          public string UserName
          {
              get;

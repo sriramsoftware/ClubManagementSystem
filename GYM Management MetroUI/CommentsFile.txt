@@ -37,17 +37,45 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 
-				||//====================================\\||  Date: 25/12/2016
--Start Comment [ Date: 26/12/2016 08:25 PM]
-+ Enum class (will be very useful to us)
+
+				||//====================================\\||  Date: 29/12/2016
+				
+-Start Comment [ Date: 29/12/2016 09:00 PM]
+
+	hello world vs2015 :D
+	we need to speed up 
+	
+	- Classes{
+		+PullExists
+		+Search
+		+Changes
+		+Equipment
+		+Email
+	}
+	
+	- EDIT {
+		+adding
+		+searching items cnt
+		+GYM -> Club
+	}
+
 
 -End Comment
+
+				||//====================================\\||  Date: 25/12/2016
+-Start Comment [ Date: 26/12/2016 08:25 PM]
+	+ Enum class (will be very useful to us)
+
+-End Comment
+
 -Start Comment [ Date: 26/12/2016 03:33 PM ]
 	-MsgBox class : it hasn't any benefits -_-
 -End Comment
+
 -Start Comment [ Date: 26/12/2016 10:40 AM ]
 	Project upgrade to VS2015
 -End Comment
+
 -Start Comment [ Date: 25/12/2016 04:00 PM ]
 	-Edit {
 		~ Permission, Reset Classes

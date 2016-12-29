@@ -164,13 +164,15 @@ namespace GYMManagementMetroUI.UI.ManagementForms
         {
             Reset.Clear(groupPnlMembersAddMemberGroup);
         }
+
+        
         // } End Rest Zone
 
-      
 
-     
 
-  
-       
+
+
+
+
     }
 }
