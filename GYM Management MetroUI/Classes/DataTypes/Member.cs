@@ -3,7 +3,7 @@ using GYMManagementMetroUI.Classes.Permissions;
 
 namespace GYMManagementMetroUI.Classes.DataTypes
 {
-    class Member : Person
+   public class Member : Person
     {
         public string TrainerName { get; set; }
         public int TrainerID { get; set; }

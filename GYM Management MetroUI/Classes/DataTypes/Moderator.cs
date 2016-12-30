@@ -2,7 +2,7 @@
 
 namespace GYMManagementMetroUI.Classes.DataTypes
 {
-    class Moderator : Coach
+    public class Moderator : Coach
     {
         public Moderator()
         {

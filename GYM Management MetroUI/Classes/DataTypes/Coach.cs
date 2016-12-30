@@ -2,7 +2,7 @@
 
 namespace GYMManagementMetroUI.Classes.DataTypes
 {
-    class Coach : Person
+   public class Coach : Person
     {
         public float Salary { get; set; }
         public Coach()

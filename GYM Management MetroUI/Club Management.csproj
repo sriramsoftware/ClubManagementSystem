@@ -66,6 +66,9 @@
     <Compile Include="Classes\DataTypes\Moderator.cs" />
     <Compile Include="Classes\DataTypes\Person.cs" />
     <Compile Include="Classes\DataTypes\Coach.cs" />
+    <Compile Include="Classes\DBAccess\DBResult.cs" />
+    <Compile Include="Classes\DBAccess\DBInsert.cs" />
+    <Compile Include="Classes\DBAccess\DBUpdate.cs" />
     <Compile Include="Classes\Enums\Tables.cs" />
     <Compile Include="Classes\UsefulClasses\Changes.cs" />
     <Compile Include="Classes\UsefulClasses\Email.cs" />

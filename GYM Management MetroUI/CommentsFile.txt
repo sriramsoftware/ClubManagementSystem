@@ -39,11 +39,30 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 				||//====================================\\||  Date: 29/12/2016
-				
+-Start Comment [ Date: 30/12/2016 05:30 PM ]				
+	- Add 
+	{
+		+ DB Folder => [Insert, Update, Result]
+
+
+	
+	}
+
+	- When You add a new class create summery for it : [ I don't know what the classes do !]
+	EX:
+		 /// <summary>
+	  	 ///	Description Here
+		 /// </summary>
+		public class Class
+		{ }
+	-Note:
+		when you write /// the summery will be created automatically!
+
+-End Comment
 -Start Comment [ Date: 29/12/2016 09:00 PM]
 
-	hello world vs2015 :D
-	we need to speed up 
+	hello world vs2015 :D => Welcome back :D !
+	we need to speed up
 	
 	- Classes{
 		+PullExists
