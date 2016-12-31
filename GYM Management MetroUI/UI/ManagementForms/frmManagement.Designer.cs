@@ -29,15 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
@@ -47,15 +38,6 @@
             "Member 2",
             "30",
             "70"}, -1);
-            DevComponents.DotNetBar.Charts.Style.Background background9 = new DevComponents.DotNetBar.Charts.Style.Background();
-            DevComponents.DotNetBar.Charts.Style.Background background10 = new DevComponents.DotNetBar.Charts.Style.Background();
-            DevComponents.DotNetBar.Charts.Style.Background background11 = new DevComponents.DotNetBar.Charts.Style.Background();
-            DevComponents.DotNetBar.Charts.Style.Background background12 = new DevComponents.DotNetBar.Charts.Style.Background();
-            DevComponents.DotNetBar.Charts.Style.Background background13 = new DevComponents.DotNetBar.Charts.Style.Background();
-            DevComponents.DotNetBar.Charts.Style.Background background14 = new DevComponents.DotNetBar.Charts.Style.Background();
-            DevComponents.DotNetBar.Charts.Style.Background background15 = new DevComponents.DotNetBar.Charts.Style.Background();
-            DevComponents.DotNetBar.Charts.Style.Background background16 = new DevComponents.DotNetBar.Charts.Style.Background();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
@@ -65,6 +47,15 @@
             "Member 2",
             "30",
             "70"}, -1);
+            DevComponents.DotNetBar.Charts.Style.Background background1 = new DevComponents.DotNetBar.Charts.Style.Background();
+            DevComponents.DotNetBar.Charts.Style.Background background2 = new DevComponents.DotNetBar.Charts.Style.Background();
+            DevComponents.DotNetBar.Charts.Style.Background background3 = new DevComponents.DotNetBar.Charts.Style.Background();
+            DevComponents.DotNetBar.Charts.Style.Background background4 = new DevComponents.DotNetBar.Charts.Style.Background();
+            DevComponents.DotNetBar.Charts.Style.Background background5 = new DevComponents.DotNetBar.Charts.Style.Background();
+            DevComponents.DotNetBar.Charts.Style.Background background6 = new DevComponents.DotNetBar.Charts.Style.Background();
+            DevComponents.DotNetBar.Charts.Style.Background background7 = new DevComponents.DotNetBar.Charts.Style.Background();
+            DevComponents.DotNetBar.Charts.Style.Background background8 = new DevComponents.DotNetBar.Charts.Style.Background();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
@@ -75,47 +66,56 @@
             "30",
             "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 1",
             "Member",
             "Attends",
             "9 am",
             "12 pm"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 2",
             "Trainer",
             "Attends",
             "8 am",
             "still here"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 3",
             "Moderator",
             "Leave",
             "10 am",
             "11 am"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 4",
             "Member",
             "Not attend",
             "-",
             "-",
             "not come from 5 days"}, -1, System.Drawing.Color.Red, System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem39 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
             "Person 5",
             "Member",
             "Attend",
             "1 pm",
             "still here",
             "break dumbbell :D"}, -1, System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0))))), System.Drawing.Color.Empty, null);
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
             "80",
             ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "1",
             "Plan 1",
             "25",
@@ -124,88 +124,88 @@
             "",
             "",
             ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
             "Ad 1",
             "Bodybuilding.com Coupons & Promo Codes 2016",
             "Yes",
             "=  2.png",
             "Main Login Screen"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
             "Ad 2",
             "Men\'s Tops & T-Shirts. Nike.com",
             "No",
             "",
             "Main Login Screen & Action Screen"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
             "1",
             "Coaches",
             "5",
             "{data:[]}"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
             "2",
             "Moderators",
             "2",
             "{data:[]}"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 2",
-            "30",
-            "70"}, -1);
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
             System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Member 1",
-            "25",
-            "80",
-            ""}, -1);
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 1",
             "25",
             "80",
             ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
             System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 2",
+            "30",
+            "70"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Member 1",
+            "25",
+            "80",
+            ""}, -1);
+            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
             "Member 2",
             "30",
             "70"}, -1);
@@ -1055,10 +1055,12 @@
             // 
             // lblMembersSearchCounter
             // 
+            this.lblMembersSearchCounter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.lblMembersSearchCounter.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblMembersSearchCounter.ForeColor = System.Drawing.Color.Black;
             this.lblMembersSearchCounter.Location = new System.Drawing.Point(684, 4);
             this.lblMembersSearchCounter.Name = "lblMembersSearchCounter";
             this.lblMembersSearchCounter.Size = new System.Drawing.Size(70, 20);
@@ -1154,11 +1156,11 @@
             this.lstViewMembers.FullRowSelect = true;
             this.lstViewMembers.GridLines = true;
             this.lstViewMembers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem35.StateImageIndex = 0;
-            listViewItem36.StateImageIndex = 0;
+            listViewItem1.StateImageIndex = 0;
+            listViewItem2.StateImageIndex = 0;
             this.lstViewMembers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem35,
-            listViewItem36});
+            listViewItem1,
+            listViewItem2});
             this.lstViewMembers.Location = new System.Drawing.Point(17, 29);
             this.lstViewMembers.Name = "lstViewMembers";
             this.lstViewMembers.Size = new System.Drawing.Size(979, 475);
@@ -1268,11 +1270,11 @@
             this.listViewEx1.FullRowSelect = true;
             this.listViewEx1.GridLines = true;
             this.listViewEx1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem1.StateImageIndex = 0;
-            listViewItem2.StateImageIndex = 0;
+            listViewItem3.StateImageIndex = 0;
+            listViewItem4.StateImageIndex = 0;
             this.listViewEx1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2});
+            listViewItem3,
+            listViewItem4});
             this.listViewEx1.Location = new System.Drawing.Point(4, 30);
             this.listViewEx1.Name = "listViewEx1";
             this.listViewEx1.Size = new System.Drawing.Size(890, 367);
@@ -1331,22 +1333,22 @@
             this.chartControl1.ChartPanel.Legend.Visible = false;
             this.chartControl1.ChartPanel.Name = "PrimaryPanel";
             this.chartControl1.ChartPanel.Visible = false;
-            background9.Color1 = System.Drawing.Color.AliceBlue;
-            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.MouseOver.ArrowBackground = background9;
-            background10.Color1 = System.Drawing.Color.AliceBlue;
-            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.MouseOver.ThumbBackground = background10;
-            background11.Color1 = System.Drawing.Color.White;
-            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.SelectedMouseOver.ArrowBackground = background11;
-            background12.Color1 = System.Drawing.Color.White;
-            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.SelectedMouseOver.ThumbBackground = background12;
-            background13.Color1 = System.Drawing.Color.AliceBlue;
-            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.MouseOver.ArrowBackground = background13;
-            background14.Color1 = System.Drawing.Color.AliceBlue;
-            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.MouseOver.ThumbBackground = background14;
-            background15.Color1 = System.Drawing.Color.White;
-            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.SelectedMouseOver.ArrowBackground = background15;
-            background16.Color1 = System.Drawing.Color.White;
-            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.SelectedMouseOver.ThumbBackground = background16;
+            background1.Color1 = System.Drawing.Color.AliceBlue;
+            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.MouseOver.ArrowBackground = background1;
+            background2.Color1 = System.Drawing.Color.AliceBlue;
+            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.MouseOver.ThumbBackground = background2;
+            background3.Color1 = System.Drawing.Color.White;
+            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.SelectedMouseOver.ArrowBackground = background3;
+            background4.Color1 = System.Drawing.Color.White;
+            this.chartControl1.DefaultVisualStyles.HScrollBarVisualStyles.SelectedMouseOver.ThumbBackground = background4;
+            background5.Color1 = System.Drawing.Color.AliceBlue;
+            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.MouseOver.ArrowBackground = background5;
+            background6.Color1 = System.Drawing.Color.AliceBlue;
+            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.MouseOver.ThumbBackground = background6;
+            background7.Color1 = System.Drawing.Color.White;
+            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.SelectedMouseOver.ArrowBackground = background7;
+            background8.Color1 = System.Drawing.Color.White;
+            this.chartControl1.DefaultVisualStyles.VScrollBarVisualStyles.SelectedMouseOver.ThumbBackground = background8;
             this.chartControl1.ForeColor = System.Drawing.Color.Black;
             this.chartControl1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.chartControl1.Location = new System.Drawing.Point(817, 220);
@@ -1358,7 +1360,7 @@
             // groupPanel23
             // 
             this.groupPanel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel23.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel23.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel23.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel23.Controls.Add(this.btnMembersAddMemberPullExists);
             this.groupPanel23.Controls.Add(this.labelX29);
@@ -1411,10 +1413,12 @@
             // 
             // labelX29
             // 
+            this.labelX29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.labelX29.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX29.ForeColor = System.Drawing.Color.Black;
             this.labelX29.Location = new System.Drawing.Point(63, 60);
             this.labelX29.Name = "labelX29";
             this.labelX29.Size = new System.Drawing.Size(157, 29);
@@ -1658,10 +1662,12 @@
             // 
             // switchMembersAddMemberGender
             // 
+            this.switchMembersAddMemberGender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchMembersAddMemberGender.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchMembersAddMemberGender.ForeColor = System.Drawing.Color.Black;
             this.switchMembersAddMemberGender.Location = new System.Drawing.Point(37, 101);
             this.switchMembersAddMemberGender.Name = "switchMembersAddMemberGender";
             this.switchMembersAddMemberGender.OffText = "Female";
@@ -2143,10 +2149,12 @@
             // 
             // lblEquipmentsSearchCounter
             // 
+            this.lblEquipmentsSearchCounter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.lblEquipmentsSearchCounter.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblEquipmentsSearchCounter.ForeColor = System.Drawing.Color.Black;
             this.lblEquipmentsSearchCounter.Location = new System.Drawing.Point(684, 4);
             this.lblEquipmentsSearchCounter.Name = "lblEquipmentsSearchCounter";
             this.lblEquipmentsSearchCounter.Size = new System.Drawing.Size(70, 20);
@@ -2254,11 +2262,11 @@
             this.lstViewEquipments.FullRowSelect = true;
             this.lstViewEquipments.GridLines = true;
             this.lstViewEquipments.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem3.StateImageIndex = 0;
-            listViewItem4.StateImageIndex = 0;
+            listViewItem5.StateImageIndex = 0;
+            listViewItem6.StateImageIndex = 0;
             this.lstViewEquipments.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3,
-            listViewItem4});
+            listViewItem5,
+            listViewItem6});
             this.lstViewEquipments.Location = new System.Drawing.Point(17, 29);
             this.lstViewEquipments.Name = "lstViewEquipments";
             this.lstViewEquipments.Size = new System.Drawing.Size(444, 475);
@@ -2368,11 +2376,11 @@
             this.listViewEx6.FullRowSelect = true;
             this.listViewEx6.GridLines = true;
             this.listViewEx6.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem5.StateImageIndex = 0;
-            listViewItem6.StateImageIndex = 0;
+            listViewItem7.StateImageIndex = 0;
+            listViewItem8.StateImageIndex = 0;
             this.listViewEx6.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5,
-            listViewItem6});
+            listViewItem7,
+            listViewItem8});
             this.listViewEx6.Location = new System.Drawing.Point(4, 30);
             this.listViewEx6.Name = "listViewEx6";
             this.listViewEx6.Size = new System.Drawing.Size(890, 367);
@@ -2428,7 +2436,7 @@
             // groupPanel30
             // 
             this.groupPanel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel30.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel30.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel30.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel30.Controls.Add(this.btnEquipmentAddEquipmentExistsEquipment);
             this.groupPanel30.Controls.Add(this.labelX36);
@@ -2481,10 +2489,12 @@
             // 
             // labelX36
             // 
+            this.labelX36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.labelX36.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX36.ForeColor = System.Drawing.Color.Black;
             this.labelX36.Location = new System.Drawing.Point(67, 15);
             this.labelX36.Name = "labelX36";
             this.labelX36.Size = new System.Drawing.Size(157, 29);
@@ -2864,17 +2874,17 @@
             this.lstViewAttendanceAllPersonsMembers.FullRowSelect = true;
             this.lstViewAttendanceAllPersonsMembers.GridLines = true;
             this.lstViewAttendanceAllPersonsMembers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem7.StateImageIndex = 0;
-            listViewItem8.StateImageIndex = 0;
-            listViewItem37.StateImageIndex = 0;
-            listViewItem38.StateImageIndex = 0;
-            listViewItem39.StateImageIndex = 0;
+            listViewItem9.StateImageIndex = 0;
+            listViewItem10.StateImageIndex = 0;
+            listViewItem11.StateImageIndex = 0;
+            listViewItem12.StateImageIndex = 0;
+            listViewItem13.StateImageIndex = 0;
             this.lstViewAttendanceAllPersonsMembers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem7,
-            listViewItem8,
-            listViewItem37,
-            listViewItem38,
-            listViewItem39});
+            listViewItem9,
+            listViewItem10,
+            listViewItem11,
+            listViewItem12,
+            listViewItem13});
             this.lstViewAttendanceAllPersonsMembers.Location = new System.Drawing.Point(4, 30);
             this.lstViewAttendanceAllPersonsMembers.Name = "lstViewAttendanceAllPersonsMembers";
             this.lstViewAttendanceAllPersonsMembers.Size = new System.Drawing.Size(981, 467);
@@ -2989,11 +2999,11 @@
             this.listViewEx3.FullRowSelect = true;
             this.listViewEx3.GridLines = true;
             this.listViewEx3.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem9.StateImageIndex = 0;
-            listViewItem10.StateImageIndex = 0;
+            listViewItem14.StateImageIndex = 0;
+            listViewItem15.StateImageIndex = 0;
             this.listViewEx3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem9,
-            listViewItem10});
+            listViewItem14,
+            listViewItem15});
             this.listViewEx3.Location = new System.Drawing.Point(4, 30);
             this.listViewEx3.Name = "listViewEx3";
             this.listViewEx3.Size = new System.Drawing.Size(890, 367);
@@ -3108,7 +3118,7 @@
             // groupPanel31
             // 
             this.groupPanel31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel31.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel31.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel31.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel31.Controls.Add(this.microChart1);
             this.groupPanel31.DisabledBackColor = System.Drawing.Color.Empty;
@@ -3148,10 +3158,12 @@
             // 
             // microChart1
             // 
+            this.microChart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.microChart1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.microChart1.ForeColor = System.Drawing.Color.Black;
             this.microChart1.Location = new System.Drawing.Point(92, 28);
             this.microChart1.Name = "microChart1";
             this.microChart1.Size = new System.Drawing.Size(196, 101);
@@ -3307,12 +3319,12 @@
             this.lstViewSettingsPricesPlanAllPlans.FullRowSelect = true;
             this.lstViewSettingsPricesPlanAllPlans.GridLines = true;
             this.lstViewSettingsPricesPlanAllPlans.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem11.StateImageIndex = 0;
+            listViewItem16.StateImageIndex = 0;
             this.lstViewSettingsPricesPlanAllPlans.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem11});
+            listViewItem16});
             this.lstViewSettingsPricesPlanAllPlans.Location = new System.Drawing.Point(22, 12);
             this.lstViewSettingsPricesPlanAllPlans.Name = "lstViewSettingsPricesPlanAllPlans";
-            this.lstViewSettingsPricesPlanAllPlans.Size = new System.Drawing.Size(848, 9);
+            this.lstViewSettingsPricesPlanAllPlans.Size = new System.Drawing.Size(848, 0);
             this.lstViewSettingsPricesPlanAllPlans.TabIndex = 6;
             this.lstViewSettingsPricesPlanAllPlans.UseCompatibleStateImageBehavior = false;
             this.lstViewSettingsPricesPlanAllPlans.View = System.Windows.Forms.View.Details;
@@ -5028,15 +5040,15 @@
             this.listAdsManger.FullRowSelect = true;
             this.listAdsManger.GridLines = true;
             this.listAdsManger.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem12.StateImageIndex = 0;
-            listViewItem12.UseItemStyleForSubItems = false;
-            listViewItem13.StateImageIndex = 0;
+            listViewItem17.StateImageIndex = 0;
+            listViewItem17.UseItemStyleForSubItems = false;
+            listViewItem18.StateImageIndex = 0;
             this.listAdsManger.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem12,
-            listViewItem13});
+            listViewItem17,
+            listViewItem18});
             this.listAdsManger.Location = new System.Drawing.Point(12, 24);
             this.listAdsManger.Name = "listAdsManger";
-            this.listAdsManger.Size = new System.Drawing.Size(467, 57);
+            this.listAdsManger.Size = new System.Drawing.Size(467, 42);
             this.listAdsManger.TabIndex = 1;
             this.listAdsManger.UseCompatibleStateImageBehavior = false;
             this.listAdsManger.View = System.Windows.Forms.View.Details;
@@ -5097,7 +5109,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupPanel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel25.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel25.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel25.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel25.Controls.Add(this.btnSettingsPermissionsView);
             this.groupPanel25.Controls.Add(this.btnSettingsPermissionsNew);
@@ -5205,11 +5217,11 @@
             this.lstViewSettingsPermissionsPermissionsList.FullRowSelect = true;
             this.lstViewSettingsPermissionsPermissionsList.GridLines = true;
             this.lstViewSettingsPermissionsPermissionsList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem14.StateImageIndex = 0;
-            listViewItem15.StateImageIndex = 0;
+            listViewItem19.StateImageIndex = 0;
+            listViewItem20.StateImageIndex = 0;
             this.lstViewSettingsPermissionsPermissionsList.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem14,
-            listViewItem15});
+            listViewItem19,
+            listViewItem20});
             this.lstViewSettingsPermissionsPermissionsList.Location = new System.Drawing.Point(50, 14);
             this.lstViewSettingsPermissionsPermissionsList.Name = "lstViewSettingsPermissionsPermissionsList";
             this.lstViewSettingsPermissionsPermissionsList.Size = new System.Drawing.Size(859, 90);
@@ -5242,7 +5254,7 @@
             // groupPanel26
             // 
             this.groupPanel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel26.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel26.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel26.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel26.Controls.Add(this.switchButton13);
             this.groupPanel26.Controls.Add(this.switchButton14);
@@ -5297,10 +5309,12 @@
             // 
             // switchButton13
             // 
+            this.switchButton13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton13.ForeColor = System.Drawing.Color.Black;
             this.switchButton13.Location = new System.Drawing.Point(344, 281);
             this.switchButton13.Name = "switchButton13";
             this.switchButton13.OffText = "Can Delete Admins OFF";
@@ -5314,10 +5328,12 @@
             // 
             // switchButton14
             // 
+            this.switchButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton14.ForeColor = System.Drawing.Color.Black;
             this.switchButton14.Location = new System.Drawing.Point(344, 250);
             this.switchButton14.Name = "switchButton14";
             this.switchButton14.OffText = "Can Edit Admins OFF";
@@ -5331,10 +5347,12 @@
             // 
             // switchButton15
             // 
+            this.switchButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton15.ForeColor = System.Drawing.Color.Black;
             this.switchButton15.Location = new System.Drawing.Point(344, 219);
             this.switchButton15.Name = "switchButton15";
             this.switchButton15.OffText = "Can View Admins OFF";
@@ -5348,10 +5366,12 @@
             // 
             // switchButton16
             // 
+            this.switchButton16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton16.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton16.ForeColor = System.Drawing.Color.Black;
             this.switchButton16.Location = new System.Drawing.Point(344, 188);
             this.switchButton16.Name = "switchButton16";
             this.switchButton16.OffText = "Can Add Admins OFF";
@@ -5365,10 +5385,12 @@
             // 
             // switchButton9
             // 
+            this.switchButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton9.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton9.ForeColor = System.Drawing.Color.Black;
             this.switchButton9.Location = new System.Drawing.Point(344, 123);
             this.switchButton9.Name = "switchButton9";
             this.switchButton9.OffText = "Can Delete Moderators OFF";
@@ -5382,10 +5404,12 @@
             // 
             // switchButton10
             // 
+            this.switchButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton10.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton10.ForeColor = System.Drawing.Color.Black;
             this.switchButton10.Location = new System.Drawing.Point(344, 92);
             this.switchButton10.Name = "switchButton10";
             this.switchButton10.OffText = "Can Edit Moderators OFF";
@@ -5399,10 +5423,12 @@
             // 
             // switchButton11
             // 
+            this.switchButton11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton11.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton11.ForeColor = System.Drawing.Color.Black;
             this.switchButton11.Location = new System.Drawing.Point(344, 61);
             this.switchButton11.Name = "switchButton11";
             this.switchButton11.OffText = "Can View Moderators OFF";
@@ -5416,10 +5442,12 @@
             // 
             // switchButton12
             // 
+            this.switchButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton12.ForeColor = System.Drawing.Color.Black;
             this.switchButton12.Location = new System.Drawing.Point(344, 30);
             this.switchButton12.Name = "switchButton12";
             this.switchButton12.OffText = "Can Add Moderators OFF";
@@ -5433,10 +5461,12 @@
             // 
             // switchButton5
             // 
+            this.switchButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton5.ForeColor = System.Drawing.Color.Black;
             this.switchButton5.Location = new System.Drawing.Point(16, 281);
             this.switchButton5.Name = "switchButton5";
             this.switchButton5.OffText = "Can Delete Coaches OFF";
@@ -5450,10 +5480,12 @@
             // 
             // switchButton6
             // 
+            this.switchButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton6.ForeColor = System.Drawing.Color.Black;
             this.switchButton6.Location = new System.Drawing.Point(16, 250);
             this.switchButton6.Name = "switchButton6";
             this.switchButton6.OffText = "Can Edit Coaches OFF";
@@ -5467,10 +5499,12 @@
             // 
             // switchButton7
             // 
+            this.switchButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton7.ForeColor = System.Drawing.Color.Black;
             this.switchButton7.Location = new System.Drawing.Point(16, 219);
             this.switchButton7.Name = "switchButton7";
             this.switchButton7.OffText = "Can View Coaches OFF";
@@ -5484,10 +5518,12 @@
             // 
             // switchButton8
             // 
+            this.switchButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton8.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton8.ForeColor = System.Drawing.Color.Black;
             this.switchButton8.Location = new System.Drawing.Point(16, 188);
             this.switchButton8.Name = "switchButton8";
             this.switchButton8.OffText = "Can Add Coaches OFF";
@@ -5501,10 +5537,12 @@
             // 
             // switchButton4
             // 
+            this.switchButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton4.ForeColor = System.Drawing.Color.Black;
             this.switchButton4.Location = new System.Drawing.Point(16, 123);
             this.switchButton4.Name = "switchButton4";
             this.switchButton4.OffText = "Can Delete Members OFF";
@@ -5517,10 +5555,12 @@
             // 
             // switchButton3
             // 
+            this.switchButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton3.ForeColor = System.Drawing.Color.Black;
             this.switchButton3.Location = new System.Drawing.Point(16, 92);
             this.switchButton3.Name = "switchButton3";
             this.switchButton3.OffText = "Can Edit Members OFF";
@@ -5533,10 +5573,12 @@
             // 
             // switchButton2
             // 
+            this.switchButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton2.ForeColor = System.Drawing.Color.Black;
             this.switchButton2.Location = new System.Drawing.Point(16, 61);
             this.switchButton2.Name = "switchButton2";
             this.switchButton2.OffText = "Can View Members OFF";
@@ -5549,10 +5591,12 @@
             // 
             // switchButton1
             // 
+            this.switchButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton1.ForeColor = System.Drawing.Color.Black;
             this.switchButton1.Location = new System.Drawing.Point(16, 30);
             this.switchButton1.Name = "switchButton1";
             this.switchButton1.OffText = "Can Add Members OFF";
@@ -6030,10 +6074,12 @@
             // 
             // lblCoachsSearchCounter
             // 
+            this.lblCoachsSearchCounter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.lblCoachsSearchCounter.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblCoachsSearchCounter.ForeColor = System.Drawing.Color.Black;
             this.lblCoachsSearchCounter.Location = new System.Drawing.Point(684, 3);
             this.lblCoachsSearchCounter.Name = "lblCoachsSearchCounter";
             this.lblCoachsSearchCounter.Size = new System.Drawing.Size(70, 20);
@@ -6141,11 +6187,11 @@
             this.lstViewTrainers.FullRowSelect = true;
             this.lstViewTrainers.GridLines = true;
             this.lstViewTrainers.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem16.StateImageIndex = 0;
-            listViewItem17.StateImageIndex = 0;
+            listViewItem21.StateImageIndex = 0;
+            listViewItem22.StateImageIndex = 0;
             this.lstViewTrainers.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem16,
-            listViewItem17});
+            listViewItem21,
+            listViewItem22});
             this.lstViewTrainers.Location = new System.Drawing.Point(17, 29);
             this.lstViewTrainers.Name = "lstViewTrainers";
             this.lstViewTrainers.Size = new System.Drawing.Size(979, 475);
@@ -6255,11 +6301,11 @@
             this.listViewEx4.FullRowSelect = true;
             this.listViewEx4.GridLines = true;
             this.listViewEx4.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem18.StateImageIndex = 0;
-            listViewItem19.StateImageIndex = 0;
+            listViewItem23.StateImageIndex = 0;
+            listViewItem24.StateImageIndex = 0;
             this.listViewEx4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem18,
-            listViewItem19});
+            listViewItem23,
+            listViewItem24});
             this.listViewEx4.Location = new System.Drawing.Point(4, 30);
             this.listViewEx4.Name = "listViewEx4";
             this.listViewEx4.Size = new System.Drawing.Size(890, 367);
@@ -6314,7 +6360,7 @@
             // groupPanel27
             // 
             this.groupPanel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel27.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel27.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel27.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel27.Controls.Add(this.btnCoachesAddCoachPullExists);
             this.groupPanel27.Controls.Add(this.labelX33);
@@ -6367,10 +6413,12 @@
             // 
             // labelX33
             // 
+            this.labelX33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.labelX33.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX33.ForeColor = System.Drawing.Color.Black;
             this.labelX33.Location = new System.Drawing.Point(63, 60);
             this.labelX33.Name = "labelX33";
             this.labelX33.Size = new System.Drawing.Size(157, 29);
@@ -6884,10 +6932,12 @@
             // 
             // lblModeratorsSearchCounter
             // 
+            this.lblModeratorsSearchCounter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.lblModeratorsSearchCounter.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblModeratorsSearchCounter.ForeColor = System.Drawing.Color.Black;
             this.lblModeratorsSearchCounter.Location = new System.Drawing.Point(684, 4);
             this.lblModeratorsSearchCounter.Name = "lblModeratorsSearchCounter";
             this.lblModeratorsSearchCounter.Size = new System.Drawing.Size(70, 19);
@@ -6995,11 +7045,11 @@
             this.lstViewModerators.FullRowSelect = true;
             this.lstViewModerators.GridLines = true;
             this.lstViewModerators.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem20.StateImageIndex = 0;
-            listViewItem21.StateImageIndex = 0;
+            listViewItem25.StateImageIndex = 0;
+            listViewItem26.StateImageIndex = 0;
             this.lstViewModerators.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem20,
-            listViewItem21});
+            listViewItem25,
+            listViewItem26});
             this.lstViewModerators.Location = new System.Drawing.Point(17, 29);
             this.lstViewModerators.Name = "lstViewModerators";
             this.lstViewModerators.Size = new System.Drawing.Size(979, 475);
@@ -7109,11 +7159,11 @@
             this.listViewEx8.FullRowSelect = true;
             this.listViewEx8.GridLines = true;
             this.listViewEx8.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem22.StateImageIndex = 0;
-            listViewItem23.StateImageIndex = 0;
+            listViewItem27.StateImageIndex = 0;
+            listViewItem28.StateImageIndex = 0;
             this.listViewEx8.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem22,
-            listViewItem23});
+            listViewItem27,
+            listViewItem28});
             this.listViewEx8.Location = new System.Drawing.Point(4, 30);
             this.listViewEx8.Name = "listViewEx8";
             this.listViewEx8.Size = new System.Drawing.Size(890, 367);
@@ -7168,7 +7218,7 @@
             // groupPanel28
             // 
             this.groupPanel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel28.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel28.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel28.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel28.Controls.Add(this.btnModeratorsAddModeratorPullExistsModerator);
             this.groupPanel28.Controls.Add(this.labelX34);
@@ -7221,10 +7271,12 @@
             // 
             // labelX34
             // 
+            this.labelX34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.labelX34.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX34.ForeColor = System.Drawing.Color.Black;
             this.labelX34.Location = new System.Drawing.Point(63, 60);
             this.labelX34.Name = "labelX34";
             this.labelX34.Size = new System.Drawing.Size(157, 29);
@@ -7722,10 +7774,12 @@
             // 
             // lblAdminsSearchCounter
             // 
+            this.lblAdminsSearchCounter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.lblAdminsSearchCounter.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAdminsSearchCounter.ForeColor = System.Drawing.Color.Black;
             this.lblAdminsSearchCounter.Location = new System.Drawing.Point(684, 4);
             this.lblAdminsSearchCounter.Name = "lblAdminsSearchCounter";
             this.lblAdminsSearchCounter.Size = new System.Drawing.Size(70, 20);
@@ -7833,11 +7887,11 @@
             this.lstViewAdmins.FullRowSelect = true;
             this.lstViewAdmins.GridLines = true;
             this.lstViewAdmins.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem24.StateImageIndex = 0;
-            listViewItem25.StateImageIndex = 0;
+            listViewItem29.StateImageIndex = 0;
+            listViewItem30.StateImageIndex = 0;
             this.lstViewAdmins.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem24,
-            listViewItem25});
+            listViewItem29,
+            listViewItem30});
             this.lstViewAdmins.Location = new System.Drawing.Point(17, 29);
             this.lstViewAdmins.Name = "lstViewAdmins";
             this.lstViewAdmins.Size = new System.Drawing.Size(979, 475);
@@ -7947,11 +8001,11 @@
             this.listViewEx10.FullRowSelect = true;
             this.listViewEx10.GridLines = true;
             this.listViewEx10.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem26.StateImageIndex = 0;
-            listViewItem27.StateImageIndex = 0;
+            listViewItem31.StateImageIndex = 0;
+            listViewItem32.StateImageIndex = 0;
             this.listViewEx10.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem26,
-            listViewItem27});
+            listViewItem31,
+            listViewItem32});
             this.listViewEx10.Location = new System.Drawing.Point(4, 30);
             this.listViewEx10.Name = "listViewEx10";
             this.listViewEx10.Size = new System.Drawing.Size(890, 367);
@@ -8006,7 +8060,7 @@
             // groupPanel29
             // 
             this.groupPanel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel29.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel29.CanvasColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.groupPanel29.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.groupPanel29.Controls.Add(this.btnAdminsAddAdminExistsAdmin);
             this.groupPanel29.Controls.Add(this.labelX35);
@@ -8059,10 +8113,12 @@
             // 
             // labelX35
             // 
+            this.labelX35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.labelX35.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX35.ForeColor = System.Drawing.Color.Black;
             this.labelX35.Location = new System.Drawing.Point(63, 60);
             this.labelX35.Name = "labelX35";
             this.labelX35.Size = new System.Drawing.Size(157, 29);
@@ -8140,10 +8196,12 @@
             // 
             // switchButton17
             // 
+            this.switchButton17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             // 
             // 
             // 
             this.switchButton17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton17.ForeColor = System.Drawing.Color.Black;
             this.switchButton17.Location = new System.Drawing.Point(232, 147);
             this.switchButton17.Name = "switchButton17";
             this.switchButton17.OffText = "All Permissions OFF";
@@ -9002,11 +9060,11 @@
             this.listViewEx7.FullRowSelect = true;
             this.listViewEx7.GridLines = true;
             this.listViewEx7.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem28.StateImageIndex = 0;
-            listViewItem29.StateImageIndex = 0;
+            listViewItem33.StateImageIndex = 0;
+            listViewItem34.StateImageIndex = 0;
             this.listViewEx7.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem28,
-            listViewItem29});
+            listViewItem33,
+            listViewItem34});
             this.listViewEx7.Location = new System.Drawing.Point(4, 30);
             this.listViewEx7.Name = "listViewEx7";
             this.listViewEx7.Size = new System.Drawing.Size(890, 367);
@@ -9438,7 +9496,6 @@
             this.ClientSize = new System.Drawing.Size(1116, 620);
             this.Controls.Add(this.sideNav1);
             this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.Color.Black;
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

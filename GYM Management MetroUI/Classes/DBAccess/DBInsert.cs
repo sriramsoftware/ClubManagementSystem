@@ -48,7 +48,7 @@ namespace GYMManagementMetroUI.Classes.DBAccess
                     
                 }
                 param.Add(new SqlParameter(TablesClass.GetParamName(TablesClass.TblMembers.MemberTall), System.Data.SqlDbType.Float));
-                param[8].Value = member.Tall;
+                param[8].Value = member.Height;
                 param.Add(new SqlParameter(TablesClass.GetParamName(TablesClass.TblMembers.MemberWeight), System.Data.SqlDbType.Float ));
                 param[9].Value = member.Weight;
                 param.Add(new SqlParameter(TablesClass.GetParamName(TablesClass.TblMembers.MemberBirthDay), System.Data.SqlDbType.Date));

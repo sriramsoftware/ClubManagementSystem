@@ -52,5 +52,6 @@ namespace GYMManagementMetroUI.UI.LoginForms
             this.ShowMainForm1 = true;
             this.Close();
         }
+
     }
 }

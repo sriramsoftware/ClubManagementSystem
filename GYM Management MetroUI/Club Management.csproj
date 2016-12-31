@@ -12,6 +12,21 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -71,6 +86,7 @@
     <Compile Include="Classes\DBAccess\DBUpdate.cs" />
     <Compile Include="Classes\DBAccess\Connection.cs" />
     <Compile Include="Classes\Enums\Tables.cs" />
+    <Compile Include="Classes\UsefulClasses\Auto.cs" />
     <Compile Include="Classes\UsefulClasses\Changes.cs" />
     <Compile Include="Classes\UsefulClasses\Email.cs" />
     <Compile Include="Classes\UsefulClasses\PullExists.cs" />
@@ -122,6 +138,12 @@
     <Compile Include="UI\OtherForms\frmTest.Designer.cs">
       <DependentUpon>frmTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\OtherForms\frmLoginUserActionReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OtherForms\frmLoginUserActionReport.Designer.cs">
+      <DependentUpon>frmLoginUserActionReport.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="UI\LoginForms\frmFAQ.resx">
       <DependentUpon>frmFAQ.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +175,9 @@
     <EmbeddedResource Include="UI\OtherForms\frmTest.resx">
       <DependentUpon>frmTest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\OtherForms\frmLoginUserActionReport.resx">
+      <DependentUpon>frmLoginUserActionReport.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -171,6 +196,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CommentsFile.txt" />
+    <Content Include="GYM.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GYMManagementMetroUI.Classes.DataTypes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,12 +7,33 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using static GYMManagementMetroUI.Classes.DBAccess.DBResultClass;
 
 namespace GYMManagementMetroUI.UI.OtherForms
 {
     public partial class frmLoginUserAction : DevComponents.DotNetBar.Metro.MetroForm
     {
-      public enum State
+        #region Singlton
+        static frmUserLogin me = null;
+        public static frmUserLogin Instance
+        {
+            get
+            {
+                if (me == null)
+                {
+                    me = new frmUserLogin();
+                }
+                return me;
+            }
+        }
+        void me_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            me = null;
+        }
+        #endregion
+
+
+        public enum State
         {
             Attendance,
             Leaving
@@ -27,9 +49,13 @@ namespace GYMManagementMetroUI.UI.OtherForms
         /// </summary>
         /// <param name="state">State which refers to Attendance or Leaving.</param>
         /// <param name="UserID">Username to view it on the form.</param>
+
+        public string UserID;
+
         public void ShowDialog(State state,string UserID)
         {
             string msg = "";
+            this.UserID = UserID;
             string UserName = UserID; // Get username form db
             switch (state)
             {
@@ -68,6 +94,54 @@ namespace GYMManagementMetroUI.UI.OtherForms
         private void btnAutoHide_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        
+
+
+        private void btnfrmLoginUserActionPause_Click(object sender, EventArgs e)
+        {
+
+            //swap btn text && show details groupPnl
+            btnfrmLoginUserActionPause.Text = (btnfrmLoginUserActionPause.Text == "Pause & Show Details" ? "Close" : "Pause & Show Details");
+            if (!groupPnlfrmLoginUserActionDetails.Visible) groupPnlfrmLoginUserActionDetails.Visible = true;
+
+
+            ///<summary>
+            /// Equation : [will be here]
+            /// http://www.freedieting.com/tools/calories_burned.htm
+            /// </summary>
+
+            
+            //member details reqired here
+            Member UserLeave = new Member();
+            //UserLeave = DBResult.Q("return user info (age, gender, Weight, Height, [M + H*60] ) from DB");
+
+            float cal;
+            cal = eqCal(UserLeave.Age, UserLeave.Gender.ToString()[0], UserLeave.Weight, UserLeave.Height, UserLeave.Session);
+               
+            lblfrmLoginUserActionCal.Text = cal.ToString() + " Cal";
+
+        }
+
+        public float eqCal(float age, char gender, float height, float weight, float minutes)
+        {
+            float res = 0.0F;
+            // res = 
+            return res;
+        }
+
+        private void btnfrmUserLoginReportChart_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            // Pass username of member who will leave
+            new frmLoginUserActionReport().ShowDialog(this.UserID);
+            this.Show();
+        }
+
+        private void frmLoginUserAction_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

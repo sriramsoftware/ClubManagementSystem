@@ -12,7 +12,7 @@ datInput	-> dateTimeInput
 groupPnl	-> groupPanel
 comboItem	-> comboItem
 switch		-> switchButton
-
+chart1		-> ChartXy
 
 /*~~~~~~~~~~~~Commit Comments~~~~~~~~~~*/
 +			-> add
@@ -40,7 +40,7 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 
-				||//====================================\\||  Date: 30/12/2016
+				||//====================================\\||  Date: 31/12/2016
 				
 -Start Comment [ Date: 31/12/2016 04:30 AM ]
 		+ Testing frm
