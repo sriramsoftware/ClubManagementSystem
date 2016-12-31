@@ -75,7 +75,9 @@ namespace GYMManagementMetroUI.Classes.DataTypes
                 _email = INVALID_EMAIL;
             }
         }
-         public string UserID {get;set;}
+        public DateTime DeactivateDate { get; set; }
+        public int PendingState { get; set; }
+        public string UserID {get;set;}
 
          public Image UserImage { get; set; }
 

@@ -7,6 +7,15 @@ namespace GYMManagementMetroUI.Classes.Enums
 {
     public class TablesClass
     {
+        #region Stored Procedures
+        public enum StoredProcedures
+        {
+            InsertNewMember
+        }
+        #endregion
+        #region DB Fields
+
+
         public enum Tables 
         {
             tblAdmins,
@@ -18,7 +27,7 @@ namespace GYMManagementMetroUI.Classes.Enums
             tblPricesPlans,
             tblPermissions,
             tblSettings,
-            tnlTmpModify,
+            tblTmpModify,
             tblAds
         }
         public enum TblAdmins
@@ -64,8 +73,9 @@ namespace GYMManagementMetroUI.Classes.Enums
             MemberRestRest,
             MemberDuration,
             MemberPendingState,
-            Comments
-                
+            Comments,
+            MemberTall,
+            MemberWeight
         }
         public enum TblAttendance
         {
@@ -148,6 +158,9 @@ namespace GYMManagementMetroUI.Classes.Enums
             AdPeriod,
             AdImage
         }
+        /// <summary>
+        /// Don't use it, under constructing!
+        /// </summary>
         public enum tblPermissions
         {
             PermissionsID
@@ -178,6 +191,11 @@ namespace GYMManagementMetroUI.Classes.Enums
             TmpModifyPermissions,
             TmpModifyDayDate
 
+        }
+        #endregion
+        public static string GetParamName(Enum e)
+        {
+            return $"@" + e.ToString();
         }
     }
 }

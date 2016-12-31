@@ -9,9 +9,12 @@ namespace GYMManagementMetroUI.Classes.DataTypes
         public int TrainerID { get; set; }
         public DateTime SubscriptionStartDate { get; set; }
         public DateTime SubscriptionEndDate { get; set; }
-
+        public float Tall { get; set; }
+        public float Weight { get; set; }
         public int PaidCurrecy { get; set; }
         public int RestCurrency { get; set; }
+       
+
         public Member()
         {
             Permissions =PermissionsClass.SetTo(PermissionsClass.PermissionType.None);

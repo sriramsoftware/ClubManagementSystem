@@ -60,14 +60,15 @@ namespace GYMManagementMetroUI.UI.OtherForms
 
         private void btnfrmTestTest_Click(object sender, EventArgs e)
         {
-            string str = DBResultClass.Query(
-            "Q here: select name from table = comboBoxfrmTestTable.SelectedItem where id = comboBoxfrmTestId.SelectedItem");
 
-            if(str == "~")
-            {
-                MessageBox.Show("Error");
-            }
-            lblfrmTestName.Text = "Name: " + str;
+            //string str = DBResultClass.Query(
+            //"Q here: select name from table = comboBoxfrmTestTable.SelectedItem where id = comboBoxfrmTestId.SelectedItem");
+
+            //if(str == "~")
+           // {
+               // MessageBox.Show("Error");
+            //}
+            //lblfrmTestName.Text = "Name: " + str;
         }
 
 

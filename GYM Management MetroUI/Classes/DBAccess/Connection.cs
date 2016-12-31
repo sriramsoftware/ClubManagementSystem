@@ -7,7 +7,8 @@ using System.Text;
 namespace GYMManagementMetroUI.Classes.DBAccess
 {
     /// <summary>
-    /// this class to check DB connections and stuff
+    /// this class to check DB connections and stuff,
+    /// we'll not use it.
     /// </summary>
     class Connection
     {
