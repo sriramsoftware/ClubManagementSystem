@@ -18,11 +18,11 @@ namespace GYMManagementMetroUI.Classes.DBAccess
             DBResultClass result  = null;
             try
             {
-                result = new DBResultClass(DBResultClass.DBResult.Success, "Member Updated Successfully");
+                result = new DBResultClass(DBResultClass.Connetion.Success, "Member Updated Successfully");
             }
             catch (SqlException ex)
             {
-                result = new DBResultClass(DBResultClass.DBResult.Failed, ex.Message);
+                result = new DBResultClass(DBResultClass.Connetion.Failed, ex.Message);
             }
             return result;
 
@@ -32,11 +32,11 @@ namespace GYMManagementMetroUI.Classes.DBAccess
             DBResultClass result = null;
             try
             {
-                result = new DBResultClass(DBResultClass.DBResult.Success, "Member Updated Successfully");
+                result = new DBResultClass(DBResultClass.Connetion.Success, "Member Updated Successfully");
             }
             catch (SqlException ex)
             {
-                result = new DBResultClass(DBResultClass.DBResult.Failed, ex.Message);
+                result = new DBResultClass(DBResultClass.Connetion.Failed, ex.Message);
             }
             return result;
 
@@ -46,11 +46,11 @@ namespace GYMManagementMetroUI.Classes.DBAccess
             DBResultClass result = null;
             try
             {
-                result = new DBResultClass(DBResultClass.DBResult.Success, "Member Updated Successfully");
+                result = new DBResultClass(DBResultClass.Connetion.Success, "Member Updated Successfully");
             }
             catch (SqlException ex)
             {
-                result = new DBResultClass(DBResultClass.DBResult.Failed, ex.Message);
+                result = new DBResultClass(DBResultClass.Connetion.Failed, ex.Message);
             }
             return result;
         }
@@ -61,11 +61,11 @@ namespace GYMManagementMetroUI.Classes.DBAccess
             {
 
                 
-                result = new DBResultClass(DBResultClass.DBResult.Success, "Member Updated Successfully");
+                result = new DBResultClass(DBResultClass.Connetion.Success, "Member Updated Successfully");
             }
             catch (SqlException ex)
             {
-                result = new DBResultClass(DBResultClass.DBResult.Failed, ex.Message);
+                result = new DBResultClass(DBResultClass.Connetion.Failed, ex.Message);
             }
             return result;
         }

@@ -11,11 +11,15 @@ namespace GYMManagementMetroUI.Classes.Enums
         {
             tblAdmins,
             tblMembers,
-            tblAttendanceTable,
+            tblAttendance,
             tblCoaches,
             tblEquipments,
             tblModerators,
-            tblPricesPlans
+            tblPricesPlans,
+            tblPermissions,
+            tblSettings,
+            tnlTmpModify,
+            tblAds
         }
         public enum TblAdmins
         {
@@ -63,7 +67,7 @@ namespace GYMManagementMetroUI.Classes.Enums
             Comments
                 
         }
-        public enum TblAttendanceTable
+        public enum TblAttendance
         {
             PersonID,
             PersonName,
@@ -135,6 +139,45 @@ namespace GYMManagementMetroUI.Classes.Enums
             PlanPricePerYear,
             PlanDescription,
             Comments
+        }
+        public enum tblAds
+        {
+            AdID,
+            AdDescription,
+            AdTextColor,
+            AdPeriod,
+            AdImage
+        }
+        public enum tblPermissions
+        {
+            PermissionsID
+        }
+        public enum tblSettings
+        {
+            SettingsID,
+            SettingsClubName,
+            SettingsLogo,
+            SettingsPermissions,
+            SettingsTheme,
+            SettingsComments
+        }
+        public enum tblTmpModify
+        {
+            TmpModifyID,
+            TmpModifyName,
+            TmpModifyUsername,
+            TmpModifyPassword,
+            TmpModifyState,
+            TmpModifyGender,
+            TmpModifyEmail,
+            TmpModifyAdress,
+            TmpModifyMobile,
+            TmpModifyPhoto,
+            TmpModifyBirthDate,
+            TmpModifyCouchID,
+            TmpModifyPermissions,
+            TmpModifyDayDate
+
         }
     }
 }

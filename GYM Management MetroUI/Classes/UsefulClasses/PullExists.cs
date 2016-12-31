@@ -6,16 +6,23 @@ using System.Windows.Forms;
 
 namespace GYMManagementMetroUI.Classes.UsefulClasses
 {
-    
 
-    //this class to pull exists person details while adding new one
-    //benefit if 2 brothers will go to sign up { add first one and pull him for his brother etc..}
+
+    /// <summary>
+    /// This PullExists class for pull exists person details while adding new one
+    /// benefit if 2 brothers will go to sign up { add first one and pull him for his brother etc..
+    /// </summary>
+
+
     class PullExists
     {
 
         private  object p;
 
-        //                comboBox   ,    groupPnl   ,   [member,coach,admin...etc]
+        /// <param name="theExist">comboBox of exists user username</param>
+        /// <param name="theNew">groupPnl that contain new controls that will filled with exists user details</param>
+        /// <param name="type">person type [member,coach,admin...etc]</param>
+        /// <param name="id">id of person theExistComboBox.id</param>
         public PullExists(string theExist, Control theNew, string type, int id)
         {
            

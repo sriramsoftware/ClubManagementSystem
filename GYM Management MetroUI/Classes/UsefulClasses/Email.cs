@@ -2,6 +2,9 @@
 
 namespace GYMManagementMetroUI.Classes.UsefulClasses
 {
+    /// <summary>
+    /// This Email class for mange all sending emails and stuff
+    /// </summary>
     class Email
     {
         private string senderEmail, receiverEmail, messageSubject, messageBody;

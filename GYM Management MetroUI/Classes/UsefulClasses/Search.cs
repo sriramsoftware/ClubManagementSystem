@@ -2,9 +2,16 @@
 
 namespace GYMManagementMetroUI.Classes.UsefulClasses
 {
-    //this class to search for data in lstView s 
+    /// <summary>
+    /// this Search class to search for data in lstView s 
+    /// </summary>
     class Search
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="str">text that will be written in textbox search</param>
+        /// <param name="list"> the listView container will search inside</param>
         public Search(string str, ListView list )
         {
             foreach (ListViewItem  item in list.Items)

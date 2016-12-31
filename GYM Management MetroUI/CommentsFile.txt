@@ -21,7 +21,7 @@ switch		-> switchButton
 &			-> and
 ^			-> restore old vertion of
 %			->
-*			->
+*			-> comment
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
@@ -38,13 +38,32 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 
-				||//====================================\\||  Date: 29/12/2016
+
+
+				||//====================================\\||  Date: 30/12/2016
+				
+-Start Comment [ Date: 31/12/2016 04:30 AM ]
+		+ Testing frm
+		+ Connection class
+		+ all DB tables struct in R2
+		+ Backup DB file from R2 in DB folder -> confirm work with you or not?
+		~ tables enum
+		+ summary
+		
+		- how to remove refrence event code fastly if i double click any control like lbl by mistake  
+		- testing in ads db table
+		- in thePrince vs2015 :D don't forget click [+ add stage] in changes 
+		- comment = * :D
+				
+-End Comment
+				
+		
+
+				||//====================================\\||  Date: 30/12/2016
 -Start Comment [ Date: 30/12/2016 05:30 PM ]				
 	- Add 
 	{
-		+ DB Folder => [Insert, Update, Result]
-
-
+		+ DB Folder => [Insert, Update, Result]  
 	
 	}
 
@@ -56,9 +75,10 @@ Ex:		txtSettingsAdsNewAdsName
 		public class Class
 		{ }
 	-Note:
-		when you write /// the summery will be created automatically!
+		when you write /// the summery will be created automatically!  => ok
 
 -End Comment
+
 -Start Comment [ Date: 29/12/2016 09:00 PM]
 
 	hello world vs2015 :D => Welcome back :D !
