@@ -37,9 +37,9 @@
             this.groupPanel4 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.lblfrmLoginUserAds = new DevComponents.DotNetBar.LabelX();
             this.groupPnlfrmLoginUserActionDetails = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.lblfrmLoginUserActionCal = new DevComponents.DotNetBar.LabelX();
             this.btnfrmUserLoginReportChart = new DevComponents.DotNetBar.ButtonX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.lblfrmLoginUserActionCal = new DevComponents.DotNetBar.LabelX();
             this.groupPanel4.SuspendLayout();
             this.groupPnlfrmLoginUserActionDetails.SuspendLayout();
             this.SuspendLayout();
@@ -75,7 +75,7 @@
             this.lblLeave.ForeColor = System.Drawing.Color.Black;
             this.lblLeave.Location = new System.Drawing.Point(53, 131);
             this.lblLeave.Name = "lblLeave";
-            this.lblLeave.Size = new System.Drawing.Size(456, 28);
+            this.lblLeave.Size = new System.Drawing.Size(476, 30);
             this.lblLeave.TabIndex = 1;
             this.lblLeave.Text = "Hi {{ user }}, you stayed for {{H,M}}, see you again!";
             this.lblLeave.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -112,9 +112,9 @@
             // 
             // groupPanel4
             // 
-            this.groupPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPanel4.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel4.BackColor = System.Drawing.Color.Transparent;
+            this.groupPanel4.CanvasColor = System.Drawing.Color.Transparent;
+            this.groupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.groupPanel4.Controls.Add(this.lblfrmLoginUserAds);
             this.groupPanel4.DisabledBackColor = System.Drawing.Color.Empty;
             this.groupPanel4.Location = new System.Drawing.Point(65, 12);
@@ -166,9 +166,9 @@
             // 
             // groupPnlfrmLoginUserActionDetails
             // 
-            this.groupPnlfrmLoginUserActionDetails.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.groupPnlfrmLoginUserActionDetails.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPnlfrmLoginUserActionDetails.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPnlfrmLoginUserActionDetails.BackColor = System.Drawing.Color.Transparent;
+            this.groupPnlfrmLoginUserActionDetails.CanvasColor = System.Drawing.Color.Transparent;
+            this.groupPnlfrmLoginUserActionDetails.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.groupPnlfrmLoginUserActionDetails.Controls.Add(this.lblfrmLoginUserActionCal);
             this.groupPnlfrmLoginUserActionDetails.Controls.Add(this.btnfrmUserLoginReportChart);
             this.groupPnlfrmLoginUserActionDetails.Controls.Add(this.labelX1);
@@ -208,6 +208,18 @@
             this.groupPnlfrmLoginUserActionDetails.Text = "Details";
             this.groupPnlfrmLoginUserActionDetails.Visible = false;
             // 
+            // lblfrmLoginUserActionCal
+            // 
+            // 
+            // 
+            // 
+            this.lblfrmLoginUserActionCal.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblfrmLoginUserActionCal.Location = new System.Drawing.Point(69, 39);
+            this.lblfrmLoginUserActionCal.Name = "lblfrmLoginUserActionCal";
+            this.lblfrmLoginUserActionCal.Size = new System.Drawing.Size(75, 23);
+            this.lblfrmLoginUserActionCal.TabIndex = 2;
+            this.lblfrmLoginUserActionCal.Text = "... Cal";
+            // 
             // btnfrmUserLoginReportChart
             // 
             this.btnfrmUserLoginReportChart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
@@ -231,18 +243,6 @@
             this.labelX1.Size = new System.Drawing.Size(127, 23);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "Calories Burned Today:";
-            // 
-            // lblfrmLoginUserActionCal
-            // 
-            // 
-            // 
-            // 
-            this.lblfrmLoginUserActionCal.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblfrmLoginUserActionCal.Location = new System.Drawing.Point(69, 39);
-            this.lblfrmLoginUserActionCal.Name = "lblfrmLoginUserActionCal";
-            this.lblfrmLoginUserActionCal.Size = new System.Drawing.Size(75, 23);
-            this.lblfrmLoginUserActionCal.TabIndex = 2;
-            this.lblfrmLoginUserActionCal.Text = "... Cal";
             // 
             // frmLoginUserAction
             // 

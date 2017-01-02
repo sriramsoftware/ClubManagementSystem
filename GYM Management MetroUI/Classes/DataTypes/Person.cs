@@ -89,13 +89,16 @@ namespace GYMManagementMetroUI.Classes.DataTypes
                  return (Email == INVALID_EMAIL);
              }
          }
-        
-         public DateTime JoinDate { get; set; }
+        public string Comments { get; set; }
+        public DateTime JoinDate { get; set; }
          public Permissions.PermissionsClass Permissions { get; set; }
-         #endregion
+        public float Height { get; set; }
+        public float Weight { get; set; }
+        public string Theme { get; set; }
+        #endregion
 
-         #region Methods
-         public void SetInvaludEmailSymbol(string sybmol)
+        #region Methods
+        public void SetInvaludEmailSymbol(string sybmol)
          {
              INVALID_EMAIL = sybmol;
          }

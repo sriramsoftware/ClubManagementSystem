@@ -10,7 +10,8 @@ namespace GYMManagementMetroUI.Classes.Enums
         #region Stored Procedures
         public enum StoredProcedures
         {
-            InsertNewMember
+            InsertNewMember,
+            InsertNewCoach
         }
         #endregion
         #region DB Fields
@@ -100,12 +101,14 @@ namespace GYMManagementMetroUI.Classes.Enums
             CoachPhoto,
             CoachBirthDay,
             CoachJoinDate,
-            DeactivateDate,
             CoachSalary,
             CoachPendingState,
             CoachPermission,
             Comments,
-            Theme
+            Theme,
+            CoachTall,
+            DeactivateDate,
+            CoachWeight
         }
         public enum TblEquipments
         {
