@@ -39,6 +39,23 @@ Ex:		txtSettingsAdsNewAdsName
 
 
 
+				||//====================================\\||  Date: 3/1/2017
+				
+-Start Comment [ Date: 3/1/2017 10:00 AM ]
+
+	+ DetectType & DBQuery Classes
+	~ Insert Classes
+	
+	-note: 
+	Don't try to repeat any block of code as possible as you can 
+	check DBUpdate to understand what i mean. 
+		
+	-working on inserting some data in DB table...
+
+
+-End Comment
+
+
 
 				||//====================================\\||  Date: 31/12/2016
 				

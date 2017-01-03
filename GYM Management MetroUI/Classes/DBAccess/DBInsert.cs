@@ -17,7 +17,7 @@ namespace GYMManagementMetroUI.Classes.DBAccess
     {
         private DataAccessLayer.DataAccessLayer DAL = new DataAccessLayer.DataAccessLayer();
         /// <summary>
-        /// Imsert New Member in datebase with full details
+        /// Insert New Member in datebase with full details
         /// </summary>
         /// <param name="member"></param>
         /// <returns></returns>

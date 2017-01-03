@@ -7,7 +7,7 @@ namespace GYMManagementMetroUI.Classes.DataTypes
 {
     class Equipment
     {
-
+        public static string className = "Equipment";
         #region Properties
         public string Name { get; set; }
         public DateTime purchaseDate { get; set; }

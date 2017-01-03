@@ -7,8 +7,8 @@
     <ProjectGuid>{42280B2C-309F-4008-9386-92DF4CEEC8BC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GYMManagementMetroUI</RootNamespace>
-    <AssemblyName>GYM Management MetroUI</AssemblyName>
+    <RootNamespace>ClubManagement</RootNamespace>
+    <AssemblyName>Club Management</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
@@ -76,11 +76,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\DataTypes\Admins.cs" />
+    <Compile Include="Classes\DataTypes\DetectType.cs" />
     <Compile Include="Classes\DataTypes\Equipment.cs" />
     <Compile Include="Classes\DataTypes\Member.cs" />
     <Compile Include="Classes\DataTypes\Moderator.cs" />
     <Compile Include="Classes\DataTypes\Person.cs" />
     <Compile Include="Classes\DataTypes\Coach.cs" />
+    <Compile Include="Classes\DBAccess\DBQuery.cs" />
     <Compile Include="Classes\DBAccess\DBResult.cs" />
     <Compile Include="Classes\DBAccess\DBInsert.cs" />
     <Compile Include="Classes\DBAccess\DBUpdate.cs" />

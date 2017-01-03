@@ -7,7 +7,8 @@ namespace GYMManagementMetroUI.Classes.DataTypes
 {
     public class Person
      {
-         public enum GenderType
+        public static string className = "Person";
+        public enum GenderType
          {
              Male,
              Female

@@ -5,6 +5,7 @@ namespace GYMManagementMetroUI.Classes.DataTypes
 {
    public class Member : Person
     {
+        public static string className = "Member";
         public string TrainerName { get; set; }
         public int TrainerID { get; set; }
         public DateTime SubscriptionStartDate { get; set; }
