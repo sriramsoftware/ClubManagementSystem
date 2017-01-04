@@ -11,7 +11,8 @@
     <AssemblyName>Club Management</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -63,6 +64,7 @@
     <Reference Include="DevComponents.DotNetBar2">
       <HintPath>C:\Users\Ibrahim\Desktop\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,6 +79,7 @@
   <ItemGroup>
     <Compile Include="Classes\DataTypes\Admins.cs" />
     <Compile Include="Classes\DataTypes\DetectType.cs" />
+    <Compile Include="Classes\DataTypes\EquipFactory.cs" />
     <Compile Include="Classes\DataTypes\Equipment.cs" />
     <Compile Include="Classes\DataTypes\Member.cs" />
     <Compile Include="Classes\DataTypes\Moderator.cs" />
@@ -160,6 +163,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\ManagementForms\frmManagement.resx">
       <DependentUpon>frmManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -198,9 +202,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CommentsFile.txt" />
-    <Content Include="GYM.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

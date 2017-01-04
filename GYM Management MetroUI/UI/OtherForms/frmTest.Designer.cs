@@ -1,4 +1,4 @@
-﻿namespace GYMManagementMetroUI.UI.OtherForms
+﻿namespace ClubManagement.UI.OtherForms
 {
     partial class frmTest
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace GYMManagementMetroUI
+namespace ClubManagement
 {
     static class Program
     {

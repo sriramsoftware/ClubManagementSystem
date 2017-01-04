@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 
-namespace GYMManagementMetroUI.DataAccessLayer
+namespace ClubManagement.DataAccessLayer
 {
     /// <summary>
     /// Class which uses to access database
@@ -34,7 +34,7 @@ namespace GYMManagementMetroUI.DataAccessLayer
         }
         #endregion
         #region Methods
-        public DataAccessLayer():this("Ibrahim", "GYM")
+        public DataAccessLayer():this("Ibrahim", "Club")
         {}
         public DataAccessLayer(string server, string databaseName)
         {

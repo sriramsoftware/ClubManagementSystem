@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace GYMManagementMetroUI.Classes.UsefulClasses
+namespace ClubManagement.Classes.UsefulClasses
 {
     /// <summary>
     /// this Search class to search for data in lstView s 

@@ -1,4 +1,4 @@
-﻿using GYMManagementMetroUI.Classes.DBAccess;
+﻿using ClubManagement.Classes.DBAccess;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYMManagementMetroUI.UI.OtherForms
+namespace ClubManagement.UI.OtherForms
 {
     public partial class frmTest : DevComponents.DotNetBar.Metro.MetroForm
     {

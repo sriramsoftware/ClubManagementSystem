@@ -3,11 +3,11 @@ using System.Drawing;
 
 //md5 or it's ok ?
 
-namespace GYMManagementMetroUI.Classes.DataTypes
+namespace ClubManagement.Classes.DataTypes
 {
-    public class Person
+    public abstract class Person
      {
-        public static string className = "Person";
+        public static readonly string className = "Person"; // Readonly to prevent edit!
         public enum GenderType
          {
              Male,

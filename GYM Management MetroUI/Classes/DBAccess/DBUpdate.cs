@@ -1,12 +1,11 @@
 ﻿using ClubManagement.Classes.DataTypes;
-using GYMManagementMetroUI.Classes.DataTypes;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 
-namespace GYMManagementMetroUI.Classes.DBAccess
+namespace ClubManagement.Classes.DBAccess
 {
     /// <summary>
     /// We'll use it to update Any thing in db
@@ -18,6 +17,7 @@ namespace GYMManagementMetroUI.Classes.DBAccess
         /// <summary>
         /// here in UpdateDynamic i want make it to work dynamically 
         /// instead of create same block for each dataType etc...
+        /// [Edit: This will be need to create each method because all data type has its body and properties]
         /// </summary>
         /// <param name="ID"></param>
         /// <param name="pathObj"></param>

@@ -1,6 +1,6 @@
 ﻿using System.Net.Mail;
 
-namespace GYMManagementMetroUI.Classes.UsefulClasses
+namespace ClubManagement.Classes.UsefulClasses
 {
     /// <summary>
     /// This Email class for mange all sending emails and stuff

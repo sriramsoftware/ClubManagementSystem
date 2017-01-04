@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 
-namespace GYMManagementMetroUI.Classes.DBAccess
+namespace ClubManagement.Classes.DBAccess
 {
     /// <summary>
     /// this class to check DB connections and stuff,

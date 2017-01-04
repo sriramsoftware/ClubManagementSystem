@@ -1,5 +1,5 @@
-﻿using GYMManagementMetroUI.UI.LoginForms;
-using GYMManagementMetroUI.UI.OtherForms;
+﻿using ClubManagement.UI.LoginForms;
+using ClubManagement.UI.OtherForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace GYMManagementMetroUI
+namespace ClubManagement
 {
     public partial class frmUserLogin : DevComponents.DotNetBar.Metro.MetroForm
     {

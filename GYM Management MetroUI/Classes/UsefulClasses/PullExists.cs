@@ -1,10 +1,10 @@
 ﻿using DevComponents.DotNetBar.Controls;
-using GYMManagementMetroUI.Classes.DataTypes;
+using ClubManagement.Classes.DataTypes;
 using System.Windows.Forms;
 
 
 
-namespace GYMManagementMetroUI.Classes.UsefulClasses
+namespace ClubManagement.Classes.UsefulClasses
 {
 
 
@@ -59,7 +59,7 @@ namespace GYMManagementMetroUI.Classes.UsefulClasses
         public static object queryT(int id, string table)
         {
             // new Person() is an ex
-            object obj = new Person();
+            object obj = null; // = new Person();
 
             // query will be here to pull data from 'table' where id == 'id'
 

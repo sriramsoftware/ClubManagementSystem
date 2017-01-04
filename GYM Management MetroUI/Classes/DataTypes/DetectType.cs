@@ -1,4 +1,4 @@
-﻿using GYMManagementMetroUI.Classes.DataTypes;
+﻿using ClubManagement.Classes.DataTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace ClubManagement.Classes.DataTypes
             else if (obj is Equipment) ob = new Equipment();
             else if (obj is Member) ob = new Member();
             else if (obj is Moderator) ob = new Moderator();
-            else if (obj is Person) ob = new Person();
+            //else if (obj is Person) ob = new Person();
             else return null;
             return ob.GetType();
         }
@@ -33,6 +33,7 @@ namespace ClubManagement.Classes.DataTypes
 
         /// <summary>
         /// return new object of same type
+        /// [ Note: Edit method name to name which refers to its job! ]
         /// </summary>
         /// <param name="obj"></param>
         /// <returns></returns>
@@ -44,7 +45,7 @@ namespace ClubManagement.Classes.DataTypes
             else if (obj is Equipment) ob = new Equipment();
             else if (obj is Member) ob = new Member();
             else if (obj is Moderator) ob = new Moderator();
-            else if (obj is Person) ob = new Person();
+            //else if (obj is Person) ob = new Person();
             else return null;
             return ob;
         }
@@ -63,7 +64,7 @@ namespace ClubManagement.Classes.DataTypes
             else if (obj is Equipment) ob = Equipment.className;
             else if (obj is Member) ob = Member.className;
             else if (obj is Moderator) ob = Moderator.className;
-            else if (obj is Person) ob = Person.className;
+            //else if (obj is Person) ob = Person.className; // => All Datatypes inherts form Person, then all is person!
             return ob;
         }
     }

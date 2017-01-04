@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
-using GYMManagementMetroUI.Classes.UsefulClasses;
+using ClubManagement.Classes.UsefulClasses;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ClubManagement.Classes.DataTypes;
+using System.Drawing;
 
-namespace GYMManagementMetroUI.UI.ManagementForms
+namespace ClubManagement.UI.ManagementForms
 {
     public partial class MainForm : DevComponents.DotNetBar.Metro.MetroForm
     {
@@ -170,14 +173,7 @@ namespace GYMManagementMetroUI.UI.ManagementForms
 
         }
 
-
         // } End Rest Zone
-
-
-
-
-
-
 
     }
 }

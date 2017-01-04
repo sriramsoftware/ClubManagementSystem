@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYMManagementMetroUI.Classes.UsefulClasses
+namespace ClubManagement.Classes.UsefulClasses
 {
     /// <summary>
     /// this Changes class for handling any changes will happen

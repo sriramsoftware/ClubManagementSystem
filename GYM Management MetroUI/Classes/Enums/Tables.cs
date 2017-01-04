@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GYMManagementMetroUI.Classes.Enums
+namespace ClubManagement.Classes.Enums
 {
     public class TablesClass
     {
@@ -11,7 +11,9 @@ namespace GYMManagementMetroUI.Classes.Enums
         public enum StoredProcedures
         {
             InsertNewMember,
-            InsertNewCoach
+            InsertNewCoach,
+            InsertNewModerator,
+            InsertNewAdmin
         }
         #endregion
         #region DB Fields
@@ -50,7 +52,9 @@ namespace GYMManagementMetroUI.Classes.Enums
             AdminPermission,
             AdminIsSuper,
             Comments,
-            Theme
+            Theme,
+            AdminTall,
+            AdminWeight
         }
         public enum TblMembers
         {
@@ -117,9 +121,9 @@ namespace GYMManagementMetroUI.Classes.Enums
             EquipmentQuantity,
             EquipmentPricePerOne,
             EquipmentPhoto,
-            EquipmentCompany,
             EquipmentBuyDate,
-            EquipmentMaintainPeriod
+            EquipmentMaintainPeriod,
+            EquipmentFactory
         }
         public enum TblModerators
         {
@@ -139,7 +143,9 @@ namespace GYMManagementMetroUI.Classes.Enums
             ModeratorPendingState,
             ModeratorPermission,
             Comments,
-            Theme
+            Theme,
+            ModeratorTall,
+            ModeratorWeight
         }
         public enum TblPricesPlans
         {
@@ -164,6 +170,7 @@ namespace GYMManagementMetroUI.Classes.Enums
         /// <summary>
         /// Don't use it, under constructing!
         /// </summary>
+        
         public enum tblPermissions
         {
             PermissionsID

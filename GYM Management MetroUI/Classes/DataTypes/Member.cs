@@ -1,11 +1,11 @@
 ﻿using System;
-using GYMManagementMetroUI.Classes.Permissions;
+using ClubManagement.Classes.Permissions;
 
-namespace GYMManagementMetroUI.Classes.DataTypes
+namespace ClubManagement.Classes.DataTypes
 {
    public class Member : Person
     {
-        public static string className = "Member";
+        public static readonly new string className = "Member";// Readonly to prevent edit!
         public string TrainerName { get; set; }
         public int TrainerID { get; set; }
         public DateTime SubscriptionStartDate { get; set; }

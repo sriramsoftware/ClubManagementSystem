@@ -6,10 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using GYMManagementMetroUI.UI.LoginForms;
-using GYMManagementMetroUI.UI.ManagementForms;
+using ClubManagement.UI.LoginForms;
+using ClubManagement.UI.ManagementForms;
 
-namespace GYMManagementMetroUI.UI.LoginForms
+namespace ClubManagement.UI.LoginForms
 {
     public partial class frmAdminLogin : DevComponents.DotNetBar.Metro.MetroForm
     {

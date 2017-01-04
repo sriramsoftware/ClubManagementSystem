@@ -1,10 +1,10 @@
-﻿using GYMManagementMetroUI.Classes.Permissions;
+﻿using ClubManagement.Classes.Permissions;
 
-namespace GYMManagementMetroUI.Classes.DataTypes
+namespace ClubManagement.Classes.DataTypes
 {
    public class Coach : Person
     {
-        public static string className = "Coach";
+        public static readonly new string className = "coach";// Readonly to prevent edit!
         public float Salary { get; set; }
         public Coach()
         {

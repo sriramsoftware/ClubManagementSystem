@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GYMManagementMetroUI.Classes.UsefulClasses
+namespace ClubManagement.Classes.UsefulClasses
 {
     /// <summary>
     /// this Auto class for all auto events and methods

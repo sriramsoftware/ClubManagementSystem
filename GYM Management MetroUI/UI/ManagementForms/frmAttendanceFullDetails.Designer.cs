@@ -1,4 +1,4 @@
-﻿namespace GYMManagementMetroUI.UI.ManagementForms
+﻿namespace ClubManagement.UI.ManagementForms
 {
     partial class frmAttendanceFullDetails
     {

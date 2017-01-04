@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace GYMManagementMetroUI.Classes.Permissions
+namespace ClubManagement.Classes.Permissions
 {
     public class PermissionsClass
     {
@@ -300,6 +300,10 @@ namespace GYMManagementMetroUI.Classes.Permissions
 
             // will Parse JSON File Here
             return p;
+        }
+        public override string ToString()
+        {
+            return "Permission";
         }
     }
 }

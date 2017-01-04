@@ -1,25 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 
-namespace GYMManagementMetroUI.Classes.DataTypes
+namespace ClubManagement.Classes.DataTypes
 {
-    class Equipment
+   public class Equipment
     {
-        public static string className = "Equipment";
+        public static readonly string className = "Equipment"; // Readonly to prevent edit!
         #region Properties
         public string Name { get; set; }
-        public DateTime purchaseDate { get; set; }
-        public string Photo { get; set; }
+        public DateTime PurchaseDate { get; set; }
+        public Image Photo { get; set; }
+        public int Quantity { get; set; }
+        public float PricePerOne { get; set; }
+        public EquipFactory Factory { get; set; }
+        public int MaintainPeriod { get; set; }
         #endregion
 
-
-        #region Methods
-        public Equipment()
-        {
-
-        }
-        #endregion
     }
 }

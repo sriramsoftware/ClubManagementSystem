@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GYMManagementMetroUI
+namespace ClubManagement
 {
     public partial class FAQ : MetroForm
     {

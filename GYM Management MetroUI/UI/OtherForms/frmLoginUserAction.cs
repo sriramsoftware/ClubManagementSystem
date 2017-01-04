@@ -1,4 +1,4 @@
-﻿using GYMManagementMetroUI.Classes.DataTypes;
+﻿using ClubManagement.Classes.DataTypes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,9 +7,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using static GYMManagementMetroUI.Classes.DBAccess.DBResultClass;
+using static ClubManagement.Classes.DBAccess.DBResultClass;
 
-namespace GYMManagementMetroUI.UI.OtherForms
+namespace ClubManagement.UI.OtherForms
 {
     public partial class frmLoginUserAction : DevComponents.DotNetBar.Metro.MetroForm
     {

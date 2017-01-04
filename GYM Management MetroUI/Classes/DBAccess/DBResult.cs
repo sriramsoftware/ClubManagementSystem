@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GYMManagementMetroUI.Classes.DBAccess
+namespace ClubManagement.Classes.DBAccess
 {
     /// <summary>
     /// Under Constructing
