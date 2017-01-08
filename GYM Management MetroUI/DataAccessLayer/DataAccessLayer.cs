@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System;
 using System.Data.SqlClient;
 
 namespace ClubManagement.DataAccessLayer
@@ -16,7 +17,7 @@ namespace ClubManagement.DataAccessLayer
         #region Properties
 
         /// <summary>
-        /// Get or set Database name
+        /// Gets or sets Database name
         /// </summary>
         public string Databasename
         {
@@ -25,7 +26,7 @@ namespace ClubManagement.DataAccessLayer
         }
 
         /// <summary>
-        /// Get or set Server name
+        /// Gets or sets Server name
         /// </summary>
         public string Server
         {
@@ -38,9 +39,16 @@ namespace ClubManagement.DataAccessLayer
         {}
         public DataAccessLayer(string server, string databaseName)
         {
-            this.Server = server;
-            this.Databasename = _dataBaseName;
-            connection = new SqlConnection(string.Format(@"Data Source=.\{0};Initial Catalog={1};Integrated Security=True", server, databaseName));
+            try
+            {
+                this.Server = server;
+                this.Databasename = _dataBaseName;
+                connection = new SqlConnection(string.Format(@"Data Source=.\{0};Initial Catalog={1};Integrated Security=True", server, databaseName));
+            }
+            catch (SqlException ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error: " + ex.Message,"Club Management",System.Windows.Forms.MessageBoxButtons.OK,System.Windows.Forms.MessageBoxIcon.Error);
+            }
         }
 
         /// <summary>
@@ -48,9 +56,14 @@ namespace ClubManagement.DataAccessLayer
         /// </summary>
         public void Open()
         {
-            if (connection.State != ConnectionState.Open)
+            try
             {
-                connection.Open();
+                if (connection.State != ConnectionState.Open)
+                    connection.Open();
+            }
+            catch (SqlException ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error: " + ex.Message, "Club Management", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
             }
         }
 
@@ -59,9 +72,14 @@ namespace ClubManagement.DataAccessLayer
         /// </summary>
         public void Close()
         {
-            if (connection.State != ConnectionState.Closed)
+            try
             {
-                connection.Close();
+                if (connection.State != ConnectionState.Closed)
+                    connection.Close();
+            }
+            catch (SqlException ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error: " + ex.Message, "Club Management", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
             }
         }
 
@@ -73,16 +91,24 @@ namespace ClubManagement.DataAccessLayer
         /// <returns>Data which has been getten from database</returns>
         public DataTable SelectData(string storedProcedure, SqlParameter[] parms)
         {
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = storedProcedure;
-            cmd.Connection = connection;
-            if (parms != null)
-                cmd.Parameters.AddRange(parms);
-            SqlDataAdapter dataadapter = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            dataadapter.Fill(dt);
-            return dt;
+            try
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = storedProcedure;
+                cmd.Connection = connection;
+                if (parms != null)
+                    cmd.Parameters.AddRange(parms);
+                SqlDataAdapter dataadapter = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                dataadapter.Fill(dt);
+                return dt;
+            }
+            catch (SqlException ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error: " + ex.Message, "Club Management", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                return null;
+            }
         }
 
         /// <summary>
@@ -92,18 +118,24 @@ namespace ClubManagement.DataAccessLayer
         /// <param name="parms">Stored Procedure Parameters</param>
         public void ExecuteCommand(string storedProcedure, SqlParameter[] parms)
         {
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Connection = connection;
-            cmd.CommandText = storedProcedure;
-            if (parms != null)
-                cmd.Parameters.AddRange(parms);
-            Open();
-            cmd.ExecuteNonQuery();
-            Close();
+            try
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Connection = connection;
+                cmd.CommandText = storedProcedure;
+                if (parms != null)
+                    cmd.Parameters.AddRange(parms);
+                Open();
+                cmd.ExecuteNonQuery();
+                Close();
+            }
+            catch (SqlException ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error: " + ex.Message, "Club Management", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                Close();
+            }
         }
-
-
         #endregion
     }
 
