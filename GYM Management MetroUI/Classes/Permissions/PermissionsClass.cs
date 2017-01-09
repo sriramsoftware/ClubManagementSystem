@@ -300,10 +300,11 @@ namespace ClubManagement.Classes.Permissions
         {
             return new PermissionsClass(permission);
         }
-        public static PermissionsClass Parse(StringBuilder _json)
+        public static PermissionsClass Parse(string _json)
         {
+            /*
             PermissionsClass p = new PermissionsClass(PermissionType.None);
-            dynamic JSON = Newtonsoft.Json.Linq.JObject.Parse(_json.ToString());
+            dynamic JSON = Newtonsoft.Json.Linq.JObject.Parse(_json);
             //Members
             p.Members.CanAddMembers = JSON.Members.CanAdd;
             p.Members.CanViewMembers = JSON.Members.CanView;
@@ -327,6 +328,7 @@ namespace ClubManagement.Classes.Permissions
             p.Admins.IsSuperAdmin = JSON.Admins.IsSuper;
             /* Forms */
             //Attendance
+            /*
             p.Forms.Attendance.ViewAdminsAttendance = JSON.Forms.Attendance.ViewAdmins;
             p.Forms.Attendance.ViewModeratorsAttendance = JSON.Forms.Attendance.ViewModerators;
             p.Forms.Attendance.ViewTrainersAttendance = JSON.Forms.Attendance.ViewCoaches;
@@ -345,50 +347,13 @@ namespace ClubManagement.Classes.Permissions
             p.Forms.ViewForms.ViewAttendanceForm = JSON.Forms.ViewForms.ViewAttendance;
             p.Forms.ViewForms.ViewPermissionsForm = JSON.Forms.ViewForms.ViewPermissions;
             return p;
+            */
+            return (Newtonsoft.Json.JsonConvert.DeserializeObject<PermissionsClass>(_json));
         }
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder(Properties.Settings.Default.PermissionText);
-            //Members
-            sb.Replace("#CanAddMembers#", this.Members.CanAddMembers.ToString());
-            sb.Replace("#CanViewMembers#", this.Members.CanViewMembers.ToString());
-            sb.Replace("#CanEditMembers#", this.Members.CanEditMembers.ToString());
-            sb.Replace("#CanDeleteMembers#", this.Members.CanDeleteMembers.ToString());
-            //Coaches
-            sb.Replace("#CanAddCoaches#", this.Coaches.CanAddCoaches.ToString());
-            sb.Replace("#CanViewCoaches#", this.Coaches.CanViewCoaches.ToString());
-            sb.Replace("#CanEditCoaches#", this.Coaches.CanEditCoaches.ToString());
-            sb.Replace("#CanDeleteCoaches#", this.Coaches.CanDeleteCoaches.ToString());
-            //Moderators
-            sb.Replace("#CanAddModerators#", this.Moderators.CanAddModerator.ToString());
-            sb.Replace("#CanViewModerators#", this.Moderators.CanViewModerator.ToString());
-            sb.Replace("#CanEditModerators#", this.Moderators.CanEditModerator.ToString());
-            sb.Replace("#CanDeleteModerators#", this.Moderators.CanDeleteModerator.ToString());
-            //Admins
-            sb.Replace("#CanAddAdmins#", this.Admins.CanAddAdmin.ToString());
-            sb.Replace("#CanViewAdmins#", this.Admins.CanViewAdmin.ToString());
-            sb.Replace("#CanEditAdmins#", this.Admins.CanEditAdmin.ToString());
-            sb.Replace("#CanDeleteAdmins#", this.Admins.CanDeleteAdmin.ToString());
-            sb.Replace("#IsSuperAdmin#", this.Admins.IsSuperAdmin.ToString());
-            /*                  Forms                   */
-            //Attendance
-            sb.Replace("#ViewCoachesAttendance#", this.Forms.Attendance.ViewTrainersAttendance.ToString());
-            sb.Replace("#ViewModeratorsAttendance#", this.Forms.Attendance.ViewModeratorsAttendance.ToString());
-            sb.Replace("#ViewAdminsAttendance#", this.Forms.Attendance.ViewAdminsAttendance.ToString());
-            //ADS5
-            sb.Replace("#CanAddAds#", this.Forms.Ads.CanAddAd.ToString());
-            sb.Replace("#CanEditAds#", this.Forms.Ads.CanEditAd.ToString());
-            sb.Replace("#CanViewAds#", this.Forms.Ads.CanViewAd.ToString());
-            sb.Replace("#CanDeleteAds#", this.Forms.Ads.CanRemoveAd.ToString());
-            //Permissions
-            sb.Replace("#CanAddPermissions#", this.Forms.Permissions.CanAddPermission.ToString());
-            sb.Replace("#CanEditPermissions#", this.Forms.Permissions.CanEditPermission.ToString());
-            sb.Replace("#CanDeletePermissions#", this.Forms.Permissions.CanDeletePermission.ToString());
-            //ViewForms
-            sb.Replace("#ViewAttendanceForm#", this.Forms.ViewForms.ViewAttendanceForm.ToString());
-            sb.Replace("#ViewAdsForm#", this.Forms.ViewForms.ViewAdsForm.ToString());
-            sb.Replace("#ViewPermissionsForm#", this.Forms.ViewForms.ViewPermissionsForm.ToString());
-            return sb.ToString();
+            return Newtonsoft.Json.JsonConvert.SerializeObject(this);
         }
+
     }
 }
