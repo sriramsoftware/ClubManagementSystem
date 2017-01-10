@@ -94,7 +94,9 @@
     <Compile Include="Classes\DBAccess\DBInsert.cs" />
     <Compile Include="Classes\DBAccess\DBUpdate.cs" />
     <Compile Include="Classes\DBAccess\Connection.cs" />
+    <Compile Include="Classes\Enums\Other.cs" />
     <Compile Include="Classes\Enums\Tables.cs" />
+    <Compile Include="Classes\UsefulClasses\Animate.cs" />
     <Compile Include="Classes\UsefulClasses\Auto.cs" />
     <Compile Include="Classes\UsefulClasses\Changes.cs" />
     <Compile Include="Classes\UsefulClasses\Email.cs" />
