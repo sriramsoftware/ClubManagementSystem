@@ -1,6 +1,6 @@
 # Club-Mangment
 
-Club Management System Software
+Desktop app in C# to Mange Sport Clubs using MSSQL-Server and other technologies.  Developed by two computer science students team.
 
 Management Levels:
 
