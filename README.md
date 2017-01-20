@@ -1,6 +1,20 @@
-# GYM
-GYM Management SYSTEM
+# Club-Mangment
 
-init version on google drive
+Club Management System Software
 
-https://drive.google.com/open?id=0B-TV5zAjWY5vWDlFbmV2Y3FHVVE
+Management Levels:
+
+- Users
+- Moderators
+- Coaches
+- Admins
+- Super Admins
+
+
+Some Features:
+
+- Advertisements
+- Fast Database Performance
+- Multi-Customization for Reports
+- Database Backup Comparing and Customization
+
