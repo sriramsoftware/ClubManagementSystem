@@ -22,24 +22,5 @@ namespace ClubManagement.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"{""Members"" : {""CanAdd"" : #CanAddMembers#,""CanView"" : #CanViewMembers#,""CanEdit"" : #CanEditMembers#,""CanDelete"" : #CanDeleteMembers#},
- ""Coaches"" : {""CanAdd"" : #CanAddCoaches#, ""CanView"" : #CanViewCoaches#,""CanEdit"" : #CanEditCoaches#,""CanDelete"" : #CanDeleteCoaches#},
- ""Moderators"" : {""CanAdd"" : #CanAddModerators#,""CanView"" : #CanViewModerators#,""CanEdit"" : #CanEditModerators#,""CanDelete"" : #CanDeleteModerators#},
- ""Admins"" : {""CanAdd"" : #CanAddAdmins#,""CanView"" : #CanViewAdmins#,""CanEdit"" : #CanEditAdmins#,""CanDelete"" : #CanDeleteAdmins#""IsSuper"" : #IsSuperAdmin#}, 
- ""Forms"" : {
-	""Attendance"" : {""ViewCoaches"" : #ViewCoachesAttendance#,""ViewModerators"" : #ViewModeratorsAttendance#,""ViewAdmins"" : #ViewAdminsAttendance#},
-	""Ads"" : {""CanAdd"" : #CanAddAds#,""CanEdit"" : #CanEditAds#,""CanView"" : #CanViewAds#,""CanDelete"" : #CanDeleteAds#},
-	""Permissions"" : {""CanAdd"" : #CanAddPermissions#,""CanEdit"" : #CanEditPermissions#,""CanView"" : #CanViewPermissions#,""CanDelete"" : #CanDeletePermissions#},
-	""ViewForms"" : {""ViewAttendance"" : #ViewAttendanceForm#,""ViewAds"" : #ViewAdsForm#,""ViewPermissions"" : #ViewPermissionsForm#}
-}}
-")]
-        public string PermissionText {
-            get {
-                return ((string)(this["PermissionText"]));
-            }
-        }
     }
 }

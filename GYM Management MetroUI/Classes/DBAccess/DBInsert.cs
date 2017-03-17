@@ -20,7 +20,8 @@ namespace ClubManagement.Classes.DBAccess
         /// </summary>
         /// <param name="member"></param>
         /// <returns></returns>
-        public static DBResultClass Insert(Member member)
+        /// 
+        private static DBResultClass Insert(Member member)
         {
             DBResultClass result  = null;
             try
@@ -90,7 +91,7 @@ namespace ClubManagement.Classes.DBAccess
             return result;
 
         }
-        public static DBResultClass Insert(Coach coach)
+        private static DBResultClass Insert(Coach coach)
         {
             DBResultClass result = null;
             try
@@ -151,7 +152,7 @@ namespace ClubManagement.Classes.DBAccess
             return result;
 
         }
-        public static DBResultClass Insert(Moderator moderator)
+        private static DBResultClass Insert(Moderator moderator)
         {
             DBResultClass result = null;
             try
@@ -211,7 +212,7 @@ namespace ClubManagement.Classes.DBAccess
             }
             return result;
         }
-        public static DBResultClass Insert(Admins admin)
+        private static DBResultClass Insert(Admins admin)
         {
             DBResultClass result = null;
             try
@@ -270,6 +271,35 @@ namespace ClubManagement.Classes.DBAccess
             }
             return result;
         }
+
+        public static DBResultClass Insert(Person person)
+        {
+            try
+            {
+                if (person is Member)
+                {
+                    return Insert((Member)person);
+                }
+                else if (person is Coach)
+                {
+                    return Insert((Coach)person);
+                }
+                else if (person is Moderator)
+                {
+                    return Insert((Moderator)person);
+                }
+                else if (person is Admins)
+                {
+                    return Insert((Admins)person);
+                }
+            }
+            catch (Exception ex)
+            {
+                return new DBResultClass(DBResultClass.DBResult.Failed, ex.Message);
+            }
+
+            return new DBResultClass(DBResultClass.DBResult.Failed, "Unknown Data Type, Are you missing a casting.");
+        }
         public static DBResultClass Insert(Equipment equip)
         {
             DBResultClass result;
@@ -280,7 +310,7 @@ namespace ClubManagement.Classes.DBAccess
                 param[0].Value = equip.Name;
                 param.Add(new SqlParameter(GetParamName(TblEquipments.EquipmentQuantity), System.Data.SqlDbType.Int));
                 param[1].Value = equip.Quantity;
-
+               // param.Add(new SqlParameter(GetParamName(TblEquipments.EquipmentFactory),));
                 result = new DBResultClass(DBResultClass.DBResult.Success, "Equipment Inserted Successfully");
             }
             catch (SqlException ex)

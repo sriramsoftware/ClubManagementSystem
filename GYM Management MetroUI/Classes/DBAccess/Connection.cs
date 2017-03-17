@@ -15,8 +15,6 @@ namespace ClubManagement.Classes.DBAccess
 
         private static bool state = false;
         private static string conString = "";
-
-      
         public static bool isConnected()
         {
             try

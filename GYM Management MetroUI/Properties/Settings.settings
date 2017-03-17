@@ -1,19 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClubManagement.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
   <Profiles />
-  <Settings>
-    <Setting Name="PermissionText" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">{"Members" : {"CanAdd" : #CanAddMembers#,"CanView" : #CanViewMembers#,"CanEdit" : #CanEditMembers#,"CanDelete" : #CanDeleteMembers#},
- "Coaches" : {"CanAdd" : #CanAddCoaches#, "CanView" : #CanViewCoaches#,"CanEdit" : #CanEditCoaches#,"CanDelete" : #CanDeleteCoaches#},
- "Moderators" : {"CanAdd" : #CanAddModerators#,"CanView" : #CanViewModerators#,"CanEdit" : #CanEditModerators#,"CanDelete" : #CanDeleteModerators#},
- "Admins" : {"CanAdd" : #CanAddAdmins#,"CanView" : #CanViewAdmins#,"CanEdit" : #CanEditAdmins#,"CanDelete" : #CanDeleteAdmins#"IsSuper" : #IsSuperAdmin#}, 
- "Forms" : {
-	"Attendance" : {"ViewCoaches" : #ViewCoachesAttendance#,"ViewModerators" : #ViewModeratorsAttendance#,"ViewAdmins" : #ViewAdminsAttendance#},
-	"Ads" : {"CanAdd" : #CanAddAds#,"CanEdit" : #CanEditAds#,"CanView" : #CanViewAds#,"CanDelete" : #CanDeleteAds#},
-	"Permissions" : {"CanAdd" : #CanAddPermissions#,"CanEdit" : #CanEditPermissions#,"CanView" : #CanViewPermissions#,"CanDelete" : #CanDeletePermissions#},
-	"ViewForms" : {"ViewAttendance" : #ViewAttendanceForm#,"ViewAds" : #ViewAdsForm#,"ViewPermissions" : #ViewPermissionsForm#}
-}}
-</Value>
-    </Setting>
-  </Settings>
+  <Settings />
 </SettingsFile>
